@@ -27,8 +27,9 @@ const config: Config = {
         xl: "calc(var(--radius) + 4px)",
       },
       fontFamily: {
-        sans: "var(--font-geist-sans)",
-        mono: "var(--font-geist-mono)",
+        fontFamily: {
+          sans: ["Poppins", "sans-serif"],
+        },
       },
     },
   },

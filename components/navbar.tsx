@@ -13,6 +13,7 @@ import {
 import Navigation from "@/components/ui/navigation";
 import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet";
 import { siteConfig } from "@/config/site";
+import Link from "next/link";
 
 interface NavbarLink {
   text: string;
@@ -40,12 +41,12 @@ interface NavbarProps {
 }
 
 export default function Navbar({
-  logo = <LaunchUI />,
-  name = "Launch UI",
+  logo = <LaunchUI className="text-primary-color size-8" />,
+  name = "CYBER TOWER",
   homeUrl = siteConfig.url,
   mobileLinks = [
     { text: "Getting Started", href: siteConfig.url },
-    { text: "Components", href: siteConfig.url },
+    { text: "Certificaciones", href: siteConfig.url },
     { text: "Documentation", href: siteConfig.url },
   ],
   actions = [
@@ -67,13 +68,17 @@ export default function Navbar({
       <div className="max-w-container relative mx-auto bg-background/15 backdrop-blur-lg mt-2 rounded-lg px-4">
         <NavbarComponent>
           <NavbarLeft>
-            <a
+            <Link
               href={homeUrl}
               className="flex items-center gap-2 text-xl font-bold"
             >
               {logo}
-              {name}
-            </a>
+              {/* {name} */}
+              <div className="flex flex-col gap-0 leading-3 text-primary-color">
+                <span className="text-sm font-semibold">CYBER</span>
+                <span className="text-md font-semibold">Tower</span>
+              </div>
+            </Link>
             {showNavigation && (customNavigation || <Navigation />)}
           </NavbarLeft>
           <NavbarRight>
@@ -84,13 +89,13 @@ export default function Navbar({
                 className="rounded-full px-1 bg-neutral-700 w-fit"
                 asChild
               >
-                <a href={action.href} className="flex flex-row gap-2 px-1">
+                <Link href={action.href} className="flex flex-row gap-2 px-1">
                   <div className="bg-secondary-color p-2 rounded-full">
                     {action.icon}
                   </div>
                   <div className="pr-2">{action.text}</div>
                   {action.iconRight}
-                </a>
+                </Link>
               </Button>
             ))}
             <Sheet>
@@ -106,20 +111,20 @@ export default function Navbar({
               </SheetTrigger>
               <SheetContent side="right">
                 <nav className="grid gap-6 text-lg font-medium">
-                  <a
+                  <Link
                     href={homeUrl}
                     className="flex items-center gap-2 text-xl font-bold"
                   >
                     <span>{name}</span>
-                  </a>
+                  </Link>
                   {mobileLinks.map((link, index) => (
-                    <a
+                    <Link
                       key={index}
                       href={link.href}
                       className="text-muted-foreground hover:text-foreground"
                     >
                       {link.text}
-                    </a>
+                    </Link>
                   ))}
                 </nav>
               </SheetContent>

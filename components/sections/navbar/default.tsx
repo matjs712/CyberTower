@@ -44,11 +44,15 @@ export default function Navbar({
   homeUrl = "https://www.launchuicomponents.com/",
   mobileLinks = [
     { text: "Getting Started", href: "https://www.launchuicomponents.com/" },
-    { text: "Components", href: "https://www.launchuicomponents.com/" },
+    { text: "Certificaciones", href: "https://www.launchuicomponents.com/" },
     { text: "Documentation", href: "https://www.launchuicomponents.com/" },
   ],
   actions = [
-    { text: "Sign in", href: "https://www.launchuicomponents.com/", isButton: false },
+    {
+      text: "Sign in",
+      href: "https://www.launchuicomponents.com/",
+      isButton: false,
+    },
     {
       text: "Get Started",
       href: "https://www.launchuicomponents.com/",
@@ -97,7 +101,7 @@ export default function Navbar({
                 >
                   {action.text}
                 </a>
-              ),
+              )
             )}
             <Sheet>
               <SheetTrigger asChild>

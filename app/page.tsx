@@ -1,4 +1,3 @@
-import Navbar from "@/components/navbar";
 import BrandLogos from "@/components/sections/brand";
 import FooterSection from "@/components/sections/footer";
 import Hero from "@/components/sections/hero";
@@ -10,7 +9,6 @@ import CoreServices from "@/components/sections/services";
 export default function Home() {
   return (
     <>
-      <Navbar />
       <Hero />
       <Highlights />
       <BrandLogos />

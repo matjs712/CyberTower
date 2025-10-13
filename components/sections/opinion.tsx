@@ -55,8 +55,36 @@ const TestimonialsAndStats = () => {
         {/* Sección Superior: Título y Estadísticas (Grid de 2 columnas) */}
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-20 mb-16">
           {/* Columna Izquierda: Estadísticas */}
+          <div className="flex flex-col justify-center">
+            <div className="flex items-center text-purple-400 text-sm font-semibold uppercase tracking-wider mb-3">
+              {/* Icono de Review (Placeholder) */}
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                className="h-4 w-4 mr-2"
+                viewBox="0 0 20 20"
+                fill="currentColor"
+              >
+                <path
+                  fillRule="evenodd"
+                  d="M10 18a8 8 0 100-16 8 8 0 000 16zm.707-8.707l2-2a1 1 0 00-1.414-1.414L10 8.586l-1.293-1.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0z"
+                  clipRule="evenodd"
+                />
+              </svg>
+              <span>What Our Client Says</span>
+            </div>
+            <h2 className="text-5xl md:text-6xl font-bold leading-tight mb-6">
+              Hear from Our Satisfied <br /> Clients, Real Success <br />{" "}
+              Stories
+            </h2>
+            <p className="text-gray-400 text-lg">
+              Discover how businesses like yours achieved outstanding growth
+              with Marko expert digital marketing solutions.
+            </p>
+          </div>
+
           <div className="p-8 md:p-10 rounded-2xl border border-gray-200 shadow-xl flex flex-col justify-between">
             {/* Avatares y Conteo de Reviews */}
+
             <div className="mb-8">
               <div className="flex -space-x-4 mb-2">
                 {/* Placeholder de Avatares */}
@@ -96,32 +124,6 @@ const TestimonialsAndStats = () => {
           </div>
 
           {/* Columna Derecha: Encabezado Principal */}
-          <div className="flex flex-col justify-center">
-            <div className="flex items-center text-purple-400 text-sm font-semibold uppercase tracking-wider mb-3">
-              {/* Icono de Review (Placeholder) */}
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                className="h-4 w-4 mr-2"
-                viewBox="0 0 20 20"
-                fill="currentColor"
-              >
-                <path
-                  fillRule="evenodd"
-                  d="M10 18a8 8 0 100-16 8 8 0 000 16zm.707-8.707l2-2a1 1 0 00-1.414-1.414L10 8.586l-1.293-1.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0z"
-                  clipRule="evenodd"
-                />
-              </svg>
-              <span>What Our Client Says</span>
-            </div>
-            <h2 className="text-5xl md:text-6xl font-bold leading-tight mb-6">
-              Hear from Our Satisfied <br /> Clients, Real Success <br />{" "}
-              Stories
-            </h2>
-            <p className="text-gray-400 text-lg">
-              Discover how businesses like yours achieved outstanding growth
-              with Marko expert digital marketing solutions.
-            </p>
-          </div>
         </div>
 
         {/* Sección Inferior: Tarjetas de Testimonios (Grid de 3 columnas) */}
