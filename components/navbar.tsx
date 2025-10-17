@@ -1,15 +1,8 @@
 import { Menu, Phone } from "lucide-react";
 import { ReactNode } from "react";
 
-import { cn } from "@/lib/utils";
-
 import LaunchUI from "@/components/logos/launch-ui";
 import { Button, type ButtonProps } from "@/components/ui/button";
-import {
-  Navbar as NavbarComponent,
-  NavbarLeft,
-  NavbarRight,
-} from "@/components/ui/navbar";
 import Navigation from "@/components/ui/navigation";
 import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet";
 import { siteConfig } from "@/config/site";
@@ -41,96 +34,65 @@ interface NavbarProps {
 }
 
 export default function Navbar({
-  logo = <LaunchUI className="text-primary-color size-8" />,
-  name = "CYBER TOWER",
   homeUrl = siteConfig.url,
   mobileLinks = [
     { text: "Getting Started", href: siteConfig.url },
     { text: "Certificaciones", href: siteConfig.url },
     { text: "Documentation", href: siteConfig.url },
   ],
-  actions = [
-    {
-      text: "+569 12345678",
-      href: siteConfig.url,
-      isButton: true,
-      variant: "default",
-      icon: <Phone className="size-4" />,
-    },
-  ],
-  showNavigation = true,
   customNavigation,
-  className,
 }: NavbarProps) {
   return (
-    <header className={cn("sticky top-2 z-50 -mb-4 px-4 pb-4", className)}>
-      <div className="fade-bottom absolute left-0 h-24 w-full "></div>
-      <div className="max-w-container relative mx-auto bg-background/15 backdrop-blur-lg mt-2 rounded-lg px-4">
-        <NavbarComponent>
-          <NavbarLeft>
-            <Link
-              href={homeUrl}
-              className="flex items-center gap-2 text-xl font-bold"
-            >
-              {logo}
-              {/* {name} */}
-              <div className="flex flex-col gap-0 leading-3 text-primary-color">
-                <span className="text-sm font-semibold">CYBER</span>
-                <span className="text-md font-semibold">Tower</span>
-              </div>
-            </Link>
-            {showNavigation && (customNavigation || <Navigation />)}
-          </NavbarLeft>
-          <NavbarRight>
-            {actions.map((action, index) => (
-              <Button
-                key={index}
-                variant={action.variant || "default"}
-                className="rounded-full px-1 bg-neutral-700 w-fit"
-                asChild
-              >
-                <Link href={action.href} className="flex flex-row gap-2 px-1">
-                  <div className="bg-secondary-color p-2 rounded-full">
-                    {action.icon}
-                  </div>
-                  <div className="pr-2">{action.text}</div>
-                  {action.iconRight}
-                </Link>
+    <header className="sticky top-0 z-50 backdrop-blur-md bg-background/80">
+      <div className="max-w-container mx-auto flex items-center justify-between px-4 py-3">
+        <Link
+          href={homeUrl}
+          aria-label="Ir al inicio de Cyberhub"
+          className="flex items-center gap-2"
+        >
+          <LaunchUI className="size-8" aria-hidden="true" />
+          <span className="sr-only">Cyberhub</span>
+        </Link>
+
+        <nav aria-label="Menú principal" className="hidden md:flex gap-6">
+          {customNavigation || <Navigation />}
+        </nav>
+
+        <div className="flex items-center gap-4">
+          <Link
+            href="tel:+56912345678"
+            aria-label="Llamar a Cyberhub al +56 9 1234 5678"
+            className="flex items-center gap-2 rounded-full bg-neutral-700 px-3 py-2 text-white hover:bg-neutral-600 transition"
+          >
+            <Phone className="size-4 text-secondary-color" aria-hidden="true" />
+            <span>+56 9 1234 5678</span>
+          </Link>
+
+          <Sheet>
+            <SheetTrigger asChild>
+              <Button variant="ghost" size="icon" className="md:hidden">
+                <Menu className="size-5" aria-hidden="true" />
+                <span className="sr-only">Abrir menú de navegación</span>
               </Button>
-            ))}
-            <Sheet>
-              <SheetTrigger asChild>
-                <Button
-                  variant="ghost"
-                  size="icon"
-                  className="shrink-0 md:hidden"
-                >
-                  <Menu className="size-5" />
-                  <span className="sr-only">Toggle navigation menu</span>
-                </Button>
-              </SheetTrigger>
-              <SheetContent side="right">
-                <nav className="grid gap-6 text-lg font-medium">
-                  <Link
-                    href={homeUrl}
-                    className="flex items-center gap-2 text-xl font-bold"
-                  >
-                    <span>{name}</span>
+            </SheetTrigger>
+            <SheetContent
+              side="right"
+              aria-label="Menú de navegación móvil"
+              className="bg-background"
+            >
+              <nav className="grid gap-6 text-lg font-medium">
+                <Link href="/" className="text-xl font-semibold">
+                  Inicio
+                </Link>
+                {mobileLinks.map((link) => (
+                  <Link key={link.href} href={link.href}>
+                    {link.text}
                   </Link>
-                  {mobileLinks.map((link, index) => (
-                    <Link
-                      key={index}
-                      href={link.href}
-                      className="text-muted-foreground hover:text-foreground"
-                    >
-                      {link.text}
-                    </Link>
-                  ))}
-                </nav>
-              </SheetContent>
-            </Sheet>
-          </NavbarRight>
-        </NavbarComponent>
+                ))}
+              </nav>
+            </SheetContent>
+          </Sheet>
+        </div>
       </div>
     </header>
   );

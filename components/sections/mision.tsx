@@ -1,8 +1,106 @@
 "use client";
-import React from "react";
-import Image from "next/image"; // Asegúrate de que esta importación esté configurada correctamente
 
-// Datos para las tarjetas de la columna izquierda
+import React from "react";
+import Image from "next/image";
+
+const Mision = () => {
+  return (
+    <section
+      id="mision"
+      aria-labelledby="mision-heading"
+      className="py-16 px-4 md:px-8 lg:px-12"
+    >
+      <div className="max-w-5xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-20">
+        <ul className="flex flex-col gap-4">
+          {missionCards.map((card) => (
+            <li
+              key={card.title}
+              className="p-6 md:p-8 rounded-2xl border border-gray-200 shadow-lg flex items-start gap-5"
+            >
+              <div className="flex-shrink-0 mt-1" aria-hidden="true">
+                {card.icon}
+              </div>
+
+              <article className="flex-grow">
+                <h3 className="text-xl font-bold mb-2">{card.title}</h3>
+                <p className="text-gray-400 text-sm mb-3">{card.description}</p>
+                <a
+                  href={`/mision/${card.title
+                    .toLowerCase()
+                    .replace(/\s+/g, "-")}`}
+                  aria-label={`Leer más sobre ${card.title}`}
+                  className="flex items-center text-secondary-light-color text-sm font-semibold hover:text-secondary-color transition-colors"
+                >
+                  Leer más
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    className="h-4 w-4 ml-1"
+                    viewBox="0 0 20 20"
+                    fill="currentColor"
+                    aria-hidden="true"
+                  >
+                    <path
+                      fillRule="evenodd"
+                      d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z"
+                      clipRule="evenodd"
+                    />
+                  </svg>
+                </a>
+              </article>
+            </li>
+          ))}
+        </ul>
+
+        <div className="flex flex-col gap-6">
+          <header>
+            <div className="flex items-center text-secondary-color text-sm font-semibold uppercase tracking-wider mb-2">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                className="h-4 w-4 mr-2"
+                viewBox="0 0 20 20"
+                fill="currentColor"
+                aria-hidden="true"
+              >
+                <path
+                  fillRule="evenodd"
+                  d="M10 18a8 8 0 100-16 8 8 0 000 16zm1-11a1 1 0 10-2 0v2H7a1 1 0 100 2h2v2a1 1 0 102 0v-2h2a1 1 0 100-2h-2V7z"
+                  clipRule="evenodd"
+                />
+              </svg>
+              <span>Por qué elegir Cyberhub</span>
+            </div>
+            <h2
+              id="mision-heading"
+              className="text-5xl font-bold leading-tight bg-gradient-to-r from-neutral-800 to-white bg-clip-text text-transparent"
+            >
+              Tu éxito es nuestra misión
+            </h2>
+          </header>
+
+          <p className="text-gray-400 text-lg">
+            En un mundo digital acelerado, elegir al socio adecuado marca la
+            diferencia. En Cyberhub no solo implementamos tecnología: diseñamos
+            estrategias que fortalecen la cultura de ciberseguridad de tu
+            organización y generan resultados sostenibles.
+          </p>
+
+          <figure className="relative w-full h-80 rounded-2xl overflow-hidden shadow-2xl">
+            <Image
+              src={"/user.jpg"}
+              alt="Equipo de Cyberhub colaborando en estrategias de seguridad digital"
+              fill
+              className="rounded-2xl object-cover"
+            />
+            <figcaption className="sr-only">
+              Estrategias de ciberseguridad y transformación digital
+            </figcaption>
+          </figure>
+        </div>
+      </div>
+    </section>
+  );
+};
+
 const missionCards = [
   {
     title: "Data-Driven Approach",
@@ -70,100 +168,5 @@ const missionCards = [
     ),
   },
 ];
-
-const Mision = () => {
-  return (
-    <section className="py-16 px-4 md:px-8 lg:px-12">
-      <div className="max-w-5xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-20">
-        {/* Columna Izquierda: Tarjetas de Highlights */}
-        <div className="flex flex-col gap-2">
-          {missionCards.map((card, index) => (
-            <div
-              key={index}
-              className="p-6 md:p-8 rounded-2xl border border-gray-200 shadow-lg flex items-start gap-5"
-            >
-              {/* Icono a la izquierda */}
-              <div className="flex-shrink-0 mt-1">{card.icon}</div>
-
-              {/* Contenido de la tarjeta */}
-              <div className="flex-grow">
-                <h3 className="text-xl font-bold mb-2">{card.title}</h3>
-                <p className="text-gray-400 text-sm mb-3">{card.description}</p>
-                <a
-                  href="#"
-                  className="flex items-center text-purple-400 text-sm font-semibold hover:text-purple-300 transition-colors"
-                >
-                  Read More
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    className="h-4 w-4 ml-1"
-                    viewBox="0 0 20 20"
-                    fill="currentColor"
-                  >
-                    <path
-                      fillRule="evenodd"
-                      d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z"
-                      clipRule="evenodd"
-                    />
-                  </svg>
-                </a>
-              </div>
-            </div>
-          ))}
-        </div>
-
-        {/* Columna Derecha: Contenido Principal */}
-        <div className="flex flex-col gap-6">
-          {/* Encabezado y Tag */}
-          <div>
-            <div className="flex items-center text-purple-400 text-sm font-semibold uppercase tracking-wider mb-2">
-              {/* Icono para "Why Choose Marko" */}
-              {/* Nota: Usamos un SVG genérico para reemplazar PlusCircle, ya que no tengo acceso directo */}
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                className="h-4 w-4 mr-2"
-                viewBox="0 0 20 20"
-                fill="currentColor"
-              >
-                <path
-                  fillRule="evenodd"
-                  d="M10 18a8 8 0 100-16 8 8 0 000 16zm1-11a1 1 0 10-2 0v2H7a1 1 0 100 2h2v2a1 1 0 102 0v-2h2a1 1 0 100-2h-2V7z"
-                  clipRule="evenodd"
-                />
-              </svg>
-              <span>Why Choose Marko</span>
-            </div>
-            <h3 className="text-5xl font-bold leading-tight bg-gradient-to-r from-neutral-800 to-white bg-clip-text text-transparent">
-              Your Success is Our <br className="hidden md:inline" /> Mission
-            </h3>
-          </div>
-
-          {/* Texto de descripción */}
-          <p className="text-gray-400 text-lg">
-            In the fast-paced digital world, choosing the right marketing
-            partner makes all the difference. At Marko, we don{"'"}t just create
-            campaigns—we craft strategies that deliver measurable success.
-          </p>
-
-          {/* Imagen (Usando Next/Image para optimización) */}
-          <div className="relative w-full h-80 rounded-2xl overflow-hidden shadow-2xl">
-            <Image
-              src={"/user.jpg"}
-              alt="Team discussing mission and strategy"
-              layout="fill"
-              objectFit="cover"
-              className="rounded-2xl"
-            />
-          </div>
-
-          {/* Espacio para la sección de "Partners with Marko" que se ve debajo de la imagen */}
-          <div className="text-gray-400 text-sm font-semibold mt-4">
-            Partners with Marko (Sección no visible, solo para referencia)
-          </div>
-        </div>
-      </div>
-    </section>
-  );
-};
 
 export default Mision;

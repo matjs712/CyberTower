@@ -1,8 +1,7 @@
+"use client";
+
 import { ReactNode } from "react";
-
-import { siteConfig } from "@/config/site";
 import { cn } from "@/lib/utils";
-
 import LaunchUI from "@/components/logos/launch-ui";
 import {
   Footer,
@@ -11,10 +10,12 @@ import {
   FooterContent,
 } from "@/components/ui/footer";
 import { ModeToggle } from "@/components/ui/mode-toggle";
+import Link from "next/link";
 
 interface FooterLink {
   text: string;
   href: string;
+  ariaLabel?: string;
 }
 
 interface FooterColumnProps {
@@ -34,74 +35,130 @@ interface FooterProps {
 
 export default function FooterSection({
   logo = <LaunchUI />,
-  name = "Launch UI",
+  name = "Cyberhub",
   columns = [
     {
-      title: "Product",
+      title: "Servicios",
       links: [
-        { text: "Changelog", href: siteConfig.url },
-        { text: "Documentation", href: siteConfig.url },
+        {
+          text: "Consultoría en Ciberseguridad",
+          href: "/servicios/ciberseguridad",
+        },
+        { text: "Transformación Digital", href: "/servicios/digital" },
+        { text: "Capacitación", href: "/servicios/capacitacion" },
       ],
     },
     {
-      title: "Company",
+      title: "Empresa",
       links: [
-        { text: "About", href: siteConfig.url },
-        { text: "Careers", href: siteConfig.url },
-        { text: "Blog", href: siteConfig.url },
+        { text: "Sobre Nosotros", href: "/nosotros" },
+        { text: "Carreras", href: "/carreras" },
+        { text: "Blog", href: "/blog" },
       ],
     },
     {
-      title: "Contact",
+      title: "Contacto",
       links: [
-        { text: "Discord", href: siteConfig.url },
-        { text: "Twitter", href: siteConfig.url },
-        { text: "Github", href: siteConfig.links.github },
+        {
+          text: "LinkedIn",
+          href: "https://www.linkedin.com/company/cyberhub-cl",
+          ariaLabel: "Visitar LinkedIn de Cyberhub",
+        },
+        {
+          text: "Correo",
+          href: "mailto:contacto@cyberhub.cl",
+          ariaLabel: "Enviar correo a Cyberhub",
+        },
+        {
+          text: "WhatsApp",
+          href: "https://wa.me/56912345678",
+          ariaLabel: "Contactar a Cyberhub por WhatsApp",
+        },
       ],
     },
   ],
-  copyright = "© 2025 Creabit. All rights reserved",
+  copyright = `© ${new Date().getFullYear()} Cyberhub. Todos los derechos reservados.`,
   policies = [
-    { text: "Privacy Policy", href: siteConfig.url },
-    { text: "Terms of Service", href: siteConfig.url },
+    { text: "Política de Privacidad", href: "/politica-de-privacidad" },
+    { text: "Términos y Condiciones", href: "/terminos" },
   ],
   showModeToggle = true,
   className,
 }: FooterProps) {
   return (
-    <footer className={cn("bg-background w-full px-4", className)}>
+    <footer
+      className={cn(
+        "bg-background w-full px-4 pt-12 pb-8 border-t border-gray-800",
+        className
+      )}
+      role="contentinfo"
+      aria-label="Pie de página de Cyberhub"
+    >
       <div className="max-w-container mx-auto">
-        <Footer className="">
+        <Footer>
           <FooterContent>
+            {/* Logo + branding */}
             <FooterColumn className="col-span-2 sm:col-span-3 md:col-span-1">
-              <div className="flex items-center gap-2">
+              <Link
+                href="/"
+                className="flex items-center gap-2 mb-4"
+                aria-label="Ir al inicio de Cyberhub"
+              >
                 {logo}
-                <h3 className="text-xl font-bold">{name}</h3>
-              </div>
+                <span className="text-xl font-bold text-white">{name}</span>
+              </Link>
+              <p className="text-sm text-gray-400 max-w-xs">
+                Soluciones digitales y de ciberseguridad para empresas que
+                buscan evolucionar con confianza.
+              </p>
             </FooterColumn>
+
+            {/* Columnas de navegación */}
             {columns.map((column, index) => (
-              <FooterColumn key={index}>
-                <h3 className="text-md pt-1 font-semibold">{column.title}</h3>
-                {column.links.map((link, linkIndex) => (
-                  <a
-                    key={linkIndex}
-                    href={link.href}
-                    className="text-muted-foreground text-sm"
-                  >
-                    {link.text}
-                  </a>
-                ))}
+              <FooterColumn
+                key={index}
+                role="navigation"
+                aria-labelledby={`footer-col-${index}`}
+              >
+                <h2
+                  id={`footer-col-${index}`}
+                  className="text-md pt-1 font-semibold text-white mb-2"
+                >
+                  {column.title}
+                </h2>
+                <ul className="space-y-1">
+                  {column.links.map((link, linkIndex) => (
+                    <li key={linkIndex}>
+                      <Link
+                        href={link.href}
+                        aria-label={link.ariaLabel || `Ir a ${link.text}`}
+                        className="text-muted-foreground text-sm hover:text-secondary-color transition-colors"
+                      >
+                        {link.text}
+                      </Link>
+                    </li>
+                  ))}
+                </ul>
               </FooterColumn>
             ))}
           </FooterContent>
-          <FooterBottom>
-            <div>{copyright}</div>
+
+          {/* Línea inferior */}
+          <FooterBottom className="flex flex-col sm:flex-row justify-between items-center gap-4 mt-8 border-t border-gray-800 pt-6">
+            <small className="text-xs text-gray-500">{copyright}</small>
+
             <div className="flex items-center gap-4">
               {policies.map((policy, index) => (
-                <a key={index} href={policy.href}>
+                <Link
+                  key={index}
+                  href={policy.href}
+                  aria-label={`Leer ${policy.text}`}
+                  className="text-xs text-gray-400 hover:text-secondary-color transition-colors"
+                >
                   {policy.text}
-                </a>
+                </Link>
               ))}
+
               {showModeToggle && <ModeToggle />}
             </div>
           </FooterBottom>

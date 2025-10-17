@@ -1,35 +1,6 @@
 "use client";
 import React from "react";
 
-// Datos para los testimonios (tarjetas inferiores)
-const testimonialsData = [
-  {
-    name: "James Peterson",
-    title: "COO, BrightWave",
-    quote:
-      "Highly professional and results-oriented. Marko's expertise in branding and content marketing helped us build a strong online identity.",
-    avatar: "/avatars/james.jpg", // Reemplazar con URL de avatar
-    stars: 5,
-  },
-  {
-    name: "Emma Richard",
-    title: "CEO, Nexatech",
-    quote:
-      "Marko completely transformed our online presence! Their digital marketing strategies helped us double our revenue in just six months.",
-    avatar: "/avatars/emma.jpg", // Reemplazar con URL de avatar
-    stars: 5,
-  },
-  {
-    name: "David Mont",
-    title: "Marketing Director",
-    quote:
-      "We've worked with many agencies before, but Marko stands out. Their data-driven approach and creative solutions gave us an edge over competitors.",
-    avatar: "/avatars/david.jpg", // Reemplazar con URL de avatar
-    stars: 5,
-  },
-];
-
-// Función utilitaria para generar iconos de estrella
 const StarRating = ({ rating }: { rating: number }) => {
   return (
     <div className="flex text-yellow-400">
@@ -50,19 +21,21 @@ const StarRating = ({ rating }: { rating: number }) => {
 
 const TestimonialsAndStats = () => {
   return (
-    <section className="py-16 px-4 md:px-8 lg:px-12">
+    <section
+      id="testimonios"
+      aria-labelledby="testimonios-heading"
+      className="py-16 px-4 md:px-8 lg:px-12"
+    >
       <div className="max-w-5xl mx-auto">
-        {/* Sección Superior: Título y Estadísticas (Grid de 2 columnas) */}
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-20 mb-16">
-          {/* Columna Izquierda: Estadísticas */}
           <div className="flex flex-col justify-center">
-            <div className="flex items-center text-purple-400 text-sm font-semibold uppercase tracking-wider mb-3">
-              {/* Icono de Review (Placeholder) */}
+            <div className="flex items-center text-secondary-color text-sm font-semibold uppercase tracking-wider mb-3">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 className="h-4 w-4 mr-2"
                 viewBox="0 0 20 20"
                 fill="currentColor"
+                aria-hidden="true"
               >
                 <path
                   fillRule="evenodd"
@@ -70,103 +43,131 @@ const TestimonialsAndStats = () => {
                   clipRule="evenodd"
                 />
               </svg>
-              <span>What Our Client Says</span>
+              <span>Nuestros clientes opinan</span>
             </div>
-            <h2 className="text-5xl md:text-6xl font-bold leading-tight mb-6">
-              Hear from Our Satisfied <br /> Clients, Real Success <br />{" "}
-              Stories
+            <h2
+              id="testimonios-heading"
+              className="text-5xl md:text-6xl font-bold leading-tight mb-6"
+            >
+              Historias reales de éxito con <br /> Cyberhub
             </h2>
             <p className="text-gray-400 text-lg">
-              Discover how businesses like yours achieved outstanding growth
-              with Marko expert digital marketing solutions.
+              Descubre cómo empresas como la tuya fortalecieron su cultura
+              digital y alcanzaron resultados medibles con nuestras soluciones
+              tecnológicas.
             </p>
           </div>
 
-          <div className="p-8 md:p-10 rounded-2xl border border-gray-200 shadow-xl flex flex-col justify-between">
-            {/* Avatares y Conteo de Reviews */}
-
+          <aside
+            className="p-8 md:p-10 rounded-2xl border border-gray-200 shadow-xl flex flex-col justify-between"
+            aria-label="Estadísticas de satisfacción de clientes"
+          >
             <div className="mb-8">
-              <div className="flex -space-x-4 mb-2">
-                {/* Placeholder de Avatares */}
-                <div className="h-10 w-10 rounded-full bg-purple-500 border-2 border-gray-200"></div>
-                <div className="h-10 w-10 rounded-full bg-pink-500 border-2 border-gray-200"></div>
-                <div className="h-10 w-10 rounded-full bg-blue-500 border-2 border-gray-200"></div>
-                <div className="h-10 w-10 rounded-full bg-yellow-500 border-2 border-gray-200"></div>
+              <div className="flex -space-x-4 mb-2" aria-hidden="true">
+                <div className="h-10 w-10 rounded-full bg-secondary-color border-2 border-gray-200" />
+                <div className="h-10 w-10 rounded-full bg-blue-500 border-2 border-gray-200" />
+                <div className="h-10 w-10 rounded-full bg-pink-500 border-2 border-gray-200" />
+                <div className="h-10 w-10 rounded-full bg-yellow-500 border-2 border-gray-200" />
               </div>
-              <span className="text-xl font-bold ">2.7k Positive Reviews</span>
+              <h3 className="text-xl font-bold">
+                Más de 2.700 reseñas positivas
+              </h3>
             </div>
 
-            {/* Métricas de Rendimiento */}
-            <div className="flex gap-8 mb-8">
+            <dl className="flex gap-8 mb-8">
               <div>
-                <p className="text-4xl font-extrabold text-purple-400 mb-1">
+                <dt className="sr-only">Proyectos mejorados</dt>
+                <dd className="text-4xl font-extrabold text-secondary-light-color mb-1">
                   26%
-                </p>
-                <p className="text-sm">Improved Project</p>
+                </dd>
+                <p className="text-sm">Mejora de proyectos existentes</p>
               </div>
               <div>
-                <p className="text-4xl font-extrabold text-purple-400 mb-1">
+                <dt className="sr-only">Nuevos proyectos</dt>
+                <dd className="text-4xl font-extrabold text-secondary-light-color mb-1">
                   15%
-                </p>
-                <p className="text-sm">New Project</p>
+                </dd>
+                <p className="text-sm">Nuevos proyectos generados</p>
               </div>
-            </div>
+            </dl>
 
-            {/* Tags de Servicios */}
-            <div className="flex flex-wrap gap-3">
-              <span className="px-4 py-2 text-xs font-medium border border-purple-800 rounded-full">
-                Social Media Growth
-              </span>
-              <span className="px-4 py-2 text-xs font-medium border border-purple-800 rounded-full">
-                Performance Marketing
-              </span>
-            </div>
-          </div>
-
-          {/* Columna Derecha: Encabezado Principal */}
+            <ul className="flex flex-wrap gap-3">
+              <li className="px-4 py-2 text-xs font-medium border border-secondary-color rounded-full">
+                Crecimiento en redes sociales
+              </li>
+              <li className="px-4 py-2 text-xs font-medium border border-secondary-color rounded-full">
+                Marketing de rendimiento
+              </li>
+            </ul>
+          </aside>
         </div>
 
-        {/* Sección Inferior: Tarjetas de Testimonios (Grid de 3 columnas) */}
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-          {testimonialsData.map((testimonial, index) => (
-            <div
-              key={index}
-              className="p-6 md:p-8 rounded-2xl border border-gray-100 shadow-xl relative"
+        {/* Testimonios */}
+        <ul className="grid grid-cols-1 md:grid-cols-3 gap-8">
+          {testimonialsData.map((testimonial) => (
+            <li
+              key={testimonial.name}
+              className="p-6 md:p-8 rounded-2xl border border-gray-100 shadow-xl relative bg-background"
             >
-              {/* Cita de apertura */}
-              <div className="absolute top-4 right-4 text-purple-500 opacity-20 text-6xl font-serif leading-none h-12">
-                {'"'}
-              </div>
-              {/* Estrellas */}
-              <StarRating rating={testimonial.stars} />
-
-              {/* Texto de la Cita */}
-              <p className="mt-4 mb-6 italic">
-                {'"'}
-                {testimonial.quote}
-                {'"'}
-              </p>
-
-              {/* Información del Cliente */}
-              <div className="flex items-center gap-4 mt-auto">
-                <div className="h-12 w-12 rounded-full bg-gray-700 overflow-hidden">
-                  {/* Avatar de Placeholder - Reemplazar con Image de Next.js si se utiliza */}
+              <blockquote className="relative">
+                <div
+                  className="absolute top-4 right-4 text-secondary-color opacity-20 text-6xl font-serif leading-none"
+                  aria-hidden="true"
+                >
+                  {'"'}
                 </div>
-                <div>
-                  <p className="font-semibold">{testimonial.name}</p>
-                  <p className="text-sm">{testimonial.title}</p>
-                </div>
-                {/* Cita de cierre (más estilizada) */}
-                <span className="ml-auto text-purple-500 text-4xl font-extrabold leading-none">
-                  ”
-                </span>
-              </div>
-            </div>
+                <StarRating rating={testimonial.stars} />
+                <p className="mt-4 mb-6 italic text-gray-300">
+                  “{testimonial.quote}”
+                </p>
+                <footer className="flex items-center gap-4 mt-auto">
+                  <div
+                    className="h-12 w-12 rounded-full bg-gray-700 overflow-hidden"
+                    aria-hidden="true"
+                  />
+                  <div>
+                    <p className="font-semibold text-white">
+                      {testimonial.name}
+                    </p>
+                    <cite className="text-sm text-gray-400 not-italic">
+                      {testimonial.title}
+                    </cite>
+                  </div>
+                </footer>
+              </blockquote>
+            </li>
           ))}
-        </div>
+        </ul>
       </div>
     </section>
   );
 };
+
+const testimonialsData = [
+  {
+    name: "James Peterson",
+    title: "COO, BrightWave",
+    quote:
+      "Highly professional and results-oriented. Marko's expertise in branding and content marketing helped us build a strong online identity.",
+    avatar: "/avatars/james.jpg",
+    stars: 5,
+  },
+  {
+    name: "Emma Richard",
+    title: "CEO, Nexatech",
+    quote:
+      "Marko completely transformed our online presence! Their digital marketing strategies helped us double our revenue in just six months.",
+    avatar: "/avatars/emma.jpg",
+    stars: 5,
+  },
+  {
+    name: "David Mont",
+    title: "Marketing Director",
+    quote:
+      "We've worked with many agencies before, but Marko stands out. Their data-driven approach and creative solutions gave us an edge over competitors.",
+    avatar: "/avatars/david.jpg",
+    stars: 5,
+  },
+];
 
 export default TestimonialsAndStats;
