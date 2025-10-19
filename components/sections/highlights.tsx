@@ -20,15 +20,16 @@ const Highlights = () => {
               id="case-studies-heading"
               className="text-4xl md:text-5xl font-bold leading-tight"
             >
-              Casos reales que transforman negocios
+              Soluciones reales que fortalecen la seguridad empresarial
             </h2>
           </div>
 
           <div className="lg:w-1/2 flex flex-col items-start lg:items-end">
             <p className="text-gray-400 text-lg mb-6 lg:text-right">
-              No solo hablamos de resultados — los logramos. Descubre cómo
-              nuestras estrategias digitales impulsan el crecimiento de las
-              empresas.
+              Conoce cómo ayudamos a empresas en Chile y Latinoamérica a
+              implementar sistemas de gestión de seguridad de la información
+              (SGSI), cumplir la Ley 21.633 y proteger sus activos críticos
+              frente a ciberamenazas.
             </p>
             <Link
               href="/casos-de-exito"
@@ -57,7 +58,7 @@ const Highlights = () => {
             <li
               key={study.id || index}
               className={`relative rounded-xl overflow-hidden shadow-lg flex flex-col justify-end p-6 ${
-                index === 0 ? "md:col-span-2 h-[300px]" : "h-[200px]"
+                index === 0 ? "md:col-span-2 h-[300px]" : "min-h-[200px]"
               }`}
               style={{
                 backgroundImage: `url(${study.image})`,

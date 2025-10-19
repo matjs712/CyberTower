@@ -28,6 +28,7 @@ const TestimonialsAndStats = () => {
     >
       <div className="max-w-5xl mx-auto">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-20 mb-16">
+          {/* Texto principal */}
           <div className="flex flex-col justify-center">
             <div className="flex items-center text-secondary-color text-sm font-semibold uppercase tracking-wider mb-3">
               <svg
@@ -43,60 +44,67 @@ const TestimonialsAndStats = () => {
                   clipRule="evenodd"
                 />
               </svg>
-              <span>Nuestros clientes opinan</span>
+              <span>Casos de éxito y confianza</span>
             </div>
+
             <h2
               id="testimonios-heading"
-              className="text-5xl md:text-6xl font-bold leading-tight mb-6"
+              className="text-4xl md:text-5xl font-bold leading-tight mb-6"
             >
-              Historias reales de éxito con <br /> Cyberhub
+              Historias reales de <br /> ciberseguridad efectiva
             </h2>
+
             <p className="text-gray-400 text-lg">
-              Descubre cómo empresas como la tuya fortalecieron su cultura
-              digital y alcanzaron resultados medibles con nuestras soluciones
-              tecnológicas.
+              Empresas líderes en energía, minería y servicios confían en
+              Cyberhub para fortalecer su postura de seguridad, optimizar la
+              gestión de riesgos y cumplir con los más altos estándares
+              internacionales.
             </p>
           </div>
 
+          {/* Estadísticas */}
           <aside
-            className="p-8 md:p-10 rounded-2xl border border-gray-200 shadow-xl flex flex-col justify-between"
+            className="p-8 md:p-10 rounded-2xl border border-gray-200 dark:border-gray-700 shadow-xl flex flex-col justify-between"
             aria-label="Estadísticas de satisfacción de clientes"
           >
             <div className="mb-8">
-              <div className="flex -space-x-4 mb-2" aria-hidden="true">
+              <div className="flex -space-x-4 mb-3" aria-hidden="true">
                 <div className="h-10 w-10 rounded-full bg-secondary-color border-2 border-gray-200" />
                 <div className="h-10 w-10 rounded-full bg-blue-500 border-2 border-gray-200" />
-                <div className="h-10 w-10 rounded-full bg-pink-500 border-2 border-gray-200" />
-                <div className="h-10 w-10 rounded-full bg-yellow-500 border-2 border-gray-200" />
+                <div className="h-10 w-10 rounded-full bg-green-500 border-2 border-gray-200" />
+                <div className="h-10 w-10 rounded-full bg-purple-500 border-2 border-gray-200" />
               </div>
               <h3 className="text-xl font-bold">
-                Más de 2.700 reseñas positivas
+                Más de 180 organizaciones protegidas
               </h3>
             </div>
 
             <dl className="flex gap-8 mb-8">
               <div>
-                <dt className="sr-only">Proyectos mejorados</dt>
+                <dt className="sr-only">Reducción de incidentes</dt>
                 <dd className="text-4xl font-extrabold text-secondary-light-color mb-1">
-                  26%
+                  72%
                 </dd>
-                <p className="text-sm">Mejora de proyectos existentes</p>
+                <p className="text-sm">Menos incidentes críticos</p>
               </div>
               <div>
-                <dt className="sr-only">Nuevos proyectos</dt>
+                <dt className="sr-only">Mejoras operacionales</dt>
                 <dd className="text-4xl font-extrabold text-secondary-light-color mb-1">
-                  15%
+                  40%
                 </dd>
-                <p className="text-sm">Nuevos proyectos generados</p>
+                <p className="text-sm">Optimización de procesos</p>
               </div>
             </dl>
 
             <ul className="flex flex-wrap gap-3">
               <li className="px-4 py-2 text-xs font-medium border border-secondary-color rounded-full">
-                Crecimiento en redes sociales
+                ISO 27001
               </li>
               <li className="px-4 py-2 text-xs font-medium border border-secondary-color rounded-full">
-                Marketing de rendimiento
+                NIST Framework
+              </li>
+              <li className="px-4 py-2 text-xs font-medium border border-secondary-color rounded-full">
+                TISAX & Compliance
               </li>
             </ul>
           </aside>
@@ -107,7 +115,7 @@ const TestimonialsAndStats = () => {
           {testimonialsData.map((testimonial) => (
             <li
               key={testimonial.name}
-              className="p-6 md:p-8 rounded-2xl border border-gray-100 shadow-xl relative bg-background"
+              className="p-6 md:p-8 rounded-2xl border border-gray-100 dark:border-gray-800 shadow-xl relative bg-background"
             >
               <blockquote className="relative">
                 <div
@@ -145,29 +153,25 @@ const TestimonialsAndStats = () => {
 
 const testimonialsData = [
   {
-    name: "James Peterson",
-    title: "COO, BrightWave",
+    name: "María Torres",
+    title: "Gerenta TI, EnerChile",
     quote:
-      "Highly professional and results-oriented. Marko's expertise in branding and content marketing helped us build a strong online identity.",
-    avatar: "/avatars/james.jpg",
+      "El equipo de Cyberhub implementó un modelo de gestión de ciberseguridad que redujo incidentes críticos en un 70%. Su acompañamiento fue clave para certificarnos bajo ISO 27001.",
     stars: 5,
   },
   {
-    name: "Emma Richard",
-    title: "CEO, Nexatech",
+    name: "Rodrigo Silva",
+    title: "CISO, Infraseg",
     quote:
-      "Marko completely transformed our online presence! Their digital marketing strategies helped us double our revenue in just six months.",
-    avatar: "/avatars/emma.jpg",
+      "Su experiencia en normativas y respuesta ante incidentes nos permitió elevar el nivel de madurez en seguridad y cumplir con exigencias internacionales.",
     stars: 5,
   },
   {
-    name: "David Mont",
-    title: "Marketing Director",
+    name: "Claudia Muñoz",
+    title: "Directora de Operaciones, FinTech Andes",
     quote:
-      "We've worked with many agencies before, but Marko stands out. Their data-driven approach and creative solutions gave us an edge over competitors.",
-    avatar: "/avatars/david.jpg",
+      "Cyberhub no solo entregó soluciones técnicas, sino una estrategia integral de cultura y resiliencia digital. Son un verdadero socio estratégico.",
     stars: 5,
   },
 ];
-
 export default TestimonialsAndStats;

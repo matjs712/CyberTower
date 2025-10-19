@@ -29,7 +29,7 @@ interface MenuItem {
   title: string;
   href?: string;
   isLink?: boolean;
-  content?: ReactNode;
+  content?: ReactNode | "default" | "components";
 }
 
 interface NavigationProps {
@@ -49,7 +49,7 @@ interface NavigationProps {
 export default function Navigation({
   menuItems = [
     {
-      title: "Servicios",
+      title: "Soluciones",
       content: "default",
     },
     {
@@ -57,34 +57,44 @@ export default function Navigation({
       content: "components",
     },
     {
-      title: "Documentation",
+      title: "Clientes",
       isLink: true,
-      href: "https://www.launchuicomponents.com/",
+      href: "/clientes",
+    },
+    {
+      title: "Nosotros",
+      isLink: true,
+      href: "/nosotros",
+    },
+    {
+      title: "Blog",
+      isLink: true,
+      href: "/blog",
     },
   ],
   components = certificaciones,
   logo = <LaunchUI />,
-  logoTitle = "Impulsa tu organización",
-  logoDescription = "Ofrecemos soluciones integrales en ciberseguridad, posicionamiento de marca y gestión estratégica para fortalecer tu organización.",
-  logoHref = "https://www.launchuicomponents.com/",
+  logoTitle = "Fortalece tu organización digital",
+  logoDescription = "Soluciones integrales en ciberseguridad, posicionamiento de marca y gestión estratégica.",
+  logoHref = "/soluciones",
   introItems = [
     {
-      title: "Programa de awareness",
-      href: "https://www.launchuicomponents.com/",
+      title: "Programa de Awareness",
+      href: "/soluciones/1",
       description:
-        "Capacitaciones y campañas diseñadas para fortalecer la cultura de ciberseguridad dentro de tu organización.",
+        "Capacitaciones diseñadas para fortalecer la cultura de ciberseguridad dentro de tu organización.",
     },
     {
-      title: "Posicionamiento de marca",
-      href: "https://www.launchuicomponents.com/",
+      title: "Posicionamiento de Marca",
+      href: "/soluciones/2",
       description:
-        "Estrategias de comunicación y branding orientadas a consolidar tu presencia en el ámbito de la ciberseguridad.",
+        "Estrategias de comunicación y branding orientadas al liderazgo corporativo en seguridad digital.",
     },
     {
-      title: "Estrategias y gestión",
-      href: "https://www.launchuicomponents.com/",
+      title: "Estrategias y Gestión",
+      href: "/soluciones/3",
       description:
-        "Asesorías y proyectos de gestión del cambio enfocados en la transformación digital y la resiliencia organizacional.",
+        "Consultorías en gobernanza, riesgo y cumplimiento para una transformación digital segura.",
     },
   ],
 }: NavigationProps) {
@@ -105,29 +115,43 @@ export default function Navigation({
                 <NavigationMenuTrigger>{item.title}</NavigationMenuTrigger>
                 <NavigationMenuContent>
                   {item.content === "default" ? (
-                    <ul className="grid gap-3 p-4 md:w-[400px] lg:w-[500px] lg:grid-cols-[.75fr_1fr]">
-                      <li className="row-span-3">
-                        <NavigationMenuLink asChild>
-                          <Link
-                            className="from-muted/30 to-muted/10 flex h-full w-full flex-col justify-end rounded-md bg-linear-to-b p-6 no-underline outline-hidden select-none focus:shadow-md"
-                            href={logoHref}
+                    <div className="p-4 w-[400px] md:w-[500px] lg:w-[600px]">
+                      <ul className="grid gap-3 p-4 md:w-[400px] lg:w-[500px] lg:grid-cols-[.75fr_1fr]">
+                        <li className="row-span-3">
+                          <NavigationMenuLink asChild>
+                            <Link
+                              className="from-muted/30 to-muted/10 flex h-full w-full flex-col justify-end rounded-md bg-linear-to-b p-6 no-underline outline-hidden select-none focus:shadow-md"
+                              href={logoHref}
+                            >
+                              {logo}
+                              <div className="mt-4 mb-2 text-lg font-medium">
+                                {logoTitle}
+                              </div>
+                              <p className="text-muted-foreground text-sm leading-tight">
+                                {logoDescription}
+                              </p>
+                            </Link>
+                          </NavigationMenuLink>
+                        </li>
+                        {introItems.map((intro, i) => (
+                          <ListItem
+                            key={i}
+                            href={intro.href}
+                            title={intro.title}
                           >
-                            {logo}
-                            <div className="mt-4 mb-2 text-lg font-medium">
-                              {logoTitle}
-                            </div>
-                            <p className="text-muted-foreground text-sm leading-tight">
-                              {logoDescription}
-                            </p>
-                          </Link>
-                        </NavigationMenuLink>
-                      </li>
-                      {introItems.map((intro, i) => (
-                        <ListItem key={i} href={intro.href} title={intro.title}>
-                          {intro.description}
-                        </ListItem>
-                      ))}
-                    </ul>
+                            {intro.description}
+                          </ListItem>
+                        ))}
+                      </ul>
+                      <div className="mt-4 text-center">
+                        <Link
+                          href="/soluciones"
+                          className="text-sm font-medium text-primary-color hover:text-primary-light-color hover:underline"
+                        >
+                          Ver todos los soluciones →
+                        </Link>
+                      </div>
+                    </div>
                   ) : item.content === "components" ? (
                     <div className="p-4 w-[400px] md:w-[500px] lg:w-[600px]">
                       <ul className="grid gap-3 md:grid-cols-2">

@@ -27,14 +27,15 @@ const BrandLogos = () => {
               id="brand-logos-heading"
               className="text-3xl md:text-4xl font-bold leading-tight"
             >
-              Confían en nosotros las principales marcas
+              La confianza de los sectores más exigentes{" "}
             </h2>
           </div>
           <div className="w-full md:w-2/3">
             <p className="text-gray-300 text-base">
-              Empresas líderes en tecnología, finanzas y retail confían en
-              Cyberhub para fortalecer su cultura digital, optimizar procesos y
-              proteger su información.
+              Clientes del ámbito financiero, minero, energético, tecnológico,
+              de transporte y salud eligen a Cyberhub para proteger sus
+              operaciones, garantizar la continuidad del negocio y fortalecer su
+              resiliencia digital.
             </p>
           </div>
         </header>

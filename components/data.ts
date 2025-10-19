@@ -1,56 +1,38 @@
 export const caseStudiesData = [
   {
     id: 1,
-    title: "Local Business Digital Transformation",
-    slug: "",
+    title: "Implementación de SGSI ISO 27001 en grupo industrial",
+    slug: "implementacion-sgsi-iso27001-industrial",
     description:
-      "5x ROI on social media campaigns & 80% increase in engagement lorem ipsum dolor sit amet consectetur.",
-    tags: [
-      "Social",
-      "Influencer",
-      "Retargeting",
-      "Google",
-      "Video",
-      "Local",
-      "Community",
-    ],
-    image:
-      "https://images.unsplash.com/photo-1552581234-26160f608093?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "Cyberhub acompañó a un holding con presencia en Chile y Perú en la implementación completa de un Sistema de Gestión de Seguridad de la Información (SGSI), logrando la certificación ISO 27001 en menos de 9 meses.",
+    image: "/images/caso-iso27001.jpg",
+    tags: ["ISO 27001", "SGSI", "Auditoría", "Ciberseguridad"],
   },
   {
     id: 2,
-    title: "SaaS Lead Generation Success",
-    slug: "",
+    title: "Evaluación de brechas y cumplimiento Ley 21.633 (OIV)",
+    slug: "evaluacion-brechas-ley-21633",
     description:
-      "150% increase in qualified leads & 70% lower acquisition cost lorem ipsum dolor sit amet.",
-    tags: [
-      "Content",
-      "LinkedIn Ads",
-      "Email",
-      "Webinar",
-      "Landing",
-      "CRM",
-      "Retargeting",
-    ],
-    image:
-      "https://images.unsplash.com/photo-1664575602556-dc087f1ee05e?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "Ayudamos a una empresa del sector energético a identificar sus brechas frente a las exigencias de la Ley 21.633 y a desarrollar su plan de acción en base al framework NIST CSF.",
+    image: "/images/caso-ley21633.jpg",
+    tags: ["Ley 21.633", "NIST CSF", "Gobernanza", "Evaluación de Riesgos"],
   },
   {
     id: 3,
-    title: "E-Commerce Growth Boost",
-    slug: "",
+    title: "Auditoría técnica y capacitación en seguridad TI",
+    slug: "auditoria-tecnica-capacitacion",
     description:
-      "3x increase in organic traffic & 2x revenue growth in 6 months lorem ipsum dolor.",
-    tags: [
-      "SEO",
-      "PPC Ads",
-      "CRO",
-      "Analytics",
-      "Influencer",
-      "A/B Testing",
-      "Email",
-    ],
-    image:
-      "https://images.unsplash.com/photo-1496171367470-9ed9a91ea931?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "Realizamos una auditoría integral de seguridad en la infraestructura de TI de una entidad financiera, acompañada de capacitaciones personalizadas para sus equipos técnicos y ejecutivos.",
+    image: "/images/caso-auditoria.jpg",
+    tags: ["Auditoría", "Capacitación", "Infraestructura TI", "Resiliencia"],
+  },
+  {
+    id: 4,
+    title: "Gestión de incidentes y plan de respuesta ante ciberataques",
+    slug: "gestion-incidentes-ciberataques",
+    description:
+      "Cyberhub apoyó a una organización del sector salud a desarrollar su plan de respuesta ante incidentes, estableciendo protocolos y roles claros frente a amenazas críticas.",
+    image: "/images/caso-incidentes.jpg",
+    tags: ["Respuesta ante Incidentes", "Seguridad Operacional", "Continuidad"],
   },
 ];

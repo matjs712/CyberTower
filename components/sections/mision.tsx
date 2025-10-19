@@ -71,17 +71,17 @@ const Mision = () => {
             </div>
             <h2
               id="mision-heading"
-              className="text-5xl font-bold leading-tight bg-gradient-to-r from-neutral-800 to-white bg-clip-text text-transparent"
+              className="text-4xl font-bold leading-tight bg-gradient-to-r from-neutral-800 to-white bg-clip-text text-transparent"
             >
-              Tu éxito es nuestra misión
+              Protección inteligente, impulso estratégico
             </h2>
           </header>
 
           <p className="text-gray-400 text-lg">
-            En un mundo digital acelerado, elegir al socio adecuado marca la
-            diferencia. En Cyberhub no solo implementamos tecnología: diseñamos
-            estrategias que fortalecen la cultura de ciberseguridad de tu
-            organización y generan resultados sostenibles.
+            En un entorno donde las amenazas evolucionan cada día, no basta con
+            tecnología: necesitas visión, prevención y reacción. En Cyberhub
+            fusionamos experiencia técnica, análisis de riesgos y gobernanza
+            para construir defensas inteligentes que crecen contigo.
           </p>
 
           <figure className="relative w-full h-80 rounded-2xl overflow-hidden shadow-2xl">
@@ -103,9 +103,9 @@ const Mision = () => {
 
 const missionCards = [
   {
-    title: "Data-Driven Approach",
+    title: "Orientación basada en riesgo",
     description:
-      "Every decision is backed by real-time analytics for maximum impact lorem ipsum dolor sit elit tellus luctus nec.",
+      "Evaluamos tus activos críticos y enfocamos recursos en lo que realmente importa para reducir exposición efectiva.",
     icon: (
       // Icono de Analytics/Datos (Placeholder SVG)
       <svg
@@ -124,9 +124,9 @@ const missionCards = [
     ),
   },
   {
-    title: "Creative & Innovative",
+    title: "Tecnología + Estrategia",
     description:
-      "Cutting-edge marketing techniques to keep you ahead of the competition lorem ipsum dolor sit awsa consectetur adipiscing elit ut elit.",
+      "Implementamos soluciones tecnológicas alineadas con tu modelo de negocio, respaldo normativo y objetivos de crecimiento.",
     icon: (
       // Icono de Creatividad/Idea (Placeholder SVG)
       <svg
@@ -146,9 +146,9 @@ const missionCards = [
     ),
   },
   {
-    title: "Transparent Reporting",
+    title: "Transparencia & Gobernabilidad",
     description:
-      "Get clear, detailed reports on campaign performance and ROI. Lorem ipsum dolor sit amet consectetur.",
+      "Reportes claros, métricas medibles y asesoría continua para que tomes decisiones con confianza.",
     icon: (
       // Icono de Reportes/Transparencia (Placeholder SVG)
       <svg

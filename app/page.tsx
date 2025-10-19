@@ -1,5 +1,4 @@
 import BrandLogos from "@/components/sections/brand";
-import FooterSection from "@/components/sections/footer";
 import Hero from "@/components/sections/hero";
 import Highlights from "@/components/sections/highlights";
 import Mision from "@/components/sections/mision";
@@ -15,7 +14,6 @@ export default function Home() {
       <CoreServices />
       <Mision />
       <Opinion />
-      <FooterSection />
     </>
   );
 }

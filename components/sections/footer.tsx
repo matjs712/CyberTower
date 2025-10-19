@@ -38,14 +38,14 @@ export default function FooterSection({
   name = "Cyberhub",
   columns = [
     {
-      title: "Servicios",
+      title: "Soluciones",
       links: [
         {
           text: "Consultoría en Ciberseguridad",
-          href: "/servicios/ciberseguridad",
+          href: "/Soluciones/ciberseguridad",
         },
-        { text: "Transformación Digital", href: "/servicios/digital" },
-        { text: "Capacitación", href: "/servicios/capacitacion" },
+        { text: "Transformación Digital", href: "/soluciones/digital" },
+        { text: "Capacitación", href: "/soluciones/capacitacion" },
       ],
     },
     {
@@ -88,14 +88,14 @@ export default function FooterSection({
   return (
     <footer
       className={cn(
-        "bg-background w-full px-4 pt-12 pb-8 border-t border-gray-800",
+        "w-full px-4 pt-12 pb-8 border-t border-gray-800",
         className
       )}
       role="contentinfo"
       aria-label="Pie de página de Cyberhub"
     >
       <div className="max-w-container mx-auto">
-        <Footer>
+        <Footer className="bg-transparent">
           <FooterContent>
             {/* Logo + branding */}
             <FooterColumn className="col-span-2 sm:col-span-3 md:col-span-1">

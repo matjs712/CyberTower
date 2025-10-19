@@ -17,7 +17,7 @@ const CoreServices = () => {
             id="core-services-heading"
             className="text-4xl md:text-5xl font-bold leading-tight"
           >
-            Soluciones digitales que impulsan resultados reales
+            Soluciones de ciberseguridad y cumplimiento para empresas modernas
           </h2>
         </header>
 
@@ -72,14 +72,15 @@ const CoreServices = () => {
         </ul>
 
         <footer className="text-center mt-16 text-gray-400 text-sm">
-          ¿Necesitas una solución personalizada? Creamos estrategias adaptadas a
-          tu negocio.{" "}
+          ¿Necesitas fortalecer la seguridad de tu organización? Diseñamos
+          soluciones personalizadas en ciberseguridad, cumplimiento y gestión de
+          riesgos.{" "}
           <a
             href="/contacto"
             aria-label="Solicitar una llamada de estrategia gratuita"
             className="text-secondary-light-color font-semibold hover:text-secondary-color transition-colors"
           >
-            Solicita una llamada gratuita
+            Agenda una asesoría gratuita
           </a>
         </footer>
       </div>
@@ -89,11 +90,10 @@ const CoreServices = () => {
 
 const servicesData = [
   {
-    title: "Social Media Marketing",
+    title: "Gestión de Vulnerabilidades",
     description:
-      "Build brand awareness & engage your audience effectively lorem ipsum dolor sit amet consectetur adip.",
+      "Identificamos debilidades en tu infraestructura digital y proponemos planes para mitigarlas con prioridad de riesgo.",
     icon: (
-      // Icono de Redes Sociales (Placeholder SVG)
       <svg
         xmlns="http://www.w3.org/2000/svg"
         className="h-8 w-8 text-secondary-light-color"
@@ -104,18 +104,16 @@ const servicesData = [
         strokeLinecap="round"
         strokeLinejoin="round"
       >
-        <rect width="20" height="20" x="2" y="2" rx="5" ry="5" />
-        <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z" />
-        <line x1="17.5" x2="17.51" y1="6.5" y2="6.5" />
+        <path d="M12 2a10 10 0 1 0 10 10A10 10 0 0 0 12 2z" />
+        <path d="M12 8v4l2 2" />
       </svg>
     ),
   },
   {
-    title: "Content Marketing",
+    title: "Pruebas de Penetración (Pentesting)",
     description:
-      "Build brand awareness & engage your audience effectively lorem ipsum dolor sit amet consectetur adip.",
+      "Simulamos ataques controlados para evaluar la resiliencia de tus sistemas y exponer vulnerabilidades antes que lo hagan terceros.",
     icon: (
-      // Icono de Contenido (Placeholder SVG)
       <svg
         xmlns="http://www.w3.org/2000/svg"
         className="h-8 w-8 text-secondary-light-color"
@@ -126,20 +124,17 @@ const servicesData = [
         strokeLinecap="round"
         strokeLinejoin="round"
       >
-        <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z" />
-        <path d="M14 2v6h6" />
-        <line x1="16" x2="8" y1="13" y2="13" />
-        <line x1="16" x2="8" y1="17" y2="17" />
-        <line x1="10" x2="8" y1="9" y2="9" />
+        <path d="M5 13l4 4L19 7" />
+        <path d="M12 2v4" />
+        <path d="M12 18v4" />
       </svg>
     ),
   },
   {
-    title: "PPC Advertising",
+    title: "Consultoría & Gobernanza",
     description:
-      "Build brand awareness & engage your audience effectively lorem ipsum dolor sit amet consectetur adip.",
+      "Asesoría estratégica en normativa, cumplimiento, riesgos y frameworks de seguridad para tu organización.",
     icon: (
-      // Icono de Publicidad PPC (Placeholder SVG)
       <svg
         xmlns="http://www.w3.org/2000/svg"
         className="h-8 w-8 text-secondary-light-color"
@@ -150,18 +145,41 @@ const servicesData = [
         strokeLinecap="round"
         strokeLinejoin="round"
       >
-        <path d="M12 2v6h6" />
+        <path d="M3 3h18v18H3z" />
+        <path d="M7 12h10" />
+        <path d="M7 16h10" />
+        <path d="M7 8h10" />
+      </svg>
+    ),
+  },
+  {
+    title: "Monitoreo & Detección",
+    description:
+      "Supervisamos 24/7 tus sistemas y redes para detectar incidentes, responder con agilidad y reducir impacto.",
+    icon: (
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        className="h-8 w-8 text-secondary-light-color"
+        viewBox="0 0 24 24"
+        fill="none"
+        stroke="currentColor"
+        strokeWidth="2"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+      >
         <circle cx="12" cy="12" r="10" />
-        <path d="M8 12a4 4 0 0 1 8 0 4 4 0 0 1-8 0z" />
+        <path d="M2 12h4" />
+        <path d="M18 12h4" />
+        <path d="M12 2v4" />
+        <path d="M12 18v4" />
       </svg>
     ),
   },
   {
-    title: "Email Marketing",
+    title: "Seguridad en Desarrollo (DevSecOps)",
     description:
-      "Build brand awareness & engage your audience effectively lorem ipsum dolor sit amet consectetur adip.",
+      "Integración de controles de seguridad automáticos en el pipeline de desarrollo para evitar vulnerabilidades desde el código.",
     icon: (
-      // Icono de Email (Placeholder SVG)
       <svg
         xmlns="http://www.w3.org/2000/svg"
         className="h-8 w-8 text-secondary-light-color"
@@ -172,17 +190,17 @@ const servicesData = [
         strokeLinecap="round"
         strokeLinejoin="round"
       >
-        <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z" />
-        <polyline points="22,6 12,13 2,6" />
+        <path d="M4 4h16v16H4z" />
+        <path d="M8 8l8 8" />
+        <path d="M16 8l-8 8" />
       </svg>
     ),
   },
   {
-    title: "Branding & Design",
+    title: "Respuesta a Incidentes",
     description:
-      "Build brand awareness & engage your audience effectively lorem ipsum dolor sit amet consectetur adip.",
+      "Actuamos rápidamente ante brechas de seguridad, analizamos el ataque y ayudamos a restablecer operaciones seguras.",
     icon: (
-      // Icono de Branding/Diseño (Placeholder SVG)
       <svg
         xmlns="http://www.w3.org/2000/svg"
         className="h-8 w-8 text-secondary-light-color"
@@ -193,31 +211,8 @@ const servicesData = [
         strokeLinecap="round"
         strokeLinejoin="round"
       >
-        <path d="M15 10v.01" />
-        <path d="M12.8 5.6a.6.6 0 0 0-.8 0l-7 8.3a.6.6 0 0 0 0 .8l2.9 3.5a.6.6 0 0 0 .9 0l7.2-8.4a.6.6 0 0 0 0-.7L12.8 5.6z" />
-        <path d="M17 12l-4.5 4.5" />
-      </svg>
-    ),
-  },
-  {
-    title: "Web Development",
-    description:
-      "Build brand awareness & engage your audience effectively lorem ipsum dolor sit amet consectetur adip.",
-    icon: (
-      // Icono de Desarrollo Web (Placeholder SVG)
-      <svg
-        xmlns="http://www.w3.org/2000/svg"
-        className="h-8 w-8 text-secondary-color"
-        viewBox="0 0 24 24"
-        fill="none"
-        stroke="currentColor"
-        strokeWidth="2"
-        strokeLinecap="round"
-        strokeLinejoin="round"
-      >
-        <path d="M16 18l4-4-4-4" />
-        <path d="M8 6l-4 4 4 4" />
-        <path d="M13 3l-2 18" />
+        <path d="M12 2L2 12h10v10l10-10H12z" />
+        <path d="M12 8v4l2 2" />
       </svg>
     ),
   },

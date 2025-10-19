@@ -31,12 +31,13 @@ const Hero = () => (
         transition={{ duration: 0.8 }}
         className="max-w-4xl space-y-6"
       >
-        <h1 className="text-balance text-5xl font-semibold leading-tight md:text-6xl lg:text-7xl bg-gradient-to-r from-secondary-light-color to-white bg-clip-text text-transparent">
-          Impulsa tu marca con estrategias digitales innovadoras
+        <h1 className="text-balance text-5xl font-semibold leading-tight md:text-5xl lg:text-6xl bg-gradient-to-r from-secondary-light-color to-white bg-clip-text text-transparent">
+          Protege tu organización con soluciones avanzadas de ciberseguridad
         </h1>
 
         <p className="text-lg text-gray-300">
-          Amplify Your Brand with Cutting-Edge Digital Marketing
+          Implementamos estrategias de seguridad y cumplimiento normativo
+          basadas en ISO 27001, NIST y la Ley 21.633.
         </p>
 
         <div className="mt-8 flex flex-col items-center justify-center gap-4 sm:flex-row" />
@@ -49,16 +50,17 @@ const Hero = () => (
               <Mail aria-label="Correo" className="size-6" />
             </div>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Distinctio officia eum delectus ipsum ducimus earum perferendis
-              enim beatae.
+              En Cyberhub ayudamos a empresas a fortalecer su infraestructura
+              digital, prevenir incidentes y cumplir con los nuevos estándares
+              nacionales e internacionales en ciberseguridad.
             </p>
           </div>
 
           <div className="flex-1 max-w-lg">
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus
-              ipsa impedit provident debitis!
+              Desde la evaluación de riesgos hasta la implementación de un
+              Sistema de Gestión de Seguridad de la Información (SGSI),
+              acompañamos a tu organización en cada etapa del proceso.
             </p>
 
             <div className="flex justify-start flex-row gap-4 items-center mt-4">
