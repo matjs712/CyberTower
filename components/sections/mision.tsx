@@ -71,7 +71,7 @@ const Mision = () => {
             </div>
             <h2
               id="mision-heading"
-              className="text-4xl font-bold leading-tight bg-gradient-to-r from-neutral-800 to-white bg-clip-text text-transparent"
+              className="text-4xl font-bold leading-tight bg-gradient-to-l from-neutral-800 to-white bg-clip-text text-transparent"
             >
               Protección inteligente, impulso estratégico
             </h2>
@@ -86,7 +86,7 @@ const Mision = () => {
 
           <figure className="relative w-full h-80 rounded-2xl overflow-hidden shadow-2xl">
             <Image
-              src={"/user.jpg"}
+              src={"/proteccion.png"}
               alt="Equipo de Cyberhub colaborando en estrategias de seguridad digital"
               fill
               className="rounded-2xl object-cover"

@@ -29,10 +29,23 @@ const CoreServices = () => {
             >
               <article className="flex flex-col h-full">
                 <div
-                  className="mb-4 p-3 rounded-lg inline-block border border-secondary-color"
+                  className="mb-4 p-3 rounded-lg inline-flex items-center justify-center border border-secondary-color relative overflow-hidden"
                   aria-hidden="true"
                 >
-                  {service.icon}
+                  {/* Fondo con imagen o patrón */}
+                  <div
+                    className="absolute inset-0 bg-[url('/bg-pattern-cyber.webp')] bg-cover bg-center opacity-20 dark:opacity-30"
+                    aria-hidden="true"
+                  ></div>
+
+                  {/* Capa de color degradado opcional */}
+                  <div
+                    className="absolute inset-0 bg-gradient-to-br from-secondary-light-color/20 to-transparent"
+                    aria-hidden="true"
+                  ></div>
+
+                  {/* Ícono visible */}
+                  <div className="relative z-10">{service.icon}</div>
                 </div>
 
                 <h3 className="text-xl font-bold mb-2">{service.title}</h3>

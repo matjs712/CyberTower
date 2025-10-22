@@ -11,6 +11,7 @@ import { logos } from "../logos/logos";
 
 const Hero = () => (
   <main className="flex flex-col gap-16 px-8 py-6">
+    {/* === HERO PRINCIPAL === */}
     <header className="relative flex h-[90vh] flex-col items-center justify-center overflow-hidden rounded-2xl bg-transparent px-6 text-left text-white">
       <video
         autoPlay
@@ -116,6 +117,7 @@ const Hero = () => (
       </motion.div>
     </header>
 
+    {/* === LOGOS === */}
     <section
       className="flex flex-col items-center justify-center gap-8 rounded-xl bg-secondary py-8 pb-18"
       aria-labelledby="trusted-heading"
@@ -127,22 +129,53 @@ const Hero = () => (
         Empresas que confían en nosotros
       </h2>
       <p className="mb-0 text-balance font-medium text-muted-foreground">
-        Confían en Cyberhub para fortalecer su cultura digital y seguridad.
+        En Asia, Europa y América, confían en Cyberhub para fortalecer su
+        cultura digital y seguridad.
       </p>
+
+      <div className="flex flex-wrap items-center justify-center gap-6 mt-0">
+        {[
+          { code: "cl", name: "Chile" },
+          { code: "us", name: "Estados Unidos" },
+          { code: "es", name: "España" },
+          { code: "mx", name: "México" },
+          { code: "br", name: "Brasil" },
+          { code: "ar", name: "Argentina" },
+          { code: "co", name: "Colombia" },
+        ].map((country) => (
+          <div
+            key={country.code}
+            className="flex flex-col items-center text-white/80 hover:text-white transition-colors"
+          >
+            <Image
+              src={`https://flagcdn.com/w40/${country.code}.png`}
+              alt={`Bandera de ${country.name}`}
+              width={40}
+              height={30}
+              className="rounded-md shadow-sm"
+            />
+            {/* <span className="text-xs mt-1">{country.name}</span> */}
+          </div>
+        ))}
+      </div>
 
       <div className="flex size-full items-center justify-center">
         <Marquee>
           <MarqueeFade className="from-secondary" side="left" />
           <MarqueeFade className="from-secondary" side="right" />
-          <MarqueeContent pauseOnHover={false}>
+          <MarqueeContent
+            pauseOnHover={false}
+            className="flex flex-row items-center"
+          >
             {logos.map((logo) => (
-              <MarqueeItem className="mx-16 size-12" key={logo.name}>
-                <Link
-                  href={logo.url}
-                  aria-label={`Visitar sitio de ${logo.name}`}
-                >
-                  <logo.icon className="size-full" aria-hidden="true" />
-                </Link>
+              <MarqueeItem className="mx-16 size-28" key={logo.name}>
+                <Image
+                  width={500}
+                  height={500}
+                  src={logo.url}
+                  className="h-auto"
+                  alt={logo.name}
+                />
               </MarqueeItem>
             ))}
           </MarqueeContent>

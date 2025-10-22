@@ -5,7 +5,7 @@ export const caseStudiesData = [
     slug: "implementacion-sgsi-iso27001-industrial",
     description:
       "Cyberhub acompañó a un holding con presencia en Chile y Perú en la implementación completa de un Sistema de Gestión de Seguridad de la Información (SGSI), logrando la certificación ISO 27001 en menos de 9 meses.",
-    image: "/images/caso-iso27001.jpg",
+    image: "/ISO27001.png",
     tags: ["ISO 27001", "SGSI", "Auditoría", "Ciberseguridad"],
   },
   {
@@ -14,7 +14,7 @@ export const caseStudiesData = [
     slug: "evaluacion-brechas-ley-21633",
     description:
       "Ayudamos a una empresa del sector energético a identificar sus brechas frente a las exigencias de la Ley 21.633 y a desarrollar su plan de acción en base al framework NIST CSF.",
-    image: "/images/caso-ley21633.jpg",
+    image: "/ley21.png",
     tags: ["Ley 21.633", "NIST CSF", "Gobernanza", "Evaluación de Riesgos"],
   },
   {
@@ -23,7 +23,7 @@ export const caseStudiesData = [
     slug: "auditoria-tecnica-capacitacion",
     description:
       "Realizamos una auditoría integral de seguridad en la infraestructura de TI de una entidad financiera, acompañada de capacitaciones personalizadas para sus equipos técnicos y ejecutivos.",
-    image: "/images/caso-auditoria.jpg",
+    image: "/auditoria.png",
     tags: ["Auditoría", "Capacitación", "Infraestructura TI", "Resiliencia"],
   },
   {
@@ -32,7 +32,7 @@ export const caseStudiesData = [
     slug: "gestion-incidentes-ciberataques",
     description:
       "Cyberhub apoyó a una organización del sector salud a desarrollar su plan de respuesta ante incidentes, estableciendo protocolos y roles claros frente a amenazas críticas.",
-    image: "/images/caso-incidentes.jpg",
+    image: "/gestion.png",
     tags: ["Respuesta ante Incidentes", "Seguridad Operacional", "Continuidad"],
   },
 ];

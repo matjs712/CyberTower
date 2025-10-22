@@ -3,15 +3,18 @@ import React from "react";
 
 const BrandLogos = () => {
   const brands = [
-    { name: "Brandex" },
-    { name: "Bravix" },
-    { name: "Nexora" },
-    { name: "Adstrix" },
-    { name: "Glovix" },
-    { name: "Zero" },
-    { name: "Prodigy" },
-    { name: "Quantix" },
-    { name: "Solara" },
+    { name: "Agrosuper CL, Asia y USA" },
+    { name: "SQM China, Belgium, Chile" },
+    { name: "SQM Europe NY, Lithium" },
+    { name: "SQM Industrial, Salar" },
+    { name: "Coggin  Ford USA" },
+    { name: "Guacolda Energía" },
+    { name: "AquaChile" },
+    { name: "MBI: Empresa Energía 7 y Empresa Eléctrica Vallenar" },
+    { name: "ACCA Consulting Services" },
+    { name: "HuGus Group" },
+    { name: "Banco de Chile" },
+    { name: "Falabella" },
   ];
 
   return (
@@ -45,17 +48,19 @@ const BrandLogos = () => {
         <ul
           role="list"
           aria-label="Marcas que confían en Cyberhub"
-          className="flex flex-nowrap items-center gap-4 overflow-x-scroll pb-4 -mx-12 px-12 md:-mx-12 md:px-12 lg:-mx-20 lg:px-16"
-          style={{
-            scrollbarWidth: "none",
-            msOverflowStyle: "none",
-          }}
+          className="flex flex-wrap items-center gap-4 pb-4 -mx-12 px-12 md:-mx-12 md:px-12 lg:-mx-20 lg:px-16"
+          // flex-nowrap
+          // overflow-x-scroll
+          // style={{
+          //   scrollbarWidth: "none",
+          //   msOverflowStyle: "none",
+          // }}
         >
-          <style jsx global>{`
+          {/* <style jsx global>{`
             .overflow-x-scroll::-webkit-scrollbar {
               display: none;
             }
-          `}</style>
+          `}</style> */}
 
           {brands.map((brand, index) => (
             <li

@@ -14,7 +14,14 @@ export const certificaciones = [
     description:
       "La certificación ISO 27001 garantiza que una organización gestiona de forma segura la información confidencial, minimizando riesgos de ciberataques, fugas de datos y brechas de cumplimiento normativo.",
     content: `
-      <section class="space-y-8 text-gray-700 dark:text-gray-300 leading-relaxed">
+      <section class="space-y-8 text-gray-700 dark:text-gray-300 leading-relaxed sm:p-4">
+  <figure class="w-full overflow-hidden rounded-3xl shadow-lg">
+    <img
+      src="/ISO27001.png"
+      alt="ISO 27001"
+      class="w-full h-72 md:h-[500px] object-cover object-top"
+    />
+  </figure>
         <header class="space-y-3 border-b border-gray-200 dark:border-gray-700 pb-4">
           <h2 class="text-2xl md:text-3xl font-bold text-primary-color dark:text-secondary-light-color">
             ¿Qué es la ISO 27001?
@@ -96,7 +103,7 @@ export const certificaciones = [
         </footer>
       </section>
     `,
-    image: "/certificaciones/iso27001.jpg",
+    image: "/ISO27001.png",
   },
 ];
 
@@ -108,7 +115,14 @@ export const Soluciones = [
     description:
       "Capacitaciones y campañas diseñadas para fortalecer la cultura de ciberseguridad dentro de tu organización, reduciendo riesgos humanos y fomentando comportamientos seguros.",
     content: `
-      <section class="space-y-8 text-gray-700 dark:text-gray-300 leading-relaxed">
+      <section class="space-y-8 text-gray-700 dark:text-gray-300 leading-relaxed sm:p-4">
+  <figure class="w-full overflow-hidden rounded-3xl shadow-lg">
+    <img
+      src="/awarenes.png"
+      alt="Programa de awareness en ciberseguridad"
+      class="w-full h-72 md:h-[500px] object-cover object-top"
+    />
+  </figure>
         <header class="space-y-3 border-b border-gray-200 dark:border-gray-700 pb-4">
           <h2 class="text-2xl md:text-3xl font-bold text-primary-color dark:text-secondary-light-color">
             ¿En qué consiste el Programa de Awareness?
@@ -157,7 +171,7 @@ export const Soluciones = [
         </footer>
       </section>
     `,
-    image: "/soluciones/awareness.jpg",
+    image: "/awarenes.png",
   },
   {
     id: "2",
@@ -166,7 +180,14 @@ export const Soluciones = [
     description:
       "Estrategias de comunicación y branding orientadas a consolidar tu presencia como referente confiable y experto en seguridad digital.",
     content: `
-      <section class="space-y-8 text-gray-700 dark:text-gray-300 leading-relaxed">
+          <section class="space-y-8 text-gray-700 dark:text-gray-300 leading-relaxed sm:p-4">
+  <figure class="w-full overflow-hidden rounded-3xl shadow-lg">
+    <img
+      src="/Posicionamiento de Marca en Ciberseguridad.png"
+      alt="Posicionamiento de Marca en Ciberseguridad"
+      class="w-full h-72 md:h-[500px] object-cover object-top"
+    />
+  </figure>
         <header class="space-y-3 border-b border-gray-200 dark:border-gray-700 pb-4">
           <h2 class="text-2xl md:text-3xl font-bold text-primary-color dark:text-secondary-light-color">
             Potencia tu marca en el mundo digital seguro
@@ -215,7 +236,7 @@ export const Soluciones = [
         </footer>
       </section>
     `,
-    image: "/soluciones/branding.jpg",
+    image: "/Posicionamiento de Marca en Ciberseguridad.png",
   },
   {
     id: "3",
@@ -224,7 +245,14 @@ export const Soluciones = [
     description:
       "Asesorías y proyectos de gestión enfocados en la transformación digital, la resiliencia organizacional y el cumplimiento normativo en ciberseguridad.",
     content: `
-      <section class="space-y-8 text-gray-700 dark:text-gray-300 leading-relaxed">
+    <section class="space-y-8 text-gray-700 dark:text-gray-300 leading-relaxed sm:p-4">
+  <figure class="w-full overflow-hidden rounded-3xl shadow-lg">
+    <img
+      src="/Estrategias y Gestión de Ciberseguridad.png"
+      alt="Estrategias y Gestión de Ciberseguridad"
+      class="w-full h-72 md:h-[500px] object-cover object-top"
+    />
+  </figure>
         <header class="space-y-3 border-b border-gray-200 dark:border-gray-700 pb-4">
           <h2 class="text-2xl md:text-3xl font-bold text-primary-color dark:text-secondary-light-color">
             Estrategia, gobierno y madurez cibernética
@@ -273,6 +301,6 @@ export const Soluciones = [
         </footer>
       </section>
     `,
-    image: "/soluciones/gestion.jpg",
+    image: "/Estrategias y Gestión de Ciberseguridad.png",
   },
 ];

@@ -41,18 +41,18 @@ export default function FooterSection({
       title: "Soluciones",
       links: [
         {
-          text: "Consultoría en Ciberseguridad",
-          href: "/Soluciones/ciberseguridad",
+          text: "Programa de Awareness",
+          href: "/soluciones/1",
         },
-        { text: "Transformación Digital", href: "/soluciones/digital" },
-        { text: "Capacitación", href: "/soluciones/capacitacion" },
+        { text: "Posicionamiento de Marca", href: "/soluciones/2" },
+        { text: "Estrategias y Gestión", href: "/soluciones/3" },
       ],
     },
     {
       title: "Empresa",
       links: [
         { text: "Sobre Nosotros", href: "/nosotros" },
-        { text: "Carreras", href: "/carreras" },
+        { text: "Clientes", href: "/clientes" },
         { text: "Blog", href: "/blog" },
       ],
     },
