@@ -72,9 +72,7 @@ const Blog7 = ({
               </div>
               <CardHeader>
                 <h3 className="text-lg font-semibold hover:underline md:text-xl">
-                  <a href={post.url} target="_blank">
-                    {post.title}
-                  </a>
+                  <Link href={post.url}>{post.title}</Link>
                 </h3>
               </CardHeader>
               <CardContent>
