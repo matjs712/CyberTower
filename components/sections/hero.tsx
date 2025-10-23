@@ -166,6 +166,8 @@ const Hero = () => (
           <MarqueeFade className="from-secondary" side="right" />
           <MarqueeContent
             pauseOnHover={false}
+            delay={0}
+            speed={15}
             className="flex flex-row items-center justify-center gap-4"
           >
             {logos.map((logo) => (
