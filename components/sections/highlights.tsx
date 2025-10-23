@@ -32,7 +32,7 @@ const Highlights = () => {
               frente a ciberamenazas.
             </p>
             <Link
-              href="/casos-de-exito"
+              href="/blog"
               aria-label="Ver más casos de éxito"
               className="flex items-center text-primary-color font-semibold hover:text-purple-300 transition-colors"
             >
