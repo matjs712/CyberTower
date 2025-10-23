@@ -50,11 +50,10 @@ const values = [
 const NosotrosPage = () => {
   return (
     <main className="bg-background text-foreground">
-      {/* 🦸 Hero Section */}
       <section className="relative py-24 md:py-32 text-center overflow-hidden">
         <div className="absolute inset-0 bg-gradient-to-b from-secondary-light-color/10 to-transparent pointer-events-none" />
         <div className="max-w-4xl mx-auto px-6">
-          <h1 className="text-5xl md:text-6xl font-bold mb-6 leading-tight">
+          <h1 className="text-4xl md:text-6xl font-bold mb-6 leading-tight">
             Impulsamos la transformación digital de tu negocio
           </h1>
           <p className="text-lg text-muted-foreground mb-8">

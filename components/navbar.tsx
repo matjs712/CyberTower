@@ -4,7 +4,12 @@ import { ReactNode } from "react";
 import LaunchUI from "@/components/logos/launch-ui";
 import { Button, type ButtonProps } from "@/components/ui/button";
 import Navigation from "@/components/ui/navigation";
-import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet";
+import {
+  Sheet,
+  SheetContent,
+  SheetTitle,
+  SheetTrigger,
+} from "@/components/ui/sheet";
 import { siteConfig } from "@/config/site";
 import Link from "next/link";
 
@@ -36,9 +41,11 @@ interface NavbarProps {
 export default function Navbar({
   homeUrl = siteConfig.url,
   mobileLinks = [
-    { text: "Getting Started", href: siteConfig.url },
-    { text: "Certificaciones", href: siteConfig.url },
-    { text: "Documentation", href: siteConfig.url },
+    { text: "Soluciones", href: "/soluciones" },
+    { text: "Certificaciones", href: "/certificaciones" },
+    { text: "Clientes", href: "/clientes" },
+    { text: "Nosotros", href: "/nosotros" },
+    { text: "Blog", href: "/blog" },
   ],
   customNavigation,
 }: NavbarProps) {
@@ -75,6 +82,7 @@ export default function Navbar({
                 <span className="sr-only">Abrir menú de navegación</span>
               </Button>
             </SheetTrigger>
+            <SheetTitle></SheetTitle>
             <SheetContent
               side="right"
               aria-label="Menú de navegación móvil"

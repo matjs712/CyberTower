@@ -27,8 +27,8 @@ export default function ServiciosPage() {
 
   return (
     <div className="mb-20">
-      <div className="p-8 space-y-6 flex flex-row justify-between relative items-center max-w-7xl mx-auto">
-        <h1 className="text-5xl font-bold absolute max-w-3xl leading-tight">
+      <div className="p-8 space-y-6 flex flex-col sm:flex-row justify-between relative items-center max-w-7xl mx-auto">
+        <h1 className="text-5xl font-bold sm:absolute max-w-3xl leading-tight">
           Nuestros soluciones: <br /> Impulsa la seguridad, estrategia y
           resiliencia digital de tu organización
         </h1>

@@ -12,7 +12,7 @@ import { logos } from "../logos/logos";
 const Hero = () => (
   <main className="flex flex-col gap-16 px-8 py-6">
     {/* === HERO PRINCIPAL === */}
-    <header className="relative flex h-[90vh] flex-col items-center justify-center overflow-hidden rounded-2xl bg-transparent px-6 text-left text-white">
+    <header className="relative flex sm:h-[90vh] h-fit flex-col items-center justify-center overflow-hidden rounded-2xl bg-transparent text-left text-white pb-6 sm:pb-0">
       <video
         autoPlay
         loop
@@ -32,18 +32,20 @@ const Hero = () => (
         transition={{ duration: 0.8 }}
         className="max-w-4xl space-y-6"
       >
-        <h1 className="text-balance text-5xl font-semibold leading-tight md:text-5xl lg:text-6xl bg-gradient-to-r from-secondary-light-color to-white bg-clip-text text-transparent">
-          Protege tu organización con soluciones avanzadas de ciberseguridad
-        </h1>
+        <div className="p-4 pt-12 sm:px-0 sm:pt-0 space-y-6">
+          <h1 className="text-balance text-3xl font-semibold leading-tight md:text-5xl lg:text-6xl bg-gradient-to-r from-secondary-light-color to-white bg-clip-text text-transparent">
+            Protege tu organización con soluciones avanzadas de ciberseguridad
+          </h1>
 
-        <p className="text-lg text-gray-300">
-          Implementamos estrategias de seguridad y cumplimiento normativo
-          basadas en ISO 27001, NIST y la Ley 21.633.
-        </p>
+          <p className="text-lg text-gray-300">
+            Implementamos estrategias de seguridad y cumplimiento normativo
+            basadas en ISO 27001, NIST y la Ley 21.633.
+          </p>
+        </div>
 
         <div className="mt-8 flex flex-col items-center justify-center gap-4 sm:flex-row" />
 
-        <div className="w-full mt-6 flex flex-row items-center justify-between text-sm text-gray-400">
+        <div className="w-full mt-6 flex flex-col sm:flex-row items-center justify-between text-sm text-gray-400 px-6 sm:px-0">
           <div className="flex-1 flex flex-col max-w-xs gap-2">
             <div className="flex flex-row gap-3 items-center text-secondary-light-color">
               <LinkedInLogoIcon aria-label="LinkedIn" className="size-6" />
@@ -57,8 +59,8 @@ const Hero = () => (
             </p>
           </div>
 
-          <div className="flex-1 max-w-lg">
-            <p>
+          <div className="flex-1 max-w-lg ">
+            <p className="hidden sm:block">
               Desde la evaluación de riesgos hasta la implementación de un
               Sistema de Gestión de Seguridad de la Información (SGSI),
               acompañamos a tu organización en cada etapa del proceso.
@@ -82,7 +84,7 @@ const Hero = () => (
                 </Link>
               </Button>
 
-              <div className="flex -space-x-3">
+              <div className="-space-x-3 hidden sm:flex">
                 <Image
                   width={32}
                   height={32}
@@ -106,7 +108,7 @@ const Hero = () => (
                 />
               </div>
 
-              <div className="text-white">
+              <div className="text-white hidden sm:block">
                 <p>
                   <strong>2.7k+</strong> reseñas positivas
                 </p>
@@ -119,7 +121,7 @@ const Hero = () => (
 
     {/* === LOGOS === */}
     <section
-      className="flex flex-col items-center justify-center gap-8 rounded-xl bg-secondary py-8 pb-18"
+      className="flex flex-col items-center justify-center gap-8 rounded-xl bg-secondary py-8 pb-0"
       aria-labelledby="trusted-heading"
     >
       <h2
@@ -128,33 +130,32 @@ const Hero = () => (
       >
         Empresas que confían en nosotros
       </h2>
-      <p className="mb-0 text-balance font-medium text-muted-foreground">
+      <p className="mb-0 text-balance font-medium text-muted-foreground px-2 sm:px-0">
         En Asia, Europa y América, confían en Cyberhub para fortalecer su
         cultura digital y seguridad.
       </p>
 
-      <div className="flex flex-wrap items-center justify-center gap-6 mt-0">
+      <div className="flex flex-wrap justify-center items-center gap-8 mt-4">
         {[
           { code: "cl", name: "Chile" },
-          { code: "us", name: "Estados Unidos" },
+          { code: "us", name: "EE.UU." },
           { code: "es", name: "España" },
           { code: "mx", name: "México" },
           { code: "br", name: "Brasil" },
           { code: "ar", name: "Argentina" },
           { code: "co", name: "Colombia" },
         ].map((country) => (
-          <div
-            key={country.code}
-            className="flex flex-col items-center text-white/80 hover:text-white transition-colors"
-          >
+          <div key={country.code} className="flex items-center gap-2">
             <Image
               src={`https://flagcdn.com/w40/${country.code}.png`}
               alt={`Bandera de ${country.name}`}
-              width={40}
-              height={30}
-              className="rounded-md shadow-sm"
+              width={32}
+              height={24}
+              className="rounded shadow"
             />
-            {/* <span className="text-xs mt-1">{country.name}</span> */}
+            <span className="text-sm font-medium text-white/90">
+              {country.name}
+            </span>
           </div>
         ))}
       </div>
@@ -165,15 +166,15 @@ const Hero = () => (
           <MarqueeFade className="from-secondary" side="right" />
           <MarqueeContent
             pauseOnHover={false}
-            className="flex flex-row items-center"
+            className="flex flex-row items-center justify-center gap-4"
           >
             {logos.map((logo) => (
-              <MarqueeItem className="mx-16 size-28" key={logo.name}>
+              <MarqueeItem className="mx-8 flex justify-center" key={logo.name}>
                 <Image
-                  width={500}
-                  height={500}
+                  width={120}
+                  height={120}
                   src={logo.url}
-                  className="h-auto"
+                  className="h-auto w-auto object-contain"
                   alt={logo.name}
                 />
               </MarqueeItem>
