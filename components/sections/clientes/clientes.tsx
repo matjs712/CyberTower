@@ -1,9 +1,23 @@
 "use client";
 
 import Image from "next/image";
+import { motion } from "framer-motion";
 import Path from "./path";
 
-const clientes = [
+type Stat = { valor: string; texto: string };
+
+type Cliente = {
+  nombre: string;
+  logo: string;
+  descripcion: string;
+  testimonio: string;
+  autor: string;
+  cargo: string;
+  avatar: string;
+  stats: Stat[];
+};
+
+const clientes: Cliente[] = [
   {
     nombre: "Falabella",
     logo: "/Falabella.svg.png",
@@ -40,105 +54,122 @@ const clientes = [
   },
 ];
 
+function StatsGrid({ stats }: { stats: Stat[] }) {
+  return (
+    <ul className="grid grid-cols-2 divide-y-2 divide-x-2 divide-gray-200 dark:divide-neutral-700 rounded-2xl overflow-hidden shadow-sm">
+      {stats.map((stat, i) => (
+        <li
+          key={i}
+          className="flex flex-col justify-center items-center p-6 sm:p-10 bg-gray-50/70 dark:bg-neutral-900/50 backdrop-blur-sm"
+        >
+          <span className="text-3xl sm:text-5xl font-bold text-gray-900 dark:text-neutral-100">
+            {stat.valor}
+          </span>
+          <p className="text-sm sm:text-base text-gray-600 dark:text-neutral-400 mt-2 text-center">
+            {stat.texto}
+          </p>
+        </li>
+      ))}
+    </ul>
+  );
+}
+
+function TestimonialBlock({
+  cliente,
+  reverse,
+}: {
+  cliente: Cliente;
+  reverse: boolean;
+}) {
+  return (
+    <motion.article
+      initial={{ opacity: 0, x: reverse ? 100 : -100 }}
+      whileInView={{ opacity: 1, x: 0 }}
+      transition={{ duration: 0.6, ease: "easeOut" }}
+      viewport={{ once: true, amount: 0.3 }}
+      className={`flex flex-col lg:flex-row ${
+        reverse ? "lg:flex-row-reverse" : ""
+      } items-center gap-10 lg:gap-16`}
+      aria-labelledby={`${cliente.nombre}-heading`}
+    >
+      {/* Texto */}
+      <div className="flex-1 space-y-6">
+        <div className="flex flex-col">
+          <Image
+            src={cliente.logo}
+            alt={cliente.nombre}
+            width={200}
+            height={60}
+            className="object-contain mb-4"
+          />
+          <p className="text-gray-700 dark:text-neutral-300 leading-relaxed max-w-prose">
+            {cliente.descripcion}
+          </p>
+        </div>
+
+        <figure className="relative">
+          <svg
+            className="absolute top-0 start-0 transform -translate-x-6 -translate-y-8 size-16 text-gray-200 dark:text-neutral-800"
+            width="16"
+            height="16"
+            viewBox="0 0 16 16"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+            aria-hidden="true"
+          >
+            <Path />
+          </svg>
+
+          <blockquote className="relative z-10 text-lg italic text-gray-800 dark:text-white leading-relaxed">
+            “{cliente.testimonio}”
+          </blockquote>
+
+          <figcaption className="mt-6 flex items-center gap-x-4">
+            <Image
+              className="size-10 rounded-full"
+              width={200}
+              height={200}
+              src={cliente.avatar}
+              alt={cliente.autor}
+            />
+            <div>
+              <span className="block font-semibold text-gray-800 dark:text-neutral-200">
+                {cliente.autor}
+              </span>
+              <span className="block text-xs text-gray-500 dark:text-neutral-500">
+                {cliente.cargo}
+              </span>
+            </div>
+          </figcaption>
+        </figure>
+      </div>
+
+      {/* Stats */}
+      <motion.div
+        className="flex-1 w-full"
+        initial={{ opacity: 0, y: 50 }}
+        whileInView={{ opacity: 1, y: 0 }}
+        transition={{ duration: 0.6, delay: 0.2 }}
+        viewport={{ once: true }}
+      >
+        <StatsGrid stats={cliente.stats} />
+      </motion.div>
+    </motion.article>
+  );
+}
+
 export default function ClientesSection() {
   return (
-    <section className="max-w-5xl px-4 py-16 sm:px-6 lg:px-8 lg:py-24 mx-auto space-y-24">
+    <section
+      className="max-w-6xl px-6 py-24 sm:px-8 lg:px-10 mx-auto space-y-32"
+      aria-label="Casos de éxito de clientes"
+    >
       {clientes.map((cliente, index) => (
-        <div
+        <TestimonialBlock
           key={cliente.nombre}
-          className="lg:grid lg:grid-cols-12 lg:gap-16 lg:items-center"
-        >
-          {/* Texto y testimonio */}
-          <div
-            className={`lg:col-span-5 ${
-              index % 2 === 1
-                ? "lg:order-2 lg:col-start-8"
-                : "lg:order-1 lg:col-start-1"
-            }`}
-          >
-            <div className="mb-8">
-              <div className="flex items-center gap-3 mb-4">
-                <Image
-                  src={cliente.logo}
-                  alt={cliente.nombre}
-                  width={200}
-                  height={60}
-                  className="object-contain"
-                />
-              </div>
-              <p className="text-gray-600 dark:text-neutral-400">
-                {cliente.descripcion}
-              </p>
-            </div>
-
-            <blockquote className="relative">
-              <svg
-                className="absolute top-0 start-0 transform -translate-x-6 -translate-y-8 size-16 text-gray-200 dark:text-neutral-800"
-                width="16"
-                height="16"
-                viewBox="0 0 16 16"
-                fill="none"
-                xmlns="http://www.w3.org/2000/svg"
-                aria-hidden="true"
-              >
-                <Path />
-              </svg>
-
-              <div className="relative z-10">
-                <p className="text-xl italic text-gray-800 dark:text-white">
-                  “{cliente.testimonio}”
-                </p>
-              </div>
-
-              <footer className="mt-6">
-                <div className="flex items-center gap-x-4">
-                  <div className="shrink-0">
-                    <Image
-                      className="size-10 rounded-full"
-                      width={200}
-                      height={200}
-                      src={cliente.avatar}
-                      alt={cliente.autor}
-                    />
-                  </div>
-                  <div className="grow">
-                    <div className="font-semibold text-gray-800 dark:text-neutral-200">
-                      {cliente.autor}
-                    </div>
-                    <div className="text-xs text-gray-500 dark:text-neutral-500">
-                      {cliente.cargo}
-                    </div>
-                  </div>
-                </div>
-              </footer>
-            </blockquote>
-          </div>
-
-          {/* Stats */}
-          <div
-            className={`mt-10 lg:mt-0 lg:col-span-6 ${
-              index % 2 === 1
-                ? "lg:order-1 lg:col-start-1"
-                : "lg:order-2 lg:col-start-7"
-            }`}
-          >
-            <ul className="grid grid-cols-2 divide-y-2 divide-x-2 divide-gray-200 overflow-hidden dark:divide-neutral-700 rounded-2xl">
-              {cliente.stats.map((stat, i) => (
-                <li
-                  key={i}
-                  className="flex flex-col -m-0.5 p-4 sm:p-8 text-center bg-white/5 dark:bg-neutral-900/50"
-                >
-                  <div className="text-3xl sm:text-5xl font-bold text-gray-800 mb-2 dark:text-neutral-200">
-                    {stat.valor}
-                  </div>
-                  <p className="text-sm sm:text-base text-gray-600 dark:text-neutral-400">
-                    {stat.texto}
-                  </p>
-                </li>
-              ))}
-            </ul>
-          </div>
-        </div>
+          cliente={cliente}
+          reverse={index % 2 === 1}
+        />
       ))}
     </section>
   );
