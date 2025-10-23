@@ -70,7 +70,7 @@ const Highlights = () => {
               <article className="relative z-10 text-white">
                 <h3 className="text-2xl font-bold mb-2">
                   <Link
-                    href={`/casos-de-exito/${study.slug}`}
+                    href={`/blog/${study.id}`}
                     aria-label={`Leer caso de éxito: ${study.title}`}
                   >
                     {study.title}

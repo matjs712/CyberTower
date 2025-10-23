@@ -22,7 +22,7 @@ export default function RootLayout({
   return (
     <html lang="es" suppressHydrationWarning>
       <body
-        className={`${poppins.variable} font-sans antialiased bg-gradient-to-b from-[#050608] via-[#161b22] to-[#1f2937]`}
+        className={`${poppins.variable} font-sans antialiased bg-gradient-to-b from-[#535353] via-[#161b22] to-[#1f2937]`}
       >
         <ThemeProvider
           attribute="class"

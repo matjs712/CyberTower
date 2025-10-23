@@ -121,7 +121,7 @@ const Hero = () => (
 
     {/* === LOGOS === */}
     <section
-      className="flex flex-col items-center justify-center gap-8 rounded-xl bg-secondary py-8 pb-0"
+      className="flex flex-col items-center justify-center gap-8 rounded-xl bg-secondary py-8 pb-5"
       aria-labelledby="trusted-heading"
     >
       <h2

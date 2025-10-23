@@ -1,4 +1,5 @@
 import BrandLogos from "@/components/sections/brand";
+import ClientesSection from "@/components/sections/clientes/clientes";
 import Hero from "@/components/sections/hero";
 import Highlights from "@/components/sections/highlights";
 import Mision from "@/components/sections/mision";
@@ -9,6 +10,7 @@ export default function Home() {
   return (
     <>
       <Hero />
+      <ClientesSection />
       <Highlights />
       <BrandLogos />
       <CoreServices />
