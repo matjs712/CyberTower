@@ -5,6 +5,7 @@ import Navbar from "@/components/navbar";
 import { ThemeProvider } from "next-themes";
 import FooterSection from "@/components/sections/footer";
 import Script from "next/script";
+import Image from "next/image";
 
 export const metadata = defaultMetadata;
 
@@ -66,7 +67,7 @@ export default function RootLayout({
         />
 
         <noscript>
-          <img
+          <Image
             height="1"
             width="1"
             style={{ display: "none" }}
