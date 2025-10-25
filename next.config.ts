@@ -1,9 +1,13 @@
 import type { NextConfig } from "next";
+import createNextIntlPlugin from "next-intl/plugin";
+
+const withNextIntl = createNextIntlPlugin();
 
 const nextConfig: NextConfig = {
   reactStrictMode: true,
   poweredByHeader: false,
-  images: { domains: ["cyberhub.cl", "flagcdn.com"] },
+  images: { domains: ["cyberhub.cl", "flagcdn.com", "px.ads.linkedin.com"] },
   trailingSlash: true,
 };
-export default nextConfig;
+
+export default withNextIntl(nextConfig);

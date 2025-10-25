@@ -1,33 +1,25 @@
 "use client";
-import React from "react";
 
-const StarRating = ({ rating }: { rating: number }) => {
-  return (
-    <div className="flex text-yellow-400">
-      {[...Array(5)].map((_, i) => (
-        <svg
-          key={i}
-          className={`h-5 w-5 ${i < rating ? "fill-current" : "text-gray-600"}`}
-          viewBox="0 0 20 20"
-          xmlns="http://www.w3.org/2000/svg"
-          fill="currentColor"
-        >
-          <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.43 4.39a1 1 0 00.95.69h4.62c.97 0 1.366 1.24.588 1.81l-3.75 2.73a1 1 0 00-.364 1.118l1.43 4.39c.3.921-.755 1.688-1.538 1.118l-3.75-2.73a1 1 0 00-1.176 0l-3.75 2.73c-.783.57-1.838-.197-1.538-1.118l1.43-4.39a1 1 0 00-.364-1.118L2.24 9.827c-.778-.57-.38-1.81.588-1.81h4.62a1 1 0 00.95-.69l1.43-4.39z" />
-        </svg>
-      ))}
-    </div>
-  );
-};
+import { Star } from "lucide-react";
+import Image from "next/image";
+import React from "react";
+import { motion } from "framer-motion";
+import { useTranslations } from "next-intl";
 
 const TestimonialsAndStats = () => {
+  const t = useTranslations("testimonialsAndStats");
+  const testimonials = t.raw("testimonials");
+  const certifications = t.raw("certifications");
+
   return (
     <section
       id="testimonios"
       aria-labelledby="testimonios-heading"
-      className="py-16 px-4 md:px-8 lg:px-12"
+      className="py-20 px-4 md:px-8 lg:px-12 bg-gradient-to-b from-[#0d1117] via-[#161b22] to-[#1f2937]"
     >
-      <div className="max-w-5xl mx-auto">
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-20 mb-16">
+      <div className="max-w-6xl mx-auto">
+        {/* HEADER & STATS */}
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-20 mb-20">
           {/* Texto principal */}
           <div className="flex flex-col justify-center">
             <div className="flex items-center text-secondary-color text-sm font-semibold uppercase tracking-wider mb-3">
@@ -44,134 +36,140 @@ const TestimonialsAndStats = () => {
                   clipRule="evenodd"
                 />
               </svg>
-              <span>Casos de éxito y confianza</span>
+              <span>{t("sectionLabel")}</span>
             </div>
 
             <h2
               id="testimonios-heading"
-              className="text-4xl md:text-5xl font-bold leading-tight mb-6"
+              className="text-4xl md:text-5xl font-bold leading-tight mb-6 text-white"
             >
-              Historias reales de <br /> ciberseguridad efectiva
+              {t("heading")}
             </h2>
 
-            <p className="text-gray-400 text-lg">
-              Empresas líderes en energía, minería y servicios confían en
-              Cyberhub para fortalecer su postura de seguridad, optimizar la
-              gestión de riesgos y cumplir con los más altos estándares
-              internacionales.
+            <p className="text-gray-400 text-lg leading-relaxed">
+              {t("description")}
             </p>
           </div>
 
           {/* Estadísticas */}
           <aside
-            className="p-8 md:p-10 rounded-2xl border border-gray-200 dark:border-gray-700 shadow-xl flex flex-col justify-between"
+            className="p-8 md:p-10 rounded-2xl border border-gray-800 bg-[#0f172a]/50 shadow-2xl flex flex-col justify-between backdrop-blur-sm"
             aria-label="Estadísticas de satisfacción de clientes"
           >
             <div className="mb-8">
-              <div className="flex -space-x-4 mb-3" aria-hidden="true">
-                <div className="h-10 w-10 rounded-full bg-secondary-color border-2 border-gray-200" />
-                <div className="h-10 w-10 rounded-full bg-blue-500 border-2 border-gray-200" />
-                <div className="h-10 w-10 rounded-full bg-green-500 border-2 border-gray-200" />
-                <div className="h-10 w-10 rounded-full bg-purple-500 border-2 border-gray-200" />
+              <div className="flex -space-x-3 mb-4" aria-hidden="true">
+                {[1, 2, 3, 4].map((n) => (
+                  <div
+                    key={n}
+                    className="h-10 w-10 rounded-full bg-gradient-to-tr from-secondary-color to-secondary-light-color border-2 border-gray-900"
+                  />
+                ))}
               </div>
-              <h3 className="text-xl font-bold">
-                Más de 180 organizaciones protegidas
-              </h3>
+              <h3 className="text-xl font-bold text-white">{t("statTitle")}</h3>
             </div>
 
-            <dl className="flex gap-8 mb-8">
+            <dl className="flex gap-10 mb-10">
               <div>
-                <dt className="sr-only">Reducción de incidentes</dt>
+                <dt className="sr-only">{t("stat1Label")}</dt>
                 <dd className="text-4xl font-extrabold text-secondary-light-color mb-1">
-                  72%
+                  {t("stat1Value")}
                 </dd>
-                <p className="text-sm">Menos incidentes críticos</p>
+                <p className="text-sm text-gray-400">{t("stat1Label")}</p>
               </div>
               <div>
-                <dt className="sr-only">Mejoras operacionales</dt>
+                <dt className="sr-only">{t("stat2Label")}</dt>
                 <dd className="text-4xl font-extrabold text-secondary-light-color mb-1">
-                  40%
+                  {t("stat2Value")}
                 </dd>
-                <p className="text-sm">Optimización de procesos</p>
+                <p className="text-sm text-gray-400">{t("stat2Label")}</p>
               </div>
             </dl>
 
             <ul className="flex flex-wrap gap-3">
-              <li className="px-4 py-2 text-xs font-medium border border-secondary-color rounded-full">
-                ISO 27001
-              </li>
-              <li className="px-4 py-2 text-xs font-medium border border-secondary-color rounded-full">
-                NIST Framework
-              </li>
-              <li className="px-4 py-2 text-xs font-medium border border-secondary-color rounded-full">
-                TISAX & Compliance
-              </li>
+              {certifications.map((tag: string) => (
+                <li
+                  key={tag}
+                  className="px-4 py-2 text-xs font-medium border border-secondary-color text-secondary-light-color rounded-full"
+                >
+                  {tag}
+                </li>
+              ))}
             </ul>
           </aside>
         </div>
 
-        {/* Testimonios */}
+        {/* TESTIMONIOS */}
         <ul className="grid grid-cols-1 md:grid-cols-3 gap-8">
-          {testimonialsData.map((testimonial) => (
-            <li
-              key={testimonial.name}
-              className="p-6 md:p-8 rounded-2xl border border-gray-100 dark:border-gray-800 shadow-xl relative bg-background"
-            >
-              <blockquote className="relative">
-                <div
-                  className="absolute top-4 right-4 text-secondary-color opacity-20 text-6xl font-serif leading-none"
-                  aria-hidden="true"
-                >
-                  {'"'}
-                </div>
-                <StarRating rating={testimonial.stars} />
-                <p className="mt-4 mb-6 italic text-gray-300">
-                  “{testimonial.quote}”
-                </p>
-                <footer className="flex items-center gap-4 mt-auto">
-                  <div
-                    className="h-12 w-12 rounded-full bg-gray-700 overflow-hidden"
-                    aria-hidden="true"
-                  />
-                  <div>
-                    <p className="font-semibold text-white">
-                      {testimonial.name}
+          {testimonials.map(
+            (
+              testimonial: {
+                name: string;
+                title: string;
+                quote: string;
+              },
+              i: number
+            ) => (
+              <motion.li
+                key={testimonial.name}
+                initial={{ opacity: 0, y: 40 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                viewport={{ once: true }}
+                transition={{ delay: i * 0.1, duration: 0.5 }}
+                className="p-6 md:p-8 rounded-2xl border border-gray-800 shadow-xl bg-[#161b22] relative"
+              >
+                <figure>
+                  <blockquote className="relative">
+                    <div
+                      className="absolute top-4 right-4 text-secondary-color opacity-20 text-6xl font-serif leading-none"
+                      aria-hidden="true"
+                    >
+                      “
+                    </div>
+                    <StarRating rating={5} />
+                    <p className="mt-4 mb-6 italic text-gray-300">
+                      “{testimonial.quote}”
                     </p>
-                    <cite className="text-sm text-gray-400 not-italic">
-                      {testimonial.title}
-                    </cite>
-                  </div>
-                </footer>
-              </blockquote>
-            </li>
-          ))}
+                  </blockquote>
+                  <figcaption className="flex items-center gap-4 mt-auto">
+                    <Image
+                      src="/user.jpg"
+                      alt={`Foto de ${testimonial.name}`}
+                      width={48}
+                      height={48}
+                      className="rounded-full object-cover"
+                    />
+                    <div>
+                      <p className="font-semibold text-white">
+                        {testimonial.name}
+                      </p>
+                      <cite className="text-sm text-gray-400 not-italic">
+                        {testimonial.title}
+                      </cite>
+                    </div>
+                  </figcaption>
+                </figure>
+              </motion.li>
+            )
+          )}
         </ul>
       </div>
     </section>
   );
 };
 
-const testimonialsData = [
-  {
-    name: "María Torres",
-    title: "Gerenta TI, EnerChile",
-    quote:
-      "El equipo de Cyberhub implementó un modelo de gestión de ciberseguridad que redujo incidentes críticos en un 70%. Su acompañamiento fue clave para certificarnos bajo ISO 27001.",
-    stars: 5,
-  },
-  {
-    name: "Rodrigo Silva",
-    title: "CISO, Infraseg",
-    quote:
-      "Su experiencia en normativas y respuesta ante incidentes nos permitió elevar el nivel de madurez en seguridad y cumplir con exigencias internacionales.",
-    stars: 5,
-  },
-  {
-    name: "Claudia Muñoz",
-    title: "Directora de Operaciones, FinTech Andes",
-    quote:
-      "Cyberhub no solo entregó soluciones técnicas, sino una estrategia integral de cultura y resiliencia digital. Son un verdadero socio estratégico.",
-    stars: 5,
-  },
-];
+/* --- Componentes auxiliares --- */
+
+const StarRating = ({ rating }: { rating: number }) => (
+  <div className="flex space-x-1 text-secondary-color">
+    {Array.from({ length: 5 }, (_, i) => (
+      <Star
+        key={i}
+        className={`h-4 w-4 ${
+          i < rating ? "fill-secondary-color" : "fill-gray-600"
+        }`}
+      />
+    ))}
+  </div>
+);
+
 export default TestimonialsAndStats;

@@ -1,9 +1,19 @@
 "use client";
+
 import React from "react";
-import { caseStudiesData } from "../data";
 import Link from "next/link";
+import { useTranslations, useLocale } from "next-intl";
+import { caseStudiesData as caseStudiesDataEs } from "../data/caseStudiesData.es";
+import { caseStudiesData as caseStudiesDataEn } from "../data/caseStudiesData.en";
 
 const Highlights = () => {
+  const t = useTranslations("highlights");
+  const locale = useLocale();
+
+  // Cargar data según idioma
+  const caseStudiesData =
+    locale === "en" ? caseStudiesDataEn : caseStudiesDataEs;
+
   return (
     <section
       id="case-studies"
@@ -11,32 +21,30 @@ const Highlights = () => {
       className="py-16 px-4 md:px-8 lg:px-12"
     >
       <div className="max-w-5xl mx-auto">
+        {/* === HEADER === */}
         <header className="flex flex-col lg:flex-row justify-between items-start lg:items-center mb-12">
           <div className="mb-8 lg:mb-0 lg:w-1/2">
             <span className="text-primary-color text-sm font-semibold uppercase tracking-wider mb-2 block">
-              Casos de éxito
+              {t("sectionLabel")}
             </span>
             <h2
               id="case-studies-heading"
               className="text-4xl md:text-5xl font-bold leading-tight"
             >
-              Soluciones reales que fortalecen la seguridad empresarial
+              {t("title")}
             </h2>
           </div>
 
           <div className="lg:w-1/2 flex flex-col items-start lg:items-end">
             <p className="text-gray-400 text-lg mb-6 lg:text-right">
-              Conoce cómo ayudamos a empresas en Chile y Latinoamérica a
-              implementar sistemas de gestión de seguridad de la información
-              (SGSI), cumplir la Ley 21.633 y proteger sus activos críticos
-              frente a ciberamenazas.
+              {t("description")}
             </p>
             <Link
-              href="/blog"
-              aria-label="Ver más casos de éxito"
+              href={`/${locale}/blog`}
+              aria-label={t("ariaViewAll")}
               className="flex items-center text-primary-color font-semibold hover:text-purple-300 transition-colors"
             >
-              Ver todos los casos de éxito
+              {t("viewAll")}
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 className="h-5 w-5 ml-2"
@@ -53,6 +61,7 @@ const Highlights = () => {
           </div>
         </header>
 
+        {/* === CASE STUDIES === */}
         <ul className="grid grid-cols-1 md:grid-cols-2 gap-8">
           {caseStudiesData.map((study, index) => (
             <li
@@ -70,8 +79,8 @@ const Highlights = () => {
               <article className="relative z-10 text-white">
                 <h3 className="text-2xl font-bold mb-2">
                   <Link
-                    href={`/blog/${study.id}`}
-                    aria-label={`Leer caso de éxito: ${study.title}`}
+                    href={`/${locale}/blog/${study.id}`}
+                    aria-label={`${t("ariaViewAll")}: ${study.title}`}
                   >
                     {study.title}
                   </Link>

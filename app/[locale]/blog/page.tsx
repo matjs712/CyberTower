@@ -1,5 +1,6 @@
-import { ArrowRight } from "lucide-react";
+"use client";
 
+import { ArrowRight } from "lucide-react";
 import { Badge } from "@/components/ui/badge";
 import {
   Card,
@@ -8,8 +9,8 @@ import {
   CardHeader,
 } from "@/components/ui/card";
 import Image from "next/image";
-import { caseStudiesData } from "@/components/data";
 import Link from "next/link";
+import { useTranslations } from "next-intl";
 
 interface Post {
   id: string;
@@ -22,20 +23,14 @@ interface Post {
   image: string;
 }
 
-interface Blog7Props {
-  tagline: string;
-  heading: string;
-  description: string;
-  buttonText: string;
-  buttonUrl: string;
-  posts: Post[];
-}
+const Blog7 = () => {
+  const t = useTranslations("blogSection");
 
-const Blog7 = ({
-  tagline = "Insights y novedades",
-  heading = "Conocimiento que impulsa tu transformación digital",
-  description = "Explora artículos, guías y casos de éxito sobre ciberseguridad, innovación tecnológica y estrategias digitales que fortalecen la competitividad de tu organización.",
-}: Blog7Props) => {
+  const tagline = t("tagline");
+  const heading = t("heading");
+  const description = t("description");
+  const posts: Post[] = t.raw("posts");
+
   return (
     <section className="py-32">
       <div className="container mx-auto flex flex-col items-center gap-16 lg:px-16">
@@ -50,8 +45,9 @@ const Blog7 = ({
             {description}
           </p>
         </div>
+
         <div className="grid gap-1 md:grid-cols-2 lg:grid-cols-3">
-          {caseStudiesData.map((post) => (
+          {posts.map((post) => (
             <Card
               key={post.id}
               className="grid grid-rows-[auto_auto_1fr_auto] pt-0"
@@ -70,20 +66,23 @@ const Blog7 = ({
                   />
                 </Link>
               </div>
+
               <CardHeader>
                 <h3 className="text-lg font-semibold hover:underline md:text-xl">
                   <Link href={post.url}>{post.title}</Link>
                 </h3>
               </CardHeader>
+
               <CardContent>
                 <p className="text-muted-foreground">{post.summary}</p>
               </CardContent>
+
               <CardFooter>
                 <Link
                   href={post.url}
                   className="text-foreground flex items-center hover:underline"
                 >
-                  Leer más
+                  {t("readMore")}
                   <ArrowRight className="ml-2 size-4" />
                 </Link>
               </CardFooter>

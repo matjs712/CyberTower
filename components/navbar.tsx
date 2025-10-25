@@ -1,6 +1,7 @@
+"use client";
+
 import { Menu, Phone } from "lucide-react";
 import { ReactNode } from "react";
-
 import LaunchUI from "@/components/logos/launch-ui";
 import { Button, type ButtonProps } from "@/components/ui/button";
 import Navigation from "@/components/ui/navigation";
@@ -12,6 +13,8 @@ import {
 } from "@/components/ui/sheet";
 import { siteConfig } from "@/config/site";
 import Link from "next/link";
+import { LanguageSwitcher } from "./labguage-switcher";
+import { useTranslations } from "next-intl";
 
 interface NavbarLink {
   text: string;
@@ -40,57 +43,66 @@ interface NavbarProps {
 
 export default function Navbar({
   homeUrl = siteConfig.url,
-  mobileLinks = [
-    { text: "Soluciones", href: "/soluciones" },
-    { text: "Certificaciones", href: "/certificaciones" },
-    { text: "Clientes", href: "/clientes" },
-    { text: "Nosotros", href: "/nosotros" },
-    { text: "Blog", href: "/blog" },
-  ],
   customNavigation,
 }: NavbarProps) {
+  const t = useTranslations("navbar");
+
+  const mobileLinks = [
+    { text: t("links.solutions"), href: "/soluciones" },
+    { text: t("links.certifications"), href: "/certificaciones" },
+    { text: t("links.clients"), href: "/clientes" },
+    { text: t("links.aboutUs"), href: "/nosotros" },
+    { text: t("links.blog"), href: "/blog" },
+  ];
+
   return (
     <header className="sticky top-0 z-50 backdrop-blur-md bg-background/80">
       <div className="max-w-container mx-auto flex items-center justify-between px-4 py-3">
+        {/* Logo */}
         <Link
           href={homeUrl}
-          aria-label="Ir al inicio de Cyberhub"
+          aria-label={t("aria.goHome")}
           className="flex items-center gap-2"
         >
           <LaunchUI className="size-8" aria-hidden="true" />
           <span className="sr-only">Cyberhub</span>
         </Link>
 
-        <nav aria-label="Menú principal" className="hidden md:flex gap-6">
+        {/* Desktop nav */}
+        <nav aria-label={t("aria.mainMenu")} className="hidden md:flex gap-6">
           {customNavigation || <Navigation />}
         </nav>
 
+        {/* Actions */}
         <div className="flex items-center gap-4">
+          <LanguageSwitcher />
+
           <Link
             href="tel:+56912345678"
-            aria-label="Llamar a Cyberhub al +56 9 1234 5678"
+            aria-label={t("aria.call")}
             className="flex items-center gap-2 rounded-full bg-neutral-700 px-3 py-2 text-white hover:bg-neutral-600 transition"
           >
             <Phone className="size-4 text-secondary-color" aria-hidden="true" />
-            <span>+56 9 1234 5678</span>
+            <span>{t("phoneNumber")}</span>
           </Link>
 
+          {/* Mobile menu */}
           <Sheet>
             <SheetTrigger asChild>
               <Button variant="ghost" size="icon" className="md:hidden">
                 <Menu className="size-5" aria-hidden="true" />
-                <span className="sr-only">Abrir menú de navegación</span>
+                <span className="sr-only">{t("aria.openMenu")}</span>
               </Button>
             </SheetTrigger>
             <SheetTitle></SheetTitle>
             <SheetContent
               side="right"
-              aria-label="Menú de navegación móvil"
+              aria-label={t("aria.mobileMenu")}
               className="bg-background"
             >
               <nav className="grid gap-6 text-lg font-medium">
                 <Link href="/" className="text-xl font-semibold">
-                  Inicio
+                  {t("links.home")}
                 </Link>
                 {mobileLinks.map((link) => (
                   <Link key={link.href} href={link.href}>

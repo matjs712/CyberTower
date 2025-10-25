@@ -1,0 +1,619 @@
+{
+    "home": {
+        "title": "Protege tu organización con soluciones avanzadas de ciberseguridad",
+        "paragraph1": "Implementamos estrategias de seguridad y cumplimiento normativo basadas en ISO 27001, NIST y la Ley 21.633.",
+        "paragraph2": "En Cyberhub ayudamos a empresas a fortalecer su infraestructura digital, prevenir incidentes y cumplir con los nuevos estándares nacionales e internacionales en ciberseguridad.",
+        "paragraph3": "Desde la evaluación de riesgos hasta la implementación de un Sistema de Gestión de Seguridad de la Información (SGSI), acompañamos a tu organización en cada etapa del proceso.",
+        "buttonContact": "Contáctanos",
+        "reviewsKpi": "2.7k+",
+        "reviews": "reseñas positivas",
+        "trustedHeading": "Empresas que confían en nosotros",
+        "trustedSubheading": "En Asia, Europa y América, confían en Cyberhub para fortalecer su cultura digital y seguridad.",
+        "countries": {
+            "cl": "Chile",
+            "us": "EE.UU.",
+            "es": "España",
+            "mx": "México",
+            "br": "Brasil",
+            "ar": "Argentina",
+            "co": "Colombia"
+        }
+    },
+    "clients": {
+        "sectionLabel": "Casos de éxito de clientes",
+        "falabella": {
+            "name": "Falabella",
+            "description": "Implementamos un programa integral de ciberseguridad y concientización digital para más de 3.000 colaboradores.",
+            "testimonial": "Cyberhub nos ayudó a fortalecer nuestra cultura de seguridad digital. Su equipo fue rápido, profesional y comprometido.",
+            "author": "María Gómez",
+            "position": "Gerente de TI | Falabella",
+            "stats": [
+                {
+                    "valor": "3.000+",
+                    "texto": "Colaboradores capacitados"
+                },
+                {
+                    "valor": "95%",
+                    "texto": "Aumento en cumplimiento de seguridad"
+                },
+                {
+                    "valor": "4x",
+                    "texto": "Velocidad de respuesta ante incidentes"
+                },
+                {
+                    "valor": "100%",
+                    "texto": "Satisfacción del cliente"
+                }
+            ]
+        },
+        "bancoChile": {
+            "name": "Banco de Chile",
+            "description": "Desarrollamos un plan de respuesta ante incidentes adaptado a las normativas del sector financiero chileno.",
+            "testimonial": "La asesoría de Cyberhub fue clave para optimizar nuestros procesos de detección y respuesta ante ciberamenazas.",
+            "author": "Rodrigo Pérez",
+            "position": "CISO | Banco de Chile",
+            "stats": [
+                {
+                    "valor": "12",
+                    "texto": "Procesos críticos mejorados"
+                },
+                {
+                    "valor": "40%",
+                    "texto": "Reducción del tiempo de respuesta"
+                },
+                {
+                    "valor": "24/7",
+                    "texto": "Monitoreo continuo"
+                },
+                {
+                    "valor": "A+",
+                    "texto": "Evaluación interna de seguridad"
+                }
+            ]
+        }
+    },
+    "highlights": {
+        "sectionLabel": "Casos de éxito",
+        "title": "Soluciones reales que fortalecen la seguridad empresarial",
+        "description": "Conoce cómo ayudamos a empresas en Chile y Latinoamérica a implementar sistemas de gestión de seguridad de la información (SGSI), cumplir la Ley 21.633 y proteger sus activos críticos frente a ciberamenazas.",
+        "viewAll": "Ver todos los casos de éxito",
+        "ariaViewAll": "Ver más casos de éxito"
+    },
+    "brands": {
+        "title": "La confianza de los sectores más exigentes",
+        "description": "Clientes del ámbito financiero, minero, energético, tecnológico, de transporte y salud eligen a Cyberhub para proteger sus operaciones, garantizar la continuidad del negocio y fortalecer su resiliencia digital.",
+        "ariaLabel": "Marcas que confían en Cyberhub",
+        "srHint": "Desliza horizontalmente para ver más marcas",
+        "list": [
+            "Agrosuper CL, Asia y USA",
+            "SQM China, Belgium, Chile",
+            "SQM Europe NY, Lithium",
+            "SQM Industrial, Salar",
+            "Coggin Ford USA",
+            "Guacolda Energía",
+            "AquaChile",
+            "MBI: Empresa Energía 7 y Empresa Eléctrica Vallenar",
+            "ACCA Consulting Services",
+            "HuGus Group",
+            "Banco de Chile",
+            "Falabella"
+        ]
+    },
+    "coreServices": {
+        "sectionLabel": "Nuestros servicios principales",
+        "title": "Soluciones de ciberseguridad y cumplimiento para empresas modernas",
+        "footer": "¿Necesitas fortalecer la seguridad de tu organización? Diseñamos soluciones personalizadas en ciberseguridad, cumplimiento y gestión de riesgos.",
+        "cta": "Agenda una asesoría gratuita",
+        "ariaLabel": "Solicitar una llamada de estrategia gratuita",
+        "seeDetails": "Ver detalles",
+        "services": [
+            {
+                "id": "1",
+                "title": "Gestión de Vulnerabilidades",
+                "description": "Identificamos debilidades en tu infraestructura digital y proponemos planes para mitigarlas con prioridad de riesgo."
+            },
+            {
+                "id": "2",
+                "title": "Pruebas de Penetración (Pentesting)",
+                "description": "Simulamos ataques controlados para evaluar la resiliencia de tus sistemas y exponer vulnerabilidades antes que lo hagan terceros."
+            },
+            {
+                "id": "3",
+                "title": "Consultoría & Gobernanza",
+                "description": "Asesoría estratégica en normativa, cumplimiento, riesgos y frameworks de seguridad para tu organización."
+            },
+            {
+                "id": "4",
+                "title": "Monitoreo & Detección",
+                "description": "Supervisamos 24/7 tus sistemas y redes para detectar incidentes, responder con agilidad y reducir impacto."
+            },
+            {
+                "id": "5",
+                "title": "Seguridad en Desarrollo (DevSecOps)",
+                "description": "Integración de controles de seguridad automáticos en el pipeline de desarrollo para evitar vulnerabilidades desde el código."
+            },
+            {
+                "id": "6",
+                "title": "Respuesta a Incidentes",
+                "description": "Actuamos rápidamente ante brechas de seguridad, analizamos el ataque y ayudamos a restablecer operaciones seguras."
+            }
+        ]
+    },
+    "mission": {
+        "whyTitle": "Por qué elegir Cyberhub",
+        "heading": "Protección inteligente, impulso estratégico",
+        "description": "En un entorno donde las amenazas evolucionan cada día, no basta con tecnología: necesitas visión, prevención y reacción. En Cyberhub fusionamos experiencia técnica, análisis de riesgos y gobernanza para construir defensas inteligentes que crecen contigo.",
+        "ariaImage": "Estrategias de ciberseguridad y transformación digital",
+        "readMore": "Leer más",
+        "cards": [
+            {
+                "title": "Orientación basada en riesgo",
+                "description": "Evaluamos tus activos críticos y enfocamos recursos en lo que realmente importa para reducir exposición efectiva."
+            },
+            {
+                "title": "Tecnología + Estrategia",
+                "description": "Implementamos soluciones tecnológicas alineadas con tu modelo de negocio, respaldo normativo y objetivos de crecimiento."
+            },
+            {
+                "title": "Transparencia & Gobernabilidad",
+                "description": "Reportes claros, métricas medibles y asesoría continua para que tomes decisiones con confianza."
+            }
+        ]
+    },
+    "testimonialsAndStats": {
+        "sectionLabel": "Casos de éxito y confianza",
+        "heading": "Historias reales de ciberseguridad efectiva",
+        "description": "Empresas líderes en energía, minería y servicios confían en Cyberhub para fortalecer su postura de seguridad, optimizar la gestión de riesgos y cumplir con los más altos estándares internacionales.",
+        "statTitle": "Más de 180 organizaciones protegidas",
+        "stat1Value": "72%",
+        "stat1Label": "Menos incidentes críticos",
+        "stat2Value": "40%",
+        "stat2Label": "Optimización de procesos",
+        "certifications": [
+            "ISO 27001",
+            "NIST Framework",
+            "TISAX & Compliance"
+        ],
+        "testimonials": [
+            {
+                "name": "María Torres",
+                "title": "Gerenta TI, EnerChile",
+                "quote": "El equipo de Cyberhub implementó un modelo de gestión de ciberseguridad que redujo incidentes críticos en un 70%. Su acompañamiento fue clave para certificarnos bajo ISO 27001."
+            },
+            {
+                "name": "Rodrigo Silva",
+                "title": "CISO, Infraseg",
+                "quote": "Su experiencia en normativas y respuesta ante incidentes nos permitió elevar el nivel de madurez en seguridad y cumplir con exigencias internacionales."
+            },
+            {
+                "name": "Claudia Muñoz",
+                "title": "Directora de Operaciones, FinTech Andes",
+                "quote": "Cyberhub no solo entregó soluciones técnicas, sino una estrategia integral de cultura y resiliencia digital. Son un verdadero socio estratégico."
+            }
+        ]
+    },
+    "navbar": {
+        "links": {
+            "home": "Inicio",
+            "solutions": "Soluciones",
+            "certifications": "Certificaciones",
+            "clients": "Clientes",
+            "aboutUs": "Nosotros",
+            "blog": "Blog"
+        },
+        "phoneNumber": "+56 9 1234 5678",
+        "aria": {
+            "goHome": "Ir al inicio de Cyberhub",
+            "mainMenu": "Menú principal",
+            "call": "Llamar a Cyberhub al +56 9 1234 5678",
+            "openMenu": "Abrir menú de navegación",
+            "mobileMenu": "Menú de navegación móvil"
+        }
+    },
+    "navigation": {
+        "menu": {
+            "solutions": "Soluciones",
+            "certifications": "Certificaciones",
+            "clients": "Clientes",
+            "aboutUs": "Nosotros",
+            "blog": "Blog"
+        },
+        "solutions": {
+            "title": "Fortalece tu organización digital",
+            "description": "Soluciones integrales en ciberseguridad, posicionamiento de marca y gestión estratégica.",
+            "viewAll": "Ver todas las soluciones",
+            "introItems": [
+                {
+                    "title": "Programa de Awareness",
+                    "href": "/soluciones/1",
+                    "description": "Capacitaciones diseñadas para fortalecer la cultura de ciberseguridad dentro de tu organización."
+                },
+                {
+                    "title": "Posicionamiento de Marca",
+                    "href": "/soluciones/2",
+                    "description": "Estrategias de comunicación y branding orientadas al liderazgo corporativo en seguridad digital."
+                },
+                {
+                    "title": "Estrategias y Gestión",
+                    "href": "/soluciones/3",
+                    "description": "Consultorías en gobernanza, riesgo y cumplimiento para una transformación digital segura."
+                }
+            ]
+        },
+        "certifications": {
+            "viewAll": "Ver todas las certificaciones",
+            "list": [
+                {
+                    "title": "ISO 27001",
+                    "href": "/certificaciones/iso-27001",
+                    "description": "Gestión de seguridad de la información basada en estándares internacionales."
+                },
+                {
+                    "title": "NIST Framework",
+                    "href": "/certificaciones/nist",
+                    "description": "Marco de ciberseguridad para la gestión de riesgos tecnológicos."
+                },
+                {
+                    "title": "TISAX",
+                    "href": "/certificaciones/tisax",
+                    "description": "Evaluación de seguridad de la información para la industria automotriz."
+                },
+                {
+                    "title": "Ley 21.633 (OIV)",
+                    "href": "/certificaciones/oiv",
+                    "description": "Cumplimiento normativo para Organismos de Importancia Vital en Chile."
+                }
+            ]
+        }
+    },
+    "footer": {
+        "description": "Soluciones digitales y de ciberseguridad para empresas que buscan evolucionar con confianza.",
+        "copyright": "© {year} Cyberhub. Todos los derechos reservados.",
+        "aria": {
+            "label": "Pie de página de Cyberhub",
+            "goHome": "Ir al inicio de Cyberhub"
+        },
+        "columns": [
+            {
+                "title": "Soluciones",
+                "links": [
+                    {
+                        "text": "Programa de Awareness",
+                        "href": "/soluciones/1"
+                    },
+                    {
+                        "text": "Posicionamiento de Marca",
+                        "href": "/soluciones/2"
+                    },
+                    {
+                        "text": "Estrategias y Gestión",
+                        "href": "/soluciones/3"
+                    }
+                ]
+            },
+            {
+                "title": "Empresa",
+                "links": [
+                    {
+                        "text": "Sobre Nosotros",
+                        "href": "/nosotros"
+                    },
+                    {
+                        "text": "Clientes",
+                        "href": "/clientes"
+                    },
+                    {
+                        "text": "Blog",
+                        "href": "/blog"
+                    }
+                ]
+            },
+            {
+                "title": "Contacto",
+                "links": [
+                    {
+                        "text": "LinkedIn",
+                        "href": "https://www.linkedin.com/company/cyberhub-cl",
+                        "ariaLabel": "Visitar LinkedIn de Cyberhub"
+                    },
+                    {
+                        "text": "Correo",
+                        "href": "mailto:contacto@cyberhub.cl",
+                        "ariaLabel": "Enviar correo a Cyberhub"
+                    },
+                    {
+                        "text": "WhatsApp",
+                        "href": "https://wa.me/56912345678",
+                        "ariaLabel": "Contactar a Cyberhub por WhatsApp"
+                    }
+                ]
+            }
+        ],
+        "policies": [
+            {
+                "text": "Política de Privacidad",
+                "href": "/politica-de-privacidad",
+                "ariaLabel": "Leer Política de Privacidad"
+            },
+            {
+                "text": "Términos y Condiciones",
+                "href": "/terminos",
+                "ariaLabel": "Leer Términos y Condiciones"
+            }
+        ]
+    },
+    "blogSection": {
+        "tagline": "Insights y novedades",
+        "heading": "Conocimiento que impulsa tu transformación digital",
+        "description": "Explora artículos, guías y casos de éxito sobre ciberseguridad, innovación tecnológica y estrategias digitales que fortalecen la competitividad de tu organización.",
+        "readMore": "Leer más",
+        "posts": [
+            {
+                "id": "1",
+                "title": "Evaluación de brechas y cumplimiento Ley 21.633 (OIV)",
+                "summary": "Identificamos las brechas de seguridad y apoyamos a organizaciones críticas a cumplir con la Ley 21.633 mediante estrategias de ciberresiliencia efectivas.",
+                "label": "Ciberseguridad",
+                "author": "Cyberhub Team",
+                "published": "2025-09-15",
+                "url": "/blog/1",
+                "image": "/ley-oiv.png"
+            },
+            {
+                "id": "2",
+                "title": "Gestión de incidentes y plan de respuesta ante ciberataques",
+                "summary": "Desarrollamos planes de respuesta ante incidentes para empresas del sector salud, mejorando tiempos de reacción y continuidad operacional.",
+                "label": "Gestión de Riesgos",
+                "author": "Cyberhub Team",
+                "published": "2025-09-20",
+                "url": "/blog/2",
+                "image": "/gestion.png"
+            },
+            {
+                "id": "3",
+                "title": "Cómo construir una cultura de seguridad digital",
+                "summary": "La capacitación continua y el liderazgo son pilares para crear una cultura organizacional sólida en torno a la ciberseguridad.",
+                "label": "Awareness",
+                "author": "Cyberhub Team",
+                "published": "2025-09-25",
+                "url": "/blog/3",
+                "image": "/cultura.png"
+            }
+        ]
+    },
+    "certificationsPage": {
+        "hero": {
+            "title": "Certificaciones ISO: Mejora la calidad, seguridad y sostenibilidad de tu organización"
+        },
+        "intro": "En <strong>Cyberhub</strong> ofrecemos un conjunto de certificaciones internacionales basadas en normas <iso>ISO</iso>, diseñadas para fortalecer la calidad, sostenibilidad y seguridad de las organizaciones. A continuación, encontrarás nuestras principales certificaciones organizadas por ámbito de gestión.",
+        "viewDetails": "Ver detalles",
+        "categories": [
+            {
+                "nombre": "Gestión de la Calidad",
+                "descripcion": "Acreditaciones que garantizan la mejora continua, la satisfacción del cliente y la excelencia en los procesos.",
+                "items": [
+                    "1"
+                ]
+            },
+            {
+                "nombre": "Gestión Ambiental y Energética",
+                "descripcion": "Certificaciones enfocadas en la sostenibilidad y la eficiencia en el uso de recursos naturales y energéticos.",
+                "items": [
+                    "2",
+                    "6"
+                ]
+            },
+            {
+                "nombre": "Seguridad, Ética y Cumplimiento",
+                "descripcion": "Estándares internacionales que fortalecen la seguridad laboral, la información y la integridad corporativa.",
+                "items": [
+                    "3",
+                    "4",
+                    "5"
+                ]
+            }
+        ]
+    },
+    "certifications": {
+        "list": [
+            {
+                "id": "1",
+                "title": "Certificación ISO 27001: Sistemas de Gestión de la Seguridad de la Información",
+                "href": "/certificaciones/1",
+                "description": "La certificación ISO 27001 garantiza que una organización gestiona de forma segura la información confidencial, minimizando riesgos de ciberataques, fugas de datos y brechas de cumplimiento normativo.",
+                "image": "/ISO27001.png",
+                "content": "<section class='space-y-8 text-gray-700 dark:text-gray-300 leading-relaxed sm:p-4'>...</section>"
+            },
+            {
+                "id": "2",
+                "title": "Certificación ISO 14001: Gestión Ambiental",
+                "href": "/certificaciones/2",
+                "description": "Estándar internacional que establece un marco para la protección del medio ambiente y la mejora continua del desempeño ambiental.",
+                "image": "/ISO14001.png"
+            },
+            {
+                "id": "3",
+                "title": "Certificación ISO 45001: Seguridad y Salud en el Trabajo",
+                "href": "/certificaciones/3",
+                "description": "Norma enfocada en prevenir lesiones laborales y promover entornos de trabajo seguros y saludables.",
+                "image": "/ISO45001.png"
+            },
+            {
+                "id": "4",
+                "title": "Certificación ISO 37001: Antisoborno",
+                "href": "/certificaciones/4",
+                "description": "Sistema de gestión diseñado para prevenir, detectar y responder ante riesgos de soborno en organizaciones públicas y privadas.",
+                "image": "/ISO37001.png"
+            },
+            {
+                "id": "5",
+                "title": "Certificación ISO 22301: Continuidad del Negocio",
+                "href": "/certificaciones/5",
+                "description": "Define los requisitos para planificar, establecer e implementar un sistema que garantice la continuidad operativa ante interrupciones.",
+                "image": "/ISO22301.png"
+            },
+            {
+                "id": "6",
+                "title": "Certificación ISO 50001: Gestión de la Energía",
+                "href": "/certificaciones/6",
+                "description": "Permite mejorar el desempeño energético, reducir costos y optimizar el uso de recursos mediante una gestión sistemática.",
+                "image": "/ISO50001.png"
+            }
+        ]
+    },
+    "clientsPage": {
+        "heading": "Nuestros clientes confían en nosotros",
+        "description": "Trabajamos junto a empresas líderes en tecnología, innovación y comunicación para crear soluciones digitales que generan impacto real y duradero.",
+        "logos": {
+            "GitHub": "GitHub",
+            "Facebook": "Facebook",
+            "Google": "Google",
+            "X": "X",
+            "Apple": "Apple"
+        }
+    },
+    "aboutPage": {
+        "hero": {
+            "title": "Impulsamos la transformación digital de tu negocio",
+            "description": "En Cyberhub creemos que la tecnología no solo debe resolver problemas, sino también potenciar el crecimiento y la innovación.",
+            "cta": "Hablemos de tu proyecto"
+        },
+        "history": {
+            "title": "Nuestra historia",
+            "description": "Cyberhub nació con la visión de conectar empresas y tecnología a través de soluciones digitales inteligentes. Desde nuestros inicios, hemos acompañado a startups y corporaciones en su evolución digital, ayudándolas a crecer de forma sostenible, segura y eficiente."
+        },
+        "valuesTitle": "Nuestros valores",
+        "values": [
+            {
+                "title": "Innovación constante",
+                "description": "Buscamos nuevas formas de resolver desafíos digitales, integrando tecnología y creatividad."
+            },
+            {
+                "title": "Transparencia y confianza",
+                "description": "Creemos en relaciones a largo plazo basadas en la honestidad, la comunicación y los resultados."
+            },
+            {
+                "title": "Colaboración",
+                "description": "Cada proyecto es una construcción conjunta con nuestros clientes y partners estratégicos."
+            },
+            {
+                "title": "Excelencia técnica",
+                "description": "Nos esforzamos por entregar soluciones sólidas, seguras y escalables, con estándares de clase mundial."
+            }
+        ],
+        "teamTitle": "Nuestro equipo",
+        "team": [
+            {
+                "name": "Juan Sanchez",
+                "role": "Fundador & Director Técnico",
+                "image": "/user.jpg"
+            },
+            {
+                "name": "Camila Rodríguez",
+                "role": "Líder de Marketing Digital",
+                "image": "/user.jpg"
+            },
+            {
+                "name": "Andrés Fuentes",
+                "role": "Desarrollador Full Stack",
+                "image": "/user.jpg"
+            },
+            {
+                "name": "Valentina Herrera",
+                "role": "Diseñadora UX/UI",
+                "image": "/user.jpg"
+            }
+        ],
+        "cta": {
+            "title": "¿Listo para llevar tu empresa al siguiente nivel?",
+            "description": "Nuestro equipo está listo para diseñar contigo la próxima gran solución digital de tu negocio.",
+            "button": "Contáctanos hoy"
+        }
+    },
+    "servicesPage": {
+        "hero": {
+            "title": "Nuestras soluciones: Impulsa la seguridad, estrategia y resiliencia digital de tu organización",
+            "alt": "Soluciones de ciberseguridad"
+        },
+        "intro": "En <strong>Cyberhub</strong> diseñamos e implementamos <bold>soluciones integrales de ciberseguridad</bold> que abarcan la concientización humana, la gestión estratégica y la transformación digital segura. Cada solución está pensada para <strong>fortalecer la resiliencia, el cumplimiento y la confianza</strong> de tu organización frente a los desafíos del mundo digital.",
+        "viewDetails": "Ver detalles",
+        "categories": [
+            {
+                "nombre": "Cultura y Concientización en Ciberseguridad",
+                "descripcion": "Iniciativas diseñadas para fortalecer la cultura organizacional, reducir el riesgo humano y transformar la ciberseguridad en un valor compartido por toda la empresa.",
+                "items": [
+                    "1"
+                ]
+            },
+            {
+                "nombre": "Estrategia, Marca y Posicionamiento Digital",
+                "descripcion": "Soluciones que integran comunicación, reputación corporativa y liderazgo tecnológico, posicionando a tu organización como referente en seguridad y transformación digital.",
+                "items": [
+                    "2"
+                ]
+            },
+            {
+                "nombre": "Gobernanza, Riesgo y Cumplimiento",
+                "descripcion": "Consultorías orientadas a la gestión integral de ciberseguridad: planificación estratégica, gobierno corporativo, cumplimiento normativo y mejora continua.",
+                "items": [
+                    "3"
+                ]
+            }
+        ]
+    },
+    "solutions": {
+        "list": [
+            {
+                "id": "1",
+                "title": "Programa de Awareness en Ciberseguridad",
+                "href": "/soluciones/1",
+                "description": "Capacitaciones y campañas diseñadas para fortalecer la cultura de ciberseguridad dentro de tu organización, reduciendo riesgos humanos y fomentando comportamientos seguros.",
+                "image": "/awarenes.png",
+                "content": "<section class='space-y-8 text-gray-700 dark:text-gray-300 leading-relaxed sm:p-4'><figure class='w-full overflow-hidden rounded-3xl shadow-lg'><img src='/awarenes.png' alt='Programa de awareness en ciberseguridad' class='w-full h-72 md:h-[500px] object-cover object-top' /></figure><header class='space-y-3 border-b border-gray-200 dark:border-gray-700 pb-4'><h2 class='text-2xl md:text-3xl font-bold text-primary-color dark:text-secondary-light-color'>¿En qué consiste el Programa de Awareness?</h2><p>El <strong>Programa de Awareness</strong> de <strong>Cyberhub</strong> está diseñado para desarrollar una cultura organizacional de seguridad, alineando al personal con las mejores prácticas de protección de datos y respuesta ante incidentes. A través de capacitaciones interactivas, simulaciones de phishing y contenidos adaptados al contexto local, potenciamos el factor humano como la primera línea de defensa.</p></header><article class='grid md:grid-cols-2 gap-8'><div class='space-y-4'><h3 class='text-xl font-semibold text-gray-900 dark:text-white'>Componentes del programa</h3><ul class='list-disc list-inside space-y-2'><li>Evaluación del nivel de madurez y riesgos humanos.</li><li>Capacitaciones interactivas personalizadas por área o rol.</li><li>Simulaciones de ataques de ingeniería social (phishing, smishing, etc.).</li><li>Medición de impacto y mejora continua.</li></ul></div><div class='space-y-4'><h3 class='text-xl font-semibold text-gray-900 dark:text-white'>Resultados esperados</h3><ul class='list-disc list-inside space-y-2'><li>Incremento de la conciencia y responsabilidad en todos los niveles.</li><li>Reducción comprobable de incidentes derivados de errores humanos.</li><li>Cumplimiento con normativas de seguridad y auditorías ISO 27001.</li><li>Fortalecimiento del clima organizacional y la confianza interna.</li></ul></div></article><aside class='bg-gradient-to-r from-primary-color/10 to-secondary-light-color/10 p-6 rounded-2xl border border-gray-200 dark:border-gray-700 space-y-3'><h3 class='text-lg font-semibold text-primary-color dark:text-secondary-light-color'>Valor estratégico</h3><p>La gestión de ciberseguridad no solo depende de la tecnología. El 85% de los incidentes tienen origen humano. Nuestro enfoque human-first asegura que las políticas de seguridad se vivan como parte del ADN corporativo.</p></aside><footer class='pt-6 border-t border-gray-200 dark:border-gray-700'><p class='italic'>En <strong>Cyberhub</strong>, ayudamos a las organizaciones a convertir la concientización en acción, integrando seguridad, comunicación y comportamiento digital responsable.</p></footer></section>"
+            },
+            {
+                "id": "2",
+                "title": "Posicionamiento de Marca en Ciberseguridad",
+                "href": "/soluciones/2",
+                "description": "Estrategias de comunicación y branding orientadas a consolidar tu presencia como referente confiable y experto en seguridad digital.",
+                "image": "/Posicionamiento de Marca en Ciberseguridad.png",
+                "content": "<section class='space-y-8 text-gray-700 dark:text-gray-300 leading-relaxed sm:p-4'><figure class='w-full overflow-hidden rounded-3xl shadow-lg'><img src='/Posicionamiento de Marca en Ciberseguridad.png' alt='Posicionamiento de Marca en Ciberseguridad' class='w-full h-72 md:h-[500px] object-cover object-top' /></figure><header class='space-y-3 border-b border-gray-200 dark:border-gray-700 pb-4'><h2 class='text-2xl md:text-3xl font-bold text-primary-color dark:text-secondary-light-color'>Potencia tu marca en el mundo digital seguro</h2><p>En el contexto actual, las empresas que comunican confianza y dominio tecnológico ganan ventaja competitiva. Nuestro servicio de <strong>Posicionamiento de Marca</strong> combina estrategia, diseño y narrativa técnica para destacar tus capacidades de seguridad en un mercado cada vez más exigente.</p></header><article class='grid md:grid-cols-2 gap-8'><div class='space-y-4'><h3 class='text-xl font-semibold text-gray-900 dark:text-white'>Servicios incluidos</h3><ul class='list-disc list-inside space-y-2'><li>Diseño y desarrollo de identidad visual corporativa.</li><li>Campañas de comunicación estratégica (web, redes, prensa).</li><li>Gestión de reputación digital y crisis comunicacionales.</li><li>Contenido técnico orientado a confianza y liderazgo.</li></ul></div><div class='space-y-4'><h3 class='text-xl font-semibold text-gray-900 dark:text-white'>Impacto esperado</h3><ul class='list-disc list-inside space-y-2'><li>Mayor reconocimiento de marca en el sector tecnológico y corporativo.</li><li>Generación de leads calificados mediante confianza y visibilidad.</li><li>Reforzamiento del valor percibido de tus soluciones y cultura digital.</li></ul></div></article><aside class='bg-gradient-to-r from-secondary-light-color/10 to-primary-color/10 p-6 rounded-2xl border border-gray-200 dark:border-gray-700 space-y-3'><h3 class='text-lg font-semibold text-secondary-light-color dark:text-primary-color'>Estrategia + Tecnología = Confianza</h3><p>Combinamos diseño, narrativa y datos para posicionar tu marca en el ecosistema digital con una voz profesional y confiable.</p></aside><footer class='pt-6 border-t border-gray-200 dark:border-gray-700'><p class='italic'>Con <strong>Cyberhub</strong>, tu marca no solo comunica, lidera la conversación sobre seguridad y transformación digital.</p></footer></section>"
+            },
+            {
+                "id": "3",
+                "title": "Estrategias y Gestión de Ciberseguridad",
+                "href": "/soluciones/3",
+                "description": "Asesorías y proyectos de gestión enfocados en la transformación digital, la resiliencia organizacional y el cumplimiento normativo en ciberseguridad.",
+                "image": "/Estrategias y Gestión de Ciberseguridad.png",
+                "content": "<section class='space-y-8 text-gray-700 dark:text-gray-300 leading-relaxed sm:p-4'><figure class='w-full overflow-hidden rounded-3xl shadow-lg'><img src='/Estrategias y Gestión de Ciberseguridad.png' alt='Estrategias y Gestión de Ciberseguridad' class='w-full h-72 md:h-[500px] object-cover object-top' /></figure><header class='space-y-3 border-b border-gray-200 dark:border-gray-700 pb-4'><h2 class='text-2xl md:text-3xl font-bold text-primary-color dark:text-secondary-light-color'>Estrategia, gobierno y madurez cibernética</h2><p>Nuestro servicio de <strong>Estrategia y Gestión</strong> acompaña a las organizaciones en el diseño e implementación de planes maestros de ciberseguridad, alineados con estándares como <strong>NIST CSF</strong>, <strong>ISO 27001</strong> y <strong>CMMI</strong>.</p></header><article class='grid md:grid-cols-2 gap-8'><div class='space-y-4'><h3 class='text-xl font-semibold text-gray-900 dark:text-white'>Áreas de enfoque</h3><ul class='list-disc list-inside space-y-2'><li>Evaluación de madurez y roadmap de seguridad.</li><li>Diseño de políticas y modelos de gobierno.</li><li>Implementación de frameworks y gestión de riesgos.</li><li>Definición de roles, responsabilidades y KPIs.</li></ul></div><div class='space-y-4'><h3 class='text-xl font-semibold text-gray-900 dark:text-white'>Beneficios organizacionales</h3><ul class='list-disc list-inside space-y-2'><li>Fortalece la gobernanza corporativa en materia de seguridad.</li><li>Mejora la toma de decisiones basada en riesgos y métricas.</li><li>Facilita la obtención de certificaciones internacionales.</li></ul></div></article><aside class='bg-gradient-to-r from-primary-color/10 to-secondary-light-color/10 p-6 rounded-2xl border border-gray-200 dark:border-gray-700 space-y-3'><h3 class='text-lg font-semibold text-primary-color dark:text-secondary-light-color'>Acompañamiento experto</h3><p>Nuestros consultores trabajan codo a codo con tu equipo, garantizando un modelo de gestión sostenible que evoluciona junto con tus operaciones.</p></aside><footer class='pt-6 border-t border-gray-200 dark:border-gray-700'><p class='italic'>En <strong>Cyberhub</strong>, creemos que una buena estrategia es la base de una defensa sólida. No solo implementamos seguridad: ayudamos a gobernarla.</p></footer></section>"
+            }
+        ]
+    },
+    "AllSolutions": {
+        "list": [
+            {
+                "id": "1",
+                "title": "Programa de Awareness en Ciberseguridad",
+                "href": "/soluciones/1",
+                "description": "Capacitaciones y campañas diseñadas para fortalecer la cultura de ciberseguridad dentro de tu organización, reduciendo riesgos humanos y fomentando comportamientos seguros.",
+                "image": "/awarenes.png",
+                "content": "<section class='space-y-8 text-gray-700 dark:text-gray-300 leading-relaxed sm:p-4'><figure class='w-full overflow-hidden rounded-3xl shadow-lg'><img src='/awarenes.png' alt='Programa de awareness en ciberseguridad' class='w-full h-72 md:h-[500px] object-cover object-top' /></figure><header class='space-y-3 border-b border-gray-200 dark:border-gray-700 pb-4'><h2 class='text-2xl md:text-3xl font-bold text-primary-color dark:text-secondary-light-color'>¿En qué consiste el Programa de Awareness?</h2><p>El <strong>Programa de Awareness</strong> de <strong>Cyberhub</strong> está diseñado para desarrollar una cultura organizacional de seguridad, alineando al personal con las mejores prácticas de protección de datos y respuesta ante incidentes. A través de capacitaciones interactivas, simulaciones de phishing y contenidos adaptados al contexto local, potenciamos el factor humano como la primera línea de defensa.</p></header><article class='grid md:grid-cols-2 gap-8'><div class='space-y-4'><h3 class='text-xl font-semibold text-gray-900 dark:text-white'>Componentes del programa</h3><ul class='list-disc list-inside space-y-2'><li>Evaluación del nivel de madurez y riesgos humanos.</li><li>Capacitaciones interactivas personalizadas por área o rol.</li><li>Simulaciones de ataques de ingeniería social (phishing, smishing, etc.).</li><li>Medición de impacto y mejora continua.</li></ul></div><div class='space-y-4'><h3 class='text-xl font-semibold text-gray-900 dark:text-white'>Resultados esperados</h3><ul class='list-disc list-inside space-y-2'><li>Incremento de la conciencia y responsabilidad en todos los niveles.</li><li>Reducción comprobable de incidentes derivados de errores humanos.</li><li>Cumplimiento con normativas de seguridad y auditorías ISO 27001.</li><li>Fortalecimiento del clima organizacional y la confianza interna.</li></ul></div></article><aside class='bg-gradient-to-r from-primary-color/10 to-secondary-light-color/10 p-6 rounded-2xl border border-gray-200 dark:border-gray-700 space-y-3'><h3 class='text-lg font-semibold text-primary-color dark:text-secondary-light-color'>Valor estratégico</h3><p>La gestión de ciberseguridad no solo depende de la tecnología. El 85% de los incidentes tienen origen humano. Nuestro enfoque human-first asegura que las políticas de seguridad se vivan como parte del ADN corporativo.</p></aside><footer class='pt-6 border-t border-gray-200 dark:border-gray-700'><p class='italic'>En <strong>Cyberhub</strong>, ayudamos a las organizaciones a convertir la concientización en acción, integrando seguridad, comunicación y comportamiento digital responsable.</p></footer></section>"
+            },
+            {
+                "id": "2",
+                "title": "Posicionamiento de Marca en Ciberseguridad",
+                "href": "/soluciones/2",
+                "description": "Estrategias de comunicación y branding orientadas a consolidar tu presencia como referente confiable y experto en seguridad digital.",
+                "image": "/Posicionamiento de Marca en Ciberseguridad.png",
+                "content": "<section class='space-y-8 text-gray-700 dark:text-gray-300 leading-relaxed sm:p-4'><figure class='w-full overflow-hidden rounded-3xl shadow-lg'><img src='/Posicionamiento de Marca en Ciberseguridad.png' alt='Posicionamiento de Marca en Ciberseguridad' class='w-full h-72 md:h-[500px] object-cover object-top' /></figure><header class='space-y-3 border-b border-gray-200 dark:border-gray-700 pb-4'><h2 class='text-2xl md:text-3xl font-bold text-primary-color dark:text-secondary-light-color'>Potencia tu marca en el mundo digital seguro</h2><p>En el contexto actual, las empresas que comunican confianza y dominio tecnológico ganan ventaja competitiva. Nuestro servicio de <strong>Posicionamiento de Marca</strong> combina estrategia, diseño y narrativa técnica para destacar tus capacidades de seguridad en un mercado cada vez más exigente.</p></header><article class='grid md:grid-cols-2 gap-8'><div class='space-y-4'><h3 class='text-xl font-semibold text-gray-900 dark:text-white'>Servicios incluidos</h3><ul class='list-disc list-inside space-y-2'><li>Diseño y desarrollo de identidad visual corporativa.</li><li>Campañas de comunicación estratégica (web, redes, prensa).</li><li>Gestión de reputación digital y crisis comunicacionales.</li><li>Contenido técnico orientado a confianza y liderazgo.</li></ul></div><div class='space-y-4'><h3 class='text-xl font-semibold text-gray-900 dark:text-white'>Impacto esperado</h3><ul class='list-disc list-inside space-y-2'><li>Mayor reconocimiento de marca en el sector tecnológico y corporativo.</li><li>Generación de leads calificados mediante confianza y visibilidad.</li><li>Reforzamiento del valor percibido de tus soluciones y cultura digital.</li></ul></div></article><aside class='bg-gradient-to-r from-secondary-light-color/10 to-primary-color/10 p-6 rounded-2xl border border-gray-200 dark:border-gray-700 space-y-3'><h3 class='text-lg font-semibold text-secondary-light-color dark:text-primary-color'>Estrategia + Tecnología = Confianza</h3><p>Combinamos diseño, narrativa y datos para posicionar tu marca en el ecosistema digital con una voz profesional y confiable.</p></aside><footer class='pt-6 border-t border-gray-200 dark:border-gray-700'><p class='italic'>Con <strong>Cyberhub</strong>, tu marca no solo comunica, lidera la conversación sobre seguridad y transformación digital.</p></footer></section>"
+            },
+            {
+                "id": "3",
+                "title": "Estrategias y Gestión de Ciberseguridad",
+                "href": "/soluciones/3",
+                "description": "Asesorías y proyectos de gestión enfocados en la transformación digital, la resiliencia organizacional y el cumplimiento normativo en ciberseguridad.",
+                "image": "/Estrategias y Gestión de Ciberseguridad.png",
+                "content": "<section class='space-y-8 text-gray-700 dark:text-gray-300 leading-relaxed sm:p-4'><figure class='w-full overflow-hidden rounded-3xl shadow-lg'><img src='/Estrategias y Gestión de Ciberseguridad.png' alt='Estrategias y Gestión de Ciberseguridad' class='w-full h-72 md:h-[500px] object-cover object-top' /></figure><header class='space-y-3 border-b border-gray-200 dark:border-gray-700 pb-4'><h2 class='text-2xl md:text-3xl font-bold text-primary-color dark:text-secondary-light-color'>Estrategia, gobierno y madurez cibernética</h2><p>Nuestro servicio de <strong>Estrategia y Gestión</strong> acompaña a las organizaciones en el diseño e implementación de planes maestros de ciberseguridad, alineados con estándares como <strong>NIST CSF</strong>, <strong>ISO 27001</strong> y <strong>CMMI</strong>.</p></header><article class='grid md:grid-cols-2 gap-8'><div class='space-y-4'><h3 class='text-xl font-semibold text-gray-900 dark:text-white'>Áreas de enfoque</h3><ul class='list-disc list-inside space-y-2'><li>Evaluación de madurez y roadmap de seguridad.</li><li>Diseño de políticas y modelos de gobierno.</li><li>Implementación de frameworks y gestión de riesgos.</li><li>Definición de roles, responsabilidades y KPIs.</li></ul></div><div class='space-y-4'><h3 class='text-xl font-semibold text-gray-900 dark:text-white'>Beneficios organizacionales</h3><ul class='list-disc list-inside space-y-2'><li>Fortalece la gobernanza corporativa en materia de seguridad.</li><li>Mejora la toma de decisiones basada en riesgos y métricas.</li><li>Facilita la obtención de certificaciones internacionales.</li></ul></div></article><aside class='bg-gradient-to-r from-primary-color/10 to-secondary-light-color/10 p-6 rounded-2xl border border-gray-200 dark:border-gray-700 space-y-3'><h3 class='text-lg font-semibold text-primary-color dark:text-secondary-light-color'>Acompañamiento experto</h3><p>Nuestros consultores trabajan codo a codo con tu equipo, garantizando un modelo de gestión sostenible que evoluciona junto con tus operaciones.</p></aside><footer class='pt-6 border-t border-gray-200 dark:border-gray-700'><p class='italic'>En <strong>Cyberhub</strong>, creemos que una buena estrategia es la base de una defensa sólida. No solo implementamos seguridad: ayudamos a gobernarla.</p></footer></section>"
+            }
+        ]
+    }
+}

@@ -1,21 +1,10 @@
 "use client";
 import React from "react";
+import { useTranslations } from "next-intl";
 
 const BrandLogos = () => {
-  const brands = [
-    { name: "Agrosuper CL, Asia y USA" },
-    { name: "SQM China, Belgium, Chile" },
-    { name: "SQM Europe NY, Lithium" },
-    { name: "SQM Industrial, Salar" },
-    { name: "Coggin  Ford USA" },
-    { name: "Guacolda Energía" },
-    { name: "AquaChile" },
-    { name: "MBI: Empresa Energía 7 y Empresa Eléctrica Vallenar" },
-    { name: "ACCA Consulting Services" },
-    { name: "HuGus Group" },
-    { name: "Banco de Chile" },
-    { name: "Falabella" },
-  ];
+  const t = useTranslations("brands");
+  const brands: string[] = t.raw("list");
 
   return (
     <section
@@ -24,47 +13,33 @@ const BrandLogos = () => {
       className="py-16 px-4 md:px-8 lg:px-12"
     >
       <div className="max-w-5xl mx-auto border rounded-3xl p-8 md:p-12 shadow-2xl overflow-hidden">
+        {/* HEADER */}
         <header className="flex flex-col md:flex-row gap-8 md:gap-16 mb-12">
           <div className="w-full md:w-1/3">
             <h2
               id="brand-logos-heading"
               className="text-3xl md:text-4xl font-bold leading-tight"
             >
-              La confianza de los sectores más exigentes{" "}
+              {t("title")}
             </h2>
           </div>
           <div className="w-full md:w-2/3">
-            <p className="text-gray-300 text-base">
-              Clientes del ámbito financiero, minero, energético, tecnológico,
-              de transporte y salud eligen a Cyberhub para proteger sus
-              operaciones, garantizar la continuidad del negocio y fortalecer su
-              resiliencia digital.
-            </p>
+            <p className="text-gray-300 text-base">{t("description")}</p>
           </div>
         </header>
 
-        <p className="sr-only">Desliza horizontalmente para ver más marcas</p>
+        {/* SR Text (para accesibilidad) */}
+        <p className="sr-only">{t("srHint")}</p>
 
+        {/* LISTA DE MARCAS */}
         <ul
           role="list"
-          aria-label="Marcas que confían en Cyberhub"
+          aria-label={t("ariaLabel")}
           className="flex flex-wrap items-center gap-4 pb-4 -mx-12 px-12 md:-mx-12 md:px-12 lg:-mx-20 lg:px-16"
-          // flex-nowrap
-          // overflow-x-scroll
-          // style={{
-          //   scrollbarWidth: "none",
-          //   msOverflowStyle: "none",
-          // }}
         >
-          {/* <style jsx global>{`
-            .overflow-x-scroll::-webkit-scrollbar {
-              display: none;
-            }
-          `}</style> */}
-
-          {brands.map((brand, index) => (
+          {brands.map((name, index) => (
             <li
-              key={brand.name}
+              key={name}
               className="flex items-center flex-shrink-0 px-5 py-3 border border-secondary-color/50 rounded-xl transition-colors cursor-default font-semibold text-lg hover:border-secondary-color/80"
             >
               <svg
@@ -84,7 +59,7 @@ const BrandLogos = () => {
               >
                 <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5" />
               </svg>
-              <span>{brand.name}</span>
+              <span>{name}</span>
             </li>
           ))}
         </ul>

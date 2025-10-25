@@ -11,6 +11,7 @@ import {
 } from "@/components/ui/footer";
 import { ModeToggle } from "@/components/ui/mode-toggle";
 import Link from "next/link";
+import { useTranslations } from "next-intl";
 
 interface FooterLink {
   text: string;
@@ -26,65 +27,23 @@ interface FooterColumnProps {
 interface FooterProps {
   logo?: ReactNode;
   name?: string;
-  columns?: FooterColumnProps[];
-  copyright?: string;
-  policies?: FooterLink[];
-  showModeToggle?: boolean;
   className?: string;
 }
 
 export default function FooterSection({
   logo = <LaunchUI />,
   name = "Cyberhub",
-  columns = [
-    {
-      title: "Soluciones",
-      links: [
-        {
-          text: "Programa de Awareness",
-          href: "/soluciones/1",
-        },
-        { text: "Posicionamiento de Marca", href: "/soluciones/2" },
-        { text: "Estrategias y Gestión", href: "/soluciones/3" },
-      ],
-    },
-    {
-      title: "Empresa",
-      links: [
-        { text: "Sobre Nosotros", href: "/nosotros" },
-        { text: "Clientes", href: "/clientes" },
-        { text: "Blog", href: "/blog" },
-      ],
-    },
-    {
-      title: "Contacto",
-      links: [
-        {
-          text: "LinkedIn",
-          href: "https://www.linkedin.com/company/cyberhub-cl",
-          ariaLabel: "Visitar LinkedIn de Cyberhub",
-        },
-        {
-          text: "Correo",
-          href: "mailto:contacto@cyberhub.cl",
-          ariaLabel: "Enviar correo a Cyberhub",
-        },
-        {
-          text: "WhatsApp",
-          href: "https://wa.me/56912345678",
-          ariaLabel: "Contactar a Cyberhub por WhatsApp",
-        },
-      ],
-    },
-  ],
-  copyright = `© ${new Date().getFullYear()} Cyberhub. Todos los derechos reservados.`,
-  policies = [
-    { text: "Política de Privacidad", href: "/politica-de-privacidad" },
-    { text: "Términos y Condiciones", href: "/terminos" },
-  ],
-  showModeToggle = true,
   className,
 }: FooterProps) {
+  const t = useTranslations("footer");
+
+  const columns: FooterColumnProps[] = t.raw("columns");
+  const policies: FooterLink[] = t.raw("policies");
+
+  const copyright = t("copyright", {
+    year: new Date().getFullYear(),
+  });
+
   return (
     <footer
       className={cn(
@@ -92,7 +51,7 @@ export default function FooterSection({
         className
       )}
       role="contentinfo"
-      aria-label="Pie de página de Cyberhub"
+      aria-label={t("aria.label")}
     >
       <div className="max-w-container mx-auto">
         <Footer className="bg-transparent">
@@ -102,14 +61,13 @@ export default function FooterSection({
               <Link
                 href="/"
                 className="flex items-center gap-2 mb-4"
-                aria-label="Ir al inicio de Cyberhub"
+                aria-label={t("aria.goHome")}
               >
                 {logo}
                 <span className="text-xl font-bold text-white">{name}</span>
               </Link>
               <p className="text-sm text-gray-400 max-w-xs">
-                Soluciones digitales y de ciberseguridad para empresas que
-                buscan evolucionar con confianza.
+                {t("description")}
               </p>
             </FooterColumn>
 
@@ -152,14 +110,13 @@ export default function FooterSection({
                 <Link
                   key={index}
                   href={policy.href}
-                  aria-label={`Leer ${policy.text}`}
+                  aria-label={policy.ariaLabel || `Leer ${policy.text}`}
                   className="text-xs text-gray-400 hover:text-secondary-color transition-colors"
                 >
                   {policy.text}
                 </Link>
               ))}
-
-              {showModeToggle && <ModeToggle />}
+              <ModeToggle />
             </div>
           </FooterBottom>
         </Footer>

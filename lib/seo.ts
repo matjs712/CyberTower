@@ -34,6 +34,10 @@ export const defaultMetadata = {
   },
   alternates: {
     canonical: "https://www.cyberhub.cl",
+    languages: {
+      "es-CL": "https://www.cyberhub.cl/es",
+      "en-US": "https://www.cyberhub.cl/en",
+    },
   },
   twitter: {
     card: "summary_large_image",

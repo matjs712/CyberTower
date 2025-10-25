@@ -1,0 +1,619 @@
+{
+    "home": {
+        "title": "Protect your organization with advanced cybersecurity solutions",
+        "paragraph1": "We implement security and compliance strategies based on ISO 27001, NIST, and Law 21.633.",
+        "paragraph2": "At Cyberhub, we help companies strengthen their digital infrastructure, prevent incidents, and comply with national and international cybersecurity standards.",
+        "paragraph3": "From risk assessment to the implementation of an Information Security Management System (ISMS), we guide your organization every step of the way.",
+        "buttonContact": "Contact us",
+        "reviewsKpi": "2.7k+",
+        "reviews": "positive reviews",
+        "trustedHeading": "Companies that trust us",
+        "trustedSubheading": "Across Asia, Europe, and America, organizations trust Cyberhub to strengthen their digital culture and security.",
+        "countries": {
+            "cl": "Chile",
+            "us": "USA",
+            "es": "Spain",
+            "mx": "Mexico",
+            "br": "Brazil",
+            "ar": "Argentina",
+            "co": "Colombia"
+        }
+    },
+    "clients": {
+        "sectionLabel": "Client success stories",
+        "falabella": {
+            "name": "Falabella",
+            "description": "We implemented a comprehensive cybersecurity and digital awareness program for over 3,000 employees.",
+            "testimonial": "Cyberhub helped us strengthen our digital security culture. Their team was fast, professional, and highly committed.",
+            "author": "María Gómez",
+            "position": "IT Manager | Falabella",
+            "stats": [
+                {
+                    "valor": "3,000+",
+                    "texto": "Employees trained"
+                },
+                {
+                    "valor": "95%",
+                    "texto": "Increase in security compliance"
+                },
+                {
+                    "valor": "4x",
+                    "texto": "Incident response speed improvement"
+                },
+                {
+                    "valor": "100%",
+                    "texto": "Client satisfaction"
+                }
+            ]
+        },
+        "bancoChile": {
+            "name": "Banco de Chile",
+            "description": "We developed an incident response plan adapted to the regulatory framework of the Chilean financial sector.",
+            "testimonial": "Cyberhub’s consulting was key to optimizing our detection and incident response processes.",
+            "author": "Rodrigo Pérez",
+            "position": "CISO | Banco de Chile",
+            "stats": [
+                {
+                    "valor": "12",
+                    "texto": "Critical processes improved"
+                },
+                {
+                    "valor": "40%",
+                    "texto": "Reduction in response time"
+                },
+                {
+                    "valor": "24/7",
+                    "texto": "Continuous monitoring"
+                },
+                {
+                    "valor": "A+",
+                    "texto": "Internal security assessment"
+                }
+            ]
+        }
+    },
+    "highlights": {
+        "sectionLabel": "Success stories",
+        "title": "Real solutions that strengthen business security",
+        "description": "Learn how we help companies in Chile and Latin America implement Information Security Management Systems (ISMS), comply with Law 21.633, and protect their critical assets from cyber threats.",
+        "viewAll": "View all success stories",
+        "ariaViewAll": "See more success stories"
+    },
+    "brands": {
+        "title": "Trusted by the most demanding industries",
+        "description": "Clients from the financial, mining, energy, technology, transport and healthcare sectors choose Cyberhub to protect their operations, ensure business continuity and strengthen digital resilience.",
+        "ariaLabel": "Brands that trust Cyberhub",
+        "srHint": "Swipe horizontally to see more brands",
+        "list": [
+            "Agrosuper CL, Asia and USA",
+            "SQM China, Belgium, Chile",
+            "SQM Europe NY, Lithium",
+            "SQM Industrial, Salar",
+            "Coggin Ford USA",
+            "Guacolda Energy",
+            "AquaChile",
+            "MBI: Energy Company 7 and Electric Company Vallenar",
+            "ACCA Consulting Services",
+            "HuGus Group",
+            "Banco de Chile",
+            "Falabella"
+        ]
+    },
+    "coreServices": {
+        "sectionLabel": "Our core services",
+        "title": "Cybersecurity and compliance solutions for modern businesses",
+        "footer": "Need to strengthen your organization's security? We design tailored solutions in cybersecurity, compliance, and risk management.",
+        "cta": "Book a free consultation",
+        "ariaLabel": "Request a free strategy call",
+        "seeDetails": "View details",
+        "services": [
+            {
+                "id": "1",
+                "title": "Vulnerability Management",
+                "description": "We identify weaknesses in your digital infrastructure and create plans to mitigate them based on risk priority."
+            },
+            {
+                "id": "2",
+                "title": "Penetration Testing (Pentesting)",
+                "description": "We simulate controlled attacks to evaluate the resilience of your systems and uncover vulnerabilities before others do."
+            },
+            {
+                "id": "3",
+                "title": "Consulting & Governance",
+                "description": "Strategic advisory on regulations, compliance, risks, and security frameworks for your organization."
+            },
+            {
+                "id": "4",
+                "title": "Monitoring & Detection",
+                "description": "We monitor your systems and networks 24/7 to detect incidents, respond quickly, and minimize impact."
+            },
+            {
+                "id": "5",
+                "title": "Secure Development (DevSecOps)",
+                "description": "Integration of automated security controls in your development pipeline to prevent vulnerabilities from the start."
+            },
+            {
+                "id": "6",
+                "title": "Incident Response",
+                "description": "We act quickly when security breaches occur, analyze the attack, and help restore safe operations."
+            }
+        ]
+    },
+    "mission": {
+        "whyTitle": "Why choose Cyberhub",
+        "heading": "Smart protection, strategic growth",
+        "description": "In a landscape where threats evolve daily, technology alone is not enough — you need vision, prevention, and reaction. At Cyberhub, we combine technical expertise, risk analysis, and governance to build intelligent defenses that grow with you.",
+        "ariaImage": "Cybersecurity and digital transformation strategies",
+        "readMore": "Read more",
+        "cards": [
+            {
+                "title": "Risk-based approach",
+                "description": "We assess your critical assets and focus resources on what truly matters to effectively reduce exposure."
+            },
+            {
+                "title": "Technology + Strategy",
+                "description": "We implement technological solutions aligned with your business model, regulatory framework, and growth objectives."
+            },
+            {
+                "title": "Transparency & Governance",
+                "description": "Clear reports, measurable metrics, and continuous advisory so you can make decisions with confidence."
+            }
+        ]
+    },
+    "testimonialsAndStats": {
+        "sectionLabel": "Success stories and trust",
+        "heading": "Real stories of effective cybersecurity",
+        "description": "Leading companies in energy, mining, and services rely on Cyberhub to strengthen their security posture, optimize risk management, and comply with the highest international standards.",
+        "statTitle": "Over 180 organizations protected",
+        "stat1Value": "72%",
+        "stat1Label": "Fewer critical incidents",
+        "stat2Value": "40%",
+        "stat2Label": "Process optimization",
+        "certifications": [
+            "ISO 27001",
+            "NIST Framework",
+            "TISAX & Compliance"
+        ],
+        "testimonials": [
+            {
+                "name": "María Torres",
+                "title": "IT Manager, EnerChile",
+                "quote": "The Cyberhub team implemented a cybersecurity management model that reduced critical incidents by 70%. Their support was key to achieving ISO 27001 certification."
+            },
+            {
+                "name": "Rodrigo Silva",
+                "title": "CISO, Infraseg",
+                "quote": "Their expertise in regulations and incident response allowed us to raise our security maturity level and meet international requirements."
+            },
+            {
+                "name": "Claudia Muñoz",
+                "title": "Operations Director, FinTech Andes",
+                "quote": "Cyberhub not only provided technical solutions but an integrated strategy for digital culture and resilience. They are a true strategic partner."
+            }
+        ]
+    },
+    "navbar": {
+        "links": {
+            "home": "Home",
+            "solutions": "Solutions",
+            "certifications": "Certifications",
+            "clients": "Clients",
+            "aboutUs": "About Us",
+            "blog": "Blog"
+        },
+        "phoneNumber": "+56 9 1234 5678",
+        "aria": {
+            "goHome": "Go to Cyberhub home",
+            "mainMenu": "Main navigation menu",
+            "call": "Call Cyberhub at +56 9 1234 5678",
+            "openMenu": "Open navigation menu",
+            "mobileMenu": "Mobile navigation menu"
+        }
+    },
+    "navigation": {
+        "menu": {
+            "solutions": "Solutions",
+            "certifications": "Certifications",
+            "clients": "Clients",
+            "aboutUs": "About Us",
+            "blog": "Blog"
+        },
+        "solutions": {
+            "title": "Strengthen your digital organization",
+            "description": "Comprehensive solutions in cybersecurity, brand positioning, and strategic management.",
+            "viewAll": "View all solutions",
+            "introItems": [
+                {
+                    "title": "Awareness Program",
+                    "href": "/soluciones/1",
+                    "description": "Training programs designed to strengthen the cybersecurity culture within your organization."
+                },
+                {
+                    "title": "Brand Positioning",
+                    "href": "/soluciones/2",
+                    "description": "Communication and branding strategies aimed at corporate leadership in digital security."
+                },
+                {
+                    "title": "Strategy and Management",
+                    "href": "/soluciones/3",
+                    "description": "Consulting in governance, risk, and compliance for a secure digital transformation."
+                }
+            ]
+        },
+        "certifications": {
+            "viewAll": "View all certifications",
+            "list": [
+                {
+                    "title": "ISO 27001",
+                    "href": "/certificaciones/iso-27001",
+                    "description": "Information security management based on international standards."
+                },
+                {
+                    "title": "NIST Framework",
+                    "href": "/certificaciones/nist",
+                    "description": "Cybersecurity framework for managing and reducing technology-related risks."
+                },
+                {
+                    "title": "TISAX",
+                    "href": "/certificaciones/tisax",
+                    "description": "Information security assessment for the automotive industry."
+                },
+                {
+                    "title": "Law 21.633 (OIV)",
+                    "href": "/certificaciones/oiv",
+                    "description": "Regulatory compliance for Vital Importance Organizations in Chile."
+                }
+            ]
+        }
+    },
+    "footer": {
+        "description": "Digital and cybersecurity solutions for companies looking to evolve with confidence.",
+        "copyright": "© {year} Cyberhub. All rights reserved.",
+        "aria": {
+            "label": "Cyberhub footer",
+            "goHome": "Go to Cyberhub home"
+        },
+        "columns": [
+            {
+                "title": "Solutions",
+                "links": [
+                    {
+                        "text": "Awareness Program",
+                        "href": "/soluciones/1"
+                    },
+                    {
+                        "text": "Brand Positioning",
+                        "href": "/soluciones/2"
+                    },
+                    {
+                        "text": "Strategy and Management",
+                        "href": "/soluciones/3"
+                    }
+                ]
+            },
+            {
+                "title": "Company",
+                "links": [
+                    {
+                        "text": "About Us",
+                        "href": "/nosotros"
+                    },
+                    {
+                        "text": "Clients",
+                        "href": "/clientes"
+                    },
+                    {
+                        "text": "Blog",
+                        "href": "/blog"
+                    }
+                ]
+            },
+            {
+                "title": "Contact",
+                "links": [
+                    {
+                        "text": "LinkedIn",
+                        "href": "https://www.linkedin.com/company/cyberhub-cl",
+                        "ariaLabel": "Visit Cyberhub on LinkedIn"
+                    },
+                    {
+                        "text": "Email",
+                        "href": "mailto:contacto@cyberhub.cl",
+                        "ariaLabel": "Send email to Cyberhub"
+                    },
+                    {
+                        "text": "WhatsApp",
+                        "href": "https://wa.me/56912345678",
+                        "ariaLabel": "Contact Cyberhub via WhatsApp"
+                    }
+                ]
+            }
+        ],
+        "policies": [
+            {
+                "text": "Privacy Policy",
+                "href": "/politica-de-privacidad",
+                "ariaLabel": "Read Privacy Policy"
+            },
+            {
+                "text": "Terms and Conditions",
+                "href": "/terminos",
+                "ariaLabel": "Read Terms and Conditions"
+            }
+        ]
+    },
+    "blogSection": {
+        "tagline": "Insights and updates",
+        "heading": "Knowledge that drives your digital transformation",
+        "description": "Explore articles, guides, and success stories on cybersecurity, technological innovation, and digital strategies that strengthen your organization's competitiveness.",
+        "readMore": "Read more",
+        "posts": [
+            {
+                "id": "1",
+                "title": "Gap assessment and compliance with Law 21.633 (OIV)",
+                "summary": "We identified security gaps and helped critical organizations comply with Law 21.633 through effective cyber resilience strategies.",
+                "label": "Cybersecurity",
+                "author": "Cyberhub Team",
+                "published": "2025-09-15",
+                "url": "/blog/1",
+                "image": "/ley-oiv.png"
+            },
+            {
+                "id": "2",
+                "title": "Incident management and response plan against cyberattacks",
+                "summary": "We developed incident response plans for healthcare organizations, improving reaction times and ensuring operational continuity.",
+                "label": "Risk Management",
+                "author": "Cyberhub Team",
+                "published": "2025-09-20",
+                "url": "/blog/2",
+                "image": "/gestion.png"
+            },
+            {
+                "id": "3",
+                "title": "How to build a digital security culture",
+                "summary": "Continuous training and leadership are key to creating a strong organizational culture around cybersecurity.",
+                "label": "Awareness",
+                "author": "Cyberhub Team",
+                "published": "2025-09-25",
+                "url": "/blog/3",
+                "image": "/cultura.png"
+            }
+        ]
+    },
+    "certificationsPage": {
+        "hero": {
+            "title": "ISO Certifications: Enhance your organization's quality, security, and sustainability"
+        },
+        "intro": "At <strong>Cyberhub</strong> we offer a set of international certifications based on <iso>ISO</iso> standards, designed to strengthen quality, sustainability, and security across organizations. Below you’ll find our main certifications organized by management area.",
+        "viewDetails": "View details",
+        "categories": [
+            {
+                "nombre": "Quality Management",
+                "descripcion": "Accreditations that ensure continuous improvement, customer satisfaction, and process excellence.",
+                "items": [
+                    "1"
+                ]
+            },
+            {
+                "nombre": "Environmental and Energy Management",
+                "descripcion": "Certifications focused on sustainability and efficient use of natural and energy resources.",
+                "items": [
+                    "2",
+                    "6"
+                ]
+            },
+            {
+                "nombre": "Security, Ethics, and Compliance",
+                "descripcion": "International standards that strengthen workplace safety, information security, and corporate integrity.",
+                "items": [
+                    "3",
+                    "4",
+                    "5"
+                ]
+            }
+        ]
+    },
+    "certifications": {
+        "list": [
+            {
+                "id": "1",
+                "title": "ISO 27001 Certification: Information Security Management Systems",
+                "href": "/certificaciones/1",
+                "description": "The ISO 27001 certification ensures that an organization securely manages sensitive information, minimizing risks of cyberattacks, data leaks, and regulatory breaches.",
+                "image": "/ISO27001.png",
+                "content": "<section class='space-y-8 text-gray-700 dark:text-gray-300 leading-relaxed sm:p-4'>...</section>"
+            },
+            {
+                "id": "2",
+                "title": "ISO 14001 Certification: Environmental Management",
+                "href": "/certificaciones/2",
+                "description": "International standard providing a framework for protecting the environment and improving environmental performance.",
+                "image": "/ISO14001.png"
+            },
+            {
+                "id": "3",
+                "title": "ISO 45001 Certification: Occupational Health and Safety",
+                "href": "/certificaciones/3",
+                "description": "Standard focused on preventing work-related injuries and promoting safe and healthy workplaces.",
+                "image": "/ISO45001.png"
+            },
+            {
+                "id": "4",
+                "title": "ISO 37001 Certification: Anti-Bribery",
+                "href": "/certificaciones/4",
+                "description": "Management system designed to prevent, detect, and respond to bribery risks in public and private organizations.",
+                "image": "/ISO37001.png"
+            },
+            {
+                "id": "5",
+                "title": "ISO 22301 Certification: Business Continuity Management",
+                "href": "/certificaciones/5",
+                "description": "Defines the requirements to plan, establish, and implement a system ensuring operational continuity during disruptions.",
+                "image": "/ISO22301.png"
+            },
+            {
+                "id": "6",
+                "title": "ISO 50001 Certification: Energy Management",
+                "href": "/certificaciones/6",
+                "description": "Helps improve energy performance, reduce costs, and optimize resource use through systematic management.",
+                "image": "/ISO50001.png"
+            }
+        ]
+    },
+    "clientsPage": {
+        "heading": "Nuestros clientes confían en nosotros",
+        "description": "Trabajamos junto a empresas líderes en tecnología, innovación y comunicación para crear soluciones digitales que generan impacto real y duradero.",
+        "logos": {
+            "GitHub": "GitHub",
+            "Facebook": "Facebook",
+            "Google": "Google",
+            "X": "X",
+            "Apple": "Apple"
+        }
+    },
+    "aboutPage": {
+        "hero": {
+            "title": "We drive your business’s digital transformation",
+            "description": "At Cyberhub, we believe technology should not only solve problems but also boost growth and innovation.",
+            "cta": "Let’s talk about your project"
+        },
+        "history": {
+            "title": "Our story",
+            "description": "Cyberhub was founded with the vision of connecting businesses and technology through smart digital solutions. Since our beginning, we’ve helped startups and corporations evolve digitally, growing sustainably, securely, and efficiently."
+        },
+        "valuesTitle": "Our values",
+        "values": [
+            {
+                "title": "Constant innovation",
+                "description": "We seek new ways to solve digital challenges by integrating technology and creativity."
+            },
+            {
+                "title": "Transparency and trust",
+                "description": "We believe in long-term relationships built on honesty, communication, and measurable results."
+            },
+            {
+                "title": "Collaboration",
+                "description": "Every project is a joint effort with our clients and strategic partners."
+            },
+            {
+                "title": "Technical excellence",
+                "description": "We strive to deliver solid, secure, and scalable solutions that meet world-class standards."
+            }
+        ],
+        "teamTitle": "Our team",
+        "team": [
+            {
+                "name": "Juan Sanchez",
+                "role": "Founder & Technical Director",
+                "image": "/user.jpg"
+            },
+            {
+                "name": "Camila Rodríguez",
+                "role": "Digital Marketing Lead",
+                "image": "/user.jpg"
+            },
+            {
+                "name": "Andrés Fuentes",
+                "role": "Full Stack Developer",
+                "image": "/user.jpg"
+            },
+            {
+                "name": "Valentina Herrera",
+                "role": "UX/UI Designer",
+                "image": "/user.jpg"
+            }
+        ],
+        "cta": {
+            "title": "Ready to take your business to the next level?",
+            "description": "Our team is ready to design your company’s next big digital solution with you.",
+            "button": "Contact us today"
+        }
+    },
+    "servicesPage": {
+        "hero": {
+            "title": "Our solutions: Empower your organization's security, strategy, and digital resilience",
+            "alt": "Cybersecurity solutions"
+        },
+        "intro": "At <strong>Cyberhub</strong>, we design and implement <bold>comprehensive cybersecurity solutions</bold> that encompass human awareness, strategic management, and secure digital transformation. Each solution is designed to <strong>strengthen resilience, compliance, and trust</strong> within your organization in the face of modern digital challenges.",
+        "viewDetails": "View details",
+        "categories": [
+            {
+                "nombre": "Cybersecurity Culture and Awareness",
+                "descripcion": "Initiatives designed to strengthen organizational culture, reduce human risk, and make cybersecurity a shared value across the company.",
+                "items": [
+                    "1"
+                ]
+            },
+            {
+                "nombre": "Strategy, Brand, and Digital Positioning",
+                "descripcion": "Solutions that integrate communication, corporate reputation, and technological leadership, positioning your organization as a benchmark in security and digital transformation.",
+                "items": [
+                    "2"
+                ]
+            },
+            {
+                "nombre": "Governance, Risk, and Compliance",
+                "descripcion": "Consulting services focused on comprehensive cybersecurity management: strategic planning, corporate governance, regulatory compliance, and continuous improvement.",
+                "items": [
+                    "3"
+                ]
+            }
+        ]
+    },
+    "solutions": {
+        "list": [
+            {
+                "id": "1",
+                "title": "Cybersecurity Awareness Program",
+                "href": "/solutions/1",
+                "description": "Training and campaigns designed to strengthen your organization's cybersecurity culture, reduce human risk, and promote safe digital behaviors.",
+                "image": "/awarenes.png",
+                "content": "<section class='space-y-8 text-gray-700 dark:text-gray-300 leading-relaxed sm:p-4'><figure class='w-full overflow-hidden rounded-3xl shadow-lg'><img src='/awarenes.png' alt='Cybersecurity Awareness Program' class='w-full h-72 md:h-[500px] object-cover object-top' /></figure><header class='space-y-3 border-b border-gray-200 dark:border-gray-700 pb-4'><h2 class='text-2xl md:text-3xl font-bold text-primary-color dark:text-secondary-light-color'>What is the Awareness Program?</h2><p>The <strong>Cybersecurity Awareness Program</strong> by <strong>Cyberhub</strong> is designed to build an organizational security culture, aligning employees with best practices for data protection and incident response. Through interactive training, phishing simulations, and localized content, we empower the human factor as the first line of defense.</p></header><article class='grid md:grid-cols-2 gap-8'><div class='space-y-4'><h3 class='text-xl font-semibold text-gray-900 dark:text-white'>Program Components</h3><ul class='list-disc list-inside space-y-2'><li>Assessment of maturity level and human risk factors.</li><li>Interactive training customized by area or role.</li><li>Simulated social engineering attacks (phishing, smishing, etc.).</li><li>Impact measurement and continuous improvement.</li></ul></div><div class='space-y-4'><h3 class='text-xl font-semibold text-gray-900 dark:text-white'>Expected Outcomes</h3><ul class='list-disc list-inside space-y-2'><li>Increased awareness and accountability at all levels.</li><li>Measurable reduction of incidents caused by human error.</li><li>Compliance with ISO 27001 and other security audits.</li><li>Enhanced organizational culture and internal trust.</li></ul></div></article><aside class='bg-gradient-to-r from-primary-color/10 to-secondary-light-color/10 p-6 rounded-2xl border border-gray-200 dark:border-gray-700 space-y-3'><h3 class='text-lg font-semibold text-primary-color dark:text-secondary-light-color'>Strategic Value</h3><p>Cybersecurity is not only about technology. 85% of incidents originate from human behavior. Our human-first approach ensures that security policies become part of your corporate DNA.</p></aside><footer class='pt-6 border-t border-gray-200 dark:border-gray-700'><p class='italic'>At <strong>Cyberhub</strong>, we help organizations turn awareness into action, integrating security, communication, and responsible digital behavior.</p></footer></section>"
+            },
+            {
+                "id": "2",
+                "title": "Cybersecurity Brand Positioning",
+                "href": "/solutions/2",
+                "description": "Communication and branding strategies that position your organization as a trusted leader in digital security.",
+                "image": "/Posicionamiento de Marca en Ciberseguridad.png",
+                "content": "<section class='space-y-8 text-gray-700 dark:text-gray-300 leading-relaxed sm:p-4'><figure class='w-full overflow-hidden rounded-3xl shadow-lg'><img src='/Posicionamiento de Marca en Ciberseguridad.png' alt='Cybersecurity Brand Positioning' class='w-full h-72 md:h-[500px] object-cover object-top' /></figure><header class='space-y-3 border-b border-gray-200 dark:border-gray-700 pb-4'><h2 class='text-2xl md:text-3xl font-bold text-primary-color dark:text-secondary-light-color'>Boost your brand in the secure digital world</h2><p>In today’s market, companies that communicate trust and technological leadership gain a competitive edge. Our <strong>Brand Positioning</strong> service combines strategy, design, and technical storytelling to highlight your security expertise in an increasingly demanding digital landscape.</p></header><article class='grid md:grid-cols-2 gap-8'><div class='space-y-4'><h3 class='text-xl font-semibold text-gray-900 dark:text-white'>Included Services</h3><ul class='list-disc list-inside space-y-2'><li>Corporate visual identity design and development.</li><li>Strategic communication campaigns (web, social, press).</li><li>Digital reputation management and crisis communication.</li><li>Technical content focused on trust and leadership.</li></ul></div><div class='space-y-4'><h3 class='text-xl font-semibold text-gray-900 dark:text-white'>Expected Impact</h3><ul class='list-disc list-inside space-y-2'><li>Greater brand recognition in the tech and corporate sectors.</li><li>Lead generation through trust and visibility.</li><li>Strengthened perceived value of your solutions and digital culture.</li></ul></div></article><aside class='bg-gradient-to-r from-secondary-light-color/10 to-primary-color/10 p-6 rounded-2xl border border-gray-200 dark:border-gray-700 space-y-3'><h3 class='text-lg font-semibold text-secondary-light-color dark:text-primary-color'>Strategy + Technology = Trust</h3><p>We combine design, storytelling, and data to position your brand with a professional and trustworthy voice in the digital ecosystem.</p></aside><footer class='pt-6 border-t border-gray-200 dark:border-gray-700'><p class='italic'>With <strong>Cyberhub</strong>, your brand doesn’t just communicate — it leads the conversation on security and digital transformation.</p></footer></section>"
+            },
+            {
+                "id": "3",
+                "title": "Cybersecurity Strategy and Management",
+                "href": "/solutions/3",
+                "description": "Consulting and management services focused on digital transformation, organizational resilience, and cybersecurity compliance.",
+                "image": "/Estrategias y Gestión de Ciberseguridad.png",
+                "content": "<section class='space-y-8 text-gray-700 dark:text-gray-300 leading-relaxed sm:p-4'><figure class='w-full overflow-hidden rounded-3xl shadow-lg'><img src='/Estrategias y Gestión de Ciberseguridad.png' alt='Cybersecurity Strategy and Management' class='w-full h-72 md:h-[500px] object-cover object-top' /></figure><header class='space-y-3 border-b border-gray-200 dark:border-gray-700 pb-4'><h2 class='text-2xl md:text-3xl font-bold text-primary-color dark:text-secondary-light-color'>Strategy, Governance, and Cyber Maturity</h2><p>Our <strong>Cybersecurity Strategy and Management</strong> service guides organizations in designing and implementing master plans aligned with international standards such as <strong>NIST CSF</strong>, <strong>ISO 27001</strong>, and <strong>CMMI</strong>.</p></header><article class='grid md:grid-cols-2 gap-8'><div class='space-y-4'><h3 class='text-xl font-semibold text-gray-900 dark:text-white'>Focus Areas</h3><ul class='list-disc list-inside space-y-2'><li>Security maturity assessments and roadmap development.</li><li>Policy and governance model design.</li><li>Implementation of risk and control frameworks.</li><li>Definition of roles, responsibilities, and KPIs.</li></ul></div><div class='space-y-4'><h3 class='text-xl font-semibold text-gray-900 dark:text-white'>Organizational Benefits</h3><ul class='list-disc list-inside space-y-2'><li>Strengthened corporate governance in cybersecurity.</li><li>Improved risk-based decision-making and metrics.</li><li>Facilitated attainment of international certifications.</li></ul></div></article><aside class='bg-gradient-to-r from-primary-color/10 to-secondary-light-color/10 p-6 rounded-2xl border border-gray-200 dark:border-gray-700 space-y-3'><h3 class='text-lg font-semibold text-primary-color dark:text-secondary-light-color'>Expert Guidance</h3><p>Our consultants work hand in hand with your team to ensure a sustainable management model that evolves with your operations.</p></aside><footer class='pt-6 border-t border-gray-200 dark:border-gray-700'><p class='italic'>At <strong>Cyberhub</strong>, we believe that a solid strategy is the foundation of a strong defense. We don’t just implement security — we help you govern it.</p></footer></section>"
+            }
+        ]
+    },
+    "AllSolutions": {
+        "list": [
+            {
+                "id": "1",
+                "title": "Cybersecurity Awareness Program",
+                "href": "/solutions/1",
+                "description": "Training and campaigns designed to strengthen your organization's cybersecurity culture, reduce human risk, and promote safe digital behaviors.",
+                "image": "/awarenes.png",
+                "content": "<section class='space-y-8 text-gray-700 dark:text-gray-300 leading-relaxed sm:p-4'><figure class='w-full overflow-hidden rounded-3xl shadow-lg'><img src='/awarenes.png' alt='Cybersecurity Awareness Program' class='w-full h-72 md:h-[500px] object-cover object-top' /></figure><header class='space-y-3 border-b border-gray-200 dark:border-gray-700 pb-4'><h2 class='text-2xl md:text-3xl font-bold text-primary-color dark:text-secondary-light-color'>What is the Awareness Program?</h2><p>The <strong>Cybersecurity Awareness Program</strong> by <strong>Cyberhub</strong> is designed to build an organizational security culture, aligning employees with best practices for data protection and incident response. Through interactive training, phishing simulations, and localized content, we empower the human factor as the first line of defense.</p></header><article class='grid md:grid-cols-2 gap-8'><div class='space-y-4'><h3 class='text-xl font-semibold text-gray-900 dark:text-white'>Program Components</h3><ul class='list-disc list-inside space-y-2'><li>Assessment of maturity level and human risk factors.</li><li>Interactive training customized by area or role.</li><li>Simulated social engineering attacks (phishing, smishing, etc.).</li><li>Impact measurement and continuous improvement.</li></ul></div><div class='space-y-4'><h3 class='text-xl font-semibold text-gray-900 dark:text-white'>Expected Outcomes</h3><ul class='list-disc list-inside space-y-2'><li>Increased awareness and accountability at all levels.</li><li>Measurable reduction of incidents caused by human error.</li><li>Compliance with ISO 27001 and other security audits.</li><li>Enhanced organizational culture and internal trust.</li></ul></div></article><aside class='bg-gradient-to-r from-primary-color/10 to-secondary-light-color/10 p-6 rounded-2xl border border-gray-200 dark:border-gray-700 space-y-3'><h3 class='text-lg font-semibold text-primary-color dark:text-secondary-light-color'>Strategic Value</h3><p>Cybersecurity is not only about technology. 85% of incidents originate from human behavior. Our human-first approach ensures that security policies become part of your corporate DNA.</p></aside><footer class='pt-6 border-t border-gray-200 dark:border-gray-700'><p class='italic'>At <strong>Cyberhub</strong>, we help organizations turn awareness into action, integrating security, communication, and responsible digital behavior.</p></footer></section>"
+            },
+            {
+                "id": "2",
+                "title": "Cybersecurity Brand Positioning",
+                "href": "/solutions/2",
+                "description": "Communication and branding strategies that position your organization as a trusted leader in digital security.",
+                "image": "/Posicionamiento de Marca en Ciberseguridad.png",
+                "content": "<section class='space-y-8 text-gray-700 dark:text-gray-300 leading-relaxed sm:p-4'><figure class='w-full overflow-hidden rounded-3xl shadow-lg'><img src='/Posicionamiento de Marca en Ciberseguridad.png' alt='Cybersecurity Brand Positioning' class='w-full h-72 md:h-[500px] object-cover object-top' /></figure><header class='space-y-3 border-b border-gray-200 dark:border-gray-700 pb-4'><h2 class='text-2xl md:text-3xl font-bold text-primary-color dark:text-secondary-light-color'>Boost your brand in the secure digital world</h2><p>In today’s market, companies that communicate trust and technological leadership gain a competitive edge. Our <strong>Brand Positioning</strong> service combines strategy, design, and technical storytelling to highlight your security expertise in an increasingly demanding digital landscape.</p></header><article class='grid md:grid-cols-2 gap-8'><div class='space-y-4'><h3 class='text-xl font-semibold text-gray-900 dark:text-white'>Included Services</h3><ul class='list-disc list-inside space-y-2'><li>Corporate visual identity design and development.</li><li>Strategic communication campaigns (web, social, press).</li><li>Digital reputation management and crisis communication.</li><li>Technical content focused on trust and leadership.</li></ul></div><div class='space-y-4'><h3 class='text-xl font-semibold text-gray-900 dark:text-white'>Expected Impact</h3><ul class='list-disc list-inside space-y-2'><li>Greater brand recognition in the tech and corporate sectors.</li><li>Lead generation through trust and visibility.</li><li>Strengthened perceived value of your solutions and digital culture.</li></ul></div></article><aside class='bg-gradient-to-r from-secondary-light-color/10 to-primary-color/10 p-6 rounded-2xl border border-gray-200 dark:border-gray-700 space-y-3'><h3 class='text-lg font-semibold text-secondary-light-color dark:text-primary-color'>Strategy + Technology = Trust</h3><p>We combine design, storytelling, and data to position your brand with a professional and trustworthy voice in the digital ecosystem.</p></aside><footer class='pt-6 border-t border-gray-200 dark:border-gray-700'><p class='italic'>With <strong>Cyberhub</strong>, your brand doesn’t just communicate — it leads the conversation on security and digital transformation.</p></footer></section>"
+            },
+            {
+                "id": "3",
+                "title": "Cybersecurity Strategy and Management",
+                "href": "/solutions/3",
+                "description": "Consulting and management services focused on digital transformation, organizational resilience, and cybersecurity compliance.",
+                "image": "/Estrategias y Gestión de Ciberseguridad.png",
+                "content": "<section class='space-y-8 text-gray-700 dark:text-gray-300 leading-relaxed sm:p-4'><figure class='w-full overflow-hidden rounded-3xl shadow-lg'><img src='/Estrategias y Gestión de Ciberseguridad.png' alt='Cybersecurity Strategy and Management' class='w-full h-72 md:h-[500px] object-cover object-top' /></figure><header class='space-y-3 border-b border-gray-200 dark:border-gray-700 pb-4'><h2 class='text-2xl md:text-3xl font-bold text-primary-color dark:text-secondary-light-color'>Strategy, Governance, and Cyber Maturity</h2><p>Our <strong>Cybersecurity Strategy and Management</strong> service guides organizations in designing and implementing master plans aligned with international standards such as <strong>NIST CSF</strong>, <strong>ISO 27001</strong>, and <strong>CMMI</strong>.</p></header><article class='grid md:grid-cols-2 gap-8'><div class='space-y-4'><h3 class='text-xl font-semibold text-gray-900 dark:text-white'>Focus Areas</h3><ul class='list-disc list-inside space-y-2'><li>Security maturity assessments and roadmap development.</li><li>Policy and governance model design.</li><li>Implementation of risk and control frameworks.</li><li>Definition of roles, responsibilities, and KPIs.</li></ul></div><div class='space-y-4'><h3 class='text-xl font-semibold text-gray-900 dark:text-white'>Organizational Benefits</h3><ul class='list-disc list-inside space-y-2'><li>Strengthened corporate governance in cybersecurity.</li><li>Improved risk-based decision-making and metrics.</li><li>Facilitated attainment of international certifications.</li></ul></div></article><aside class='bg-gradient-to-r from-primary-color/10 to-secondary-light-color/10 p-6 rounded-2xl border border-gray-200 dark:border-gray-700 space-y-3'><h3 class='text-lg font-semibold text-primary-color dark:text-secondary-light-color'>Expert Guidance</h3><p>Our consultants work hand in hand with your team to ensure a sustainable management model that evolves with your operations.</p></aside><footer class='pt-6 border-t border-gray-200 dark:border-gray-700'><p class='italic'>At <strong>Cyberhub</strong>, we believe that a solid strategy is the foundation of a strong defense. We don’t just implement security — we help you govern it.</p></footer></section>"
+            }
+        ]
+    }
+}

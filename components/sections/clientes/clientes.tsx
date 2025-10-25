@@ -3,6 +3,7 @@
 import Image from "next/image";
 import { motion } from "framer-motion";
 import Path from "./path";
+import { useTranslations } from "next-intl";
 
 type Stat = { valor: string; texto: string };
 
@@ -16,43 +17,6 @@ type Cliente = {
   avatar: string;
   stats: Stat[];
 };
-
-const clientes: Cliente[] = [
-  {
-    nombre: "Falabella",
-    logo: "/Falabella.svg.png",
-    descripcion:
-      "Implementamos un programa integral de ciberseguridad y concientización digital para más de 3.000 colaboradores.",
-    testimonio:
-      "Cyberhub nos ayudó a fortalecer nuestra cultura de seguridad digital. Su equipo fue rápido, profesional y comprometido.",
-    autor: "María Gómez",
-    cargo: "Gerente de TI | Falabella",
-    avatar: "/user.jpg",
-    stats: [
-      { valor: "3.000+", texto: "Colaboradores capacitados" },
-      { valor: "95%", texto: "Aumento en cumplimiento de seguridad" },
-      { valor: "4x", texto: "Velocidad de respuesta ante incidentes" },
-      { valor: "100%", texto: "Satisfacción del cliente" },
-    ],
-  },
-  {
-    nombre: "Banco de Chile",
-    logo: "/logo-BancoDeChile.png",
-    descripcion:
-      "Desarrollamos un plan de respuesta ante incidentes adaptado a las normativas del sector financiero chileno.",
-    testimonio:
-      "La asesoría de Cyberhub fue clave para optimizar nuestros procesos de detección y respuesta ante ciberamenazas.",
-    autor: "Rodrigo Pérez",
-    cargo: "CISO | Banco de Chile",
-    avatar: "/user.jpg",
-    stats: [
-      { valor: "12", texto: "Procesos críticos mejorados" },
-      { valor: "40%", texto: "Reducción del tiempo de respuesta" },
-      { valor: "24/7", texto: "Monitoreo continuo" },
-      { valor: "A+", texto: "Evaluación interna de seguridad" },
-    ],
-  },
-];
 
 function StatsGrid({ stats }: { stats: Stat[] }) {
   return (
@@ -159,6 +123,30 @@ function TestimonialBlock({
 }
 
 export default function ClientesSection() {
+  const t = useTranslations("clients");
+  const clientes = [
+    {
+      nombre: t("falabella.name"),
+      logo: "/Falabella.svg.png",
+      descripcion: t("falabella.description"),
+      testimonio: t("falabella.testimonial"),
+      autor: t("falabella.author"),
+      cargo: t("falabella.position"),
+      avatar: "/user.jpg",
+      stats: t.raw("falabella.stats"),
+    },
+    {
+      nombre: t("bancoChile.name"),
+      logo: "/logo-BancoDeChile.png",
+      descripcion: t("bancoChile.description"),
+      testimonio: t("bancoChile.testimonial"),
+      autor: t("bancoChile.author"),
+      cargo: t("bancoChile.position"),
+      avatar: "/user.jpg",
+      stats: t.raw("bancoChile.stats"),
+    },
+  ];
+
   return (
     <section
       className="max-w-6xl px-6 py-24 sm:px-8 lg:px-10 mx-auto space-y-32"
