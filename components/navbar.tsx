@@ -15,6 +15,7 @@ import { siteConfig } from "@/config/site";
 import Link from "next/link";
 import { LanguageSwitcher } from "./labguage-switcher";
 import { useTranslations } from "next-intl";
+import Image from "next/image";
 
 interface NavbarLink {
   text: string;
@@ -64,7 +65,12 @@ export default function Navbar({
           aria-label={t("aria.goHome")}
           className="flex items-center gap-2"
         >
-          <LaunchUI className="size-8" aria-hidden="true" />
+          <Image
+            src={"/cyberhub.svg"}
+            alt="cyberhub"
+            height={200}
+            width={100}
+          />
           <span className="sr-only">Cyberhub</span>
         </Link>
 

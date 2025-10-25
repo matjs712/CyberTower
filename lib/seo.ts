@@ -1,5 +1,10 @@
 export const defaultMetadata = {
   metadataBase: new URL("https://www.cyberhub.cl"),
+  icons: {
+    icon: "/icon.ico",
+    shortcut: "/icon.ico",
+    apple: "/icon.ico",
+  },
   title: {
     default: "Cyberhub — Soluciones Digitales y Ciberseguridad",
     template: "%s | Cyberhub",
