@@ -47,7 +47,7 @@ const ClientePage = () => {
                 />
               </div>
               <span className="text-sm font-medium text-gray-400 group-hover:text-cyan-400 transition-colors duration-300">
-                {t(`logos.${logo.name}`) ?? logo.name}
+                {logo.name}
               </span>
             </div>
           ))}
