@@ -1,22 +1,26 @@
 "use client";
-import Link from "next/link";
-import { usePathname } from "next/navigation";
+
+import { usePathname, Link } from "@/i18n/navigation";
+import { useParams } from "next/navigation";
 
 export const LanguageSwitcher = () => {
   const pathname = usePathname();
-  const currentLocale = pathname.split("/")[1];
+  const params = useParams();
 
   return (
     <div className="flex gap-4 items-center">
       <Link
-        href={pathname.replace(`/${currentLocale}`, "/es")}
-        className={currentLocale === "es" ? "font-bold text-primary" : ""}
+        href={{ pathname, query: params }} // 👈 usa "query" en vez de "params"
+        locale="es"
+        className="font-medium"
       >
         🇪🇸 ES
       </Link>
+
       <Link
-        href={pathname.replace(`/${currentLocale}`, "/en")}
-        className={currentLocale === "en" ? "font-bold text-primary" : ""}
+        href={{ pathname, query: params }} // 👈 igual aquí
+        locale="en"
+        className="font-medium"
       >
         🇬🇧 EN
       </Link>
