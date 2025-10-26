@@ -16,7 +16,14 @@ const Hero = () => {
     <main className="flex flex-col gap-16 px-8 py-6">
       {/* === HERO PRINCIPAL === */}
       <header className="relative flex sm:h-[90vh] h-fit flex-col items-center justify-center overflow-hidden rounded-2xl bg-transparent text-left text-white pb-6 sm:pb-0">
-        <video
+        <Image
+          src={"/bghero.jpg"}
+          alt="cybertower"
+          width={3000}
+          height={3000}
+          className="absolute inset-0 -z-10 h-full w-full object-cover"
+        />
+        {/* <video
           autoPlay
           loop
           muted
@@ -26,8 +33,8 @@ const Hero = () => {
           className="absolute inset-0 -z-10 h-full w-full object-cover"
         >
           <source src="/hero.mp4" type="video/mp4" />
-        </video>
-        <div className="absolute inset-0 -z-10 bg-gradient-to-t from-black/95 via-black/60 to-transparent" />
+        </video> */}
+        <div className="absolute inset-0 -z-10 bg-gradient-to-t from-black/30 via-black/80 to-white/10 " />
 
         <motion.div
           initial={{ opacity: 0, y: 40 }}
@@ -36,7 +43,7 @@ const Hero = () => {
           className="max-w-4xl space-y-6"
         >
           <div className="p-4 pt-12 sm:px-0 sm:pt-0 space-y-6">
-            <h1 className="text-balance text-3xl font-semibold leading-tight md:text-5xl lg:text-6xl bg-gradient-to-r from-secondary-light-color to-white bg-clip-text text-transparent">
+            <h1 className="text-balance text-3xl font-semibold leading-tight md:text-5xl lg:text-6xl text-white">
               {t("title")}
             </h1>
 
@@ -45,9 +52,9 @@ const Hero = () => {
 
           <div className="mt-8 flex flex-col items-center justify-center gap-4 sm:flex-row" />
 
-          <div className="w-full mt-6 flex flex-col sm:flex-row items-center justify-between text-sm text-gray-400 px-6 sm:px-0">
+          <div className="w-full mt-6 flex flex-col sm:flex-row items-center justify-between text-sm text-white px-6 sm:px-0">
             <div className="flex-1 flex flex-col max-w-xs gap-2">
-              <div className="flex flex-row gap-3 items-center text-secondary-light-color">
+              <div className="flex flex-row gap-3 items-center text-secondary-color">
                 <LinkedInLogoIcon aria-label="LinkedIn" className="size-6" />
                 <MessageCircleCode aria-label="Mensajería" className="size-6" />
                 <Mail aria-label="Correo" className="size-6" />
@@ -69,7 +76,7 @@ const Hero = () => {
                     aria-label="Ir a la página de contacto"
                     className="flex flex-row gap-2 px-1"
                   >
-                    <div className="bg-secondary-light-color p-2 rounded-full">
+                    <div className="bg-secondary-color p-1 rounded-full">
                       <MessageCircle className="size-5" aria-hidden="true" />
                     </div>
                     <span className="pr-2">{t("buttonContact")}</span>
@@ -82,21 +89,21 @@ const Hero = () => {
                     height={32}
                     src="/user.jpg"
                     alt="Foto de cliente satisfecho"
-                    className="size-8 rounded-full border-2 border-secondary-light-color object-cover"
+                    className="size-8 rounded-full border-2 object-cover"
                   />
                   <Image
                     width={32}
                     height={32}
                     src="/user-1.jpg"
                     alt="Foto de cliente satisfecho"
-                    className="size-8 rounded-full border-2 border-blue-400 object-cover"
+                    className="size-8 rounded-full border-2  object-cover"
                   />
                   <Image
                     width={32}
                     height={32}
                     src="/user.jpg"
                     alt="Foto de cliente satisfecho"
-                    className="size-8 rounded-full border-2 border-blue-400 object-cover"
+                    className="size-8 rounded-full border-2  object-cover"
                   />
                 </div>
 
@@ -113,16 +120,16 @@ const Hero = () => {
 
       {/* === LOGOS === */}
       <section
-        className="flex flex-col items-center justify-center gap-8 rounded-xl bg-secondary py-8 pb-5"
+        className="flex flex-col items-center justify-center gap-8 rounded-xl bg-primary-light-color py-8 pb-5"
         aria-labelledby="trusted-heading"
       >
         <h2
           id="trusted-heading"
-          className="text-center text-xl font-semibold text-white"
+          className="text-center text-2xl font-semibold text-white"
         >
           {t("trustedHeading")}
         </h2>
-        <p className="mb-0 text-balance font-medium text-muted-foreground px-2 sm:px-0">
+        <p className="mb-0 text-balance font-medium text-white px-2 sm:px-0">
           {t("trustedSubheading")}
         </p>
 
@@ -144,7 +151,7 @@ const Hero = () => {
                 height={24}
                 className="rounded shadow"
               />
-              <span className="text-sm font-medium text-white/90">
+              <span className="text-sm font-medium text-white">
                 {country.name}
               </span>
             </div>
@@ -153,8 +160,8 @@ const Hero = () => {
 
         <div className="flex size-full items-center justify-center">
           <Marquee>
-            <MarqueeFade className="from-secondary" side="left" />
-            <MarqueeFade className="from-secondary" side="right" />
+            <MarqueeFade className="from-transparent" side="left" />
+            <MarqueeFade className="from-transparent" side="right" />
             <MarqueeContent
               pauseOnHover={false}
               delay={0}

@@ -24,7 +24,7 @@ const BrandLogos = () => {
             </h2>
           </div>
           <div className="w-full md:w-2/3">
-            <p className="text-gray-300 text-base">{t("description")}</p>
+            <p className="text-neutral-800 text-base">{t("description")}</p>
           </div>
         </header>
 
@@ -40,7 +40,7 @@ const BrandLogos = () => {
           {brands.map((name, index) => (
             <li
               key={name}
-              className="flex items-center flex-shrink-0 px-5 py-3 border border-secondary-color/50 rounded-xl transition-colors cursor-default font-semibold text-lg hover:border-secondary-color/80"
+              className="flex items-center flex-shrink-0 px-5 py-3 border border-primary-light-color rounded-xl transition-colors cursor-default font-semibold text-lg hover:border-secondary-color/80"
             >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -59,7 +59,7 @@ const BrandLogos = () => {
               >
                 <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5" />
               </svg>
-              <span>{name}</span>
+              <span className="text-neutral-700">{name}</span>
             </li>
           ))}
         </ul>

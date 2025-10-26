@@ -3,6 +3,7 @@
 import React from "react";
 import Image from "next/image";
 import { useTranslations, useLocale } from "next-intl";
+import Link from "next/link";
 
 const Mision = () => {
   const t = useTranslations("mission");
@@ -22,7 +23,7 @@ const Mision = () => {
             (card: { title: string; description: string }, i: number) => (
               <li
                 key={card.title}
-                className="p-6 md:p-8 rounded-2xl border border-gray-200 shadow-lg flex items-start gap-5"
+                className="p-6 md:p-8 rounded-2xl shadow-lg flex items-start gap-5"
               >
                 <div className="flex-shrink-0 mt-1" aria-hidden="true">
                   <MissionIcon index={i} />
@@ -30,15 +31,13 @@ const Mision = () => {
 
                 <article className="flex-grow">
                   <h3 className="text-xl font-bold mb-2">{card.title}</h3>
-                  <p className="text-gray-400 text-sm mb-3">
+                  <p className="text-neutral-800 text-sm mb-3">
                     {card.description}
                   </p>
-                  <a
-                    href={`/${locale}/mision/${card.title
-                      .toLowerCase()
-                      .replace(/\s+/g, "-")}`}
+                  <Link
+                    href={`/${locale}/nosotros`}
                     aria-label={`${t("readMore")} ${card.title}`}
-                    className="flex items-center text-secondary-light-color text-sm font-semibold hover:text-secondary-color transition-colors"
+                    className="flex items-center text-primary-light-color text-sm font-neutral hover:text-secondary-color transition-colors"
                   >
                     {t("readMore")}
                     <svg
@@ -54,7 +53,7 @@ const Mision = () => {
                         clipRule="evenodd"
                       />
                     </svg>
-                  </a>
+                  </Link>
                 </article>
               </li>
             )
@@ -64,7 +63,7 @@ const Mision = () => {
         {/* === RIGHT COLUMN (TEXT + IMAGE) === */}
         <div className="flex flex-col gap-6">
           <header>
-            <div className="flex items-center text-secondary-color text-sm font-semibold uppercase tracking-wider mb-2">
+            <div className="flex items-center text-primary-light-color text-sm font-semibold uppercase tracking-wider mb-2">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 className="h-4 w-4 mr-2"
@@ -82,13 +81,13 @@ const Mision = () => {
             </div>
             <h2
               id="mision-heading"
-              className="text-4xl font-bold leading-tight bg-gradient-to-l from-neutral-800 to-white bg-clip-text text-transparent"
+              className="text-4xl font-bold leading-tight bg-gradient-to-r from-neutral-800 to-white bg-clip-text text-transparent"
             >
               {t("heading")}
             </h2>
           </header>
 
-          <p className="text-gray-400 text-lg">{t("description")}</p>
+          <p className="text-neutral-800 text-lg">{t("description")}</p>
 
           <figure className="relative w-full h-80 rounded-2xl overflow-hidden shadow-2xl">
             <Image
@@ -112,7 +111,7 @@ function MissionIcon({ index }: { index: number }) {
     <svg
       key={0}
       xmlns="http://www.w3.org/2000/svg"
-      className="h-8 w-8 text-purple-500"
+      className="h-8 w-8 text-primary-light-color"
       viewBox="0 0 24 24"
       fill="none"
       stroke="currentColor"
@@ -125,7 +124,7 @@ function MissionIcon({ index }: { index: number }) {
     <svg
       key={1}
       xmlns="http://www.w3.org/2000/svg"
-      className="h-8 w-8 text-purple-500"
+      className="h-8 w-8 text-primary-light-color"
       viewBox="0 0 24 24"
       fill="none"
       stroke="currentColor"
@@ -139,7 +138,7 @@ function MissionIcon({ index }: { index: number }) {
     <svg
       key={2}
       xmlns="http://www.w3.org/2000/svg"
-      className="h-8 w-8 text-purple-500"
+      className="h-8 w-8 text-primary-light-color"
       viewBox="0 0 24 24"
       fill="none"
       stroke="currentColor"

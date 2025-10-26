@@ -245,22 +245,22 @@
             "list": [
                 {
                     "title": "ISO 27001",
-                    "href": "/certificaciones/iso-27001",
+                    "href": "/certificaciones/1",
                     "description": "Gestión de seguridad de la información basada en estándares internacionales."
                 },
                 {
                     "title": "NIST Framework",
-                    "href": "/certificaciones/nist",
+                    "href": "/certificaciones/2",
                     "description": "Marco de ciberseguridad para la gestión de riesgos tecnológicos."
                 },
                 {
                     "title": "TISAX",
-                    "href": "/certificaciones/tisax",
+                    "href": "/certificaciones/3",
                     "description": "Evaluación de seguridad de la información para la industria automotriz."
                 },
                 {
                     "title": "Ley 21.633 (OIV)",
-                    "href": "/certificaciones/oiv",
+                    "href": "/certificaciones/4",
                     "description": "Cumplimiento normativo para Organismos de Importancia Vital en Chile."
                 }
             ]
@@ -417,46 +417,35 @@
         "list": [
             {
                 "id": "1",
-                "title": "Certificación ISO 27001: Sistemas de Gestión de la Seguridad de la Información",
+                "title": "ISO 27001",
                 "href": "/certificaciones/1",
-                "description": "La certificación ISO 27001 garantiza que una organización gestiona de forma segura la información confidencial, minimizando riesgos de ciberataques, fugas de datos y brechas de cumplimiento normativo.",
+                "description": "Gestión de seguridad de la información basada en estándares internacionales.",
                 "image": "/ISO27001.png",
-                "content": "<section class='space-y-8 text-gray-700 dark:text-gray-300 leading-relaxed sm:p-4'>...</section>"
+                "content": "<section class='space-y-8 text-gray-700 dark:text-gray-300 leading-relaxed sm:p-4'><p>La <strong>ISO 27001</strong> es el estándar internacional que define los requisitos para implementar un <strong>Sistema de Gestión de Seguridad de la Información (SGSI)</strong>. Su propósito es proteger la confidencialidad, integridad y disponibilidad de los datos frente a amenazas internas y externas.</p><p>Esta certificación demuestra que una organización aplica controles técnicos, físicos y administrativos para mitigar riesgos de ciberataques, fugas de información y fallos de cumplimiento.</p><h3 class='text-xl font-semibold'>Beneficios</h3><ul class='list-disc pl-6 space-y-2'><li>Garantiza una gestión estructurada de la seguridad de la información.</li><li>Fortalece la confianza de clientes, socios y auditores.</li><li>Apoya el cumplimiento de leyes de protección de datos como el GDPR y la Ley 19.628 en Chile.</li><li>Promueve una cultura corporativa de seguridad.</li></ul><h3 class='text-xl font-semibold'>Aplicación</h3><p>Recomendada para cualquier organización que maneje información sensible, especialmente en sectores financieros, tecnológicos, de salud, y servicios públicos.</p></section>"
             },
             {
                 "id": "2",
-                "title": "Certificación ISO 14001: Gestión Ambiental",
+                "title": "NIST Framework",
                 "href": "/certificaciones/2",
-                "description": "Estándar internacional que establece un marco para la protección del medio ambiente y la mejora continua del desempeño ambiental.",
-                "image": "/ISO14001.png"
+                "description": "Marco de ciberseguridad para la gestión de riesgos tecnológicos.",
+                "image": "/NIST.png",
+                "content": "<section class='space-y-8 text-gray-700 dark:text-gray-300 leading-relaxed sm:p-4'><p>El <strong>NIST Cybersecurity Framework (CSF)</strong>, desarrollado por el <em>National Institute of Standards and Technology</em> de EE.UU., proporciona un conjunto de guías y controles para gestionar y reducir los riesgos cibernéticos en organizaciones públicas y privadas.</p><p>El marco se basa en cinco funciones clave: <strong>Identificar, Proteger, Detectar, Responder</strong> y <strong>Recuperar</strong>, ofreciendo un enfoque adaptable y escalable.</p><h3 class='text-xl font-semibold'>Beneficios</h3><ul class='list-disc pl-6 space-y-2'><li>Mejora la postura de ciberseguridad y resiliencia organizacional.</li><li>Permite alinear las prácticas de seguridad con estándares internacionales.</li><li>Facilita auditorías y reportes regulatorios.</li><li>Reduce el impacto de incidentes y mejora la capacidad de respuesta.</li></ul><h3 class='text-xl font-semibold'>Aplicación</h3><p>Utilizado globalmente por empresas de infraestructura crítica, servicios financieros, telecomunicaciones y entidades gubernamentales para establecer programas de seguridad maduros y medibles.</p></section>"
             },
             {
                 "id": "3",
-                "title": "Certificación ISO 45001: Seguridad y Salud en el Trabajo",
+                "title": "TISAX",
                 "href": "/certificaciones/3",
-                "description": "Norma enfocada en prevenir lesiones laborales y promover entornos de trabajo seguros y saludables.",
-                "image": "/ISO45001.png"
+                "description": "Evaluación de seguridad de la información para la industria automotriz.",
+                "image": "/TISAX.png",
+                "content": "<section class='space-y-8 text-gray-700 dark:text-gray-300 leading-relaxed sm:p-4'><p><strong>TISAX (Trusted Information Security Assessment Exchange)</strong> es un estándar desarrollado por la <em>Asociación Alemana de la Industria Automotriz (VDA)</em> y gestionado por ENX Association. Evalúa la seguridad de la información en empresas que trabajan dentro de la cadena de suministro automotriz.</p><p>Se basa en los requisitos de la <strong>ISO/IEC 27001</strong>, pero adaptado a las necesidades de la industria automotriz, donde la protección de datos de desarrollo, propiedad intelectual y confidencialidad con socios es crítica.</p><h3 class='text-xl font-semibold'>Beneficios</h3><ul class='list-disc pl-6 space-y-2'><li>Establece un nivel uniforme de seguridad en toda la cadena de valor.</li><li>Facilita la colaboración entre fabricantes, proveedores y socios.</li><li>Reduce auditorías redundantes al usar una evaluación compartida.</li><li>Garantiza la protección de datos de diseño y producción.</li></ul><h3 class='text-xl font-semibold'>Aplicación</h3><p>Obligatoria o recomendada para proveedores del sector automotriz europeo (OEMs, Tier 1, Tier 2) y empresas de tecnología que manejan información sensible relacionada con el desarrollo automotriz.</p></section>"
             },
             {
                 "id": "4",
-                "title": "Certificación ISO 37001: Antisoborno",
+                "title": "Ley 21.633 (OIV)",
                 "href": "/certificaciones/4",
-                "description": "Sistema de gestión diseñado para prevenir, detectar y responder ante riesgos de soborno en organizaciones públicas y privadas.",
-                "image": "/ISO37001.png"
-            },
-            {
-                "id": "5",
-                "title": "Certificación ISO 22301: Continuidad del Negocio",
-                "href": "/certificaciones/5",
-                "description": "Define los requisitos para planificar, establecer e implementar un sistema que garantice la continuidad operativa ante interrupciones.",
-                "image": "/ISO22301.png"
-            },
-            {
-                "id": "6",
-                "title": "Certificación ISO 50001: Gestión de la Energía",
-                "href": "/certificaciones/6",
-                "description": "Permite mejorar el desempeño energético, reducir costos y optimizar el uso de recursos mediante una gestión sistemática.",
-                "image": "/ISO50001.png"
+                "description": "Cumplimiento normativo para Organismos de Importancia Vital en Chile.",
+                "image": "/Ley21633.png",
+                "content": "<section class='space-y-8 text-gray-700 dark:text-gray-300 leading-relaxed sm:p-4'><p>La <strong>Ley 21.633</strong> de Ciberseguridad en Chile, también conocida como la ley de <strong>Organismos de Importancia Vital (OIV)</strong>, establece obligaciones específicas para entidades públicas y privadas que prestan servicios esenciales para el funcionamiento del país.</p><p>Su objetivo es reforzar la resiliencia operativa y la protección de infraestructuras críticas frente a incidentes cibernéticos, alineándose con marcos internacionales como el NIST y la ISO 27001.</p><h3 class='text-xl font-semibold'>Beneficios</h3><ul class='list-disc pl-6 space-y-2'><li>Asegura el cumplimiento normativo nacional en materia de ciberseguridad.</li><li>Fortalece la gestión de incidentes y la continuidad operativa.</li><li>Protege servicios críticos como energía, salud, transporte y finanzas.</li><li>Mejora la coordinación con la futura Agencia Nacional de Ciberseguridad (ANCI).</li></ul><h3 class='text-xl font-semibold'>Aplicación</h3><p>Aplica a empresas e instituciones catalogadas como OIV por el Estado, incluyendo sectores estratégicos y proveedores de servicios esenciales. Su cumplimiento es obligatorio y fiscalizado por el gobierno de Chile.</p></section>"
             }
         ]
     },

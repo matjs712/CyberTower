@@ -24,7 +24,7 @@ const Highlights = () => {
         {/* === HEADER === */}
         <header className="flex flex-col lg:flex-row justify-between items-start lg:items-center mb-12">
           <div className="mb-8 lg:mb-0 lg:w-1/2">
-            <span className="text-primary-color text-sm font-semibold uppercase tracking-wider mb-2 block">
+            <span className="text-primary-light-color text-sm font-semibold uppercase tracking-wider mb-2 block">
               {t("sectionLabel")}
             </span>
             <h2
@@ -36,13 +36,13 @@ const Highlights = () => {
           </div>
 
           <div className="lg:w-1/2 flex flex-col items-start lg:items-end">
-            <p className="text-gray-400 text-lg mb-6 lg:text-right">
+            <p className="text-neutral-800 text-lg mb-6 lg:text-right">
               {t("description")}
             </p>
             <Link
               href={`/${locale}/blog`}
               aria-label={t("ariaViewAll")}
-              className="flex items-center text-primary-color font-semibold hover:text-purple-300 transition-colors"
+              className="flex items-center text-primary-light-color font-semibold hover:text-purple-300 transition-colors"
             >
               {t("viewAll")}
               <svg
@@ -92,7 +92,7 @@ const Highlights = () => {
                   {study.tags.map((tag) => (
                     <li
                       key={tag}
-                      className="px-3 py-1 text-xs font-medium text-primary-color bg-white rounded-sm"
+                      className="px-3 py-1 text-xs font-medium text-white bg-primary-light-color rounded-sm"
                     >
                       {tag}
                     </li>

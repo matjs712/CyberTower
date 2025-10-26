@@ -65,12 +65,7 @@ export default function Navbar({
           aria-label={t("aria.goHome")}
           className="flex items-center gap-2"
         >
-          <Image
-            src={"/cyberhub.svg"}
-            alt="cyberhub"
-            height={200}
-            width={100}
-          />
+          <Image src={"/logo-b.svg"} alt="cyberhub" height={200} width={100} />
           <span className="sr-only">Cyberhub</span>
         </Link>
 

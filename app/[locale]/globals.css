@@ -50,12 +50,12 @@
 }
 
 :root {
-  --primary-color: #005c7d;
-  --secondary-color: #00a4c8;
+  --primary-color: #012a91;
+  --secondary-color: #26b9e3;
 
   /* Colores claros */
-  --primary-light-color: #007480;
-  --secondary-light-color: #01c7d4;
+  --primary-light-color: #1a56ed;
+  --secondary-light-color: #2246a1;
 
   --radius: 0.625rem;
   --background: oklch(1 0 0);

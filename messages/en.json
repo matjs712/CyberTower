@@ -245,22 +245,22 @@
             "list": [
                 {
                     "title": "ISO 27001",
-                    "href": "/certificaciones/iso-27001",
+                    "href": "/certificaciones/1",
                     "description": "Information security management based on international standards."
                 },
                 {
                     "title": "NIST Framework",
-                    "href": "/certificaciones/nist",
+                    "href": "/certificaciones/2",
                     "description": "Cybersecurity framework for managing and reducing technology-related risks."
                 },
                 {
                     "title": "TISAX",
-                    "href": "/certificaciones/tisax",
+                    "href": "/certificaciones/3",
                     "description": "Information security assessment for the automotive industry."
                 },
                 {
                     "title": "Law 21.633 (OIV)",
-                    "href": "/certificaciones/oiv",
+                    "href": "/certificaciones/4",
                     "description": "Regulatory compliance for Vital Importance Organizations in Chile."
                 }
             ]
@@ -414,49 +414,39 @@
         ]
     },
     "certifications": {
+        "viewAll": "View all certifications",
         "list": [
             {
                 "id": "1",
-                "title": "ISO 27001 Certification: Information Security Management Systems",
-                "href": "/certificaciones/1",
-                "description": "The ISO 27001 certification ensures that an organization securely manages sensitive information, minimizing risks of cyberattacks, data leaks, and regulatory breaches.",
+                "title": "ISO 27001",
+                "href": "/certifications/1",
+                "description": "Information security management based on international standards.",
                 "image": "/ISO27001.png",
-                "content": "<section class='space-y-8 text-gray-700 dark:text-gray-300 leading-relaxed sm:p-4'>...</section>"
+                "content": "<section class='space-y-8 text-gray-700 dark:text-gray-300 leading-relaxed sm:p-4'><p><strong>ISO 27001</strong> is the international standard that defines the requirements to implement an <strong>Information Security Management System (ISMS)</strong>. Its goal is to protect the confidentiality, integrity, and availability of data against internal and external threats.</p><p>This certification demonstrates that an organization applies technical, physical, and administrative controls to mitigate risks such as cyberattacks, data breaches, and compliance failures.</p><h3 class='text-xl font-semibold'>Benefits</h3><ul class='list-disc pl-6 space-y-2'><li>Ensures a structured approach to information security management.</li><li>Strengthens trust among clients, partners, and auditors.</li><li>Supports compliance with data protection laws like GDPR and Chilean Law 19.628.</li><li>Fosters a culture of continuous security awareness.</li></ul><h3 class='text-xl font-semibold'>Application</h3><p>Recommended for any organization handling sensitive data, especially in financial, technology, healthcare, and public sectors.</p></section>"
             },
             {
                 "id": "2",
-                "title": "ISO 14001 Certification: Environmental Management",
-                "href": "/certificaciones/2",
-                "description": "International standard providing a framework for protecting the environment and improving environmental performance.",
-                "image": "/ISO14001.png"
+                "title": "NIST Framework",
+                "href": "/certifications/2",
+                "description": "Cybersecurity framework for managing technological risks.",
+                "image": "/NIST.png",
+                "content": "<section class='space-y-8 text-gray-700 dark:text-gray-300 leading-relaxed sm:p-4'><p>The <strong>NIST Cybersecurity Framework (CSF)</strong>, developed by the <em>National Institute of Standards and Technology</em> (NIST, USA), provides a set of guidelines and controls for managing and reducing cybersecurity risks across public and private organizations.</p><p>The framework is based on five core functions: <strong>Identify, Protect, Detect, Respond</strong>, and <strong>Recover</strong>, offering an adaptable and scalable approach to security management.</p><h3 class='text-xl font-semibold'>Benefits</h3><ul class='list-disc pl-6 space-y-2'><li>Improves cybersecurity posture and organizational resilience.</li><li>Aligns security practices with international standards.</li><li>Facilitates audits and regulatory reporting.</li><li>Reduces the impact of incidents and strengthens response capabilities.</li></ul><h3 class='text-xl font-semibold'>Application</h3><p>Widely used by critical infrastructure sectors, financial services, telecommunications, and government entities to establish mature and measurable cybersecurity programs.</p></section>"
             },
             {
                 "id": "3",
-                "title": "ISO 45001 Certification: Occupational Health and Safety",
-                "href": "/certificaciones/3",
-                "description": "Standard focused on preventing work-related injuries and promoting safe and healthy workplaces.",
-                "image": "/ISO45001.png"
+                "title": "TISAX",
+                "href": "/certifications/3",
+                "description": "Information security assessment for the automotive industry.",
+                "image": "/TISAX.png",
+                "content": "<section class='space-y-8 text-gray-700 dark:text-gray-300 leading-relaxed sm:p-4'><p><strong>TISAX (Trusted Information Security Assessment Exchange)</strong> is a standard developed by the <em>German Association of the Automotive Industry (VDA)</em> and managed by ENX Association. It assesses information security within companies operating in the automotive supply chain.</p><p>Based on <strong>ISO/IEC 27001</strong> requirements, TISAX is tailored to the automotive industry’s needs, focusing on protecting development data, intellectual property, and confidentiality among partners.</p><h3 class='text-xl font-semibold'>Benefits</h3><ul class='list-disc pl-6 space-y-2'><li>Establishes a unified level of security across the value chain.</li><li>Facilitates collaboration between manufacturers, suppliers, and partners.</li><li>Eliminates redundant audits by sharing standardized assessments.</li><li>Ensures protection of design, prototype, and production data.</li></ul><h3 class='text-xl font-semibold'>Application</h3><p>Mandatory or recommended for suppliers in the European automotive sector (OEMs, Tier 1, Tier 2) and technology companies handling sensitive automotive information.</p></section>"
             },
             {
                 "id": "4",
-                "title": "ISO 37001 Certification: Anti-Bribery",
-                "href": "/certificaciones/4",
-                "description": "Management system designed to prevent, detect, and respond to bribery risks in public and private organizations.",
-                "image": "/ISO37001.png"
-            },
-            {
-                "id": "5",
-                "title": "ISO 22301 Certification: Business Continuity Management",
-                "href": "/certificaciones/5",
-                "description": "Defines the requirements to plan, establish, and implement a system ensuring operational continuity during disruptions.",
-                "image": "/ISO22301.png"
-            },
-            {
-                "id": "6",
-                "title": "ISO 50001 Certification: Energy Management",
-                "href": "/certificaciones/6",
-                "description": "Helps improve energy performance, reduce costs, and optimize resource use through systematic management.",
-                "image": "/ISO50001.png"
+                "title": "Law 21.633 (OIV)",
+                "href": "/certifications/4",
+                "description": "Regulatory compliance for Vital Importance Organizations (OIV) in Chile.",
+                "image": "/Ley21633.png",
+                "content": "<section class='space-y-8 text-gray-700 dark:text-gray-300 leading-relaxed sm:p-4'><p><strong>Law 21.633</strong>, also known as the Chilean <strong>Cybersecurity Law for Vital Importance Organizations (OIV)</strong>, sets specific obligations for public and private entities that provide essential services for the country’s functioning.</p><p>Its goal is to enhance operational resilience and protect critical infrastructure against cyber incidents, aligning with international frameworks such as NIST and ISO 27001.</p><h3 class='text-xl font-semibold'>Benefits</h3><ul class='list-disc pl-6 space-y-2'><li>Ensures national compliance with cybersecurity regulations.</li><li>Strengthens incident management and business continuity.</li><li>Protects critical sectors such as energy, health, transport, and finance.</li><li>Improves coordination with Chile’s future National Cybersecurity Agency (ANCI).</li></ul><h3 class='text-xl font-semibold'>Application</h3><p>Applies to companies and institutions classified as OIV by the Chilean government, including strategic sectors and providers of essential services. Compliance is mandatory and subject to government oversight.</p></section>"
             }
         ]
     },

@@ -24,7 +24,7 @@ export const defaultMetadata = {
     title: "Cyberhub — Cultura y Transformación en Ciberseguridad",
     description:
       "Más de 1.700 organizaciones están adaptando su cultura digital. Descubre cómo Cyberhub impulsa la transformación segura.",
-    url: "https://www.cyberhub.cl",
+    url: "https://www.Cyberhub.cl",
     siteName: "Cyberhub",
     images: [
       {
@@ -38,10 +38,10 @@ export const defaultMetadata = {
     type: "website",
   },
   alternates: {
-    canonical: "https://www.cyberhub.cl",
+    canonical: "https://www.Cyberhub.cl",
     languages: {
-      "es-CL": "https://www.cyberhub.cl/es",
-      "en-US": "https://www.cyberhub.cl/en",
+      "es-CL": "https://www.Cyberhub.cl/es",
+      "en-US": "https://www.Cyberhub.cl/en",
     },
   },
   twitter: {

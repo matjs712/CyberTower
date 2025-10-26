@@ -53,14 +53,12 @@ export default async function RootLayout({
 
   return (
     <html lang={locale} suppressHydrationWarning>
-      <body
-        className={`${poppins.variable} font-sans antialiased bg-gradient-to-b from-[#535353] via-[#161b22] to-[#1f2937]`}
-      >
+      <body className={`${poppins.variable} font-sans antialiased`}>
         {/* Proveedor de traducciones */}
         <NextIntlClientProvider locale={locale} messages={messages}>
           <ThemeProvider
             attribute="class"
-            defaultTheme="dark"
+            defaultTheme="light"
             enableSystem
             disableTransitionOnChange
           >

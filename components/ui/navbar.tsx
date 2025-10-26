@@ -1,3 +1,4 @@
+"use client";
 import * as React from "react";
 
 import { cn } from "@/lib/utils";
@@ -42,4 +43,4 @@ function NavbarCenter({ className, ...props }: React.ComponentProps<"nav">) {
   );
 }
 
-export { Navbar, NavbarCenter,NavbarLeft, NavbarRight };
+export { Navbar, NavbarCenter, NavbarLeft, NavbarRight };
