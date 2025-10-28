@@ -4,25 +4,20 @@ import { caseStudiesData as caseStudiesDataEs } from "@/components/data/caseStud
 import { caseStudiesData as caseStudiesDataEn } from "@/components/data/caseStudiesData.en";
 
 interface BlogPageProps {
-  params: Promise<{
-    id: string;
+  params: {
+    slug: string;
     locale: string;
-  }>;
+  };
 }
 
 export default async function BlogPage({ params }: BlogPageProps) {
-  const { id, locale } = await params;
-
-  // Cargar data según idioma
+  const { slug, locale } = await params;
   const data = locale === "en" ? caseStudiesDataEn : caseStudiesDataEs;
-  const post = data.find((item) => item.id === Number(id));
-
-  // Si no existe, renderiza la 404
+  const post = data.find((item) => item.slug === slug);
   if (!post) return notFound();
 
   return (
     <article className="container mx-auto py-16 px-4 md:px-8 lg:px-16">
-      {/* === HEADER === */}
       <header className="mb-10 text-center">
         <h1 className="text-3xl md:text-5xl font-bold mb-4">{post.title}</h1>
         <p className="text-muted-foreground max-w-2xl mx-auto">
@@ -30,7 +25,6 @@ export default async function BlogPage({ params }: BlogPageProps) {
         </p>
       </header>
 
-      {/* === IMAGEN PRINCIPAL === */}
       <div className="relative w-full aspect-video mb-12">
         <Image
           src={post.image}
@@ -41,13 +35,11 @@ export default async function BlogPage({ params }: BlogPageProps) {
         />
       </div>
 
-      {/* === CONTENIDO HTML === */}
       <section
         className="prose prose-invert lg:prose-lg max-w-none"
         dangerouslySetInnerHTML={{ __html: post.content }}
       />
 
-      {/* === FOOTER (TAGS) === */}
       <footer className="mt-12 text-sm text-muted-foreground text-center">
         <p className="mb-2">{locale === "en" ? "Tags:" : "Etiquetas:"}</p>
         <div className="flex flex-wrap justify-center gap-2 mt-2">

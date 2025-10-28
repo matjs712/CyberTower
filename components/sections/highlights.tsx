@@ -1,7 +1,7 @@
 "use client";
 
 import React from "react";
-import Link from "next/link";
+import { Link } from "@/i18n/navigation";
 import { useTranslations, useLocale } from "next-intl";
 import { caseStudiesData as caseStudiesDataEs } from "../data/caseStudiesData.es";
 import { caseStudiesData as caseStudiesDataEn } from "../data/caseStudiesData.en";
@@ -10,7 +10,6 @@ const Highlights = () => {
   const t = useTranslations("highlights");
   const locale = useLocale();
 
-  // Cargar data según idioma
   const caseStudiesData =
     locale === "en" ? caseStudiesDataEn : caseStudiesDataEs;
 
@@ -40,7 +39,7 @@ const Highlights = () => {
               {t("description")}
             </p>
             <Link
-              href={`/${locale}/blog`}
+              href={`/blog`}
               aria-label={t("ariaViewAll")}
               className="flex items-center text-primary-light-color font-semibold hover:text-purple-300 transition-colors"
             >
@@ -79,7 +78,7 @@ const Highlights = () => {
               <article className="relative z-10 text-white">
                 <h3 className="text-2xl font-bold mb-2">
                   <Link
-                    href={`/${locale}/blog/${study.id}`}
+                    href={`/blog/${study.slug}`}
                     aria-label={`${t("ariaViewAll")}: ${study.title}`}
                   >
                     {study.title}

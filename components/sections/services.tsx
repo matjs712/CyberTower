@@ -1,10 +1,10 @@
 "use client";
 import React from "react";
-import { useTranslations, useLocale } from "next-intl";
+import { useTranslations } from "next-intl";
+import { Link } from "@/i18n/navigation";
 
 const CoreServices = () => {
   const t = useTranslations("coreServices");
-  const locale = useLocale();
   const services = t.raw("services");
 
   return (
@@ -30,7 +30,12 @@ const CoreServices = () => {
         {/* === SERVICES GRID === */}
         <ul className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           {services.map(
-            (service: { title: string; description: string; id: string }) => (
+            (service: {
+              title: string;
+              description: string;
+              id: string;
+              slug: string;
+            }) => (
               <li
                 key={service.title}
                 className="p-6 md:p-8 rounded-2xl shadow-sm transition-all duration-300 bg-background hover:shadow-lg"
@@ -43,8 +48,8 @@ const CoreServices = () => {
                   </p>
 
                   {/* CTA */}
-                  <a
-                    href={`/${locale}/soluciones/${service.id
+                  <Link
+                    href={`/soluciones/${service.slug
                       .toLowerCase()
                       .replace(/\s+/g, "-")}`}
                     aria-label={`${t("ariaLabel")} ${service.title}`}
@@ -67,7 +72,7 @@ const CoreServices = () => {
                         />
                       </svg>
                     </div>
-                  </a>
+                  </Link>
                 </article>
               </li>
             )
@@ -77,13 +82,13 @@ const CoreServices = () => {
         {/* === FOOTER === */}
         <footer className="text-center mt-16 text-gray-400 text-sm">
           {t("footer")}{" "}
-          <a
-            href={`/${locale}/contacto`}
+          <Link
+            href={`/contacto`}
             aria-label={t("ariaLabel")}
             className="text-secondary-light-color font-semibold hover:text-secondary-color transition-colors"
           >
             {t("cta")}
-          </a>
+          </Link>
         </footer>
       </div>
     </section>

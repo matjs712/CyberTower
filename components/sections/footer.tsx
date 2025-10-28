@@ -10,8 +10,9 @@ import {
   FooterContent,
 } from "@/components/ui/footer";
 import { ModeToggle } from "@/components/ui/mode-toggle";
-import Link from "next/link";
 import { useTranslations } from "next-intl";
+import { Link } from "@/i18n/navigation";
+import Image from "next/image";
 
 interface FooterLink {
   text: string;
@@ -63,8 +64,12 @@ export default function FooterSection({
                 className="flex items-center gap-2 mb-4"
                 aria-label={t("aria.goHome")}
               >
-                {logo}
-                <span className="text-xl font-bold text-white">{name}</span>
+                <Image
+                  src={"/logo-b.svg"}
+                  alt="cyberhub"
+                  height={200}
+                  width={100}
+                />
               </Link>
               <p className="text-sm text-gray-400 max-w-xs">
                 {t("description")}
@@ -80,7 +85,7 @@ export default function FooterSection({
               >
                 <h2
                   id={`footer-col-${index}`}
-                  className="text-md pt-1 font-semibold text-white mb-2"
+                  className="text-md pt-1 font-semibold mb-2"
                 >
                   {column.title}
                 </h2>

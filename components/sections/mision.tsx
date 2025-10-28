@@ -2,12 +2,11 @@
 
 import React from "react";
 import Image from "next/image";
-import { useTranslations, useLocale } from "next-intl";
-import Link from "next/link";
+import { useTranslations } from "next-intl";
+import { Link } from "@/i18n/navigation";
 
 const Mision = () => {
   const t = useTranslations("mission");
-  const locale = useLocale();
   const cards = t.raw("cards");
 
   return (
@@ -35,7 +34,7 @@ const Mision = () => {
                     {card.description}
                   </p>
                   <Link
-                    href={`/${locale}/nosotros`}
+                    href={`/nosotros`}
                     aria-label={`${t("readMore")} ${card.title}`}
                     className="flex items-center text-primary-light-color text-sm font-neutral hover:text-secondary-color transition-colors"
                   >

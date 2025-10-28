@@ -5,12 +5,18 @@ import { getTranslations } from "next-intl/server";
 export default async function CertificacionDetailPage({
   params,
 }: {
-  params: { id: string };
+  params: {
+    slug: string;
+    locale: string;
+  };
 }) {
+  const { slug } = await params;
   const t = await getTranslations("certifications");
   const certificaciones = t.raw("list");
 
-  const cert = certificaciones.find((s: { id: string }) => s.id === params.id);
+  const cert = certificaciones.find((s: { slug: string }) => s.slug === slug);
+  console.log("slug", slug);
+  console.log("certificaciones", certificaciones);
 
   if (!cert) return notFound();
 

@@ -12,6 +12,12 @@ import { useTranslations } from "next-intl";
 
 const Hero = () => {
   const t = useTranslations("home");
+
+  const phone = "56912345678";
+  const message = encodeURIComponent(
+    "Hola 👋, quiero más información sobre sus soluciones de ciberseguridad."
+  );
+
   return (
     <main className="flex flex-col gap-16 px-8 py-6">
       {/* === HERO PRINCIPAL === */}
@@ -55,9 +61,35 @@ const Hero = () => {
           <div className="w-full mt-6 flex flex-col sm:flex-row items-center justify-between text-sm text-white px-6 sm:px-0">
             <div className="flex-1 flex flex-col max-w-xs gap-2">
               <div className="flex flex-row gap-3 items-center text-secondary-color">
-                <LinkedInLogoIcon aria-label="LinkedIn" className="size-6" />
-                <MessageCircleCode aria-label="Mensajería" className="size-6" />
-                <Mail aria-label="Correo" className="size-6" />
+                <Link
+                  href="https://www.linkedin.com/company/cyberhub-cl/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  aria-label="LinkedIn"
+                  className="text-secondary-color hover:text-secondary-light-color transition-colors"
+                >
+                  <LinkedInLogoIcon className="size-6" />
+                </Link>
+
+                {/* 💬 WhatsApp */}
+                <Link
+                  href="https://wa.me/56912345678?text=Hola%20👋,%20quiero%20más%20información%20sobre%20los%20servicios%20de%20Cyberhub."
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  aria-label="WhatsApp"
+                  className="text-secondary-color hover:text-secondary-light-color transition-colors"
+                >
+                  <MessageCircleCode className="size-6" />
+                </Link>
+
+                {/* ✉️ Correo */}
+                <Link
+                  href="mailto:contacto@cyberhub.cl"
+                  aria-label="Correo"
+                  className="text-secondary-color hover:text-secondary-light-color transition-colors"
+                >
+                  <Mail className="size-6" />
+                </Link>
               </div>
               <p>{t("paragraph2")}</p>
             </div>
@@ -72,8 +104,8 @@ const Hero = () => {
                   className="rounded-full px-1 bg-neutral-700 w-fit"
                 >
                   <Link
-                    href="/contacto"
-                    aria-label="Ir a la página de contacto"
+                    href={`https://wa.me/${phone}?text=${message}`}
+                    aria-label="Enviar mensaje"
                     className="flex flex-row gap-2 px-1"
                   >
                     <div className="bg-secondary-color p-1 rounded-full">

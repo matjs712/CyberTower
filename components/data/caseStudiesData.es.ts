@@ -2,10 +2,10 @@ export const caseStudiesData = [
   {
     id: 1,
     title: "Implementación de SGSI ISO 27001 en grupo industrial",
+    slug: "implementacion-de-sgsi-iso-27001-en-grupo-industrial",
     url: "/blog/1",
     summary:
       "Acompañamos a un holding con operaciones en Chile y Perú en la implementación y certificación ISO 27001, fortaleciendo su gestión de seguridad de la información en tiempo récord.",
-    slug: "implementacion-sgsi-iso27001-industrial",
     description:
       "Cyberhub acompañó a un holding con presencia en Chile y Perú en la implementación completa de un Sistema de Gestión de Seguridad de la Información (SGSI), logrando la certificación ISO 27001 en menos de 9 meses.",
     image: "/auditoria.png",
@@ -68,10 +68,10 @@ export const caseStudiesData = [
   {
     id: 2,
     title: "Evaluación de brechas y cumplimiento Ley 21.633 (OIV)",
+    slug: "evaluacion-de-brechas-y-cumplimiento-ley-21633-oiv",
     url: "/blog/2",
     summary:
       "Identificamos las brechas de cumplimiento frente a la Ley 21.633 para una empresa energética, desarrollando un plan de acción basado en NIST CSF y mejores prácticas de gobernanza.",
-    slug: "evaluacion-brechas-ley-21633",
     description:
       "Ayudamos a una empresa del sector energético a identificar sus brechas frente a las exigencias de la Ley 21.633 y a desarrollar su plan de acción en base al framework NIST CSF.",
     image: "/ley21.png",
@@ -134,10 +134,10 @@ export const caseStudiesData = [
   {
     id: 3,
     title: "Auditoría técnica y capacitación en seguridad TI",
+    slug: "auditoria-tecnica-y-capacitacion-en-seguridad-ti",
     url: "/blog/3",
     summary:
       "Realizamos una auditoría completa de seguridad TI en una entidad financiera, complementada con capacitaciones personalizadas para mejorar la resiliencia de sus equipos.",
-    slug: "auditoria-tecnica-capacitacion",
     description:
       "Realizamos una auditoría integral de seguridad en la infraestructura de TI de una entidad financiera, acompañada de capacitaciones personalizadas para sus equipos técnicos y ejecutivos.",
     image: "/auditoria.png",
@@ -199,10 +199,10 @@ export const caseStudiesData = [
   {
     id: 4,
     title: "Gestión de incidentes y plan de respuesta ante ciberataques",
-    url: "/blog/4",
+    slug: "gestion-de-incidentes-y-plan-de-respuesta-ante-ciberataques",
+    url: "/blog/Gestión-de-incidentes-y-plan-de",
     summary:
       "Desarrollamos un plan integral de gestión de incidentes para una organización de salud, estableciendo protocolos de respuesta y roles claros ante ciberataques.",
-    slug: "gestion-incidentes-ciberataques",
     description:
       "Cyberhub apoyó a una organización del sector salud a desarrollar su plan de respuesta ante incidentes, estableciendo protocolos y roles claros frente a amenazas críticas.",
     image: "/gestion.png",

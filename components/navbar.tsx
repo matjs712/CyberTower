@@ -2,7 +2,6 @@
 
 import { Menu, Phone } from "lucide-react";
 import { ReactNode } from "react";
-import LaunchUI from "@/components/logos/launch-ui";
 import { Button, type ButtonProps } from "@/components/ui/button";
 import Navigation from "@/components/ui/navigation";
 import {
@@ -12,10 +11,10 @@ import {
   SheetTrigger,
 } from "@/components/ui/sheet";
 import { siteConfig } from "@/config/site";
-import Link from "next/link";
 import { LanguageSwitcher } from "./labguage-switcher";
 import { useTranslations } from "next-intl";
 import Image from "next/image";
+import { Link } from "@/i18n/navigation";
 
 interface NavbarLink {
   text: string;

@@ -83,12 +83,12 @@ export default function Navigation() {
                         {introItems.map(
                           (intro: {
                             title: string;
-                            href: string;
+                            slug: string;
                             description: string;
                           }) => (
                             <ListItem
                               key={intro.title}
-                              href={intro.href}
+                              href={"/soluciones/" + intro.slug}
                               title={intro.title}
                             >
                               {intro.description}
@@ -111,13 +111,13 @@ export default function Navigation() {
                         {components.map(
                           (component: {
                             title: string;
-                            href: string;
+                            slug: string;
                             description: string;
                           }) => (
                             <ListItem
                               key={component.title}
                               title={component.title}
-                              href={component.href}
+                              href={"/certificaciones/" + component.slug}
                             >
                               {component.description}
                             </ListItem>
@@ -150,24 +150,27 @@ function ListItem({
   className,
   title,
   children,
-  ...props
-}: React.ComponentProps<"a"> & { title: string }) {
+  href,
+}: React.ComponentProps<typeof Link> & {
+  title: string;
+  children: React.ReactNode;
+}) {
   return (
     <li>
       <NavigationMenuLink asChild>
-        <a
+        <Link
+          href={href || "#"}
           data-slot="list-item"
           className={cn(
             "hover:bg-accent hover:text-accent-foreground focus:bg-accent focus:text-accent-foreground block space-y-1 rounded-md p-3 leading-none no-underline outline-hidden transition-colors select-none",
             className
           )}
-          {...props}
         >
           <div className="text-sm leading-none font-medium">{title}</div>
           <p className="text-muted-foreground line-clamp-2 text-sm leading-snug">
             {children}
           </p>
-        </a>
+        </Link>
       </NavigationMenuLink>
     </li>
   );

@@ -304,3 +304,11 @@ export const Soluciones = [
     image: "/Estrategias y Gestión de Ciberseguridad.png",
   },
 ];
+
+export const toSlug = (text: string) =>
+  text
+    .toLowerCase()
+    .normalize("NFD") // separa caracteres base + acento
+    .replace(/[\u0300-\u036f]/g, "") // elimina los acentos
+    .replace(/[^a-z0-9]+/g, "-")
+    .replace(/(^-|-$)/g, ""); // limpia guiones extremos

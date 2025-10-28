@@ -110,31 +110,37 @@
             {
                 "id": "1",
                 "title": "Vulnerability Management",
+                "slug": "vulnerability-management",
                 "description": "We identify weaknesses in your digital infrastructure and create plans to mitigate them based on risk priority."
             },
             {
                 "id": "2",
                 "title": "Penetration Testing (Pentesting)",
+                "slug": "penetration-testing-pentesting",
                 "description": "We simulate controlled attacks to evaluate the resilience of your systems and uncover vulnerabilities before others do."
             },
             {
                 "id": "3",
                 "title": "Consulting & Governance",
+                "slug": "consulting-and-governance",
                 "description": "Strategic advisory on regulations, compliance, risks, and security frameworks for your organization."
             },
             {
                 "id": "4",
                 "title": "Monitoring & Detection",
+                "slug": "monitoring-and-detection",
                 "description": "We monitor your systems and networks 24/7 to detect incidents, respond quickly, and minimize impact."
             },
             {
                 "id": "5",
                 "title": "Secure Development (DevSecOps)",
+                "slug": "secure-development-devsecops",
                 "description": "Integration of automated security controls in your development pipeline to prevent vulnerabilities from the start."
             },
             {
                 "id": "6",
                 "title": "Incident Response",
+                "slug": "incident-response",
                 "description": "We act quickly when security breaches occur, analyze the attack, and help restore safe operations."
             }
         ]
@@ -225,17 +231,17 @@
             "introItems": [
                 {
                     "title": "Awareness Program",
-                    "href": "/soluciones/1",
+                    "slug": "cybersecurity-awareness-program",
                     "description": "Training programs designed to strengthen the cybersecurity culture within your organization."
                 },
                 {
                     "title": "Brand Positioning",
-                    "href": "/soluciones/2",
+                    "slug": "cybersecurity-brand-positioning",
                     "description": "Communication and branding strategies aimed at corporate leadership in digital security."
                 },
                 {
                     "title": "Strategy and Management",
-                    "href": "/soluciones/3",
+                    "slug": "cybersecurity-strategies-and-management",
                     "description": "Consulting in governance, risk, and compliance for a secure digital transformation."
                 }
             ]
@@ -245,22 +251,22 @@
             "list": [
                 {
                     "title": "ISO 27001",
-                    "href": "/certificaciones/1",
+                    "slug": "ISO-27001",
                     "description": "Information security management based on international standards."
                 },
                 {
                     "title": "NIST Framework",
-                    "href": "/certificaciones/2",
+                    "slug": "NIST-Framework",
                     "description": "Cybersecurity framework for managing and reducing technology-related risks."
                 },
                 {
                     "title": "TISAX",
-                    "href": "/certificaciones/3",
+                    "slug": "TISAX",
                     "description": "Information security assessment for the automotive industry."
                 },
                 {
                     "title": "Law 21.633 (OIV)",
-                    "href": "/certificaciones/4",
+                    "slug": "Ley-OIV",
                     "description": "Regulatory compliance for Vital Importance Organizations in Chile."
                 }
             ]
@@ -419,34 +425,34 @@
             {
                 "id": "1",
                 "title": "ISO 27001",
-                "href": "/certifications/1",
+                "slug": "ISO-27001",
                 "description": "Information security management based on international standards.",
                 "image": "/ISO27001.png",
-                "content": "<section class='space-y-8 text-gray-700 dark:text-gray-300 leading-relaxed sm:p-4'><p><strong>ISO 27001</strong> is the international standard that defines the requirements to implement an <strong>Information Security Management System (ISMS)</strong>. Its goal is to protect the confidentiality, integrity, and availability of data against internal and external threats.</p><p>This certification demonstrates that an organization applies technical, physical, and administrative controls to mitigate risks such as cyberattacks, data breaches, and compliance failures.</p><h3 class='text-xl font-semibold'>Benefits</h3><ul class='list-disc pl-6 space-y-2'><li>Ensures a structured approach to information security management.</li><li>Strengthens trust among clients, partners, and auditors.</li><li>Supports compliance with data protection laws like GDPR and Chilean Law 19.628.</li><li>Fosters a culture of continuous security awareness.</li></ul><h3 class='text-xl font-semibold'>Application</h3><p>Recommended for any organization handling sensitive data, especially in financial, technology, healthcare, and public sectors.</p></section>"
+                "content": "<section class='space-y-8 text-gray-700 dark:text-gray-300 leading-relaxed sm:p-4'><p><strong>ISO 27001</strong> is the international standard that defines the requirements for implementing an <strong>Information Security Management System (ISMS)</strong>. Its goal is to protect the confidentiality, integrity, and availability of information against internal and external threats.</p><p>This certification demonstrates that an organization applies technical, physical, and administrative controls to mitigate risks such as cyberattacks, data leaks, and compliance failures.</p><h3 class='text-xl font-semibold'>Benefits</h3><ul class='list-disc pl-6 space-y-2'><li>Ensures a structured approach to information security management.</li><li>Strengthens trust among clients, partners, and auditors.</li><li>Supports compliance with data protection laws such as GDPR and Chile’s Law 19.628.</li><li>Promotes a corporate security culture.</li></ul><h3 class='text-xl font-semibold'>Application</h3><p>Recommended for any organization handling sensitive information, especially in financial, technology, healthcare, and public service sectors.</p></section>"
             },
             {
                 "id": "2",
                 "title": "NIST Framework",
-                "href": "/certifications/2",
-                "description": "Cybersecurity framework for managing technological risks.",
+                "slug": "NIST-Framework",
+                "description": "Cybersecurity framework for technology risk management.",
                 "image": "/NIST.png",
-                "content": "<section class='space-y-8 text-gray-700 dark:text-gray-300 leading-relaxed sm:p-4'><p>The <strong>NIST Cybersecurity Framework (CSF)</strong>, developed by the <em>National Institute of Standards and Technology</em> (NIST, USA), provides a set of guidelines and controls for managing and reducing cybersecurity risks across public and private organizations.</p><p>The framework is based on five core functions: <strong>Identify, Protect, Detect, Respond</strong>, and <strong>Recover</strong>, offering an adaptable and scalable approach to security management.</p><h3 class='text-xl font-semibold'>Benefits</h3><ul class='list-disc pl-6 space-y-2'><li>Improves cybersecurity posture and organizational resilience.</li><li>Aligns security practices with international standards.</li><li>Facilitates audits and regulatory reporting.</li><li>Reduces the impact of incidents and strengthens response capabilities.</li></ul><h3 class='text-xl font-semibold'>Application</h3><p>Widely used by critical infrastructure sectors, financial services, telecommunications, and government entities to establish mature and measurable cybersecurity programs.</p></section>"
+                "content": "<section class='space-y-8 text-gray-700 dark:text-gray-300 leading-relaxed sm:p-4'><p>The <strong>NIST Cybersecurity Framework (CSF)</strong>, developed by the <em>U.S. National Institute of Standards and Technology</em>, provides a set of guidelines and controls to manage and reduce cybersecurity risks in both public and private organizations.</p><p>The framework is built around five key functions: <strong>Identify, Protect, Detect, Respond</strong>, and <strong>Recover</strong>, offering a flexible and scalable approach.</p><h3 class='text-xl font-semibold'>Benefits</h3><ul class='list-disc pl-6 space-y-2'><li>Improves cybersecurity posture and organizational resilience.</li><li>Aligns security practices with international standards.</li><li>Facilitates audits and regulatory reporting.</li><li>Reduces incident impact and enhances response capability.</li></ul><h3 class='text-xl font-semibold'>Application</h3><p>Widely used by critical infrastructure, financial institutions, telecommunications, and government agencies worldwide to establish mature and measurable security programs.</p></section>"
             },
             {
                 "id": "3",
                 "title": "TISAX",
-                "href": "/certifications/3",
+                "slug": "TISAX",
                 "description": "Information security assessment for the automotive industry.",
                 "image": "/TISAX.png",
-                "content": "<section class='space-y-8 text-gray-700 dark:text-gray-300 leading-relaxed sm:p-4'><p><strong>TISAX (Trusted Information Security Assessment Exchange)</strong> is a standard developed by the <em>German Association of the Automotive Industry (VDA)</em> and managed by ENX Association. It assesses information security within companies operating in the automotive supply chain.</p><p>Based on <strong>ISO/IEC 27001</strong> requirements, TISAX is tailored to the automotive industry’s needs, focusing on protecting development data, intellectual property, and confidentiality among partners.</p><h3 class='text-xl font-semibold'>Benefits</h3><ul class='list-disc pl-6 space-y-2'><li>Establishes a unified level of security across the value chain.</li><li>Facilitates collaboration between manufacturers, suppliers, and partners.</li><li>Eliminates redundant audits by sharing standardized assessments.</li><li>Ensures protection of design, prototype, and production data.</li></ul><h3 class='text-xl font-semibold'>Application</h3><p>Mandatory or recommended for suppliers in the European automotive sector (OEMs, Tier 1, Tier 2) and technology companies handling sensitive automotive information.</p></section>"
+                "content": "<section class='space-y-8 text-gray-700 dark:text-gray-300 leading-relaxed sm:p-4'><p><strong>TISAX (Trusted Information Security Assessment Exchange)</strong> is a standard developed by the <em>German Association of the Automotive Industry (VDA)</em> and managed by ENX Association. It evaluates information security in companies operating within the automotive supply chain.</p><p>Based on the requirements of <strong>ISO/IEC 27001</strong>, it is tailored to the automotive sector, where protecting development data, intellectual property, and partner confidentiality is critical.</p><h3 class='text-xl font-semibold'>Benefits</h3><ul class='list-disc pl-6 space-y-2'><li>Establishes a uniform level of security across the entire value chain.</li><li>Facilitates collaboration between manufacturers, suppliers, and partners.</li><li>Reduces redundant audits through shared assessments.</li><li>Ensures protection of design and production data.</li></ul><h3 class='text-xl font-semibold'>Application</h3><p>Mandatory or recommended for suppliers in the European automotive sector (OEMs, Tier 1, Tier 2) and technology companies handling sensitive development-related information.</p></section>"
             },
             {
                 "id": "4",
                 "title": "Law 21.633 (OIV)",
-                "href": "/certifications/4",
-                "description": "Regulatory compliance for Vital Importance Organizations (OIV) in Chile.",
+                "slug": "Ley-OIV",
+                "description": "Cybersecurity compliance for Critical Infrastructure Operators in Chile.",
                 "image": "/Ley21633.png",
-                "content": "<section class='space-y-8 text-gray-700 dark:text-gray-300 leading-relaxed sm:p-4'><p><strong>Law 21.633</strong>, also known as the Chilean <strong>Cybersecurity Law for Vital Importance Organizations (OIV)</strong>, sets specific obligations for public and private entities that provide essential services for the country’s functioning.</p><p>Its goal is to enhance operational resilience and protect critical infrastructure against cyber incidents, aligning with international frameworks such as NIST and ISO 27001.</p><h3 class='text-xl font-semibold'>Benefits</h3><ul class='list-disc pl-6 space-y-2'><li>Ensures national compliance with cybersecurity regulations.</li><li>Strengthens incident management and business continuity.</li><li>Protects critical sectors such as energy, health, transport, and finance.</li><li>Improves coordination with Chile’s future National Cybersecurity Agency (ANCI).</li></ul><h3 class='text-xl font-semibold'>Application</h3><p>Applies to companies and institutions classified as OIV by the Chilean government, including strategic sectors and providers of essential services. Compliance is mandatory and subject to government oversight.</p></section>"
+                "content": "<section class='space-y-8 text-gray-700 dark:text-gray-300 leading-relaxed sm:p-4'><p><strong>Law 21.633</strong> — also known as the <strong>Critical Infrastructure Operators (OIV) Cybersecurity Law</strong> — establishes specific obligations for public and private entities that provide essential services for Chile’s national functioning.</p><p>Its goal is to strengthen operational resilience and protect critical infrastructure from cyber incidents, aligning with international frameworks such as NIST and ISO 27001.</p><h3 class='text-xl font-semibold'>Benefits</h3><ul class='list-disc pl-6 space-y-2'><li>Ensures compliance with Chilean national cybersecurity regulations.</li><li>Improves incident management and operational continuity.</li><li>Protects critical sectors such as energy, healthcare, transportation, and finance.</li><li>Enhances coordination with the future National Cybersecurity Agency (ANCI).</li></ul><h3 class='text-xl font-semibold'>Application</h3><p>Applies to companies and institutions designated as OIVs by the Chilean government, including strategic sectors and essential service providers. Compliance is mandatory and subject to state oversight.</p></section>"
             }
         ]
     },
@@ -528,24 +534,36 @@
         "viewDetails": "View details",
         "categories": [
             {
-                "nombre": "Cybersecurity Culture and Awareness",
-                "descripcion": "Initiatives designed to strengthen organizational culture, reduce human risk, and make cybersecurity a shared value across the company.",
+                "nombre": "Cybersecurity Awareness and Culture",
+                "descripcion": "Initiatives designed to strengthen the organizational security culture, reduce human risk, and turn cybersecurity into a shared corporate value.",
                 "items": [
                     "1"
                 ]
             },
             {
-                "nombre": "Strategy, Brand, and Digital Positioning",
-                "descripcion": "Solutions that integrate communication, corporate reputation, and technological leadership, positioning your organization as a benchmark in security and digital transformation.",
+                "nombre": "Strategy, Branding, and Digital Positioning",
+                "descripcion": "Solutions that integrate communication, corporate reputation, and technological leadership to position your organization as a trusted authority in cybersecurity and digital transformation.",
                 "items": [
                     "2"
                 ]
             },
             {
                 "nombre": "Governance, Risk, and Compliance",
-                "descripcion": "Consulting services focused on comprehensive cybersecurity management: strategic planning, corporate governance, regulatory compliance, and continuous improvement.",
+                "descripcion": "Advisory services focused on comprehensive cybersecurity management — strategic planning, corporate governance, regulatory compliance, and continuous improvement.",
                 "items": [
-                    "3"
+                    "3",
+                    "6"
+                ]
+            },
+            {
+                "nombre": "Technical and Operational Management",
+                "descripcion": "Technical cybersecurity services focused on protection, detection, and incident response — integrating technology, processes, and people to ensure operational continuity.",
+                "items": [
+                    "4",
+                    "5",
+                    "7",
+                    "8",
+                    "9"
                 ]
             }
         ]
@@ -583,6 +601,7 @@
             {
                 "id": "1",
                 "title": "Cybersecurity Awareness Program",
+                "slug": "cybersecurity-awareness-program",
                 "href": "/solutions/1",
                 "description": "Training and campaigns designed to strengthen your organization's cybersecurity culture, reduce human risk, and promote safe digital behaviors.",
                 "image": "/awarenes.png",
@@ -591,6 +610,7 @@
             {
                 "id": "2",
                 "title": "Cybersecurity Brand Positioning",
+                "slug": "cybersecurity-brand-positioning",
                 "href": "/solutions/2",
                 "description": "Communication and branding strategies that position your organization as a trusted leader in digital security.",
                 "image": "/Posicionamiento de Marca en Ciberseguridad.png",
@@ -599,10 +619,59 @@
             {
                 "id": "3",
                 "title": "Cybersecurity Strategy and Management",
+                "slug": "cybersecurity-strategies-and-management",
                 "href": "/solutions/3",
                 "description": "Consulting and management services focused on digital transformation, organizational resilience, and cybersecurity compliance.",
                 "image": "/Estrategias y Gestión de Ciberseguridad.png",
                 "content": "<section class='space-y-8 text-gray-700 dark:text-gray-300 leading-relaxed sm:p-4'><figure class='w-full overflow-hidden rounded-3xl shadow-lg'><img src='/Estrategias y Gestión de Ciberseguridad.png' alt='Cybersecurity Strategy and Management' class='w-full h-72 md:h-[500px] object-cover object-top' /></figure><header class='space-y-3 border-b border-gray-200 dark:border-gray-700 pb-4'><h2 class='text-2xl md:text-3xl font-bold text-primary-color dark:text-secondary-light-color'>Strategy, Governance, and Cyber Maturity</h2><p>Our <strong>Cybersecurity Strategy and Management</strong> service guides organizations in designing and implementing master plans aligned with international standards such as <strong>NIST CSF</strong>, <strong>ISO 27001</strong>, and <strong>CMMI</strong>.</p></header><article class='grid md:grid-cols-2 gap-8'><div class='space-y-4'><h3 class='text-xl font-semibold text-gray-900 dark:text-white'>Focus Areas</h3><ul class='list-disc list-inside space-y-2'><li>Security maturity assessments and roadmap development.</li><li>Policy and governance model design.</li><li>Implementation of risk and control frameworks.</li><li>Definition of roles, responsibilities, and KPIs.</li></ul></div><div class='space-y-4'><h3 class='text-xl font-semibold text-gray-900 dark:text-white'>Organizational Benefits</h3><ul class='list-disc list-inside space-y-2'><li>Strengthened corporate governance in cybersecurity.</li><li>Improved risk-based decision-making and metrics.</li><li>Facilitated attainment of international certifications.</li></ul></div></article><aside class='bg-gradient-to-r from-primary-color/10 to-secondary-light-color/10 p-6 rounded-2xl border border-gray-200 dark:border-gray-700 space-y-3'><h3 class='text-lg font-semibold text-primary-color dark:text-secondary-light-color'>Expert Guidance</h3><p>Our consultants work hand in hand with your team to ensure a sustainable management model that evolves with your operations.</p></aside><footer class='pt-6 border-t border-gray-200 dark:border-gray-700'><p class='italic'>At <strong>Cyberhub</strong>, we believe that a solid strategy is the foundation of a strong defense. We don’t just implement security — we help you govern it.</p></footer></section>"
+            },
+            {
+                "id": "4",
+                "title": "Vulnerability Management",
+                "slug": "vulnerability-management",
+                "image": "/Estrategias y Gestión de Ciberseguridad.png",
+                "description": "We identify weaknesses in your digital infrastructure and create plans to mitigate them based on risk priority.",
+                "content": "<section class='space-y-8 text-gray-700 dark:text-gray-300 leading-relaxed sm:p-4'><figure class='w-full overflow-hidden rounded-3xl shadow-lg'><img src='/Estrategias y Gestión de Ciberseguridad.png' alt='Vulnerability Management' class='w-full h-72 md:h-[500px] object-cover object-top' /></figure><header class='space-y-3 border-b border-gray-200 dark:border-gray-700 pb-4'><h2 class='text-2xl md:text-3xl font-bold text-primary-color dark:text-secondary-light-color'>Proactive Vulnerability Management</h2><p>Our <strong>Vulnerability Management</strong> service enables organizations to continuously identify, prioritize, and remediate weaknesses in their digital infrastructure. We combine automated scanning with expert analysis to ensure effective and risk-based mitigation.</p></header><article class='grid md:grid-cols-2 gap-8'><div class='space-y-4'><h3 class='text-xl font-semibold'>Key Activities</h3><ul class='list-disc list-inside space-y-2'><li>Comprehensive vulnerability assessments across systems, networks, and applications.</li><li>Risk-based prioritization and tailored remediation plans.</li><li>Integration with patch management and SIEM systems.</li><li>Reporting aligned with ISO 27001 and NIST SP 800-40.</li></ul></div><div class='space-y-4'><h3 class='text-xl font-semibold'>Business Impact</h3><ul class='list-disc list-inside space-y-2'><li>Reduced exposure to cyber threats and exploitation.</li><li>Improved visibility over infrastructure security posture.</li><li>Streamlined compliance with audit and certification requirements.</li></ul></div></article><aside class='bg-gradient-to-r from-primary-color/10 to-secondary-light-color/10 p-6 rounded-2xl border border-gray-200 dark:border-gray-700'><h3 class='text-lg font-semibold text-primary-color dark:text-secondary-light-color'>Continuous Improvement</h3><p>Our approach transforms vulnerability management from a reactive activity into a proactive, data-driven process integrated into your security operations.</p></aside></section>"
+            },
+            {
+                "id": "5",
+                "title": "Penetration Testing (Pentesting)",
+                "slug": "penetration-testing-pentesting",
+                "image": "/Estrategias y Gestión de Ciberseguridad.png",
+                "description": "We simulate controlled attacks to evaluate the resilience of your systems and uncover vulnerabilities before others do.",
+                "content": "<section class='space-y-8 text-gray-700 dark:text-gray-300 leading-relaxed sm:p-4'><figure class='w-full overflow-hidden rounded-3xl shadow-lg'><img src='/Estrategias y Gestión de Ciberseguridad.png' alt='Penetration Testing' class='w-full h-72 md:h-[500px] object-cover object-top' /></figure><header class='space-y-3 border-b border-gray-200 dark:border-gray-700 pb-4'><h2 class='text-2xl md:text-3xl font-bold text-primary-color dark:text-secondary-light-color'>Ethical Hacking & Penetration Testing</h2><p>Our <strong>Pentesting service</strong> emulates real-world cyberattacks to uncover vulnerabilities before malicious actors can exploit them. We deliver actionable insights that help strengthen your defenses and validate the effectiveness of your security controls.</p></header><article class='grid md:grid-cols-2 gap-8'><div class='space-y-4'><h3 class='text-xl font-semibold'>Scope of Testing</h3><ul class='list-disc list-inside space-y-2'><li>Web and mobile application testing.</li><li>Network and infrastructure penetration testing.</li><li>Wireless, cloud, and API security assessments.</li><li>Social engineering and phishing simulation.</li></ul></div><div class='space-y-4'><h3 class='text-xl font-semibold'>Deliverables</h3><ul class='list-disc list-inside space-y-2'><li>Detailed technical report with identified vulnerabilities.</li><li>Proof-of-concept for exploit validation.</li><li>Remediation recommendations and post-test validation.</li></ul></div></article><aside class='bg-gradient-to-r from-secondary-light-color/10 to-primary-color/10 p-6 rounded-2xl border border-gray-200 dark:border-gray-700'><h3 class='text-lg font-semibold text-secondary-light-color dark:text-primary-color'>Security through simulation</h3><p>By thinking like an attacker, we help your organization anticipate threats, improve resilience, and ensure that your defenses stand against evolving risks.</p></aside></section>"
+            },
+            {
+                "id": "6",
+                "title": "Consulting & Governance",
+                "slug": "consulting-and-governance",
+                "image": "/Estrategias y Gestión de Ciberseguridad.png",
+                "description": "Strategic advisory on regulations, compliance, risks, and security frameworks for your organization.",
+                "content": "<section class='space-y-8 text-gray-700 dark:text-gray-300 leading-relaxed sm:p-4'><figure class='w-full overflow-hidden rounded-3xl shadow-lg'><img src='/Estrategias y Gestión de Ciberseguridad.png' alt='Consulting and Governance' class='w-full h-72 md:h-[500px] object-cover object-top' /></figure><header class='space-y-3 border-b border-gray-200 dark:border-gray-700 pb-4'><h2 class='text-2xl md:text-3xl font-bold text-primary-color dark:text-secondary-light-color'>Cybersecurity Governance & Strategic Consulting</h2><p>We help organizations align cybersecurity with business objectives through strategic consulting and governance frameworks that promote resilience, accountability, and continuous improvement.</p></header><article class='grid md:grid-cols-2 gap-8'><div class='space-y-4'><h3 class='text-xl font-semibold'>Core Services</h3><ul class='list-disc list-inside space-y-2'><li>Design and implementation of information security programs.</li><li>Governance, risk, and compliance (GRC) strategy development.</li><li>Alignment with ISO 27001, NIST CSF, and CMMI frameworks.</li><li>Board and CISO-level advisory and training.</li></ul></div><div class='space-y-4'><h3 class='text-xl font-semibold'>Benefits</h3><ul class='list-disc list-inside space-y-2'><li>Improved strategic decision-making in cybersecurity.</li><li>Enhanced compliance with regulatory requirements.</li><li>Established culture of accountability and continuous improvement.</li></ul></div></article><aside class='bg-gradient-to-r from-primary-color/10 to-secondary-light-color/10 p-6 rounded-2xl border border-gray-200 dark:border-gray-700'><h3 class='text-lg font-semibold text-primary-color dark:text-secondary-light-color'>Trusted Guidance</h3><p>We turn cybersecurity from a technical function into a business enabler, helping leaders govern security with confidence and clarity.</p></aside></section>"
+            },
+            {
+                "id": "7",
+                "title": "Monitoring & Detection",
+                "slug": "monitoring-and-detection",
+                "image": "/Estrategias y Gestión de Ciberseguridad.png",
+                "description": "We monitor your systems and networks 24/7 to detect incidents, respond quickly, and minimize impact.",
+                "content": "<section class='space-y-8 text-gray-700 dark:text-gray-300 leading-relaxed sm:p-4'><figure class='w-full overflow-hidden rounded-3xl shadow-lg'><img src='/Estrategias y Gestión de Ciberseguridad.png' alt='Monitoring and Detection' class='w-full h-72 md:h-[500px] object-cover object-top' /></figure><header class='space-y-3 border-b border-gray-200 dark:border-gray-700 pb-4'><h2 class='text-2xl md:text-3xl font-bold text-primary-color dark:text-secondary-light-color'>24/7 Monitoring and Threat Detection</h2><p>Our <strong>Monitoring and Detection</strong> service provides continuous visibility into your infrastructure to identify, analyze, and respond to security events in real-time.</p></header><article class='grid md:grid-cols-2 gap-8'><div class='space-y-4'><h3 class='text-xl font-semibold'>Capabilities</h3><ul class='list-disc list-inside space-y-2'><li>24/7 SOC (Security Operations Center) monitoring.</li><li>Integration with SIEM and EDR/XDR platforms.</li><li>Threat intelligence and anomaly correlation.</li><li>Automated alerting and incident escalation.</li></ul></div><div class='space-y-4'><h3 class='text-xl font-semibold'>Benefits</h3><ul class='list-disc list-inside space-y-2'><li>Early detection of cyber threats.</li><li>Reduced time to respond to incidents.</li><li>Improved operational resilience and continuity.</li></ul></div></article><aside class='bg-gradient-to-r from-secondary-light-color/10 to-primary-color/10 p-6 rounded-2xl border border-gray-200 dark:border-gray-700'><h3 class='text-lg font-semibold text-secondary-light-color dark:text-primary-color'>Visibility & Control</h3><p>We turn raw alerts into actionable intelligence, helping your teams stay ahead of threats and maintain operational integrity 24/7.</p></aside></section>"
+            },
+            {
+                "id": "8",
+                "title": "Secure Development (DevSecOps)",
+                "slug": "secure-development-devsecops",
+                "image": "/Estrategias y Gestión de Ciberseguridad.png",
+                "description": "Integration of automated security controls in your development pipeline to prevent vulnerabilities from the start.",
+                "content": "<section class='space-y-8 text-gray-700 dark:text-gray-300 leading-relaxed sm:p-4'><figure class='w-full overflow-hidden rounded-3xl shadow-lg'><img src='/Estrategias y Gestión de Ciberseguridad.png' alt='Secure Development' class='w-full h-72 md:h-[500px] object-cover object-top' /></figure><header class='space-y-3 border-b border-gray-200 dark:border-gray-700 pb-4'><h2 class='text-2xl md:text-3xl font-bold text-primary-color dark:text-secondary-light-color'>DevSecOps & Secure Software Development</h2><p>Our <strong>DevSecOps</strong> approach integrates security into every stage of your software development lifecycle, enabling teams to build secure applications without slowing down innovation.</p></header><article class='grid md:grid-cols-2 gap-8'><div class='space-y-4'><h3 class='text-xl font-semibold'>Approach</h3><ul class='list-disc list-inside space-y-2'><li>Security automation in CI/CD pipelines.</li><li>Code analysis and dependency scanning.</li><li>Container and cloud-native security controls.</li><li>Developer training in secure coding practices.</li></ul></div><div class='space-y-4'><h3 class='text-xl font-semibold'>Outcomes</h3><ul class='list-disc list-inside space-y-2'><li>Reduced vulnerabilities introduced during development.</li><li>Accelerated delivery of secure, compliant software.</li><li>Enhanced collaboration between Dev, Sec, and Ops teams.</li></ul></div></article><aside class='bg-gradient-to-r from-primary-color/10 to-secondary-light-color/10 p-6 rounded-2xl border border-gray-200 dark:border-gray-700'><h3 class='text-lg font-semibold text-primary-color dark:text-secondary-light-color'>Shift Left Security</h3><p>We empower developers to become active participants in cybersecurity, embedding security early — where it matters most.</p></aside></section>"
+            },
+            {
+                "id": "9",
+                "title": "Incident Response",
+                "slug": "incident-response",
+                "image": "/Estrategias y Gestión de Ciberseguridad.png",
+                "description": "We act quickly when security breaches occur, analyze the attack, and help restore safe operations.",
+                "content": "<section class='space-y-8 text-gray-700 dark:text-gray-300 leading-relaxed sm:p-4'><figure class='w-full overflow-hidden rounded-3xl shadow-lg'><img src='/Estrategias y Gestión de Ciberseguridad.png' alt='Incident Response' class='w-full h-72 md:h-[500px] object-cover object-top' /></figure><header class='space-y-3 border-b border-gray-200 dark:border-gray-700 pb-4'><h2 class='text-2xl md:text-3xl font-bold text-primary-color dark:text-secondary-light-color'>Rapid Incident Response & Recovery</h2><p>Our <strong>Incident Response</strong> service provides immediate assistance in the event of cyberattacks or security breaches, minimizing downtime and restoring operations securely.</p></header><article class='grid md:grid-cols-2 gap-8'><div class='space-y-4'><h3 class='text-xl font-semibold'>Service Capabilities</h3><ul class='list-disc list-inside space-y-2'><li>Incident triage, containment, and forensic analysis.</li><li>Eradication of threats and secure system recovery.</li><li>Root cause analysis and post-incident reporting.</li><li>Integration of lessons learned into security policies.</li></ul></div><div class='space-y-4'><h3 class='text-xl font-semibold'>Benefits</h3><ul class='list-disc list-inside space-y-2'><li>Minimized business disruption during incidents.</li><li>Reduced future risk through improved preparedness.</li><li>Strengthened crisis communication and coordination.</li></ul></div></article><aside class='bg-gradient-to-r from-secondary-light-color/10 to-primary-color/10 p-6 rounded-2xl border border-gray-200 dark:border-gray-700'><h3 class='text-lg font-semibold text-secondary-light-color dark:text-primary-color'>Preparedness & Resilience</h3><p>We transform crisis response into a structured, strategic process — enabling your organization to emerge stronger from every incident.</p></aside></section>"
             }
         ]
     }

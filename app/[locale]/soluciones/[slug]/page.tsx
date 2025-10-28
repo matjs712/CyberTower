@@ -5,12 +5,16 @@ import SolucionDetail from "../components/detail";
 export default async function SolucionDetailPage({
   params,
 }: {
-  params: { id: string };
+  params: {
+    slug: string;
+    locale: string;
+  };
 }) {
+  const { slug } = await params;
+
   const t = await getTranslations("AllSolutions");
   const soluciones = t.raw("list");
-
-  const solucion = soluciones.find((s: { id: string }) => s.id === params.id);
+  const solucion = soluciones.find((s: { slug: string }) => s.slug === slug);
 
   if (!solucion) return notFound();
 
