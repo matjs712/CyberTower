@@ -23,8 +23,9 @@ const NosotrosPage = () => {
             {t("hero.description")}
           </p>
           <Link
-            href="/contacto"
+            href="https://wa.me/56912345678?text=Hola%20👋,%20quiero%20más%20información%20sobre%20los%20servicios%20de%20Cyber-Tower."
             className="inline-block bg-secondary-color text-white px-8 py-3 rounded-full font-semibold hover:bg-secondary-light-color transition-all"
+            target="_blank"
           >
             {t("hero.cta")}
           </Link>
@@ -106,8 +107,9 @@ const NosotrosPage = () => {
             {t("cta.description")}
           </p>
           <Link
-            href="/contacto"
+            href="https://wa.me/56912345678?text=Hola%20👋,%20quiero%20más%20información%20sobre%20los%20servicios%20de%20Cyber-Tower."
             className="inline-block bg-secondary-color text-white px-8 py-3 rounded-full font-semibold hover:bg-secondary-light-color transition-all"
+            target="_blank"
           >
             {t("cta.button")}
           </Link>

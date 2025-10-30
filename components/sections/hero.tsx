@@ -19,9 +19,9 @@ const Hero = () => {
   );
 
   return (
-    <main className="flex flex-col gap-16 px-8 py-6">
+    <main className="flex flex-col gap-0 sm:gap-16 px-1 lg:px-8 py-6">
       {/* === HERO PRINCIPAL === */}
-      <header className="relative flex sm:h-[90vh] h-fit flex-col items-center justify-center overflow-hidden rounded-2xl bg-transparent text-left text-white pb-6 sm:pb-0">
+      <header className="relative flex sm:h-[90vh] h-fit flex-col items-center justify-center overflow-hidden sm:rounded-2xl rounded-b-none rounded-t-2xl bg-transparent text-left text-white pb-6 sm:pb-0">
         <Image
           src={"/bghero.jpg"}
           alt="cybertower"
@@ -46,23 +46,25 @@ const Hero = () => {
           initial={{ opacity: 0, y: 40 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8 }}
-          className="max-w-4xl space-y-6"
+          className="max-w-4xl space-y-0 sm:space-y-6"
         >
           <div className="p-4 pt-12 sm:px-0 sm:pt-0 space-y-6">
-            <h1 className="text-balance text-3xl font-semibold leading-tight md:text-5xl lg:text-6xl text-white">
+            <h1 className="text-balance text-3xl font-normal sm:font-semibold leading-tight md:text-5xl lg:text-6xl text-white">
               {t("title")}
             </h1>
 
-            <p className="text-lg text-gray-300">{t("paragraph1")}</p>
+            <p className="text-md text-white sm:text-gray-300">
+              {t("paragraph1")}
+            </p>
           </div>
 
-          <div className="mt-8 flex flex-col items-center justify-center gap-4 sm:flex-row" />
+          <div className="sm:mt-8 flex flex-col items-center justify-center gap-4 sm:flex-row" />
 
-          <div className="w-full mt-6 flex flex-col sm:flex-row items-center justify-between text-sm text-white px-6 sm:px-0">
-            <div className="flex-1 flex flex-col max-w-xs gap-2">
+          <div className="w-full mt-6 flex flex-col sm:flex-row items-center justify-between text-sm text-white p-4 sm:px-0">
+            <div className="flex-1 flex flex-col gap-2">
               <div className="flex flex-row gap-3 items-center text-secondary-color">
                 <Link
-                  href="https://www.linkedin.com/company/cyberhub-cl/"
+                  href="https://www.linkedin.com/company/Cyber-Tower-cl/"
                   target="_blank"
                   rel="noopener noreferrer"
                   aria-label="LinkedIn"
@@ -73,7 +75,7 @@ const Hero = () => {
 
                 {/* 💬 WhatsApp */}
                 <Link
-                  href="https://wa.me/56912345678?text=Hola%20👋,%20quiero%20más%20información%20sobre%20los%20servicios%20de%20Cyberhub."
+                  href="https://wa.me/56912345678?text=Hola%20👋,%20quiero%20más%20información%20sobre%20los%20servicios%20de%20Cyber-Tower."
                   target="_blank"
                   rel="noopener noreferrer"
                   aria-label="WhatsApp"
@@ -84,7 +86,7 @@ const Hero = () => {
 
                 {/* ✉️ Correo */}
                 <Link
-                  href="mailto:contacto@cyberhub.cl"
+                  href="mailto:contacto@Cyber-Tower.cl"
                   aria-label="Correo"
                   className="text-secondary-color hover:text-secondary-light-color transition-colors"
                 >
@@ -152,20 +154,10 @@ const Hero = () => {
 
       {/* === LOGOS === */}
       <section
-        className="flex flex-col items-center justify-center gap-8 rounded-xl bg-primary-light-color py-8 pb-5"
+        className="flex flex-col sm:items-center items-start justify-center gap-8 sm:rounded-xl sm:rounded-t-xl rounded-t-none rounded-b-xl bg-primary-light-color py-8 pb-5"
         aria-labelledby="trusted-heading"
       >
-        <h2
-          id="trusted-heading"
-          className="text-center text-2xl font-semibold text-white"
-        >
-          {t("trustedHeading")}
-        </h2>
-        <p className="mb-0 text-balance font-medium text-white px-2 sm:px-0">
-          {t("trustedSubheading")}
-        </p>
-
-        <div className="flex flex-wrap justify-center items-center gap-8 mt-4">
+        <div className="flex-wrap justify-center sm:items-center items-start gap-2 sm:gap-8 mt-4 sm:hidden flex px-4 sm:px-0">
           {[
             { code: "cl", name: "Chile" },
             { code: "us", name: "EE.UU." },
@@ -183,7 +175,43 @@ const Hero = () => {
                 height={24}
                 className="rounded shadow"
               />
-              <span className="text-sm font-medium text-white">
+              <span className="text-sm font-medium text-white sm:flex hidden">
+                {country.name}
+              </span>
+            </div>
+          ))}
+        </div>
+        <div className="px-4 space-y-4 flex flex-col items-center justify-center">
+          <h2
+            id="trusted-heading"
+            className="sm:text-center text-2xl font-semibold text-white"
+          >
+            {t("trustedHeading")}
+          </h2>
+          <p className="text-balance font-medium text-white">
+            {t("trustedSubheading")}
+          </p>
+        </div>
+
+        <div className="flex-wrap justify-center items-center gap-2 sm:gap-8 mt-4 sm:flex hidden">
+          {[
+            { code: "cl", name: "Chile" },
+            { code: "us", name: "EE.UU." },
+            { code: "es", name: "España" },
+            { code: "mx", name: "México" },
+            { code: "br", name: "Brasil" },
+            { code: "ar", name: "Argentina" },
+            { code: "co", name: "Colombia" },
+          ].map((country) => (
+            <div key={country.code} className="flex items-center gap-2">
+              <Image
+                src={`https://flagcdn.com/w40/${country.code}.png`}
+                alt={`Bandera de ${country.name}`}
+                width={32}
+                height={24}
+                className="rounded shadow"
+              />
+              <span className="text-sm font-medium text-white sm:flex hidden">
                 {country.name}
               </span>
             </div>

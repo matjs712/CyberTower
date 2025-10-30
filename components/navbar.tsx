@@ -57,15 +57,20 @@ export default function Navbar({
 
   return (
     <header className="sticky top-0 z-50 backdrop-blur-md bg-background/80">
-      <div className="max-w-container mx-auto flex items-center justify-between px-4 py-3">
+      <div className="max-w-container mx-auto flex items-center justify-between px-4 py-3 pb-1">
         {/* Logo */}
         <Link
           href={homeUrl}
           aria-label={t("aria.goHome")}
-          className="flex items-center gap-2"
+          className="flex items-center gap-2 pl-4"
         >
-          <Image src={"/logo-b.svg"} alt="cyberhub" height={200} width={100} />
-          <span className="sr-only">Cyberhub</span>
+          <Image
+            src={"/logos/Logo_Final_Cyber_TowerLOWRES-03-recortada.png"}
+            alt="Cyber-Tower"
+            height={200}
+            width={150}
+          />
+          <span className="sr-only">Cyber-Tower</span>
         </Link>
 
         {/* Desktop nav */}
@@ -80,10 +85,10 @@ export default function Navbar({
           <Link
             href="tel:+56912345678"
             aria-label={t("aria.call")}
-            className="flex items-center gap-2 rounded-full bg-neutral-700 px-3 py-2 text-white hover:bg-neutral-600 transition"
+            className="flex items-center gap-2 rounded-full border border-neutral-200 px-3 py-2 hover:bg-neutral-50 transition"
           >
             <Phone className="size-4 text-secondary-color" aria-hidden="true" />
-            <span>{t("phoneNumber")}</span>
+            <span className="lg:flex hidden">{t("phoneNumber")}</span>
           </Link>
 
           {/* Mobile menu */}

@@ -15,8 +15,6 @@ export default async function CertificacionDetailPage({
   const certificaciones = t.raw("list");
 
   const cert = certificaciones.find((s: { slug: string }) => s.slug === slug);
-  console.log("slug", slug);
-  console.log("certificaciones", certificaciones);
 
   if (!cert) return notFound();
 

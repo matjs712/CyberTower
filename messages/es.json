@@ -2,13 +2,13 @@
     "home": {
         "title": "Protege tu organización con soluciones avanzadas de ciberseguridad",
         "paragraph1": "Implementamos estrategias de seguridad y cumplimiento normativo basadas en ISO 27001, NIST y la Ley 21.633.",
-        "paragraph2": "En Cyberhub ayudamos a empresas a fortalecer su infraestructura digital, prevenir incidentes y cumplir con los nuevos estándares nacionales e internacionales en ciberseguridad.",
+        "paragraph2": "En Cyber-Tower ayudamos a empresas a fortalecer su infraestructura digital, prevenir incidentes y cumplir con los nuevos estándares nacionales e internacionales en ciberseguridad.",
         "paragraph3": "Desde la evaluación de riesgos hasta la implementación de un Sistema de Gestión de Seguridad de la Información (SGSI), acompañamos a tu organización en cada etapa del proceso.",
         "buttonContact": "Contáctanos",
         "reviewsKpi": "2.7k+",
         "reviews": "reseñas positivas",
         "trustedHeading": "Empresas que confían en nosotros",
-        "trustedSubheading": "En Asia, Europa y América, confían en Cyberhub para fortalecer su cultura digital y seguridad.",
+        "trustedSubheading": "En Asia, Europa y América, confían en Cyber-Tower para fortalecer su cultura digital y seguridad.",
         "countries": {
             "cl": "Chile",
             "us": "EE.UU.",
@@ -24,7 +24,7 @@
         "falabella": {
             "name": "Falabella",
             "description": "Implementamos un programa integral de ciberseguridad y concientización digital para más de 3.000 colaboradores.",
-            "testimonial": "Cyberhub nos ayudó a fortalecer nuestra cultura de seguridad digital. Su equipo fue rápido, profesional y comprometido.",
+            "testimonial": "Cyber-Tower nos ayudó a fortalecer nuestra cultura de seguridad digital. Su equipo fue rápido, profesional y comprometido.",
             "author": "María Gómez",
             "position": "Gerente de TI | Falabella",
             "stats": [
@@ -49,7 +49,7 @@
         "bancoChile": {
             "name": "Banco de Chile",
             "description": "Desarrollamos un plan de respuesta ante incidentes adaptado a las normativas del sector financiero chileno.",
-            "testimonial": "La asesoría de Cyberhub fue clave para optimizar nuestros procesos de detección y respuesta ante ciberamenazas.",
+            "testimonial": "La asesoría de Cyber-Tower fue clave para optimizar nuestros procesos de detección y respuesta ante ciberamenazas.",
             "author": "Rodrigo Pérez",
             "position": "CISO | Banco de Chile",
             "stats": [
@@ -77,12 +77,77 @@
         "title": "Soluciones reales que fortalecen la seguridad empresarial",
         "description": "Conoce cómo ayudamos a empresas en Chile y Latinoamérica a implementar sistemas de gestión de seguridad de la información (SGSI), cumplir la Ley 21.633 y proteger sus activos críticos frente a ciberamenazas.",
         "viewAll": "Ver todos los casos de éxito",
-        "ariaViewAll": "Ver más casos de éxito"
+        "ariaViewAll": "Ver más casos de éxito",
+        "list": [
+            {
+                "id": 1,
+                "title": "Implementación de SGSI ISO 27001 en grupo industrial",
+                "slug": "implementacion-de-sgsi-iso-27001-en-grupo-industrial",
+                "url": "/blog/1",
+                "summary": "Acompañamos a un holding con operaciones en Chile y Perú en la implementación y certificación ISO 27001, fortaleciendo su gestión de seguridad de la información en tiempo récord.",
+                "description": "Cyber-Tower acompañó a un holding con presencia en Chile y Perú en la implementación completa de un Sistema de Gestión de Seguridad de la Información (SGSI), logrando la certificación ISO 27001 en menos de 9 meses.",
+                "image": "/auditoria.png",
+                "tags": [
+                    "ISO 27001",
+                    "SGSI",
+                    "Auditoría",
+                    "Ciberseguridad"
+                ],
+                "content": "<article class='prose prose-invert lg:prose-lg max-w-none space-y-4'>\n  <h2>Transformando la seguridad de la información en un grupo industrial</h2>\n  <p>\n    Cyber-Tower lideró la implementación de un <strong>Sistema de Gestión de Seguridad de la Información (SGSI)</strong> \n    basado en la norma <strong>ISO/IEC 27001:2022</strong> para un holding con operaciones en \n    <strong>Chile y Perú</strong>. El proyecto tuvo como objetivo fortalecer los procesos de \n    protección de datos y establecer una cultura organizacional de seguridad.\n  </p>\n\n  <h3>Desafío inicial</h3>\n  <p>\n    La organización enfrentaba un crecimiento acelerado y necesitaba estandarizar sus controles de seguridad \n    frente a auditorías y requerimientos regulatorios. Existían múltiples unidades con distintos niveles \n    de madurez en seguridad y una gestión documental fragmentada.\n  </p>\n\n  <h3>Enfoque y metodología</h3>\n  <ul>\n    <li>Diagnóstico inicial de madurez en base al <em>ISO 27001 Gap Assessment</em>.</li>\n    <li>Identificación y tratamiento de riesgos según <em>ISO 27005</em>.</li>\n    <li>Diseño e implementación de políticas, procedimientos y controles técnicos y organizacionales.</li>\n    <li>Capacitación a más de 200 colaboradores sobre buenas prácticas de seguridad de la información.</li>\n    <li>Simulación de auditorías internas para asegurar el cumplimiento antes de la certificación.</li>\n  </ul>\n\n  <h3>Resultados obtenidos</h3>\n  <p>\n    En menos de <strong>9 meses</strong>, el holding logró la <strong>certificación ISO 27001</strong> \n    a nivel corporativo, consolidando su postura frente a clientes internacionales y mejorando \n    la eficiencia operativa. Se redujeron los incidentes de seguridad en un <strong>45%</strong> \n    y se estableció un comité permanente de seguridad.\n  </p>\n\n  <blockquote>\n    “El acompañamiento de Cyber-Tower fue clave para alinear nuestra estrategia de seguridad \n    con los objetivos de negocio. Hoy contamos con un SGSI maduro, sostenible y certificado.”  \n    <footer>— Gerente de TI, Grupo Industrial</footer>\n  </blockquote>\n\n  <h3>Lecciones aprendidas</h3>\n  <p>\n    El proyecto demostró que la implementación de un SGSI efectivo requiere tanto compromiso \n    directivo como participación activa de las áreas operativas. La integración entre tecnología, \n    procesos y personas fue esencial para el éxito.\n  </p>\n\n  <p class='mt-8'>\n    <a href='/contacto' class='text-primary hover:underline font-semibold'>\n      ¿Quieres certificar tu organización en ISO 27001? Contáctanos →\n    </a>\n  </p>\n</article>"
+            },
+            {
+                "id": 2,
+                "title": "Evaluación de brechas y cumplimiento Ley 21.633 (OIV)",
+                "slug": "evaluacion-de-brechas-y-cumplimiento-ley-21633-oiv",
+                "url": "/blog/2",
+                "summary": "Identificamos las brechas de cumplimiento frente a la Ley 21.633 para una empresa energética, desarrollando un plan de acción basado en NIST CSF y mejores prácticas de gobernanza.",
+                "description": "Ayudamos a una empresa del sector energético a identificar sus brechas frente a las exigencias de la Ley 21.633 y a desarrollar su plan de acción en base al framework NIST CSF.",
+                "image": "/ley21.png",
+                "tags": [
+                    "Ley 21.633",
+                    "NIST CSF",
+                    "Gobernanza",
+                    "Evaluación de Riesgos"
+                ],
+                "content": "<article class='prose prose-invert lg:prose-lg max-w-none space-y-4'>\n  <h2>Diagnóstico de cumplimiento frente a la Ley 21.633 en empresa energética</h2>\n  <p>\n    Una compañía del <strong>sector energético chileno</strong> solicitó a Cyber-Tower la evaluación de su \n    nivel de cumplimiento con la <strong>Ley 21.633</strong>, que regula a las <em>Organizaciones de \n    Importancia Vital (OIV)</em>. El objetivo era establecer un diagnóstico claro y un plan de acción \n    que permitiera alcanzar la madurez requerida por la autoridad.\n  </p>\n\n  <h3>Contexto y desafío</h3>\n  <p>\n    La empresa enfrentaba la obligación de adecuarse a los nuevos requisitos legales en materia de \n    <strong>ciberseguridad y continuidad operativa</strong>. Sin embargo, carecía de un marco de referencia \n    estructurado para medir su nivel de preparación frente a los lineamientos del <strong>CSIRT de Gobierno</strong>.\n  </p>\n\n  <h3>Metodología aplicada</h3>\n  <ul>\n    <li>Levantamiento de información mediante entrevistas y revisión documental.</li>\n    <li>Evaluación de madurez basada en el <em>NIST Cybersecurity Framework (CSF)</em>.</li>\n    <li>Identificación de brechas frente a los controles exigidos por la Ley 21.633 y sus guías técnicas.</li>\n    <li>Diseño de un plan de acción priorizado con hitos y responsables definidos.</li>\n    <li>Entrega de informe ejecutivo y técnico con roadmap de cumplimiento.</li>\n  </ul>\n\n  <h3>Resultados alcanzados</h3>\n  <p>\n    El diagnóstico permitió a la organización conocer su nivel de madurez real en \n    <strong>Gestión de Riesgos, Protección de Activos Críticos y Respuesta a Incidentes</strong>. \n    Se diseñó un plan de mejora estructurado en tres fases que actualmente se encuentra en ejecución \n    y cuenta con seguimiento trimestral por parte del Comité de Seguridad Corporativo.\n  </p>\n\n  <blockquote>\n    “Gracias al acompañamiento de Cyber-Tower, logramos traducir los requisitos legales en acciones \n    concretas, mejorando la visibilidad y gestión de nuestros riesgos operacionales.”\n    <footer>— CISO, Empresa Energética</footer>\n  </blockquote>\n\n  <h3>Próximos pasos</h3>\n  <p>\n    A partir de los resultados obtenidos, la empresa inició la implementación del \n    <strong>Framework NIST CSF</strong> como base para su sistema de gestión de ciberseguridad \n    corporativo y fortaleció su proceso de auditoría interna.\n  </p>\n\n  <p class='mt-8'>\n    <a href='/contacto' class='text-primary hover:underline font-semibold'>\n      Solicita una evaluación de cumplimiento para tu organización →\n    </a>\n  </p>\n</article>"
+            },
+            {
+                "id": 3,
+                "title": "Auditoría técnica y capacitación en seguridad TI",
+                "slug": "auditoria-tecnica-y-capacitacion-en-seguridad-ti",
+                "url": "/blog/3",
+                "summary": "Realizamos una auditoría completa de seguridad TI en una entidad financiera, complementada con capacitaciones personalizadas para mejorar la resiliencia de sus equipos.",
+                "description": "Realizamos una auditoría integral de seguridad en la infraestructura de TI de una entidad financiera, acompañada de capacitaciones personalizadas para sus equipos técnicos y ejecutivos.",
+                "image": "/auditoria.png",
+                "tags": [
+                    "Auditoría",
+                    "Capacitación",
+                    "Infraestructura TI",
+                    "Resiliencia"
+                ],
+                "content": "<article class='prose prose-invert lg:prose-lg max-w-none space-y-4'>\n  <h2>Auditoría técnica y fortalecimiento de capacidades en ciberseguridad</h2>\n  <p>\n    Una <strong>entidad financiera nacional</strong> contrató a Cyber-Tower para realizar una \n    <strong>auditoría integral de su infraestructura tecnológica</strong> y, posteriormente, \n    capacitar a sus equipos técnicos y ejecutivos en buenas prácticas de seguridad.\n  </p>\n\n  <h3>Situación inicial</h3>\n  <p>\n    La organización buscaba identificar vulnerabilidades críticas en su entorno TI y mejorar la \n    cultura interna en torno a la ciberseguridad. No contaba con un proceso de revisión continua \n    ni con un programa formal de formación en seguridad para su personal.\n  </p>\n\n  <h3>Etapas del proyecto</h3>\n  <ul>\n    <li>Revisión de arquitectura y políticas de seguridad.</li>\n    <li>Pruebas de penetración y análisis de vulnerabilidades.</li>\n    <li>Evaluación de controles en servidores, redes y endpoints.</li>\n    <li>Desarrollo de un plan de mitigación priorizado por nivel de riesgo.</li>\n    <li>Diseño e impartición de talleres técnicos y sesiones de sensibilización ejecutiva.</li>\n  </ul>\n\n  <h3>Principales hallazgos y mejoras</h3>\n  <p>\n    Se detectaron brechas en la gestión de parches, control de accesos y segmentación de red. \n    Tras la implementación del plan de acción, se logró una <strong>reducción del 60% en vulnerabilidades \n    críticas</strong> y se estableció un calendario de revisiones periódicas trimestrales.\n  </p>\n\n  <blockquote>\n    “La auditoría nos permitió entender nuestro nivel real de exposición y priorizar inversiones \n    en ciberseguridad. Las capacitaciones transformaron la manera en que nuestros equipos piensan \n    la seguridad.” \n    <footer>— Gerente de Operaciones TI, Institución Financiera</footer>\n  </blockquote>\n\n  <h3>Impacto final</h3>\n  <p>\n    El proyecto no solo elevó la madurez técnica de la entidad, sino que fomentó una cultura de \n    <strong>resiliencia cibernética</strong> sostenible en el tiempo, con métricas de desempeño \n    y seguimiento interno automatizado.\n  </p>\n\n  <p class='mt-8'>\n    <a href='/contacto' class='text-primary hover:underline font-semibold'>\n      Agenda una auditoría de seguridad TI con nuestros especialistas →\n    </a>\n  </p>\n</article>"
+            },
+            {
+                "id": 4,
+                "title": "Gestión de incidentes y plan de respuesta ante ciberataques",
+                "slug": "gestion-de-incidentes-y-plan-de-respuesta-ante-ciberataques",
+                "url": "/blog/4",
+                "summary": "Desarrollamos un plan integral de gestión de incidentes para una organización de salud, estableciendo protocolos de respuesta y roles claros ante ciberataques.",
+                "description": "Cyber-Tower apoyó a una organización del sector salud a desarrollar su plan de respuesta ante incidentes, estableciendo protocolos y roles claros frente a amenazas críticas.",
+                "image": "/gestion.png",
+                "tags": [
+                    "Respuesta ante Incidentes",
+                    "Seguridad Operacional",
+                    "Continuidad"
+                ],
+                "content": "<article class='prose prose-invert lg:prose-lg max-w-none space-y-4'>\n  <h2>Fortaleciendo la capacidad de respuesta ante ciberataques en el sector salud</h2>\n  <p>\n    Cyber-Tower colaboró con una <strong>organización del sector salud</strong> para diseñar e implementar un \n    <strong>Plan de Respuesta ante Incidentes de Seguridad de la Información (PRISI)</strong>. \n    El objetivo fue establecer una estrategia clara y operativa frente a ciberataques que pudieran \n    comprometer la disponibilidad y confidencialidad de los datos clínicos.\n  </p>\n\n  <h3>Situación inicial</h3>\n  <p>\n    La institución había enfrentado incidentes de seguridad que afectaron temporalmente sus sistemas críticos \n    de atención y registros médicos. No existían procedimientos formales para la gestión de incidentes ni roles \n    definidos para actuar ante amenazas cibernéticas, lo que generaba tiempos de respuesta prolongados y \n    dependencia de terceros.\n  </p>\n\n  <h3>Metodología y enfoque</h3>\n  <ul>\n    <li>Diagnóstico inicial de la madurez del proceso de gestión de incidentes.</li>\n    <li>Diseño del flujo de respuesta basado en el <em>NIST 800-61r2</em> (Computer Security Incident Handling Guide).</li>\n    <li>Definición de roles y responsabilidades dentro del <strong>Equipo de Respuesta a Incidentes (CSIRT interno)</strong>.</li>\n    <li>Implementación de un sistema de registro y seguimiento centralizado de eventos.</li>\n    <li>Simulación de incidentes para validar tiempos de reacción y comunicación.</li>\n  </ul>\n\n  <h3>Resultados y beneficios</h3>\n  <p>\n    La organización logró reducir sus <strong>tiempos de detección y contención</strong> de incidentes críticos \n    en más del <strong>50%</strong>. Se establecieron procedimientos estandarizados y escalamiento automático \n    según nivel de severidad. Además, se integró el plan de respuesta con las políticas de \n    <strong>continuidad operativa</strong> y <strong>resiliencia cibernética</strong>.\n  </p>\n\n  <blockquote>\n    “Hoy contamos con una estructura clara para responder ante cualquier tipo de ciberataque. \n    La preparación y acompañamiento de Cyber-Tower marcaron la diferencia en nuestra capacidad de reacción.”\n    <footer>— Directora de Tecnología, Organización de Salud</footer>\n  </blockquote>\n\n  <h3>Lecciones clave</h3>\n  <p>\n    La experiencia evidenció que la <strong>preparación organizacional</strong> y la \n    <strong>comunicación interna efectiva</strong> son determinantes para una gestión exitosa de incidentes. \n    Más allá de la tecnología, el factor humano fue clave para consolidar la respuesta ante crisis.\n  </p>\n\n  <h3>Próximos pasos</h3>\n  <p>\n    El plan contempla la ejecución de <strong>simulacros semestrales</strong> y la adopción de una plataforma \n    SIEM para mejorar la detección temprana de amenazas. Cyber-Tower continúa acompañando al cliente \n    en la etapa de mejora continua del proceso.\n  </p>\n\n  <p class='mt-8'>\n    <a href='/contacto' class='text-primary hover:underline font-semibold'>\n      Fortalece la gestión de incidentes en tu organización →\n    </a>\n  </p>\n</article>"
+            }
+        ]
     },
     "brands": {
         "title": "La confianza de los sectores más exigentes",
-        "description": "Clientes del ámbito financiero, minero, energético, tecnológico, de transporte y salud eligen a Cyberhub para proteger sus operaciones, garantizar la continuidad del negocio y fortalecer su resiliencia digital.",
-        "ariaLabel": "Marcas que confían en Cyberhub",
+        "description": "Clientes del ámbito financiero, minero, energético, tecnológico, de transporte y salud eligen a Cyber-Tower para proteger sus operaciones, garantizar la continuidad del negocio y fortalecer su resiliencia digital.",
+        "ariaLabel": "Marcas que confían en Cyber-Tower",
         "srHint": "Desliza horizontalmente para ver más marcas",
         "list": [
             "Agrosuper CL, Asia y USA",
@@ -146,9 +211,9 @@
         ]
     },
     "mission": {
-        "whyTitle": "Por qué elegir Cyberhub",
+        "whyTitle": "Por qué elegir Cyber-Tower",
         "heading": "Protección inteligente, impulso estratégico",
-        "description": "En un entorno donde las amenazas evolucionan cada día, no basta con tecnología: necesitas visión, prevención y reacción. En Cyberhub fusionamos experiencia técnica, análisis de riesgos y gobernanza para construir defensas inteligentes que crecen contigo.",
+        "description": "En un entorno donde las amenazas evolucionan cada día, no basta con tecnología: necesitas visión, prevención y reacción. En Cyber-Tower fusionamos experiencia técnica, análisis de riesgos y gobernanza para construir defensas inteligentes que crecen contigo.",
         "ariaImage": "Estrategias de ciberseguridad y transformación digital",
         "readMore": "Leer más",
         "cards": [
@@ -169,7 +234,7 @@
     "testimonialsAndStats": {
         "sectionLabel": "Casos de éxito y confianza",
         "heading": "Historias reales de ciberseguridad efectiva",
-        "description": "Empresas líderes en energía, minería y servicios confían en Cyberhub para fortalecer su postura de seguridad, optimizar la gestión de riesgos y cumplir con los más altos estándares internacionales.",
+        "description": "Empresas líderes en energía, minería y servicios confían en Cyber-Tower para fortalecer su postura de seguridad, optimizar la gestión de riesgos y cumplir con los más altos estándares internacionales.",
         "statTitle": "Más de 180 organizaciones protegidas",
         "stat1Value": "72%",
         "stat1Label": "Menos incidentes críticos",
@@ -184,7 +249,7 @@
             {
                 "name": "María Torres",
                 "title": "Gerenta TI, EnerChile",
-                "quote": "El equipo de Cyberhub implementó un modelo de gestión de ciberseguridad que redujo incidentes críticos en un 70%. Su acompañamiento fue clave para certificarnos bajo ISO 27001."
+                "quote": "El equipo de Cyber-Tower implementó un modelo de gestión de ciberseguridad que redujo incidentes críticos en un 70%. Su acompañamiento fue clave para certificarnos bajo ISO 27001."
             },
             {
                 "name": "Rodrigo Silva",
@@ -194,7 +259,7 @@
             {
                 "name": "Claudia Muñoz",
                 "title": "Directora de Operaciones, FinTech Andes",
-                "quote": "Cyberhub no solo entregó soluciones técnicas, sino una estrategia integral de cultura y resiliencia digital. Son un verdadero socio estratégico."
+                "quote": "Cyber-Tower no solo entregó soluciones técnicas, sino una estrategia integral de cultura y resiliencia digital. Son un verdadero socio estratégico."
             }
         ]
     },
@@ -209,9 +274,9 @@
         },
         "phoneNumber": "+56 9 1234 5678",
         "aria": {
-            "goHome": "Ir al inicio de Cyberhub",
+            "goHome": "Ir al inicio de Cyber-Tower",
             "mainMenu": "Menú principal",
-            "call": "Llamar a Cyberhub al +56 9 1234 5678",
+            "call": "Llamar a Cyber-Tower al +56 9 1234 5678",
             "openMenu": "Abrir menú de navegación",
             "mobileMenu": "Menú de navegación móvil"
         }
@@ -274,10 +339,10 @@
     },
     "footer": {
         "description": "Soluciones digitales y de ciberseguridad para empresas que buscan evolucionar con confianza.",
-        "copyright": "© {year} Cyberhub. Todos los derechos reservados.",
+        "copyright": "© {year} Cyber-Tower. Todos los derechos reservados.",
         "aria": {
-            "label": "Pie de página de Cyberhub",
-            "goHome": "Ir al inicio de Cyberhub"
+            "label": "Pie de página de Cyber-Tower",
+            "goHome": "Ir al inicio de Cyber-Tower"
         },
         "columns": [
             {
@@ -285,15 +350,15 @@
                 "links": [
                     {
                         "text": "Programa de Awareness",
-                        "href": "/soluciones/1"
+                        "href": "/soluciones/cybersecurity-awareness-program"
                     },
                     {
                         "text": "Posicionamiento de Marca",
-                        "href": "/soluciones/2"
+                        "href": "/soluciones/cybersecurity-brand-positioning"
                     },
                     {
                         "text": "Estrategias y Gestión",
-                        "href": "/soluciones/3"
+                        "href": "/soluciones/cybersecurity-strategies-and-management"
                     }
                 ]
             },
@@ -319,18 +384,18 @@
                 "links": [
                     {
                         "text": "LinkedIn",
-                        "href": "https://www.linkedin.com/company/cyberhub-cl",
-                        "ariaLabel": "Visitar LinkedIn de Cyberhub"
+                        "href": "https://www.linkedin.com/company/Cyber-Tower-cl",
+                        "ariaLabel": "Visitar LinkedIn de Cyber-Tower"
                     },
                     {
                         "text": "Correo",
-                        "href": "mailto:contacto@cyberhub.cl",
-                        "ariaLabel": "Enviar correo a Cyberhub"
+                        "href": "mailto:contacto@Cyber-Tower.cl",
+                        "ariaLabel": "Enviar correo a Cyber-Tower"
                     },
                     {
                         "text": "WhatsApp",
                         "href": "https://wa.me/56912345678",
-                        "ariaLabel": "Contactar a Cyberhub por WhatsApp"
+                        "ariaLabel": "Contactar a Cyber-Tower por WhatsApp"
                     }
                 ]
             }
@@ -338,13 +403,8 @@
         "policies": [
             {
                 "text": "Política de Privacidad",
-                "href": "/politica-de-privacidad",
+                "href": "/privacidad",
                 "ariaLabel": "Leer Política de Privacidad"
-            },
-            {
-                "text": "Términos y Condiciones",
-                "href": "/terminos",
-                "ariaLabel": "Leer Términos y Condiciones"
             }
         ]
     },
@@ -359,7 +419,7 @@
                 "title": "Evaluación de brechas y cumplimiento Ley 21.633 (OIV)",
                 "summary": "Identificamos las brechas de seguridad y apoyamos a organizaciones críticas a cumplir con la Ley 21.633 mediante estrategias de ciberresiliencia efectivas.",
                 "label": "Ciberseguridad",
-                "author": "Cyberhub Team",
+                "author": "Cyber-Tower Team",
                 "published": "2025-09-15",
                 "url": "/blog/1",
                 "image": "/ley-oiv.png"
@@ -369,7 +429,7 @@
                 "title": "Gestión de incidentes y plan de respuesta ante ciberataques",
                 "summary": "Desarrollamos planes de respuesta ante incidentes para empresas del sector salud, mejorando tiempos de reacción y continuidad operacional.",
                 "label": "Gestión de Riesgos",
-                "author": "Cyberhub Team",
+                "author": "Cyber-Tower Team",
                 "published": "2025-09-20",
                 "url": "/blog/2",
                 "image": "/gestion.png"
@@ -379,7 +439,7 @@
                 "title": "Cómo construir una cultura de seguridad digital",
                 "summary": "La capacitación continua y el liderazgo son pilares para crear una cultura organizacional sólida en torno a la ciberseguridad.",
                 "label": "Awareness",
-                "author": "Cyberhub Team",
+                "author": "Cyber-Tower Team",
                 "published": "2025-09-25",
                 "url": "/blog/3",
                 "image": "/cultura.png"
@@ -390,7 +450,7 @@
         "hero": {
             "title": "Certificaciones ISO: Mejora la calidad, seguridad y sostenibilidad de tu organización"
         },
-        "intro": "En <strong>Cyberhub</strong> ofrecemos un conjunto de certificaciones internacionales basadas en normas <iso>ISO</iso>, diseñadas para fortalecer la calidad, sostenibilidad y seguridad de las organizaciones. A continuación, encontrarás nuestras principales certificaciones organizadas por ámbito de gestión.",
+        "intro": "En <strong>Cyber-Tower</strong> ofrecemos un conjunto de certificaciones internacionales basadas en normas <iso>ISO</iso>, diseñadas para fortalecer la calidad, sostenibilidad y seguridad de las organizaciones. A continuación, encontrarás nuestras principales certificaciones organizadas por ámbito de gestión.",
         "viewDetails": "Ver detalles",
         "categories": [
             {
@@ -469,12 +529,12 @@
     "aboutPage": {
         "hero": {
             "title": "Impulsamos la transformación digital de tu negocio",
-            "description": "En Cyberhub creemos que la tecnología no solo debe resolver problemas, sino también potenciar el crecimiento y la innovación.",
+            "description": "En Cyber-Tower creemos que la tecnología no solo debe resolver problemas, sino también potenciar el crecimiento y la innovación.",
             "cta": "Hablemos de tu proyecto"
         },
         "history": {
             "title": "Nuestra historia",
-            "description": "Cyberhub nació con la visión de conectar empresas y tecnología a través de soluciones digitales inteligentes. Desde nuestros inicios, hemos acompañado a startups y corporaciones en su evolución digital, ayudándolas a crecer de forma sostenible, segura y eficiente."
+            "description": "Cyber-Tower nació con la visión de conectar empresas y tecnología a través de soluciones digitales inteligentes. Desde nuestros inicios, hemos acompañado a startups y corporaciones en su evolución digital, ayudándolas a crecer de forma sostenible, segura y eficiente."
         },
         "valuesTitle": "Nuestros valores",
         "values": [
@@ -529,7 +589,7 @@
             "title": "Nuestras soluciones: Impulsa la seguridad, estrategia y resiliencia digital de tu organización",
             "alt": "Soluciones de ciberseguridad"
         },
-        "intro": "En <strong>Cyberhub</strong> diseñamos e implementamos <bold>soluciones integrales de ciberseguridad</bold> que abarcan la concientización humana, la gestión estratégica y la transformación digital segura. Cada solución está pensada para <strong>fortalecer la resiliencia, el cumplimiento y la confianza</strong> de tu organización frente a los desafíos del mundo digital.",
+        "intro": "En <strong>Cyber-Tower</strong> diseñamos e implementamos <bold>soluciones integrales de ciberseguridad</bold> que abarcan la concientización humana, la gestión estratégica y la transformación digital segura. Cada solución está pensada para <strong>fortalecer la resiliencia, el cumplimiento y la confianza</strong> de tu organización frente a los desafíos del mundo digital.",
         "viewDetails": "Ver detalles",
         "categories": [
             {
@@ -576,7 +636,7 @@
                 "slug": "cybersecurity-awareness-program",
                 "description": "Capacitaciones y campañas diseñadas para fortalecer la cultura de ciberseguridad dentro de tu organización, reduciendo riesgos humanos y fomentando comportamientos seguros.",
                 "image": "/awarenes.png",
-                "content": "<section class='space-y-8 text-gray-700 dark:text-gray-300 leading-relaxed sm:p-4'><figure class='w-full overflow-hidden rounded-3xl shadow-lg'><img src='/awarenes.png' alt='Programa de awareness en ciberseguridad' class='w-full h-72 md:h-[500px] object-cover object-top' /></figure><header class='space-y-3 border-b border-gray-200 dark:border-gray-700 pb-4'><h2 class='text-2xl md:text-3xl font-bold text-primary-color dark:text-secondary-light-color'>¿En qué consiste el Programa de Awareness?</h2><p>El <strong>Programa de Awareness</strong> de <strong>Cyberhub</strong> está diseñado para desarrollar una cultura organizacional de seguridad, alineando al personal con las mejores prácticas de protección de datos y respuesta ante incidentes. A través de capacitaciones interactivas, simulaciones de phishing y contenidos adaptados al contexto local, potenciamos el factor humano como la primera línea de defensa.</p></header><article class='grid md:grid-cols-2 gap-8'><div class='space-y-4'><h3 class='text-xl font-semibold text-gray-900 dark:text-white'>Componentes del programa</h3><ul class='list-disc list-inside space-y-2'><li>Evaluación del nivel de madurez y riesgos humanos.</li><li>Capacitaciones interactivas personalizadas por área o rol.</li><li>Simulaciones de ataques de ingeniería social (phishing, smishing, etc.).</li><li>Medición de impacto y mejora continua.</li></ul></div><div class='space-y-4'><h3 class='text-xl font-semibold text-gray-900 dark:text-white'>Resultados esperados</h3><ul class='list-disc list-inside space-y-2'><li>Incremento de la conciencia y responsabilidad en todos los niveles.</li><li>Reducción comprobable de incidentes derivados de errores humanos.</li><li>Cumplimiento con normativas de seguridad y auditorías ISO 27001.</li><li>Fortalecimiento del clima organizacional y la confianza interna.</li></ul></div></article><aside class='bg-gradient-to-r from-primary-color/10 to-secondary-light-color/10 p-6 rounded-2xl border border-gray-200 dark:border-gray-700 space-y-3'><h3 class='text-lg font-semibold text-primary-color dark:text-secondary-light-color'>Valor estratégico</h3><p>La gestión de ciberseguridad no solo depende de la tecnología. El 85% de los incidentes tienen origen humano. Nuestro enfoque human-first asegura que las políticas de seguridad se vivan como parte del ADN corporativo.</p></aside><footer class='pt-6 border-t border-gray-200 dark:border-gray-700'><p class='italic'>En <strong>Cyberhub</strong>, ayudamos a las organizaciones a convertir la concientización en acción, integrando seguridad, comunicación y comportamiento digital responsable.</p></footer></section>"
+                "content": "<section class='space-y-8 text-gray-700 dark:text-gray-300 leading-relaxed sm:p-4'><figure class='w-full overflow-hidden rounded-3xl shadow-lg'><img src='/awarenes.png' alt='Programa de awareness en ciberseguridad' class='w-full h-72 md:h-[500px] object-cover object-top' /></figure><header class='space-y-3 border-b border-gray-200 dark:border-gray-700 pb-4'><h2 class='text-2xl md:text-3xl font-bold text-primary-color dark:text-secondary-light-color'>¿En qué consiste el Programa de Awareness?</h2><p>El <strong>Programa de Awareness</strong> de <strong>Cyber-Tower</strong> está diseñado para desarrollar una cultura organizacional de seguridad, alineando al personal con las mejores prácticas de protección de datos y respuesta ante incidentes. A través de capacitaciones interactivas, simulaciones de phishing y contenidos adaptados al contexto local, potenciamos el factor humano como la primera línea de defensa.</p></header><article class='grid md:grid-cols-2 gap-8'><div class='space-y-4'><h3 class='text-xl font-semibold text-gray-900 dark:text-white'>Componentes del programa</h3><ul class='list-disc list-inside space-y-2'><li>Evaluación del nivel de madurez y riesgos humanos.</li><li>Capacitaciones interactivas personalizadas por área o rol.</li><li>Simulaciones de ataques de ingeniería social (phishing, smishing, etc.).</li><li>Medición de impacto y mejora continua.</li></ul></div><div class='space-y-4'><h3 class='text-xl font-semibold text-gray-900 dark:text-white'>Resultados esperados</h3><ul class='list-disc list-inside space-y-2'><li>Incremento de la conciencia y responsabilidad en todos los niveles.</li><li>Reducción comprobable de incidentes derivados de errores humanos.</li><li>Cumplimiento con normativas de seguridad y auditorías ISO 27001.</li><li>Fortalecimiento del clima organizacional y la confianza interna.</li></ul></div></article><aside class='bg-gradient-to-r from-primary-color/10 to-secondary-light-color/10 p-6 rounded-2xl border border-gray-200 dark:border-gray-700 space-y-3'><h3 class='text-lg font-semibold text-primary-color dark:text-secondary-light-color'>Valor estratégico</h3><p>La gestión de ciberseguridad no solo depende de la tecnología. El 85% de los incidentes tienen origen humano. Nuestro enfoque human-first asegura que las políticas de seguridad se vivan como parte del ADN corporativo.</p></aside><footer class='pt-6 border-t border-gray-200 dark:border-gray-700'><p class='italic'>En <strong>Cyber-Tower</strong>, ayudamos a las organizaciones a convertir la concientización en acción, integrando seguridad, comunicación y comportamiento digital responsable.</p></footer></section>"
             },
             {
                 "id": "2",
@@ -585,7 +645,7 @@
                 "slug": "cybersecurity-brand-positioning",
                 "description": "Estrategias de comunicación y branding orientadas a consolidar tu presencia como referente confiable y experto en seguridad digital.",
                 "image": "/Posicionamiento de Marca en Ciberseguridad.png",
-                "content": "<section class='space-y-8 text-gray-700 dark:text-gray-300 leading-relaxed sm:p-4'><figure class='w-full overflow-hidden rounded-3xl shadow-lg'><img src='/Posicionamiento de Marca en Ciberseguridad.png' alt='Posicionamiento de Marca en Ciberseguridad' class='w-full h-72 md:h-[500px] object-cover object-top' /></figure><header class='space-y-3 border-b border-gray-200 dark:border-gray-700 pb-4'><h2 class='text-2xl md:text-3xl font-bold text-primary-color dark:text-secondary-light-color'>Potencia tu marca en el mundo digital seguro</h2><p>En el contexto actual, las empresas que comunican confianza y dominio tecnológico ganan ventaja competitiva. Nuestro servicio de <strong>Posicionamiento de Marca</strong> combina estrategia, diseño y narrativa técnica para destacar tus capacidades de seguridad en un mercado cada vez más exigente.</p></header><article class='grid md:grid-cols-2 gap-8'><div class='space-y-4'><h3 class='text-xl font-semibold text-gray-900 dark:text-white'>Servicios incluidos</h3><ul class='list-disc list-inside space-y-2'><li>Diseño y desarrollo de identidad visual corporativa.</li><li>Campañas de comunicación estratégica (web, redes, prensa).</li><li>Gestión de reputación digital y crisis comunicacionales.</li><li>Contenido técnico orientado a confianza y liderazgo.</li></ul></div><div class='space-y-4'><h3 class='text-xl font-semibold text-gray-900 dark:text-white'>Impacto esperado</h3><ul class='list-disc list-inside space-y-2'><li>Mayor reconocimiento de marca en el sector tecnológico y corporativo.</li><li>Generación de leads calificados mediante confianza y visibilidad.</li><li>Reforzamiento del valor percibido de tus soluciones y cultura digital.</li></ul></div></article><aside class='bg-gradient-to-r from-secondary-light-color/10 to-primary-color/10 p-6 rounded-2xl border border-gray-200 dark:border-gray-700 space-y-3'><h3 class='text-lg font-semibold text-secondary-light-color dark:text-primary-color'>Estrategia + Tecnología = Confianza</h3><p>Combinamos diseño, narrativa y datos para posicionar tu marca en el ecosistema digital con una voz profesional y confiable.</p></aside><footer class='pt-6 border-t border-gray-200 dark:border-gray-700'><p class='italic'>Con <strong>Cyberhub</strong>, tu marca no solo comunica, lidera la conversación sobre seguridad y transformación digital.</p></footer></section>"
+                "content": "<section class='space-y-8 text-gray-700 dark:text-gray-300 leading-relaxed sm:p-4'><figure class='w-full overflow-hidden rounded-3xl shadow-lg'><img src='/Posicionamiento de Marca en Ciberseguridad.png' alt='Posicionamiento de Marca en Ciberseguridad' class='w-full h-72 md:h-[500px] object-cover object-top' /></figure><header class='space-y-3 border-b border-gray-200 dark:border-gray-700 pb-4'><h2 class='text-2xl md:text-3xl font-bold text-primary-color dark:text-secondary-light-color'>Potencia tu marca en el mundo digital seguro</h2><p>En el contexto actual, las empresas que comunican confianza y dominio tecnológico ganan ventaja competitiva. Nuestro servicio de <strong>Posicionamiento de Marca</strong> combina estrategia, diseño y narrativa técnica para destacar tus capacidades de seguridad en un mercado cada vez más exigente.</p></header><article class='grid md:grid-cols-2 gap-8'><div class='space-y-4'><h3 class='text-xl font-semibold text-gray-900 dark:text-white'>Servicios incluidos</h3><ul class='list-disc list-inside space-y-2'><li>Diseño y desarrollo de identidad visual corporativa.</li><li>Campañas de comunicación estratégica (web, redes, prensa).</li><li>Gestión de reputación digital y crisis comunicacionales.</li><li>Contenido técnico orientado a confianza y liderazgo.</li></ul></div><div class='space-y-4'><h3 class='text-xl font-semibold text-gray-900 dark:text-white'>Impacto esperado</h3><ul class='list-disc list-inside space-y-2'><li>Mayor reconocimiento de marca en el sector tecnológico y corporativo.</li><li>Generación de leads calificados mediante confianza y visibilidad.</li><li>Reforzamiento del valor percibido de tus soluciones y cultura digital.</li></ul></div></article><aside class='bg-gradient-to-r from-secondary-light-color/10 to-primary-color/10 p-6 rounded-2xl border border-gray-200 dark:border-gray-700 space-y-3'><h3 class='text-lg font-semibold text-secondary-light-color dark:text-primary-color'>Estrategia + Tecnología = Confianza</h3><p>Combinamos diseño, narrativa y datos para posicionar tu marca en el ecosistema digital con una voz profesional y confiable.</p></aside><footer class='pt-6 border-t border-gray-200 dark:border-gray-700'><p class='italic'>Con <strong>Cyber-Tower</strong>, tu marca no solo comunica, lidera la conversación sobre seguridad y transformación digital.</p></footer></section>"
             },
             {
                 "id": "3",
@@ -594,7 +654,7 @@
                 "slug": "cybersecurity-strategies-and-management",
                 "description": "Asesorías y proyectos de gestión enfocados en la transformación digital, la resiliencia organizacional y el cumplimiento normativo en ciberseguridad.",
                 "image": "/Estrategias y Gestión de Ciberseguridad.png",
-                "content": "<section class='space-y-8 text-gray-700 dark:text-gray-300 leading-relaxed sm:p-4'><figure class='w-full overflow-hidden rounded-3xl shadow-lg'><img src='/Estrategias y Gestión de Ciberseguridad.png' alt='Estrategias y Gestión de Ciberseguridad' class='w-full h-72 md:h-[500px] object-cover object-top' /></figure><header class='space-y-3 border-b border-gray-200 dark:border-gray-700 pb-4'><h2 class='text-2xl md:text-3xl font-bold text-primary-color dark:text-secondary-light-color'>Estrategia, gobierno y madurez cibernética</h2><p>Nuestro servicio de <strong>Estrategia y Gestión</strong> acompaña a las organizaciones en el diseño e implementación de planes maestros de ciberseguridad, alineados con estándares como <strong>NIST CSF</strong>, <strong>ISO 27001</strong> y <strong>CMMI</strong>.</p></header><article class='grid md:grid-cols-2 gap-8'><div class='space-y-4'><h3 class='text-xl font-semibold text-gray-900 dark:text-white'>Áreas de enfoque</h3><ul class='list-disc list-inside space-y-2'><li>Evaluación de madurez y roadmap de seguridad.</li><li>Diseño de políticas y modelos de gobierno.</li><li>Implementación de frameworks y gestión de riesgos.</li><li>Definición de roles, responsabilidades y KPIs.</li></ul></div><div class='space-y-4'><h3 class='text-xl font-semibold text-gray-900 dark:text-white'>Beneficios organizacionales</h3><ul class='list-disc list-inside space-y-2'><li>Fortalece la gobernanza corporativa en materia de seguridad.</li><li>Mejora la toma de decisiones basada en riesgos y métricas.</li><li>Facilita la obtención de certificaciones internacionales.</li></ul></div></article><aside class='bg-gradient-to-r from-primary-color/10 to-secondary-light-color/10 p-6 rounded-2xl border border-gray-200 dark:border-gray-700 space-y-3'><h3 class='text-lg font-semibold text-primary-color dark:text-secondary-light-color'>Acompañamiento experto</h3><p>Nuestros consultores trabajan codo a codo con tu equipo, garantizando un modelo de gestión sostenible que evoluciona junto con tus operaciones.</p></aside><footer class='pt-6 border-t border-gray-200 dark:border-gray-700'><p class='italic'>En <strong>Cyberhub</strong>, creemos que una buena estrategia es la base de una defensa sólida. No solo implementamos seguridad: ayudamos a gobernarla.</p></footer></section>"
+                "content": "<section class='space-y-8 text-gray-700 dark:text-gray-300 leading-relaxed sm:p-4'><figure class='w-full overflow-hidden rounded-3xl shadow-lg'><img src='/Estrategias y Gestión de Ciberseguridad.png' alt='Estrategias y Gestión de Ciberseguridad' class='w-full h-72 md:h-[500px] object-cover object-top' /></figure><header class='space-y-3 border-b border-gray-200 dark:border-gray-700 pb-4'><h2 class='text-2xl md:text-3xl font-bold text-primary-color dark:text-secondary-light-color'>Estrategia, gobierno y madurez cibernética</h2><p>Nuestro servicio de <strong>Estrategia y Gestión</strong> acompaña a las organizaciones en el diseño e implementación de planes maestros de ciberseguridad, alineados con estándares como <strong>NIST CSF</strong>, <strong>ISO 27001</strong> y <strong>CMMI</strong>.</p></header><article class='grid md:grid-cols-2 gap-8'><div class='space-y-4'><h3 class='text-xl font-semibold text-gray-900 dark:text-white'>Áreas de enfoque</h3><ul class='list-disc list-inside space-y-2'><li>Evaluación de madurez y roadmap de seguridad.</li><li>Diseño de políticas y modelos de gobierno.</li><li>Implementación de frameworks y gestión de riesgos.</li><li>Definición de roles, responsabilidades y KPIs.</li></ul></div><div class='space-y-4'><h3 class='text-xl font-semibold text-gray-900 dark:text-white'>Beneficios organizacionales</h3><ul class='list-disc list-inside space-y-2'><li>Fortalece la gobernanza corporativa en materia de seguridad.</li><li>Mejora la toma de decisiones basada en riesgos y métricas.</li><li>Facilita la obtención de certificaciones internacionales.</li></ul></div></article><aside class='bg-gradient-to-r from-primary-color/10 to-secondary-light-color/10 p-6 rounded-2xl border border-gray-200 dark:border-gray-700 space-y-3'><h3 class='text-lg font-semibold text-primary-color dark:text-secondary-light-color'>Acompañamiento experto</h3><p>Nuestros consultores trabajan codo a codo con tu equipo, garantizando un modelo de gestión sostenible que evoluciona junto con tus operaciones.</p></aside><footer class='pt-6 border-t border-gray-200 dark:border-gray-700'><p class='italic'>En <strong>Cyber-Tower</strong>, creemos que una buena estrategia es la base de una defensa sólida. No solo implementamos seguridad: ayudamos a gobernarla.</p></footer></section>"
             }
         ]
     },
@@ -607,7 +667,7 @@
                 "href": "/soluciones/1",
                 "description": "Capacitaciones y campañas diseñadas para fortalecer la cultura de ciberseguridad dentro de tu organización, reduciendo riesgos humanos y fomentando comportamientos seguros.",
                 "image": "/awarenes.png",
-                "content": "<section class='space-y-8 text-gray-700 dark:text-gray-300 leading-relaxed sm:p-4'><figure class='w-full overflow-hidden rounded-3xl shadow-lg'><img src='/awarenes.png' alt='Programa de awareness en ciberseguridad' class='w-full h-72 md:h-[500px] object-cover object-top' /></figure><header class='space-y-3 border-b border-gray-200 dark:border-gray-700 pb-4'><h2 class='text-2xl md:text-3xl font-bold text-primary-color dark:text-secondary-light-color'>¿En qué consiste el Programa de Awareness?</h2><p>El <strong>Programa de Awareness</strong> de <strong>Cyberhub</strong> está diseñado para desarrollar una cultura organizacional de seguridad, alineando al personal con las mejores prácticas de protección de datos y respuesta ante incidentes. A través de capacitaciones interactivas, simulaciones de phishing y contenidos adaptados al contexto local, potenciamos el factor humano como la primera línea de defensa.</p></header><article class='grid md:grid-cols-2 gap-8'><div class='space-y-4'><h3 class='text-xl font-semibold text-gray-900 dark:text-white'>Componentes del programa</h3><ul class='list-disc list-inside space-y-2'><li>Evaluación del nivel de madurez y riesgos humanos.</li><li>Capacitaciones interactivas personalizadas por área o rol.</li><li>Simulaciones de ataques de ingeniería social (phishing, smishing, etc.).</li><li>Medición de impacto y mejora continua.</li></ul></div><div class='space-y-4'><h3 class='text-xl font-semibold text-gray-900 dark:text-white'>Resultados esperados</h3><ul class='list-disc list-inside space-y-2'><li>Incremento de la conciencia y responsabilidad en todos los niveles.</li><li>Reducción comprobable de incidentes derivados de errores humanos.</li><li>Cumplimiento con normativas de seguridad y auditorías ISO 27001.</li><li>Fortalecimiento del clima organizacional y la confianza interna.</li></ul></div></article><aside class='bg-gradient-to-r from-primary-color/10 to-secondary-light-color/10 p-6 rounded-2xl border border-gray-200 dark:border-gray-700 space-y-3'><h3 class='text-lg font-semibold text-primary-color dark:text-secondary-light-color'>Valor estratégico</h3><p>La gestión de ciberseguridad no solo depende de la tecnología. El 85% de los incidentes tienen origen humano. Nuestro enfoque human-first asegura que las políticas de seguridad se vivan como parte del ADN corporativo.</p></aside><footer class='pt-6 border-t border-gray-200 dark:border-gray-700'><p class='italic'>En <strong>Cyberhub</strong>, ayudamos a las organizaciones a convertir la concientización en acción, integrando seguridad, comunicación y comportamiento digital responsable.</p></footer></section>"
+                "content": "<section class='space-y-8 text-gray-700 dark:text-gray-300 leading-relaxed sm:p-4'><figure class='w-full overflow-hidden rounded-3xl shadow-lg'><img src='/awarenes.png' alt='Programa de awareness en ciberseguridad' class='w-full h-72 md:h-[500px] object-cover object-top' /></figure><header class='space-y-3 border-b border-gray-200 dark:border-gray-700 pb-4'><h2 class='text-2xl md:text-3xl font-bold text-primary-color dark:text-secondary-light-color'>¿En qué consiste el Programa de Awareness?</h2><p>El <strong>Programa de Awareness</strong> de <strong>Cyber-Tower</strong> está diseñado para desarrollar una cultura organizacional de seguridad, alineando al personal con las mejores prácticas de protección de datos y respuesta ante incidentes. A través de capacitaciones interactivas, simulaciones de phishing y contenidos adaptados al contexto local, potenciamos el factor humano como la primera línea de defensa.</p></header><article class='grid md:grid-cols-2 gap-8'><div class='space-y-4'><h3 class='text-xl font-semibold text-gray-900 dark:text-white'>Componentes del programa</h3><ul class='list-disc list-inside space-y-2'><li>Evaluación del nivel de madurez y riesgos humanos.</li><li>Capacitaciones interactivas personalizadas por área o rol.</li><li>Simulaciones de ataques de ingeniería social (phishing, smishing, etc.).</li><li>Medición de impacto y mejora continua.</li></ul></div><div class='space-y-4'><h3 class='text-xl font-semibold text-gray-900 dark:text-white'>Resultados esperados</h3><ul class='list-disc list-inside space-y-2'><li>Incremento de la conciencia y responsabilidad en todos los niveles.</li><li>Reducción comprobable de incidentes derivados de errores humanos.</li><li>Cumplimiento con normativas de seguridad y auditorías ISO 27001.</li><li>Fortalecimiento del clima organizacional y la confianza interna.</li></ul></div></article><aside class='bg-gradient-to-r from-primary-color/10 to-secondary-light-color/10 p-6 rounded-2xl border border-gray-200 dark:border-gray-700 space-y-3'><h3 class='text-lg font-semibold text-primary-color dark:text-secondary-light-color'>Valor estratégico</h3><p>La gestión de ciberseguridad no solo depende de la tecnología. El 85% de los incidentes tienen origen humano. Nuestro enfoque human-first asegura que las políticas de seguridad se vivan como parte del ADN corporativo.</p></aside><footer class='pt-6 border-t border-gray-200 dark:border-gray-700'><p class='italic'>En <strong>Cyber-Tower</strong>, ayudamos a las organizaciones a convertir la concientización en acción, integrando seguridad, comunicación y comportamiento digital responsable.</p></footer></section>"
             },
             {
                 "id": "2",
@@ -616,7 +676,7 @@
                 "href": "/soluciones/2",
                 "description": "Estrategias de comunicación y branding orientadas a consolidar tu presencia como referente confiable y experto en seguridad digital.",
                 "image": "/Posicionamiento de Marca en Ciberseguridad.png",
-                "content": "<section class='space-y-8 text-gray-700 dark:text-gray-300 leading-relaxed sm:p-4'><figure class='w-full overflow-hidden rounded-3xl shadow-lg'><img src='/Posicionamiento de Marca en Ciberseguridad.png' alt='Posicionamiento de Marca en Ciberseguridad' class='w-full h-72 md:h-[500px] object-cover object-top' /></figure><header class='space-y-3 border-b border-gray-200 dark:border-gray-700 pb-4'><h2 class='text-2xl md:text-3xl font-bold text-primary-color dark:text-secondary-light-color'>Potencia tu marca en el mundo digital seguro</h2><p>En el contexto actual, las empresas que comunican confianza y dominio tecnológico ganan ventaja competitiva. Nuestro servicio de <strong>Posicionamiento de Marca</strong> combina estrategia, diseño y narrativa técnica para destacar tus capacidades de seguridad en un mercado cada vez más exigente.</p></header><article class='grid md:grid-cols-2 gap-8'><div class='space-y-4'><h3 class='text-xl font-semibold text-gray-900 dark:text-white'>Servicios incluidos</h3><ul class='list-disc list-inside space-y-2'><li>Diseño y desarrollo de identidad visual corporativa.</li><li>Campañas de comunicación estratégica (web, redes, prensa).</li><li>Gestión de reputación digital y crisis comunicacionales.</li><li>Contenido técnico orientado a confianza y liderazgo.</li></ul></div><div class='space-y-4'><h3 class='text-xl font-semibold text-gray-900 dark:text-white'>Impacto esperado</h3><ul class='list-disc list-inside space-y-2'><li>Mayor reconocimiento de marca en el sector tecnológico y corporativo.</li><li>Generación de leads calificados mediante confianza y visibilidad.</li><li>Reforzamiento del valor percibido de tus soluciones y cultura digital.</li></ul></div></article><aside class='bg-gradient-to-r from-secondary-light-color/10 to-primary-color/10 p-6 rounded-2xl border border-gray-200 dark:border-gray-700 space-y-3'><h3 class='text-lg font-semibold text-secondary-light-color dark:text-primary-color'>Estrategia + Tecnología = Confianza</h3><p>Combinamos diseño, narrativa y datos para posicionar tu marca en el ecosistema digital con una voz profesional y confiable.</p></aside><footer class='pt-6 border-t border-gray-200 dark:border-gray-700'><p class='italic'>Con <strong>Cyberhub</strong>, tu marca no solo comunica, lidera la conversación sobre seguridad y transformación digital.</p></footer></section>"
+                "content": "<section class='space-y-8 text-gray-700 dark:text-gray-300 leading-relaxed sm:p-4'><figure class='w-full overflow-hidden rounded-3xl shadow-lg'><img src='/Posicionamiento de Marca en Ciberseguridad.png' alt='Posicionamiento de Marca en Ciberseguridad' class='w-full h-72 md:h-[500px] object-cover object-top' /></figure><header class='space-y-3 border-b border-gray-200 dark:border-gray-700 pb-4'><h2 class='text-2xl md:text-3xl font-bold text-primary-color dark:text-secondary-light-color'>Potencia tu marca en el mundo digital seguro</h2><p>En el contexto actual, las empresas que comunican confianza y dominio tecnológico ganan ventaja competitiva. Nuestro servicio de <strong>Posicionamiento de Marca</strong> combina estrategia, diseño y narrativa técnica para destacar tus capacidades de seguridad en un mercado cada vez más exigente.</p></header><article class='grid md:grid-cols-2 gap-8'><div class='space-y-4'><h3 class='text-xl font-semibold text-gray-900 dark:text-white'>Servicios incluidos</h3><ul class='list-disc list-inside space-y-2'><li>Diseño y desarrollo de identidad visual corporativa.</li><li>Campañas de comunicación estratégica (web, redes, prensa).</li><li>Gestión de reputación digital y crisis comunicacionales.</li><li>Contenido técnico orientado a confianza y liderazgo.</li></ul></div><div class='space-y-4'><h3 class='text-xl font-semibold text-gray-900 dark:text-white'>Impacto esperado</h3><ul class='list-disc list-inside space-y-2'><li>Mayor reconocimiento de marca en el sector tecnológico y corporativo.</li><li>Generación de leads calificados mediante confianza y visibilidad.</li><li>Reforzamiento del valor percibido de tus soluciones y cultura digital.</li></ul></div></article><aside class='bg-gradient-to-r from-secondary-light-color/10 to-primary-color/10 p-6 rounded-2xl border border-gray-200 dark:border-gray-700 space-y-3'><h3 class='text-lg font-semibold text-secondary-light-color dark:text-primary-color'>Estrategia + Tecnología = Confianza</h3><p>Combinamos diseño, narrativa y datos para posicionar tu marca en el ecosistema digital con una voz profesional y confiable.</p></aside><footer class='pt-6 border-t border-gray-200 dark:border-gray-700'><p class='italic'>Con <strong>Cyber-Tower</strong>, tu marca no solo comunica, lidera la conversación sobre seguridad y transformación digital.</p></footer></section>"
             },
             {
                 "id": "3",
@@ -625,7 +685,7 @@
                 "href": "/soluciones/3",
                 "description": "Asesorías y proyectos de gestión enfocados en la transformación digital, la resiliencia organizacional y el cumplimiento normativo en ciberseguridad.",
                 "image": "/Estrategias y Gestión de Ciberseguridad.png",
-                "content": "<section class='space-y-8 text-gray-700 dark:text-gray-300 leading-relaxed sm:p-4'><figure class='w-full overflow-hidden rounded-3xl shadow-lg'><img src='/Estrategias y Gestión de Ciberseguridad.png' alt='Estrategias y Gestión de Ciberseguridad' class='w-full h-72 md:h-[500px] object-cover object-top' /></figure><header class='space-y-3 border-b border-gray-200 dark:border-gray-700 pb-4'><h2 class='text-2xl md:text-3xl font-bold text-primary-color dark:text-secondary-light-color'>Estrategia, gobierno y madurez cibernética</h2><p>Nuestro servicio de <strong>Estrategia y Gestión</strong> acompaña a las organizaciones en el diseño e implementación de planes maestros de ciberseguridad, alineados con estándares como <strong>NIST CSF</strong>, <strong>ISO 27001</strong> y <strong>CMMI</strong>.</p></header><article class='grid md:grid-cols-2 gap-8'><div class='space-y-4'><h3 class='text-xl font-semibold text-gray-900 dark:text-white'>Áreas de enfoque</h3><ul class='list-disc list-inside space-y-2'><li>Evaluación de madurez y roadmap de seguridad.</li><li>Diseño de políticas y modelos de gobierno.</li><li>Implementación de frameworks y gestión de riesgos.</li><li>Definición de roles, responsabilidades y KPIs.</li></ul></div><div class='space-y-4'><h3 class='text-xl font-semibold text-gray-900 dark:text-white'>Beneficios organizacionales</h3><ul class='list-disc list-inside space-y-2'><li>Fortalece la gobernanza corporativa en materia de seguridad.</li><li>Mejora la toma de decisiones basada en riesgos y métricas.</li><li>Facilita la obtención de certificaciones internacionales.</li></ul></div></article><aside class='bg-gradient-to-r from-primary-color/10 to-secondary-light-color/10 p-6 rounded-2xl border border-gray-200 dark:border-gray-700 space-y-3'><h3 class='text-lg font-semibold text-primary-color dark:text-secondary-light-color'>Acompañamiento experto</h3><p>Nuestros consultores trabajan codo a codo con tu equipo, garantizando un modelo de gestión sostenible que evoluciona junto con tus operaciones.</p></aside><footer class='pt-6 border-t border-gray-200 dark:border-gray-700'><p class='italic'>En <strong>Cyberhub</strong>, creemos que una buena estrategia es la base de una defensa sólida. No solo implementamos seguridad: ayudamos a gobernarla.</p></footer></section>"
+                "content": "<section class='space-y-8 text-gray-700 dark:text-gray-300 leading-relaxed sm:p-4'><figure class='w-full overflow-hidden rounded-3xl shadow-lg'><img src='/Estrategias y Gestión de Ciberseguridad.png' alt='Estrategias y Gestión de Ciberseguridad' class='w-full h-72 md:h-[500px] object-cover object-top' /></figure><header class='space-y-3 border-b border-gray-200 dark:border-gray-700 pb-4'><h2 class='text-2xl md:text-3xl font-bold text-primary-color dark:text-secondary-light-color'>Estrategia, gobierno y madurez cibernética</h2><p>Nuestro servicio de <strong>Estrategia y Gestión</strong> acompaña a las organizaciones en el diseño e implementación de planes maestros de ciberseguridad, alineados con estándares como <strong>NIST CSF</strong>, <strong>ISO 27001</strong> y <strong>CMMI</strong>.</p></header><article class='grid md:grid-cols-2 gap-8'><div class='space-y-4'><h3 class='text-xl font-semibold text-gray-900 dark:text-white'>Áreas de enfoque</h3><ul class='list-disc list-inside space-y-2'><li>Evaluación de madurez y roadmap de seguridad.</li><li>Diseño de políticas y modelos de gobierno.</li><li>Implementación de frameworks y gestión de riesgos.</li><li>Definición de roles, responsabilidades y KPIs.</li></ul></div><div class='space-y-4'><h3 class='text-xl font-semibold text-gray-900 dark:text-white'>Beneficios organizacionales</h3><ul class='list-disc list-inside space-y-2'><li>Fortalece la gobernanza corporativa en materia de seguridad.</li><li>Mejora la toma de decisiones basada en riesgos y métricas.</li><li>Facilita la obtención de certificaciones internacionales.</li></ul></div></article><aside class='bg-gradient-to-r from-primary-color/10 to-secondary-light-color/10 p-6 rounded-2xl border border-gray-200 dark:border-gray-700 space-y-3'><h3 class='text-lg font-semibold text-primary-color dark:text-secondary-light-color'>Acompañamiento experto</h3><p>Nuestros consultores trabajan codo a codo con tu equipo, garantizando un modelo de gestión sostenible que evoluciona junto con tus operaciones.</p></aside><footer class='pt-6 border-t border-gray-200 dark:border-gray-700'><p class='italic'>En <strong>Cyber-Tower</strong>, creemos que una buena estrategia es la base de una defensa sólida. No solo implementamos seguridad: ayudamos a gobernarla.</p></footer></section>"
             },
             {
                 "id": "4",
@@ -633,7 +693,7 @@
                 "slug": "vulnerability-management",
                 "image": "/Estrategias y Gestión de Ciberseguridad.png",
                 "description": "Identificamos debilidades en tu infraestructura digital y creamos planes para mitigarlas según su nivel de riesgo.",
-                "content": "<section class='space-y-8 text-gray-700 dark:text-gray-300 leading-relaxed sm:p-4'><figure class='w-full overflow-hidden rounded-3xl shadow-lg'><img src='/Estrategias y Gestión de Ciberseguridad.png' alt='Gestión de Vulnerabilidades' class='w-full h-72 md:h-[500px] object-cover object-top' /></figure><header class='space-y-3 border-b border-gray-200 dark:border-gray-700 pb-4'><h2 class='text-2xl md:text-3xl font-bold text-primary-color dark:text-secondary-light-color'>Gestión Proactiva de Vulnerabilidades</h2><p>El servicio de <strong>Gestión de Vulnerabilidades</strong> de <strong>Cyberhub</strong> permite identificar, priorizar y remediar debilidades en tu infraestructura tecnológica. Combinamos escaneos automatizados con análisis expertos para garantizar una mitigación efectiva y basada en riesgos.</p></header><article class='grid md:grid-cols-2 gap-8'><div class='space-y-4'><h3 class='text-xl font-semibold'>Actividades Principales</h3><ul class='list-disc list-inside space-y-2'><li>Evaluaciones de vulnerabilidades en sistemas, redes y aplicaciones.</li><li>Priorización basada en riesgo y planes de remediación específicos.</li><li>Integración con procesos de gestión de parches y plataformas SIEM.</li><li>Reportes alineados con ISO 27001 y NIST SP 800-40.</li></ul></div><div class='space-y-4'><h3 class='text-xl font-semibold'>Beneficios</h3><ul class='list-disc list-inside space-y-2'><li>Reducción de exposición ante amenazas y exploits.</li><li>Mayor visibilidad del estado de seguridad de la infraestructura.</li><li>Cumplimiento con auditorías y certificaciones de seguridad.</li></ul></div></article><aside class='bg-gradient-to-r from-primary-color/10 to-secondary-light-color/10 p-6 rounded-2xl border border-gray-200 dark:border-gray-700'><h3 class='text-lg font-semibold text-primary-color dark:text-secondary-light-color'>Mejora Continua</h3><p>Transformamos la gestión de vulnerabilidades en un proceso proactivo y automatizado, integrado a tus operaciones de seguridad.</p></aside></section>"
+                "content": "<section class='space-y-8 text-gray-700 dark:text-gray-300 leading-relaxed sm:p-4'><figure class='w-full overflow-hidden rounded-3xl shadow-lg'><img src='/Estrategias y Gestión de Ciberseguridad.png' alt='Gestión de Vulnerabilidades' class='w-full h-72 md:h-[500px] object-cover object-top' /></figure><header class='space-y-3 border-b border-gray-200 dark:border-gray-700 pb-4'><h2 class='text-2xl md:text-3xl font-bold text-primary-color dark:text-secondary-light-color'>Gestión Proactiva de Vulnerabilidades</h2><p>El servicio de <strong>Gestión de Vulnerabilidades</strong> de <strong>Cyber-Tower</strong> permite identificar, priorizar y remediar debilidades en tu infraestructura tecnológica. Combinamos escaneos automatizados con análisis expertos para garantizar una mitigación efectiva y basada en riesgos.</p></header><article class='grid md:grid-cols-2 gap-8'><div class='space-y-4'><h3 class='text-xl font-semibold'>Actividades Principales</h3><ul class='list-disc list-inside space-y-2'><li>Evaluaciones de vulnerabilidades en sistemas, redes y aplicaciones.</li><li>Priorización basada en riesgo y planes de remediación específicos.</li><li>Integración con procesos de gestión de parches y plataformas SIEM.</li><li>Reportes alineados con ISO 27001 y NIST SP 800-40.</li></ul></div><div class='space-y-4'><h3 class='text-xl font-semibold'>Beneficios</h3><ul class='list-disc list-inside space-y-2'><li>Reducción de exposición ante amenazas y exploits.</li><li>Mayor visibilidad del estado de seguridad de la infraestructura.</li><li>Cumplimiento con auditorías y certificaciones de seguridad.</li></ul></div></article><aside class='bg-gradient-to-r from-primary-color/10 to-secondary-light-color/10 p-6 rounded-2xl border border-gray-200 dark:border-gray-700'><h3 class='text-lg font-semibold text-primary-color dark:text-secondary-light-color'>Mejora Continua</h3><p>Transformamos la gestión de vulnerabilidades en un proceso proactivo y automatizado, integrado a tus operaciones de seguridad.</p></aside></section>"
             },
             {
                 "id": "5",
@@ -674,6 +734,56 @@
                 "image": "/Estrategias y Gestión de Ciberseguridad.png",
                 "description": "Actuamos rápidamente ante brechas de seguridad, analizamos el ataque y ayudamos a restablecer operaciones seguras.",
                 "content": "<section class='space-y-8 text-gray-700 dark:text-gray-300 leading-relaxed sm:p-4'><figure class='w-full overflow-hidden rounded-3xl shadow-lg'><img src='/Estrategias y Gestión de Ciberseguridad.png' alt='Respuesta a Incidentes' class='w-full h-72 md:h-[500px] object-cover object-top' /></figure><header class='space-y-3 border-b border-gray-200 dark:border-gray-700 pb-4'><h2 class='text-2xl md:text-3xl font-bold text-primary-color dark:text-secondary-light-color'>Respuesta Rápida y Recuperación ante Incidentes</h2><p>Nuestro servicio de <strong>Respuesta a Incidentes</strong> brinda apoyo inmediato ante ciberataques o brechas de seguridad, minimizando el impacto y restableciendo operaciones seguras.</p></header><article class='grid md:grid-cols-2 gap-8'><div class='space-y-4'><h3 class='text-xl font-semibold'>Capacidades del Servicio</h3><ul class='list-disc list-inside space-y-2'><li>Análisis forense, contención y erradicación de amenazas.</li><li>Restauración segura de sistemas y datos.</li><li>Investigación de causa raíz y reporte post-incidente.</li><li>Incorporación de lecciones aprendidas en políticas y controles.</li></ul></div><div class='space-y-4'><h3 class='text-xl font-semibold'>Beneficios</h3><ul class='list-disc list-inside space-y-2'><li>Reducción del tiempo de inactividad y del daño reputacional.</li><li>Mayor preparación frente a futuros incidentes.</li><li>Mejora de la comunicación y coordinación durante crisis.</li></ul></div></article><aside class='bg-gradient-to-r from-secondary-light-color/10 to-primary-color/10 p-6 rounded-2xl border border-gray-200 dark:border-gray-700'><h3 class='text-lg font-semibold text-secondary-light-color dark:text-primary-color'>Preparación y Resiliencia</h3><p>Convertimos la respuesta a incidentes en un proceso estratégico que fortalece la resiliencia y preparación de tu organización ante futuras amenazas.</p></aside></section>"
+            }
+        ]
+    },
+    "privacyPolicy": {
+        "title": "Política de Privacidad de Datos",
+        "lastUpdated": "Última actualización: Octubre 2025",
+        "intro": "En Cyber-Tower valoramos y respetamos tu privacidad. Esta Política de Privacidad explica cómo recopilamos, utilizamos, protegemos y compartimos la información personal que nos proporcionas a través de nuestro sitio web y servicios.",
+        "sections": [
+            {
+                "heading": "1. Información que recopilamos",
+                "content": "Recopilamos información personal que tú nos proporcionas directamente, como nombre, correo electrónico, teléfono u otra información necesaria para entregarte nuestros servicios o responder a tus consultas."
+            },
+            {
+                "heading": "2. Uso de la información",
+                "content": "Utilizamos la información recopilada con los siguientes fines:",
+                "list": [
+                    "Proveer y mejorar nuestros servicios.",
+                    "Responder a tus solicitudes o consultas.",
+                    "Enviar comunicaciones relevantes sobre nuestros servicios o eventos.",
+                    "Cumplir con obligaciones legales o regulatorias."
+                ]
+            },
+            {
+                "heading": "3. Protección de los datos",
+                "content": "Implementamos medidas técnicas y organizativas adecuadas para proteger tus datos personales contra pérdida, acceso no autorizado, alteración o divulgación. Solo el personal autorizado puede acceder a esta información."
+            },
+            {
+                "heading": "4. Compartición de datos",
+                "content": "No compartimos tus datos personales con terceros, salvo que:",
+                "list": [
+                    "Sea necesario para prestar el servicio solicitado.",
+                    "Exista obligación legal de hacerlo.",
+                    "Contemos con tu consentimiento explícito."
+                ]
+            },
+            {
+                "heading": "5. Tus derechos",
+                "content": "Tienes derecho a acceder, rectificar, eliminar o limitar el tratamiento de tus datos personales. Puedes ejercer estos derechos escribiendo a contacto@cybertower.cl."
+            },
+            {
+                "heading": "6. Conservación de los datos",
+                "content": "Conservaremos tus datos personales solo durante el tiempo necesario para cumplir con los fines para los que fueron recopilados o mientras la ley lo requiera."
+            },
+            {
+                "heading": "7. Cambios en esta política",
+                "content": "Cyber-Tower se reserva el derecho de modificar esta Política de Privacidad en cualquier momento. Los cambios se publicarán en esta página con su fecha de actualización."
+            },
+            {
+                "heading": "8. Contacto",
+                "content": "Si tienes preguntas sobre esta Política de Privacidad o sobre el uso de tus datos personales, puedes comunicarte con nosotros a contacto@cybertower.cl."
             }
         ]
     }

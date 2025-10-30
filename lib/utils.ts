@@ -96,7 +96,7 @@ export const certificaciones = [
 
         <footer class="pt-6 border-t border-gray-200 dark:border-gray-700">
           <p class="italic">
-            En <strong>Cyberhub</strong> acompañamos a las organizaciones durante todo el proceso de
+            En <strong>Cyber-Tower</strong> acompañamos a las organizaciones durante todo el proceso de
             implementación y certificación ISO 27001, asegurando la integración con frameworks como
             <strong> NIST CSF</strong> y <strong>TISAX</strong> para una defensa digital completa.
           </p>
@@ -128,7 +128,7 @@ export const Soluciones = [
             ¿En qué consiste el Programa de Awareness?
           </h2>
           <p>
-            El <strong>Programa de Awareness</strong> de <strong>Cyberhub</strong> está diseñado para desarrollar una cultura organizacional de seguridad, alineando al personal con las mejores prácticas de protección de datos y respuesta ante incidentes. A través de capacitaciones interactivas, simulaciones de phishing y contenidos adaptados al contexto local, potenciamos el factor humano como la primera línea de defensa.
+            El <strong>Programa de Awareness</strong> de <strong>Cyber-Tower</strong> está diseñado para desarrollar una cultura organizacional de seguridad, alineando al personal con las mejores prácticas de protección de datos y respuesta ante incidentes. A través de capacitaciones interactivas, simulaciones de phishing y contenidos adaptados al contexto local, potenciamos el factor humano como la primera línea de defensa.
           </p>
         </header>
 
@@ -166,7 +166,7 @@ export const Soluciones = [
 
         <footer class="pt-6 border-t border-gray-200 dark:border-gray-700">
           <p class="italic">
-            En <strong>Cyberhub</strong>, ayudamos a las organizaciones a convertir la concientización en acción, integrando seguridad, comunicación y comportamiento digital responsable.
+            En <strong>Cyber-Tower</strong>, ayudamos a las organizaciones a convertir la concientización en acción, integrando seguridad, comunicación y comportamiento digital responsable.
           </p>
         </footer>
       </section>
@@ -231,7 +231,7 @@ export const Soluciones = [
 
         <footer class="pt-6 border-t border-gray-200 dark:border-gray-700">
           <p class="italic">
-            Con <strong>Cyberhub</strong>, tu marca no solo comunica, lidera la conversación sobre seguridad y transformación digital.
+            Con <strong>Cyber-Tower</strong>, tu marca no solo comunica, lidera la conversación sobre seguridad y transformación digital.
           </p>
         </footer>
       </section>
@@ -295,7 +295,7 @@ export const Soluciones = [
 
         <footer class="pt-6 border-t border-gray-200 dark:border-gray-700">
           <p class="italic">
-            En <strong>Cyberhub</strong>, creemos que una buena estrategia es la base de una defensa sólida.
+            En <strong>Cyber-Tower</strong>, creemos que una buena estrategia es la base de una defensa sólida.
             No solo implementamos seguridad: ayudamos a gobernarla.
           </p>
         </footer>

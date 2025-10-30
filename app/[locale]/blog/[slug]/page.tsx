@@ -1,7 +1,6 @@
 import { notFound } from "next/navigation";
 import Image from "next/image";
-import { caseStudiesData as caseStudiesDataEs } from "@/components/data/caseStudiesData.es";
-import { caseStudiesData as caseStudiesDataEn } from "@/components/data/caseStudiesData.en";
+import { getTranslations } from "next-intl/server";
 
 interface BlogPageProps {
   params: {
@@ -12,8 +11,9 @@ interface BlogPageProps {
 
 export default async function BlogPage({ params }: BlogPageProps) {
   const { slug, locale } = await params;
-  const data = locale === "en" ? caseStudiesDataEn : caseStudiesDataEs;
-  const post = data.find((item) => item.slug === slug);
+  const h = await getTranslations("highlights");
+  const posts = h.raw("list");
+  const post = posts.find((s: { slug: string }) => s.slug === slug);
   if (!post) return notFound();
 
   return (
@@ -43,7 +43,7 @@ export default async function BlogPage({ params }: BlogPageProps) {
       <footer className="mt-12 text-sm text-muted-foreground text-center">
         <p className="mb-2">{locale === "en" ? "Tags:" : "Etiquetas:"}</p>
         <div className="flex flex-wrap justify-center gap-2 mt-2">
-          {post.tags.map((tag) => (
+          {post.tags.map((tag: string) => (
             <span
               key={tag}
               className="bg-primary/10 text-primary px-3 py-1 rounded-full text-xs font-medium"

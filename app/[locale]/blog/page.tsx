@@ -9,27 +9,31 @@ import {
   CardHeader,
 } from "@/components/ui/card";
 import Image from "next/image";
-import Link from "next/link";
 import { useTranslations } from "next-intl";
+import { Link } from "@/i18n/navigation";
 
 interface Post {
   id: string;
   title: string;
+  description: string;
   summary: string;
   label: string;
   author: string;
   published: string;
   url: string;
+  slug: string;
   image: string;
+  tags: string[];
 }
 
 const Blog7 = () => {
   const t = useTranslations("blogSection");
+  const h = useTranslations("highlights");
 
   const tagline = t("tagline");
   const heading = t("heading");
   const description = t("description");
-  const posts: Post[] = t.raw("posts");
+  const posts: Post[] = h.raw("list");
 
   return (
     <section className="py-32">
@@ -54,7 +58,7 @@ const Blog7 = () => {
             >
               <div className="aspect-16/9 w-full">
                 <Link
-                  href={post.url}
+                  href={post.slug}
                   className="fade-in transition-opacity duration-200 hover:opacity-70"
                 >
                   <Image
@@ -69,7 +73,7 @@ const Blog7 = () => {
 
               <CardHeader>
                 <h3 className="text-lg font-semibold hover:underline md:text-xl">
-                  <Link href={post.url}>{post.title}</Link>
+                  <Link href={post.slug}>{post.title}</Link>
                 </h3>
               </CardHeader>
 
@@ -79,7 +83,7 @@ const Blog7 = () => {
 
               <CardFooter>
                 <Link
-                  href={post.url}
+                  href={post.slug}
                   className="text-foreground flex items-center hover:underline"
                 >
                   {t("readMore")}

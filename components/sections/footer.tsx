@@ -2,7 +2,6 @@
 
 import { ReactNode } from "react";
 import { cn } from "@/lib/utils";
-import LaunchUI from "@/components/logos/launch-ui";
 import {
   Footer,
   FooterBottom,
@@ -31,11 +30,7 @@ interface FooterProps {
   className?: string;
 }
 
-export default function FooterSection({
-  logo = <LaunchUI />,
-  name = "Cyberhub",
-  className,
-}: FooterProps) {
+export default function FooterSection({ className }: FooterProps) {
   const t = useTranslations("footer");
 
   const columns: FooterColumnProps[] = t.raw("columns");
@@ -65,10 +60,10 @@ export default function FooterSection({
                 aria-label={t("aria.goHome")}
               >
                 <Image
-                  src={"/logo-b.svg"}
-                  alt="cyberhub"
+                  src={"/logos/Logo_Final_Cyber_TowerLOWRES-03-recortada.png"}
+                  alt="Cyber-Tower"
                   height={200}
-                  width={100}
+                  width={200}
                 />
               </Link>
               <p className="text-sm text-gray-400 max-w-xs">

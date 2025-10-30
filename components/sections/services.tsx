@@ -5,7 +5,8 @@ import { Link } from "@/i18n/navigation";
 
 const CoreServices = () => {
   const t = useTranslations("coreServices");
-  const services = t.raw("services");
+  const a = useTranslations("AllSolutions");
+  const services = a.raw("list");
 
   return (
     <section

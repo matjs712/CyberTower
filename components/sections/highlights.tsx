@@ -2,16 +2,22 @@
 
 import React from "react";
 import { Link } from "@/i18n/navigation";
-import { useTranslations, useLocale } from "next-intl";
-import { caseStudiesData as caseStudiesDataEs } from "../data/caseStudiesData.es";
-import { caseStudiesData as caseStudiesDataEn } from "../data/caseStudiesData.en";
+import { useTranslations } from "next-intl";
+
+type CaseStudy = {
+  id: number | string;
+  image: string;
+  tags: string[];
+  description: string;
+  title: string;
+  slug: string;
+};
 
 const Highlights = () => {
   const t = useTranslations("highlights");
-  const locale = useLocale();
 
-  const caseStudiesData =
-    locale === "en" ? caseStudiesDataEn : caseStudiesDataEs;
+  // next-intl: t.raw() es unknown → tipamos y hacemos fallback seguro
+  const caseStudiesData = (t.raw("list") as CaseStudy[]) ?? [];
 
   return (
     <section
@@ -39,7 +45,7 @@ const Highlights = () => {
               {t("description")}
             </p>
             <Link
-              href={`/blog`}
+              href="/blog"
               aria-label={t("ariaViewAll")}
               className="flex items-center text-primary-light-color font-semibold hover:text-purple-300 transition-colors"
             >
@@ -61,46 +67,59 @@ const Highlights = () => {
         </header>
 
         {/* === CASE STUDIES === */}
-        <ul className="grid grid-cols-1 md:grid-cols-2 gap-8">
-          {caseStudiesData.map((study, index) => (
-            <li
-              key={study.id || index}
-              className={`relative rounded-xl overflow-hidden shadow-lg flex flex-col justify-end p-6 ${
-                index === 0 ? "md:col-span-2 h-[300px]" : "min-h-[200px]"
-              }`}
-              style={{
-                backgroundImage: `url(${study.image})`,
-                backgroundSize: "cover",
-                backgroundPosition: "center",
-              }}
-            >
-              <div className="absolute inset-0 bg-gradient-to-t from-neutral-800 via-neutral-600/70 to-transparent" />
-              <article className="relative z-10 text-white">
-                <h3 className="text-2xl font-bold mb-2">
-                  <Link
-                    href={`/blog/${study.slug}`}
-                    aria-label={`${t("ariaViewAll")}: ${study.title}`}
-                  >
-                    {study.title}
-                  </Link>
-                </h3>
-                <p className="text-gray-300 text-sm mb-4">
-                  {study.description}
-                </p>
-                <ul className="flex flex-wrap gap-1">
-                  {study.tags.map((tag) => (
-                    <li
-                      key={tag}
-                      className="px-3 py-1 text-xs font-medium text-white bg-primary-light-color rounded-sm"
+        {caseStudiesData.length === 0 ? (
+          <p className="text-sm text-neutral-500">
+            {/** opcional: texto de vacío */}
+            No case studies available.
+          </p>
+        ) : (
+          <ul className="grid grid-cols-1 md:grid-cols-2 gap-8">
+            {caseStudiesData.map((study, index) => (
+              <li
+                key={study.id ?? index}
+                className={`relative rounded-xl overflow-hidden shadow-lg flex flex-col justify-end p-6 ${
+                  index === 0 ? "md:col-span-2 h-[300px]" : "min-h-[200px]"
+                }`}
+                style={{
+                  backgroundImage: study.image
+                    ? `url(${study.image})`
+                    : undefined,
+                  backgroundSize: "cover",
+                  backgroundPosition: "center",
+                }}
+              >
+                <div className="absolute inset-0 bg-gradient-to-t from-neutral-800 via-neutral-600/70 to-transparent" />
+                <article className="relative z-10 text-white">
+                  <h3 className="text-2xl font-bold mb-2">
+                    <Link
+                      href={`/blog/${study.slug}`}
+                      aria-label={`${study.title}`}
                     >
-                      {tag}
-                    </li>
-                  ))}
-                </ul>
-              </article>
-            </li>
-          ))}
-        </ul>
+                      {study.title}
+                    </Link>
+                  </h3>
+                  {study.description && (
+                    <p className="text-gray-300 text-sm mb-4">
+                      {study.description}
+                    </p>
+                  )}
+                  {Array.isArray(study.tags) && study.tags.length > 0 && (
+                    <ul className="flex flex-wrap gap-1">
+                      {study.tags.map((tag) => (
+                        <li
+                          key={tag}
+                          className="px-3 py-1 text-xs font-medium text-white bg-primary-light-color rounded-sm"
+                        >
+                          {tag}
+                        </li>
+                      ))}
+                    </ul>
+                  )}
+                </article>
+              </li>
+            ))}
+          </ul>
+        )}
       </div>
     </section>
   );
