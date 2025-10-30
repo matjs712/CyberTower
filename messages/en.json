@@ -583,6 +583,15 @@
             "title": "Ready to take your business to the next level?",
             "description": "Our team is ready to design your company’s next big digital solution with you.",
             "button": "Contact us today"
+        },
+        "globalIdentity": {
+            "title": "🌍 Our Global Identity",
+            "paragraphs": [
+                "Cyberhub and Cyber-Tower are the same organization. We operate under two commercial names depending on the region to strengthen our global presence and adapt to each market.",
+                "Cyberhub represents our brand in Latin America, focused on driving the secure digital transformation of organizations in the region.",
+                "Cyber-Tower is our brand for the United States, Europe, and Asia, where we deliver cybersecurity, digital positioning, and strategic technology solutions at a global scale.",
+                "Both brands share the same mission, values, and leadership team, working under a unified standard of excellence to provide comprehensive solutions in digital security, innovation, and strategic development worldwide."
+            ]
         }
     },
     "servicesPage": {
