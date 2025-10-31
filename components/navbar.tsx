@@ -66,11 +66,11 @@ export default function Navbar({
         >
           <Image
             src={"/logos/Logo_Final_Cyber_TowerLOWRES-03-recortada.png"}
-            alt="Cyber-Tower"
+            alt="Cyberhub"
             height={200}
             width={150}
           />
-          <span className="sr-only">Cyber-Tower</span>
+          <span className="sr-only">Cyberhub</span>
         </Link>
 
         {/* Desktop nav */}

@@ -64,7 +64,7 @@ const Hero = () => {
             <div className="flex-1 flex flex-col gap-2">
               <div className="flex flex-row gap-3 items-center text-secondary-color">
                 <Link
-                  href="https://www.linkedin.com/company/Cyber-Tower-cl/"
+                  href="https://www.linkedin.com/company/Cyberhub-cl/"
                   target="_blank"
                   rel="noopener noreferrer"
                   aria-label="LinkedIn"
@@ -75,7 +75,7 @@ const Hero = () => {
 
                 {/* 💬 WhatsApp */}
                 <Link
-                  href="https://wa.me/56912345678?text=Hola%20👋,%20quiero%20más%20información%20sobre%20los%20servicios%20de%20Cyber-Tower."
+                  href="https://wa.me/56912345678?text=Hola%20👋,%20quiero%20más%20información%20sobre%20los%20servicios%20de%20Cyberhub."
                   target="_blank"
                   rel="noopener noreferrer"
                   aria-label="WhatsApp"
@@ -86,7 +86,7 @@ const Hero = () => {
 
                 {/* ✉️ Correo */}
                 <Link
-                  href="mailto:contacto@Cyber-Tower.cl"
+                  href="mailto:contacto@Cyberhub.cl"
                   aria-label="Correo"
                   className="text-secondary-color hover:text-secondary-light-color transition-colors"
                 >

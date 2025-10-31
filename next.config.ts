@@ -6,7 +6,7 @@ const withNextIntl = createNextIntlPlugin();
 const nextConfig: NextConfig = {
   reactStrictMode: true,
   poweredByHeader: false,
-  images: { domains: ["Cyber-Tower.cl", "flagcdn.com", "px.ads.linkedin.com"] },
+  images: { domains: ["Cyberhub.cl", "flagcdn.com", "px.ads.linkedin.com"] },
   trailingSlash: true,
 };
 

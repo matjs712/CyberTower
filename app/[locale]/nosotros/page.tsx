@@ -23,7 +23,7 @@ const NosotrosPage = () => {
             {t("hero.description")}
           </p>
           <Link
-            href="https://wa.me/56912345678?text=Hola%20👋,%20quiero%20más%20información%20sobre%20los%20servicios%20de%20Cyber-Tower."
+            href="https://wa.me/56912345678?text=Hola%20👋,%20quiero%20más%20información%20sobre%20los%20servicios%20de%20Cyberhub."
             target="_blank"
             className="inline-block px-10 py-4 rounded-full bg-secondary-color text-white font-semibold text-lg shadow-md hover:shadow-lg hover:bg-secondary-light-color transition-all duration-300"
           >
@@ -69,17 +69,17 @@ const NosotrosPage = () => {
               </p>
             </div>
 
-            {/* Cyber-Tower */}
+            {/* Cyberhub */}
             <div className="flex flex-col p-8 rounded-3xl bg-card border hover:shadow-2xl transition-all duration-300 hover:-translate-y-1">
               <div className="relative w-40 h-40 mb-6">
                 <Image
                   src="/logos/Logo_Final_Cyber_TowerLOWRES-03-recortada.png"
-                  alt="Cyber-Tower Logo"
+                  alt="Cyberhub Logo"
                   fill
                   className="object-contain"
                 />
               </div>
-              <h3 className="text-2xl font-semibold mb-2">Cyber-Tower</h3>
+              <h3 className="text-2xl font-semibold mb-2">Cyberhub</h3>
               <span className="text-xs uppercase tracking-wide text-secondary-color font-medium mb-2">
                 Global (EE.UU., Europa, Asia)
               </span>
@@ -153,7 +153,7 @@ const NosotrosPage = () => {
             {t("cta.description")}
           </p>
           <Link
-            href="https://wa.me/56912345678?text=Hola%20👋,%20quiero%20más%20información%20sobre%20los%20servicios%20de%20Cyber-Tower."
+            href="https://wa.me/56912345678?text=Hola%20👋,%20quiero%20más%20información%20sobre%20los%20servicios%20de%20Cyberhub."
             target="_blank"
             className="inline-block px-10 py-4 rounded-full bg-white text-secondary-color font-semibold text-lg shadow-md hover:shadow-lg hover:bg-gray-100 transition-all duration-300"
           >

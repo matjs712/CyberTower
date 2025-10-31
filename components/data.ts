@@ -7,14 +7,14 @@ export const caseStudiesData = [
       "Acompañamos a un holding con operaciones en Chile y Perú en la implementación y certificación ISO 27001, fortaleciendo su gestión de seguridad de la información en tiempo récord.",
     slug: "implementacion-sgsi-iso27001-industrial",
     description:
-      "Cyber-Tower acompañó a un holding con presencia en Chile y Perú en la implementación completa de un Sistema de Gestión de Seguridad de la Información (SGSI), logrando la certificación ISO 27001 en menos de 9 meses.",
+      "Cyberhub acompañó a un holding con presencia en Chile y Perú en la implementación completa de un Sistema de Gestión de Seguridad de la Información (SGSI), logrando la certificación ISO 27001 en menos de 9 meses.",
     image: "/auditoria.png",
     tags: ["ISO 27001", "SGSI", "Auditoría", "Ciberseguridad"],
     content: `
     <article class="prose prose-invert lg:prose-lg max-w-none space-y-4">
       <h2>Transformando la seguridad de la información en un grupo industrial</h2>
       <p>
-        Cyber-Tower lideró la implementación de un <strong>Sistema de Gestión de Seguridad de la Información (SGSI)</strong> 
+        Cyberhub lideró la implementación de un <strong>Sistema de Gestión de Seguridad de la Información (SGSI)</strong> 
         basado en la norma <strong>ISO/IEC 27001:2022</strong> para un holding con operaciones en 
         <strong>Chile y Perú</strong>. El proyecto tuvo como objetivo fortalecer los procesos de 
         protección de datos y establecer una cultura organizacional de seguridad.
@@ -45,7 +45,7 @@ export const caseStudiesData = [
       </p>
 
       <blockquote>
-        “El acompañamiento de Cyber-Tower fue clave para alinear nuestra estrategia de seguridad 
+        “El acompañamiento de Cyberhub fue clave para alinear nuestra estrategia de seguridad 
         con los objetivos de negocio. Hoy contamos con un SGSI maduro, sostenible y certificado.”  
         <footer>— Gerente de TI, Grupo Industrial</footer>
       </blockquote>
@@ -80,7 +80,7 @@ export const caseStudiesData = [
     <article class="prose prose-invert lg:prose-lg max-w-none space-y-4">
       <h2>Diagnóstico de cumplimiento frente a la Ley 21.633 en empresa energética</h2>
       <p>
-        Una compañía del <strong>sector energético chileno</strong> solicitó a Cyber-Tower la evaluación de su 
+        Una compañía del <strong>sector energético chileno</strong> solicitó a Cyberhub la evaluación de su 
         nivel de cumplimiento con la <strong>Ley 21.633</strong>, que regula a las <em>Organizaciones de 
         Importancia Vital (OIV)</em>. El objetivo era establecer un diagnóstico claro y un plan de acción 
         que permitiera alcanzar la madurez requerida por la autoridad.
@@ -111,7 +111,7 @@ export const caseStudiesData = [
       </p>
 
       <blockquote>
-        “Gracias al acompañamiento de Cyber-Tower, logramos traducir los requisitos legales en acciones 
+        “Gracias al acompañamiento de Cyberhub, logramos traducir los requisitos legales en acciones 
         concretas, mejorando la visibilidad y gestión de nuestros riesgos operacionales.”
         <footer>— CISO, Empresa Energética</footer>
       </blockquote>
@@ -146,7 +146,7 @@ export const caseStudiesData = [
     <article class="prose prose-invert lg:prose-lg max-w-none space-y-4">
       <h2>Auditoría técnica y fortalecimiento de capacidades en ciberseguridad</h2>
       <p>
-        Una <strong>entidad financiera nacional</strong> contrató a Cyber-Tower para realizar una 
+        Una <strong>entidad financiera nacional</strong> contrató a Cyberhub para realizar una 
         <strong>auditoría integral de su infraestructura tecnológica</strong> y, posteriormente, 
         capacitar a sus equipos técnicos y ejecutivos en buenas prácticas de seguridad.
       </p>
@@ -204,14 +204,14 @@ export const caseStudiesData = [
       "Desarrollamos un plan integral de gestión de incidentes para una organización de salud, estableciendo protocolos de respuesta y roles claros ante ciberataques.",
     slug: "gestion-incidentes-ciberataques",
     description:
-      "Cyber-Tower apoyó a una organización del sector salud a desarrollar su plan de respuesta ante incidentes, estableciendo protocolos y roles claros frente a amenazas críticas.",
+      "Cyberhub apoyó a una organización del sector salud a desarrollar su plan de respuesta ante incidentes, estableciendo protocolos y roles claros frente a amenazas críticas.",
     image: "/gestion.png",
     tags: ["Respuesta ante Incidentes", "Seguridad Operacional", "Continuidad"],
     content: `
     <article class="prose prose-invert lg:prose-lg max-w-none space-y-4">
       <h2>Fortaleciendo la capacidad de respuesta ante ciberataques en el sector salud</h2>
       <p>
-        Cyber-Tower colaboró con una <strong>organización del sector salud</strong> para diseñar e implementar un 
+        Cyberhub colaboró con una <strong>organización del sector salud</strong> para diseñar e implementar un 
         <strong>Plan de Respuesta ante Incidentes de Seguridad de la Información (PRISI)</strong>. 
         El objetivo fue establecer una estrategia clara y operativa frente a ciberataques que pudieran 
         comprometer la disponibilidad y confidencialidad de los datos clínicos.
@@ -244,7 +244,7 @@ export const caseStudiesData = [
 
       <blockquote>
         “Hoy contamos con una estructura clara para responder ante cualquier tipo de ciberataque. 
-        La preparación y acompañamiento de Cyber-Tower marcaron la diferencia en nuestra capacidad de reacción.”
+        La preparación y acompañamiento de Cyberhub marcaron la diferencia en nuestra capacidad de reacción.”
         <footer>— Directora de Tecnología, Organización de Salud</footer>
       </blockquote>
 
@@ -258,7 +258,7 @@ export const caseStudiesData = [
       <h3>Próximos pasos</h3>
       <p>
         El plan contempla la ejecución de <strong>simulacros semestrales</strong> y la adopción de una plataforma 
-        SIEM para mejorar la detección temprana de amenazas. Cyber-Tower continúa acompañando al cliente 
+        SIEM para mejorar la detección temprana de amenazas. Cyberhub continúa acompañando al cliente 
         en la etapa de mejora continua del proceso.
       </p>
 

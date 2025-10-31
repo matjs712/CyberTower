@@ -61,7 +61,7 @@ export default function FooterSection({ className }: FooterProps) {
               >
                 <Image
                   src={"/logos/Logo_Final_Cyber_TowerLOWRES-03-recortada.png"}
-                  alt="Cyber-Tower"
+                  alt="Cyberhub"
                   height={200}
                   width={200}
                 />

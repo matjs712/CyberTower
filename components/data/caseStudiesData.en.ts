@@ -7,14 +7,14 @@ export const caseStudiesData = [
     summary:
       "We supported a holding company operating in Chile and Peru in achieving ISO 27001 certification, strengthening its information security management in record time.",
     description:
-      "Cyber-Tower guided a holding company with operations in Chile and Peru through the full implementation of an Information Security Management System (ISMS), achieving ISO 27001 certification in less than 9 months.",
+      "Cyberhub guided a holding company with operations in Chile and Peru through the full implementation of an Information Security Management System (ISMS), achieving ISO 27001 certification in less than 9 months.",
     image: "/auditoria.png",
     tags: ["ISO 27001", "ISMS", "Audit", "Cybersecurity"],
     content: `
     <article class="prose prose-invert lg:prose-lg max-w-none space-y-4">
       <h2>Transforming information security in an industrial group</h2>
       <p>
-        Cyber-Tower led the implementation of an <strong>Information Security Management System (ISMS)</strong> 
+        Cyberhub led the implementation of an <strong>Information Security Management System (ISMS)</strong> 
         based on the <strong>ISO/IEC 27001:2022</strong> standard for a holding company operating in 
         <strong>Chile and Peru</strong>. The goal was to strengthen data protection processes and 
         establish an organizational culture of security.
@@ -45,7 +45,7 @@ export const caseStudiesData = [
       </p>
 
       <blockquote>
-        “Cyber-Tower’s guidance was key to aligning our security strategy with our business goals. 
+        “Cyberhub’s guidance was key to aligning our security strategy with our business goals. 
         Today we have a mature, sustainable, and certified ISMS.”  
         <footer>— IT Manager, Industrial Group</footer>
       </blockquote>
@@ -81,7 +81,7 @@ export const caseStudiesData = [
     <article class="prose prose-invert lg:prose-lg max-w-none space-y-4">
       <h2>Compliance assessment with Law 21.633 in an energy company</h2>
       <p>
-        A <strong>Chilean energy company</strong> requested Cyber-Tower’s support to evaluate its 
+        A <strong>Chilean energy company</strong> requested Cyberhub’s support to evaluate its 
         level of compliance with <strong>Law 21.633</strong>, which regulates 
         <em>Organizations of Vital Importance (OIVs)</em>. The objective was to obtain a clear 
         diagnostic and an actionable plan to reach the maturity required by authorities.
@@ -112,7 +112,7 @@ export const caseStudiesData = [
       </p>
 
       <blockquote>
-        “Thanks to Cyber-Tower’s guidance, we turned legal requirements into concrete actions, 
+        “Thanks to Cyberhub’s guidance, we turned legal requirements into concrete actions, 
         improving visibility and management of operational risks.”
         <footer>— CISO, Energy Company</footer>
       </blockquote>
@@ -147,7 +147,7 @@ export const caseStudiesData = [
     <article class="prose prose-invert lg:prose-lg max-w-none space-y-4">
       <h2>Technical audit and capacity building in cybersecurity</h2>
       <p>
-        A <strong>national financial institution</strong> engaged Cyber-Tower to perform a 
+        A <strong>national financial institution</strong> engaged Cyberhub to perform a 
         <strong>comprehensive audit of its IT infrastructure</strong> and later train its 
         technical and executive teams on best security practices.
       </p>
@@ -205,14 +205,14 @@ export const caseStudiesData = [
     summary:
       "We developed a comprehensive incident management and response plan for a healthcare organization, establishing clear roles and procedures against cyberattacks.",
     description:
-      "Cyber-Tower supported a healthcare organization in developing its incident response plan, defining protocols and responsibilities to strengthen cyber resilience.",
+      "Cyberhub supported a healthcare organization in developing its incident response plan, defining protocols and responsibilities to strengthen cyber resilience.",
     image: "/gestion.png",
     tags: ["Incident Response", "Operational Security", "Continuity"],
     content: `
     <article class="prose prose-invert lg:prose-lg max-w-none space-y-4">
       <h2>Enhancing cyber incident response capability in the healthcare sector</h2>
       <p>
-        Cyber-Tower collaborated with a <strong>healthcare organization</strong> to design and implement 
+        Cyberhub collaborated with a <strong>healthcare organization</strong> to design and implement 
         a <strong>Security Incident Response Plan (SIRP)</strong>. The objective was to establish 
         a clear and operational strategy to handle cyberattacks that could affect clinical data 
         availability and confidentiality.
@@ -243,7 +243,7 @@ export const caseStudiesData = [
       </p>
 
       <blockquote>
-        “We now have a clear structure to respond to any cyberattack. Cyber-Tower’s preparation and 
+        “We now have a clear structure to respond to any cyberattack. Cyberhub’s preparation and 
         support made the difference in our ability to react.”
         <footer>— Technology Director, Healthcare Organization</footer>
       </blockquote>
@@ -258,7 +258,7 @@ export const caseStudiesData = [
       <h3>Next steps</h3>
       <p>
         The plan includes <strong>semiannual drills</strong> and the adoption of a SIEM platform 
-        to enhance early threat detection. Cyber-Tower continues to support the organization in its 
+        to enhance early threat detection. Cyberhub continues to support the organization in its 
         continuous improvement phase.
       </p>
 
