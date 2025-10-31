@@ -60,7 +60,7 @@ export default function FooterSection({ className }: FooterProps) {
                 aria-label={t("aria.goHome")}
               >
                 <Image
-                  src={"/Logo_Final_Cyber_TowerLOWRES-03-recortada.png"}
+                  src={"/logo-b.svg"}
                   alt="Cyberhub"
                   height={200}
                   width={200}

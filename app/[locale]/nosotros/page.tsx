@@ -79,7 +79,7 @@ const NosotrosPage = () => {
                   className="object-contain"
                 />
               </div>
-              <h3 className="text-2xl font-semibold mb-2">Cyberhub</h3>
+              <h3 className="text-2xl font-semibold mb-2">Cyber-Tower</h3>
               <span className="text-xs uppercase tracking-wide text-secondary-color font-medium mb-2">
                 Global (EE.UU., Europa, Asia)
               </span>
@@ -96,7 +96,7 @@ const NosotrosPage = () => {
         <div className="max-w-6xl mx-auto px-6 md:px-10 grid md:grid-cols-2 gap-16 items-center">
           <div className="relative order-2 md:order-1">
             <Image
-              src="/Logo_Final_Cyber_TowerLOWRES-03-recortada.png"
+              src="/logo-b.svg"
               alt="Nuestra historia"
               width={400}
               height={400}

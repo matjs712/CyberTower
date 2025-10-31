@@ -64,12 +64,7 @@ export default function Navbar({
           aria-label={t("aria.goHome")}
           className="flex items-center gap-2 pl-4"
         >
-          <Image
-            src={"/Logo_Final_Cyber_TowerLOWRES-03-recortada.png"}
-            alt="Cyberhub"
-            height={200}
-            width={150}
-          />
+          <Image src={"/logo-b.svg"} alt="Cyberhub" height={200} width={150} />
           <span className="sr-only">Cyberhub</span>
         </Link>
 
