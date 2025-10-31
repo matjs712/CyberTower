@@ -73,7 +73,7 @@ const NosotrosPage = () => {
             <div className="flex flex-col p-8 rounded-3xl bg-card border hover:shadow-2xl transition-all duration-300 hover:-translate-y-1">
               <div className="relative w-40 h-40 mb-6">
                 <Image
-                  src="/logos/Logo_Final_Cyber_TowerLOWRES-03-recortada.png"
+                  src="/Logo_Final_Cyber_TowerLOWRES-03-recortada.png"
                   alt="Cyberhub Logo"
                   fill
                   className="object-contain"
@@ -96,7 +96,7 @@ const NosotrosPage = () => {
         <div className="max-w-6xl mx-auto px-6 md:px-10 grid md:grid-cols-2 gap-16 items-center">
           <div className="relative order-2 md:order-1">
             <Image
-              src="/logos/Logo_Final_Cyber_TowerLOWRES-03-recortada.png"
+              src="/Logo_Final_Cyber_TowerLOWRES-03-recortada.png"
               alt="Nuestra historia"
               width={400}
               height={400}

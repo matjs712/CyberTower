@@ -65,7 +65,7 @@ export default function Navbar({
           className="flex items-center gap-2 pl-4"
         >
           <Image
-            src={"/logos/Logo_Final_Cyber_TowerLOWRES-03-recortada.png"}
+            src={"/Logo_Final_Cyber_TowerLOWRES-03-recortada.png"}
             alt="Cyberhub"
             height={200}
             width={150}
