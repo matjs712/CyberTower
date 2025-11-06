@@ -9,7 +9,7 @@ import {
   FooterContent,
 } from "@/components/ui/footer";
 import { ModeToggle } from "@/components/ui/mode-toggle";
-import { useTranslations } from "next-intl";
+import { useLocale, useTranslations } from "next-intl";
 import { Link } from "@/i18n/navigation";
 import Image from "next/image";
 
@@ -32,6 +32,7 @@ interface FooterProps {
 
 export default function FooterSection({ className }: FooterProps) {
   const t = useTranslations("footer");
+  const locale = useLocale();
 
   const columns: FooterColumnProps[] = t.raw("columns");
   const policies: FooterLink[] = t.raw("policies");
@@ -39,6 +40,12 @@ export default function FooterSection({ className }: FooterProps) {
   const copyright = t("copyright", {
     year: new Date().getFullYear(),
   });
+
+  const buildHref = (href: string) => {
+    if (href.startsWith(`/${locale}/`) || href === `/${locale}`) return href;
+    if (!href.startsWith("/")) href = `/${href}`;
+    return `/${locale}${href}`;
+  };
 
   return (
     <footer
@@ -52,10 +59,10 @@ export default function FooterSection({ className }: FooterProps) {
       <div className="max-w-container mx-auto">
         <Footer className="bg-transparent">
           <FooterContent>
-            {/* Logo + branding */}
+            {/* === LOGO === */}
             <FooterColumn className="col-span-2 sm:col-span-3 md:col-span-1">
               <Link
-                href="/"
+                href={`/${locale}`}
                 className="flex items-center gap-2 mb-4"
                 aria-label={t("aria.goHome")}
               >
@@ -71,7 +78,7 @@ export default function FooterSection({ className }: FooterProps) {
               </p>
             </FooterColumn>
 
-            {/* Columnas de navegación */}
+            {/* === COLUMNAS DE NAVEGACIÓN === */}
             {columns.map((column, index) => (
               <FooterColumn
                 key={index}
@@ -84,11 +91,12 @@ export default function FooterSection({ className }: FooterProps) {
                 >
                   {column.title}
                 </h2>
+
                 <ul className="space-y-1">
                   {column.links.map((link, linkIndex) => (
                     <li key={linkIndex}>
                       <Link
-                        href={link.href}
+                        href={buildHref(link.href)} // ✅ ahora siempre absoluto
                         aria-label={link.ariaLabel || `Ir a ${link.text}`}
                         className="text-muted-foreground text-sm hover:text-secondary-color transition-colors"
                       >
@@ -101,7 +109,7 @@ export default function FooterSection({ className }: FooterProps) {
             ))}
           </FooterContent>
 
-          {/* Línea inferior */}
+          {/* === LÍNEA INFERIOR === */}
           <FooterBottom className="flex flex-col sm:flex-row justify-between items-center gap-4 mt-8 border-t border-gray-800 pt-6">
             <small className="text-xs text-gray-500">{copyright}</small>
 
@@ -109,7 +117,7 @@ export default function FooterSection({ className }: FooterProps) {
               {policies.map((policy, index) => (
                 <Link
                   key={index}
-                  href={policy.href}
+                  href={buildHref(policy.href)} // ✅ idioma + ruta absoluta
                   aria-label={policy.ariaLabel || `Leer ${policy.text}`}
                   className="text-xs text-gray-400 hover:text-secondary-color transition-colors"
                 >

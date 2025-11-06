@@ -2,11 +2,12 @@
 
 import React from "react";
 import Image from "next/image";
-import { useTranslations } from "next-intl";
+import { useTranslations, useLocale } from "next-intl";
 import { Link } from "@/i18n/navigation";
 
 const Mision = () => {
   const t = useTranslations("mission");
+  const locale = useLocale(); // ✅ idioma actual
   const cards = t.raw("cards");
 
   return (
@@ -34,7 +35,7 @@ const Mision = () => {
                     {card.description}
                   </p>
                   <Link
-                    href={`/nosotros`}
+                    href={`/${locale}/nosotros`} // ✅ idioma actual
                     aria-label={`${t("readMore")} ${card.title}`}
                     className="flex items-center text-primary-light-color text-sm font-neutral hover:text-secondary-color transition-colors"
                   >
@@ -106,7 +107,6 @@ const Mision = () => {
 /* === ICONOS DINÁMICOS SEGÚN ÍNDICE === */
 function MissionIcon({ index }: { index: number }) {
   const icons = [
-    // Riesgo
     <svg
       key={0}
       xmlns="http://www.w3.org/2000/svg"
@@ -119,7 +119,6 @@ function MissionIcon({ index }: { index: number }) {
       <path d="M3 3v18h18" />
       <path d="M18.7 8.3L13 14l-3-3L3.3 19" />
     </svg>,
-    // Tecnología + Estrategia
     <svg
       key={1}
       xmlns="http://www.w3.org/2000/svg"
@@ -133,7 +132,6 @@ function MissionIcon({ index }: { index: number }) {
       <path d="M10.9 17.5l-.9-1.3C8.9 14.8 8 13.5 8 12c0-2.8 2.2-5 5-5s5 2.2 5 5c0 1.5-.9 2.8-2 4.2l-1.3.9" />
       <path d="M22 12c0 5.5-4.5 10-10 10S2 17.5 2 12 6.5 2 12 2" />
     </svg>,
-    // Transparencia
     <svg
       key={2}
       xmlns="http://www.w3.org/2000/svg"

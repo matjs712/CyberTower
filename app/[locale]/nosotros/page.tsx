@@ -23,7 +23,7 @@ const NosotrosPage = () => {
             {t("hero.description")}
           </p>
           <Link
-            href="https://wa.me/56912345678?text=Hola%20👋,%20quiero%20más%20información%20sobre%20los%20servicios%20de%20Cyberhub."
+            href="mailto:contacto@Cyberhub.cl"
             target="_blank"
             className="inline-block px-10 py-4 rounded-full bg-secondary-color text-white font-semibold text-lg shadow-md hover:shadow-lg hover:bg-secondary-light-color transition-all duration-300"
           >
@@ -44,7 +44,7 @@ const NosotrosPage = () => {
               {globalIdentity.paragraphs[0]}
             </p>
             <p className="text-muted-foreground">
-              {globalIdentity.paragraphs[3]}
+              {globalIdentity.paragraphs[1]}
             </p>
           </div>
 
@@ -65,7 +65,7 @@ const NosotrosPage = () => {
                 Latinoamérica
               </span>
               <p className="text-sm text-muted-foreground leading-relaxed justify">
-                {globalIdentity.paragraphs[1]}
+                {globalIdentity.chile}
               </p>
             </div>
 
@@ -84,7 +84,7 @@ const NosotrosPage = () => {
                 Global (EE.UU., Europa, Asia)
               </span>
               <p className="text-sm text-muted-foreground leading-relaxed">
-                {globalIdentity.paragraphs[2]}
+                {globalIdentity.tower}
               </p>
             </div>
           </div>
@@ -92,7 +92,7 @@ const NosotrosPage = () => {
       </section>
 
       {/* === NUESTRA HISTORIA === */}
-      <section className="py-28 bg-background relative">
+      {/* <section className="py-28 bg-background relative">
         <div className="max-w-6xl mx-auto px-6 md:px-10 grid md:grid-cols-2 gap-16 items-center">
           <div className="relative order-2 md:order-1">
             <Image
@@ -110,7 +110,7 @@ const NosotrosPage = () => {
             </p>
           </div>
         </div>
-      </section>
+      </section> */}
 
       {/* === NUESTROS VALORES === */}
       <section className="py-28 bg-muted/20">
@@ -153,7 +153,7 @@ const NosotrosPage = () => {
             {t("cta.description")}
           </p>
           <Link
-            href="https://wa.me/56912345678?text=Hola%20👋,%20quiero%20más%20información%20sobre%20los%20servicios%20de%20Cyberhub."
+            href="mailto:contacto@Cyberhub.cl"
             target="_blank"
             className="inline-block px-10 py-4 rounded-full bg-white text-secondary-color font-semibold text-lg shadow-md hover:shadow-lg hover:bg-gray-100 transition-all duration-300"
           >

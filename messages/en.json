@@ -29,7 +29,7 @@
             "position": "IT Manager | Falabella",
             "stats": [
                 {
-                    "valor": "3,000+",
+                    "valor": "2,730+",
                     "texto": "Employees trained"
                 },
                 {
@@ -350,15 +350,15 @@
                 "links": [
                     {
                         "text": "Awareness Program",
-                        "href": "/soluciones/cybersecurity-awareness-program"
+                        "href": "soluciones/cybersecurity-awareness-program"
                     },
                     {
                         "text": "Brand Positioning",
-                        "href": "/soluciones/cybersecurity-brand-positioning"
+                        "href": "soluciones/cybersecurity-brand-positioning"
                     },
                     {
                         "text": "Strategy and Management",
-                        "href": "/soluciones/cybersecurity-strategies-and-management"
+                        "href": "soluciones/cybersecurity-strategies-and-management"
                     }
                 ]
             },
@@ -367,15 +367,15 @@
                 "links": [
                     {
                         "text": "About Us",
-                        "href": "/nosotros"
+                        "href": "nosotros"
                     },
                     {
                         "text": "Clients",
-                        "href": "/clientes"
+                        "href": "clientes"
                     },
                     {
                         "text": "Blog",
-                        "href": "/blog"
+                        "href": "blog"
                     }
                 ]
             },
@@ -384,18 +384,13 @@
                 "links": [
                     {
                         "text": "LinkedIn",
-                        "href": "https://www.linkedin.com/company/Cyberhub-cl",
+                        "href": "https://www.linkedin.com/company/cyberhub-consulting",
                         "ariaLabel": "Visit Cyberhub on LinkedIn"
                     },
                     {
                         "text": "Email",
-                        "href": "mailto:contacto@Cyberhub.cl",
+                        "href": "mailto:contacto@cyberhub.cl",
                         "ariaLabel": "Send email to Cyberhub"
-                    },
-                    {
-                        "text": "WhatsApp",
-                        "href": "https://wa.me/56912345678",
-                        "ariaLabel": "Contact Cyberhub via WhatsApp"
                     }
                 ]
             }
@@ -403,7 +398,7 @@
         "policies": [
             {
                 "text": "Privacy Policy",
-                "href": "/privacidad",
+                "href": "privacidad",
                 "ariaLabel": "Read Privacy Policy"
             }
         ]

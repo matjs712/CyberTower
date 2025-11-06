@@ -1,10 +1,17 @@
 "use client";
+
 import React from "react";
 import { useTranslations } from "next-intl";
 
+/**
+ * Componente de sección de marcas destacadas
+ * Muestra una lista de nombres de marcas traducidos desde `brands.list`
+ */
 const BrandLogos = () => {
   const t = useTranslations("brands");
-  const brands: string[] = t.raw("list");
+
+  // ✅ Tipado explícito y fallback seguro
+  const brands = (t.raw("list") as string[]) ?? [];
 
   return (
     <section
@@ -12,8 +19,8 @@ const BrandLogos = () => {
       aria-labelledby="brand-logos-heading"
       className="py-16 px-4 md:px-8 lg:px-12"
     >
-      <div className="max-w-5xl mx-auto border rounded-3xl p-8 md:p-12 shadow-2xl overflow-hidden">
-        {/* HEADER */}
+      <div className="max-w-5xl mx-auto border rounded-3xl p-8 md:p-12 shadow-2xl overflow-hidden bg-background">
+        {/* === HEADER === */}
         <header className="flex flex-col md:flex-row gap-8 md:gap-16 mb-12">
           <div className="w-full md:w-1/3">
             <h2
@@ -28,20 +35,21 @@ const BrandLogos = () => {
           </div>
         </header>
 
-        {/* SR Text (para accesibilidad) */}
+        {/* === Texto para screen readers === */}
         <p className="sr-only">{t("srHint")}</p>
 
-        {/* LISTA DE MARCAS */}
+        {/* === LISTA DE MARCAS === */}
         <ul
           role="list"
           aria-label={t("ariaLabel")}
-          className="flex flex-wrap items-center gap-4 pb-4 -mx-12 px-12 md:-mx-12 md:px-12 lg:-mx-20 lg:px-16"
+          className="flex flex-wrap items-center justify-center gap-4 pb-4"
         >
           {brands.map((name, index) => (
             <li
               key={name}
-              className="flex items-center flex-shrink-0 px-5 py-3 border border-primary-light-color rounded-xl transition-colors cursor-default font-semibold text-lg hover:border-secondary-color/80"
+              className="flex items-center flex-shrink-0 px-5 py-3 border border-primary-light-color rounded-xl transition-colors cursor-default font-semibold text-lg hover:border-secondary-color/80 bg-white"
             >
+              {/* ícono decorativo */}
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 className={`h-6 w-6 mr-3 ${

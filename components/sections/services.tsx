@@ -1,11 +1,12 @@
 "use client";
 import React from "react";
-import { useTranslations } from "next-intl";
+import { useTranslations, useLocale } from "next-intl";
 import { Link } from "@/i18n/navigation";
 
 const CoreServices = () => {
   const t = useTranslations("coreServices");
   const a = useTranslations("AllSolutions");
+  const locale = useLocale(); // ✅ idioma actual
   const services = a.raw("list");
 
   return (
@@ -42,17 +43,15 @@ const CoreServices = () => {
                 className="p-6 md:p-8 rounded-2xl shadow-sm transition-all duration-300 bg-background hover:shadow-lg"
               >
                 <article className="flex flex-col h-full">
-                  {/* TITLE + DESCRIPTION */}
                   <h3 className="text-xl font-bold mb-2">{service.title}</h3>
                   <p className="text-neutral-800 text-sm mb-6 flex-grow">
                     {service.description}
                   </p>
 
-                  {/* CTA */}
                   <Link
-                    href={`/soluciones/${service.slug
+                    href={`/${locale}/soluciones/${service.slug
                       .toLowerCase()
-                      .replace(/\s+/g, "-")}`}
+                      .replace(/\s+/g, "-")}`} // ✅ ruta localizada
                     aria-label={`${t("ariaLabel")} ${service.title}`}
                     className="flex items-center justify-between mt-auto w-full group"
                   >
@@ -84,8 +83,8 @@ const CoreServices = () => {
         <footer className="text-center mt-16 text-gray-400 text-sm">
           {t("footer")}{" "}
           <Link
-            href={`/contacto`}
-            aria-label={t("ariaLabel")}
+            href="mailto:contacto@Cyberhub.cl"
+            aria-label="Correo"
             className="text-secondary-light-color font-semibold hover:text-secondary-color transition-colors"
           >
             {t("cta")}

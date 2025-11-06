@@ -2,18 +2,34 @@ import { notFound } from "next/navigation";
 import Image from "next/image";
 import { getTranslations } from "next-intl/server";
 
-interface BlogPageProps {
-  params: {
-    slug: string;
-    locale: string;
-  };
+/* ✅ Genera los slugs estáticos por idioma */
+export async function generateStaticParams() {
+  const locales = ["es", "en"];
+  const allParams: { locale: string; slug: string }[] = [];
+
+  for (const locale of locales) {
+    const t = await getTranslations({ locale, namespace: "highlights" });
+    const posts = t.raw("list");
+    posts.forEach((post: { slug: string }) => {
+      allParams.push({ locale, slug: post.slug });
+    });
+  }
+
+  return allParams;
 }
 
-export default async function BlogPage({ params }: BlogPageProps) {
-  const { slug, locale } = await params;
-  const h = await getTranslations("highlights");
-  const posts = h.raw("list");
-  const post = posts.find((s: { slug: string }) => s.slug === slug);
+/* ✅ Página del blog exportable */
+export default async function BlogPage({
+  params,
+}: {
+  params: { slug: string; locale: string };
+}) {
+  const { slug, locale } = params;
+
+  const t = await getTranslations({ locale, namespace: "highlights" });
+  const posts = t.raw("list");
+  const post = posts.find((p: { slug: string }) => p.slug === slug);
+
   if (!post) return notFound();
 
   return (

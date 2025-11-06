@@ -4,19 +4,18 @@ import { Button } from "@/components/ui/button";
 import { motion } from "framer-motion";
 import Link from "next/link";
 import { MarqueeItem, Marquee, MarqueeContent, MarqueeFade } from "./marquee";
-import { Mail, MessageCircle, MessageCircleCode } from "lucide-react";
+import {
+  Mail,
+  MessageCircle,
+  // MessageCircleCode
+} from "lucide-react";
 import Image from "next/image";
 import { LinkedInLogoIcon } from "@radix-ui/react-icons";
-import { logos } from "../logos/logos";
+import { logosHero } from "../logos/logos";
 import { useTranslations } from "next-intl";
 
 const Hero = () => {
   const t = useTranslations("home");
-
-  const phone = "56912345678";
-  const message = encodeURIComponent(
-    "Hola 👋, quiero más información sobre sus soluciones de ciberseguridad."
-  );
 
   return (
     <main className="flex flex-col gap-0 sm:gap-16 px-1 lg:px-8 py-6">
@@ -74,7 +73,7 @@ const Hero = () => {
                 </Link>
 
                 {/* 💬 WhatsApp */}
-                <Link
+                {/* <Link
                   href="https://wa.me/56912345678?text=Hola%20👋,%20quiero%20más%20información%20sobre%20los%20servicios%20de%20Cyberhub."
                   target="_blank"
                   rel="noopener noreferrer"
@@ -82,7 +81,7 @@ const Hero = () => {
                   className="text-secondary-color hover:text-secondary-light-color transition-colors"
                 >
                   <MessageCircleCode className="size-6" />
-                </Link>
+                </Link> */}
 
                 {/* ✉️ Correo */}
                 <Link
@@ -106,7 +105,7 @@ const Hero = () => {
                   className="rounded-full px-1 bg-neutral-700 w-fit"
                 >
                   <Link
-                    href={`https://wa.me/${phone}?text=${message}`}
+                    href="mailto:contacto@Cyberhub.cl"
                     aria-label="Enviar mensaje"
                     className="flex flex-row gap-2 px-1"
                   >
@@ -154,10 +153,10 @@ const Hero = () => {
 
       {/* === LOGOS === */}
       <section
-        className="flex flex-col sm:items-center items-start justify-center gap-8 sm:rounded-xl sm:rounded-t-xl rounded-t-none rounded-b-xl bg-primary-light-color py-8 pb-5"
+        className="flex flex-col sm:items-center items-start justify-center gap-8 sm:rounded-xl sm:rounded-t-xl rounded-t-none rounded-b-xl bg-secondary-color py-8 pb-12"
         aria-labelledby="trusted-heading"
       >
-        <div className="flex-wrap justify-center sm:items-center items-start gap-2 sm:gap-8 mt-4 sm:hidden flex px-4 sm:px-0">
+        <div className="flex-wrap justify-center sm:items-center items-start gap-2 sm:gap-8 mt-2 sm:hidden flex px-4 sm:px-0">
           {[
             { code: "cl", name: "Chile" },
             { code: "us", name: "EE.UU." },
@@ -218,7 +217,7 @@ const Hero = () => {
           ))}
         </div>
 
-        <div className="flex size-full items-center justify-center">
+        <div className="flex size-full items-center justify-center mt-4">
           <Marquee>
             <MarqueeFade className="from-transparent" side="left" />
             <MarqueeFade className="from-transparent" side="right" />
@@ -226,19 +225,19 @@ const Hero = () => {
               pauseOnHover={false}
               delay={0}
               speed={15}
-              className="flex flex-row items-center justify-center gap-4"
+              className="flex flex-row items-center justify-center gap-8 sm:gap-12"
             >
-              {logos.map((logo) => (
+              {logosHero.map((logo) => (
                 <MarqueeItem
-                  className="mx-8 flex justify-center"
                   key={logo.name}
+                  className="flex justify-center items-center mx-4 sm:mx-6"
                 >
                   <Image
-                    width={120}
-                    height={120}
+                    width={100}
+                    height={100}
                     src={logo.url}
-                    className="h-auto w-auto object-contain"
                     alt={logo.name}
+                    className="max-h-12 sm:max-h-16 w-auto object-contain opacity-90 hover:opacity-100 transition-opacity"
                   />
                 </MarqueeItem>
               ))}

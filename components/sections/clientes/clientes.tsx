@@ -127,7 +127,7 @@ export default function ClientesSection() {
   const clientes = [
     {
       nombre: t("falabella.name"),
-      logo: "/Falabella.svg.png",
+      logo: "/Logo_Falabella.png",
       descripcion: t("falabella.description"),
       testimonio: t("falabella.testimonial"),
       autor: t("falabella.author"),
@@ -137,7 +137,7 @@ export default function ClientesSection() {
     },
     {
       nombre: t("bancoChile.name"),
-      logo: "/logo-BancoDeChile.png",
+      logo: "/logo-SQM.png",
       descripcion: t("bancoChile.description"),
       testimonio: t("bancoChile.testimonial"),
       autor: t("bancoChile.author"),

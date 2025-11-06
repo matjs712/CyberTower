@@ -33,9 +33,9 @@ export default async function RootLayout({
   params,
 }: Readonly<{
   children: React.ReactNode;
-  params: Promise<{ locale: string }>;
+  params: { locale: string }; // ✅ Corregido
 }>) {
-  const { locale } = await params;
+  const { locale } = params; // ✅ Corregido
 
   // Validar idioma
   if (!hasLocale(routing.locales, locale)) notFound();
@@ -54,7 +54,6 @@ export default async function RootLayout({
   return (
     <html lang={locale} suppressHydrationWarning>
       <body className={`${poppins.variable} font-sans antialiased`}>
-        {/* Proveedor de traducciones */}
         <NextIntlClientProvider locale={locale} messages={messages}>
           <ThemeProvider
             attribute="class"

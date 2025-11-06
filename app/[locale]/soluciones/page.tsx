@@ -68,6 +68,7 @@ export default function ServiciosPage() {
                       id: string;
                       image: string;
                       title: string;
+                      slug: string;
                       description: string;
                     }) => (
                       <Card
@@ -75,14 +76,14 @@ export default function ServiciosPage() {
                         className="overflow-hidden border rounded-xl shadow-sm hover:shadow-lg transition-all duration-300 group"
                       >
                         <Link
-                          href={`/soluciones/${service.id}`}
+                          href={`/soluciones/${service.slug}`}
                           className="block h-full"
                         >
                           {/* Imagen */}
                           <div className="flex justify-center items-center p-0 mb-4">
                             <div className="relative size-30 md:w-72 md:h-32 rounded-xs overflow-hidden">
                               <Image
-                                src={service.image || "/soluciones/default.jpg"}
+                                src={"/auditoria.png"}
                                 alt={service.title}
                                 fill
                                 className="object-cover p-0 transition-transform duration-300 group-hover:scale-105"

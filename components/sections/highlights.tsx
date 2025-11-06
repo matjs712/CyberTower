@@ -2,7 +2,7 @@
 
 import React from "react";
 import { Link } from "@/i18n/navigation";
-import { useTranslations } from "next-intl";
+import { useTranslations, useLocale } from "next-intl";
 
 type CaseStudy = {
   id: number | string;
@@ -15,8 +15,7 @@ type CaseStudy = {
 
 const Highlights = () => {
   const t = useTranslations("highlights");
-
-  // next-intl: t.raw() es unknown → tipamos y hacemos fallback seguro
+  const locale = useLocale(); // ✅ idioma actual
   const caseStudiesData = (t.raw("list") as CaseStudy[]) ?? [];
 
   return (
@@ -45,7 +44,7 @@ const Highlights = () => {
               {t("description")}
             </p>
             <Link
-              href="/blog"
+              href={`/${locale}/blog`} // ✅ ruta localizada
               aria-label={t("ariaViewAll")}
               className="flex items-center text-primary-light-color font-semibold hover:text-purple-300 transition-colors"
             >
@@ -68,10 +67,7 @@ const Highlights = () => {
 
         {/* === CASE STUDIES === */}
         {caseStudiesData.length === 0 ? (
-          <p className="text-sm text-neutral-500">
-            {/** opcional: texto de vacío */}
-            No case studies available.
-          </p>
+          <p className="text-sm text-neutral-500">No case studies available.</p>
         ) : (
           <ul className="grid grid-cols-1 md:grid-cols-2 gap-8">
             {caseStudiesData.map((study, index) => (
@@ -92,8 +88,8 @@ const Highlights = () => {
                 <article className="relative z-10 text-white">
                   <h3 className="text-2xl font-bold mb-2">
                     <Link
-                      href={`/blog/${study.slug}`}
-                      aria-label={`${study.title}`}
+                      href={`/${locale}/blog/${study.slug}`} // ✅ ruta localizada
+                      aria-label={study.title}
                     >
                       {study.title}
                     </Link>

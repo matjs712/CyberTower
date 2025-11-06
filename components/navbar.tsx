@@ -1,6 +1,6 @@
 "use client";
 
-import { Menu, Phone } from "lucide-react";
+import { Menu } from "lucide-react";
 import { ReactNode } from "react";
 import { Button, type ButtonProps } from "@/components/ui/button";
 import Navigation from "@/components/ui/navigation";
@@ -77,14 +77,14 @@ export default function Navbar({
         <div className="flex items-center gap-4">
           <LanguageSwitcher />
 
-          <Link
+          {/* <Link
             href="tel:+56912345678"
             aria-label={t("aria.call")}
             className="flex items-center gap-2 rounded-full border border-neutral-200 px-3 py-2 hover:bg-neutral-50 transition"
           >
             <Phone className="size-4 text-secondary-color" aria-hidden="true" />
             <span className="lg:flex hidden">{t("phoneNumber")}</span>
-          </Link>
+          </Link> */}
 
           {/* Mobile menu */}
           <Sheet>

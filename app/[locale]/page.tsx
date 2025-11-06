@@ -6,15 +6,15 @@ import Mision from "@/components/sections/mision";
 // import Opinion from "@/components/sections/opinion";
 import CoreServices from "@/components/sections/services";
 import { setRequestLocale } from "next-intl/server";
-import { use } from "react";
 
-export default function Home({
-  params,
-}: {
-  params: Promise<{ locale: string }>;
-}) {
-  const { locale } = use(params);
+export async function generateStaticParams() {
+  return [{ locale: "es" }, { locale: "en" }];
+}
 
+export default async function Home({ params }: { params: { locale: string } }) {
+  const { locale } = params;
+
+  // ✅ Llama directamente
   setRequestLocale(locale);
 
   return (

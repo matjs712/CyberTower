@@ -7,7 +7,7 @@ import { useTranslations } from "next-intl";
 
 export default function CertificacionesPage() {
   const t = useTranslations("certificationsPage");
-  const s = useTranslations("solutions");
+  const s = useTranslations("certifications");
   const categories = t.raw("categories");
   const certificaciones = s.raw("list");
 
@@ -64,6 +64,7 @@ export default function CertificacionesPage() {
                     (cert: {
                       id: string;
                       image: string;
+                      slug: string;
                       title: string;
                       description: string;
                     }) => (
@@ -72,14 +73,14 @@ export default function CertificacionesPage() {
                         className="overflow-hidden border rounded-xl shadow-sm hover:shadow-lg transition-all duration-300 group"
                       >
                         <Link
-                          href={`/certificaciones/${cert.id}`}
+                          href={`/certificaciones/${cert.slug}`}
                           className="block h-full"
                         >
                           {/* Imagen */}
                           <div className="flex justify-center items-center p-0 mb-4">
                             <div className="relative size-30 md:w-72 md:h-32 rounded-xs overflow-hidden">
                               <Image
-                                src={cert.image || "/cert-default.jpg"}
+                                src={"/awarenes.png"}
                                 alt={cert.title}
                                 fill
                                 className="object-cover p-0 transition-transform duration-300 group-hover:scale-105"
