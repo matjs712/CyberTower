@@ -1,7 +1,7 @@
 import { Link } from "@/i18n/navigation";
 import { useLocale } from "next-intl"; // ✅ en lugar de usePathname
 import { useTranslations } from "next-intl";
-import LaunchUI from "../logos/launch-ui";
+// import LaunchUI from "../logos/launch-ui";
 import {
   NavigationMenu,
   NavigationMenuContent,
@@ -47,7 +47,7 @@ export default function Navigation() {
                   {item.content === "default" ? (
                     <div className="p-4 w-[400px] md:w-[500px] lg:w-[600px]">
                       <ul className="grid gap-3 p-4 lg:grid-cols-[.75fr_1fr]">
-                        <li className="row-span-3">
+                        {/* <li className="row-span-3">
                           <NavigationMenuLink asChild>
                             <Link href={`/${locale}/soluciones`}>
                               <LaunchUI />
@@ -59,7 +59,7 @@ export default function Navigation() {
                               </p>
                             </Link>
                           </NavigationMenuLink>
-                        </li>
+                        </li> */}
 
                         {introItems.map(
                           (intro: {

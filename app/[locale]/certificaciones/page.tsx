@@ -12,7 +12,7 @@ export default function CertificacionesPage() {
   const certificaciones = s.raw("list");
 
   return (
-    <div className="mb-20">
+    <div className="pb-20 bg-[#1a1a1a] text-white">
       {/* HERO */}
       <div className="p-8 space-y-6 flex flex-col sm:flex-row justify-between relative items-center max-w-7xl mx-auto">
         <h1 className="text-3xl font-bold sm:absolute max-w-3xl leading-tight">
@@ -32,10 +32,12 @@ export default function CertificacionesPage() {
 
       {/* INTRO */}
       <div className="max-w-6xl mx-auto px-8 mb-16">
-        <p className="text-lg text-gray-700 leading-relaxed">
+        <p className="text-lg text-gray-300 leading-relaxed">
           {t.rich("intro", {
             strong: (chunks) => (
-              <span className="font-semibold text-primary-color">{chunks}</span>
+              <span className="font-semibold text-secondary-color">
+                {chunks}
+              </span>
             ),
             iso: (chunks) => <span className="font-semibold">{chunks}</span>,
           })}
@@ -53,10 +55,10 @@ export default function CertificacionesPage() {
             return (
               <section key={cat.nombre} className="space-y-6">
                 <div>
-                  <h2 className="text-2xl font-bold mb-2 border-l-4 border-primary-color pl-3">
+                  <h2 className="text-2xl font-bold mb-2 border-l-4 border-secondary-color pl-3">
                     {cat.nombre}
                   </h2>
-                  <p className="text-gray-600">{cat.descripcion}</p>
+                  <p className="text-gray-300">{cat.descripcion}</p>
                 </div>
 
                 <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
@@ -96,7 +98,7 @@ export default function CertificacionesPage() {
                             <p className="text-sm text-gray-700 leading-relaxed mb-4 line-clamp-3">
                               {cert.description}
                             </p>
-                            <span className="text-primary-color text-sm font-semibold group-hover:underline">
+                            <span className="text-secondary-color text-sm font-semibold group-hover:underline">
                               {t("viewDetails")} →
                             </span>
                           </CardContent>

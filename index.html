@@ -1,13 +1,94 @@
 <!DOCTYPE html>
-<html lang="es">
-  <head>
-    <meta http-equiv="refresh" content="0; url=/es/" />
-    <script>
-      window.location.href = "/es/";
-    </script>
-    <title>Redirigiendo...</title>
-  </head>
-  <body>
-    <p>Redirigiendo a <a href="/es/">Cyberhub</a>...</p>
-  </body>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/cyberhub.css">
+    <script src="../js/includeHTML.js"></script>
+    <!-- iconos -->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+    <!-- JQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <!-- Carrusel -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g==" crossorigin="anonymous" referrerpolicy="no-referrer"
+    />
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cabin:wght@400;700&display=swap" rel="stylesheet">
+
+    <title>Cyberhub</title>
+</head>
+
+<body style="background-color: var(--color-secundario);">
+    <div data-src="header.html"></div>
+    <section class="fondo-color-secundario">
+        <div class="line-in-middle centrado" style="min-height: 60vh;">
+            <div class="contenedor">
+                <div class="relleno-arriba-6 oculto-movil"><img class="imagen-flexible margen-y-2" src="../img/hero.png" alt=""></div>
+                <div class="relleno-arriba-6 mostrar-movil">
+                    <div class="centrado">
+                        <div><img class="imagen-flexible margen-y-2" src="../img/hero-chico.png" alt=""></div>
+                    </div>
+
+                </div>
+                <div class="texto-centro relleno-abajo-6">
+                    <div class="texto-blanco" style="font-size: clamp(1.5rem, 2.5vw, 2rem);">
+                        <span style="opacity: 0.8;">Against <b>Cyber-attacks</b></span>
+                    </div>
+                    <div class="texto-blanco" style="font-size: clamp(2rem, 8vw, 3.5rem);"><b></b>A solid strategy</b>
+                    </div>
+                    <div class="texto-blanco" style="font-size: clamp(1.5rem, 2.5vw, 2rem);">
+                        <span style="opacity: 0.8;">is your best defense</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <div data-src="carrusel.html"></div>
+    <div data-src="../js/carrusel.js"></div>
+
+    <section class="relleno-2" style="background-color: whitesmoke;">
+
+        <div class="contenedor relleno-y-6">
+            <div class="centrado margen-abajo-2">
+                <img class="imagen-flexible" src="../img/logo-b.svg" alt=""></div>
+            <div class=" texto-centro margen-abajo-2" style="font-size: clamp(1.5rem, 2vw, 2rem);">
+                <div>Together we build <b class="texto-principal">safer companies</b>.</div>
+            </div>
+            <div class="grilla-magica" style="grid-gap: 3em;">
+                <div class="caja-flexible-movil">
+
+                    <div class="flexible alineado">
+                        <div>
+                            <div class="fuente-l">
+                                <b class="texto-principal">Why us? </b>
+                            </div>
+                            <p>We have the expertise of a team that has developed large projects of transformation of cybersecurity management in Latin American companies in industries such as banking, retail (supermarkets, e-commerce), home improvement
+                                & real estate among other sectors. Our work has allowed us to deeply understand the different work cultures of the main markets in the region such as Brazil, Mexico, Chile and Argentina.
+
+                            </p>
+                            <button class="boton-principal-lineal" onclick="window.open( '../aboutus/', '_self')" ;><i class="ri-check-double-line"></i> More information</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="fondo-imagen">
+        <div class="contenedor">
+            <div class="texto-centro relleno-y-10">
+                <div class="texto-blanco" style="font-size: clamp(1.5rem, 2.5vw, 2rem);">
+                    <span style="opacity: 0.8;">Your cybersecurity strategy <b>without a transformation in management strategies</b> is like a chessboard without a queen.</span>
+                </div>
+            </div>
+        </div>
+    </section>
+    <div data-src="footer.html"></div>
+</body>
+
 </html>

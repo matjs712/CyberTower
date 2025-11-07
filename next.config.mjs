@@ -6,7 +6,7 @@ import createNextIntlPlugin from "next-intl/plugin";
 const nextConfig = {
   reactStrictMode: true,
   poweredByHeader: false,
-  output: "export", // ✅ exportación estática
+  // output: "export", // ✅ exportación estática
   trailingSlash: true, // ✅ rutas amigables para IIS/FTP
   images: {
     unoptimized: true,
