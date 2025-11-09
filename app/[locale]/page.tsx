@@ -12,7 +12,7 @@ export async function generateStaticParams() {
 
 export default async function Home({ params }: { params: { locale: string } }) {
   const { locale } = params;
-
+  // adada
   setRequestLocale(locale);
 
   return (
