@@ -1,6 +1,7 @@
 "use client";
 
 import React from "react";
+import { motion } from "framer-motion";
 import { Link } from "@/i18n/navigation";
 import { useTranslations, useLocale } from "next-intl";
 
@@ -15,106 +16,108 @@ type CaseStudy = {
 
 const Highlights = () => {
   const t = useTranslations("highlights");
-  const locale = useLocale(); // ✅ idioma actual
+  const locale = useLocale();
   const caseStudiesData = (t.raw("list") as CaseStudy[]) ?? [];
 
   return (
     <section
       id="case-studies"
       aria-labelledby="case-studies-heading"
-      className="py-16 px-4 md:px-8 lg:px-12"
+      className="py-24 px-4 md:px-10 bg-foreground text-white"
     >
-      <div className="max-w-5xl mx-auto">
+      <div className="max-w-6xl mx-auto space-y-16">
         {/* === HEADER === */}
-        <header className="flex flex-col lg:flex-row justify-between items-start lg:items-center mb-12">
-          <div className="mb-8 lg:mb-0 lg:w-1/2">
-            <span className="text-primary-light-color text-sm font-semibold uppercase tracking-wider mb-2 block">
-              {t("sectionLabel")}
-            </span>
-            <h2
-              id="case-studies-heading"
-              className="text-4xl md:text-5xl font-bold leading-tight"
+        <header className="text-center space-y-4">
+          <span className="text-secondary-color text-sm font-semibold uppercase tracking-widest">
+            {t("sectionLabel")}
+          </span>
+          <h2
+            id="case-studies-heading"
+            className="text-4xl md:text-5xl font-bold leading-tight"
+          >
+            {t("title")}
+          </h2>
+          <p className="text-neutral-400 max-w-2xl mx-auto">
+            {t("description")}
+          </p>
+          <Link
+            href={`/${locale}/blog`}
+            aria-label={t("ariaViewAll")}
+            className="inline-flex items-center text-secondary-color font-semibold hover:text-secondary-light-color transition-colors mt-4"
+          >
+            {t("viewAll")}
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              className="h-5 w-5 ml-2"
+              viewBox="0 0 20 20"
+              fill="currentColor"
             >
-              {t("title")}
-            </h2>
-          </div>
-
-          <div className="lg:w-1/2 flex flex-col items-start lg:items-end">
-            <p className="text-neutral-800 text-lg mb-6 lg:text-right">
-              {t("description")}
-            </p>
-            <Link
-              href={`/${locale}/blog`} // ✅ ruta localizada
-              aria-label={t("ariaViewAll")}
-              className="flex items-center text-primary-light-color font-semibold hover:text-purple-300 transition-colors"
-            >
-              {t("viewAll")}
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                className="h-5 w-5 ml-2"
-                viewBox="0 0 20 20"
-                fill="currentColor"
-              >
-                <path
-                  fillRule="evenodd"
-                  d="M12.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-2.293-2.293a1 1 0 010-1.414z"
-                  clipRule="evenodd"
-                />
-              </svg>
-            </Link>
-          </div>
+              <path
+                fillRule="evenodd"
+                d="M12.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-2.293-2.293a1 1 0 010-1.414z"
+                clipRule="evenodd"
+              />
+            </svg>
+          </Link>
         </header>
 
-        {/* === CASE STUDIES === */}
+        {/* === CASE STUDIES MOSAICO === */}
         {caseStudiesData.length === 0 ? (
-          <p className="text-sm text-neutral-500">No case studies available.</p>
+          <p className="text-sm text-neutral-500 text-center">
+            No case studies available.
+          </p>
         ) : (
-          <ul className="grid grid-cols-1 md:grid-cols-2 gap-8">
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-3 sm:gap-4 rounded-2xl overflow-hidden">
             {caseStudiesData.map((study, index) => (
-              <li
+              <motion.div
                 key={study.id ?? index}
-                className={`relative rounded-xl overflow-hidden shadow-lg flex flex-col justify-end p-6 ${
-                  index === 0 ? "md:col-span-2 h-[300px]" : "min-h-[200px]"
+                initial={{ opacity: 0, y: 40 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                transition={{ duration: 0.5, delay: index * 0.1 }}
+                viewport={{ once: true }}
+                className={`relative group rounded-2xl overflow-hidden ${
+                  index === 0
+                    ? "md:col-span-3 h-[400px]" // caso destacado grande
+                    : "h-[250px]"
                 }`}
-                style={{
-                  backgroundImage: study.image
-                    ? `url(${study.image})`
-                    : undefined,
-                  backgroundSize: "cover",
-                  backgroundPosition: "center",
-                }}
               >
-                <div className="absolute inset-0 bg-gradient-to-t from-neutral-800 via-neutral-600/70 to-transparent" />
-                <article className="relative z-10 text-white">
-                  <h3 className="text-2xl font-bold mb-2">
-                    <Link
-                      href={`/${locale}/blog/${study.slug}`} // ✅ ruta localizada
-                      aria-label={study.title}
-                    >
+                <Link
+                  href={`/${locale}/blog/${study.slug}`}
+                  aria-label={study.title}
+                >
+                  {/* Fondo */}
+                  <img
+                    src={study.image}
+                    alt={study.title}
+                    className="absolute inset-0 w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
+                  />
+                  <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/40 to-transparent opacity-90 group-hover:opacity-100 transition-opacity duration-300" />
+
+                  {/* Contenido */}
+                  <div className="absolute bottom-0 p-6 flex flex-col justify-end">
+                    <h3 className="text-xl font-bold mb-2 group-hover:text-secondary-color transition-colors">
                       {study.title}
-                    </Link>
-                  </h3>
-                  {study.description && (
-                    <p className="text-gray-300 text-sm mb-4">
-                      {study.description}
-                    </p>
-                  )}
-                  {Array.isArray(study.tags) && study.tags.length > 0 && (
-                    <ul className="flex flex-wrap gap-1">
-                      {study.tags.map((tag) => (
-                        <li
+                    </h3>
+                    {study.description && (
+                      <p className="text-sm text-neutral-300 line-clamp-2 mb-3">
+                        {study.description}
+                      </p>
+                    )}
+                    <div className="flex flex-wrap gap-2">
+                      {study.tags?.map((tag) => (
+                        <span
                           key={tag}
-                          className="px-3 py-1 text-xs font-medium text-white bg-primary-light-color rounded-sm"
+                          className="text-xs px-3 py-1 bg-secondary-color/90 text-white rounded-full"
                         >
                           {tag}
-                        </li>
+                        </span>
                       ))}
-                    </ul>
-                  )}
-                </article>
-              </li>
+                    </div>
+                  </div>
+                </Link>
+              </motion.div>
             ))}
-          </ul>
+          </div>
         )}
       </div>
     </section>

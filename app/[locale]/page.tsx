@@ -21,9 +21,9 @@ export default async function Home({ params }: { params: { locale: string } }) {
     <>
       <Hero />
       <ClientesSection />
+      <CoreServices />
       <Highlights />
       <BrandLogos />
-      <CoreServices />
       <Mision />
       {/* <Opinion /> */}
     </>

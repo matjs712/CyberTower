@@ -20,19 +20,28 @@ type Cliente = {
 
 function StatsGrid({ stats }: { stats: Stat[] }) {
   return (
-    <ul className="grid grid-cols-2 divide-y-2 divide-x-2 divide-gray-200 dark:divide-neutral-700 rounded-2xl overflow-hidden shadow-sm">
+    <ul
+      className="flex flex-wrap justify-center sm:justify-start items-center
+                 divide-y sm:divide-y-0 sm:divide-x divide-white/10
+                 border border-white/10 rounded-xl overflow-hidden
+                 bg-white/5 backdrop-blur-sm"
+    >
       {stats.map((stat, i) => (
-        <li
+        <motion.li
           key={i}
-          className="flex flex-col justify-center items-center p-6 sm:p-10 bg-gray-50/70 dark:bg-neutral-900/50 backdrop-blur-sm"
+          initial={{ opacity: 0, y: 20 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.4, delay: i * 0.1 }}
+          viewport={{ once: true }}
+          className="w-1/2 sm:w-auto flex-1 text-center sm:text-left px-6 py-6 sm:py-8"
         >
-          <span className="text-3xl sm:text-5xl font-bold text-gray-900 dark:text-neutral-100">
+          <span className="block text-4xl md:text-5xl font-extrabold text-secondary-color tracking-tight leading-none">
             {stat.valor}
           </span>
-          <p className="text-sm sm:text-base text-gray-600 dark:text-neutral-400 mt-2 text-center">
+          <span className="block mt-2 text-sm md:text-base text-neutral-300">
             {stat.texto}
-          </p>
-        </li>
+          </span>
+        </motion.li>
       ))}
     </ul>
   );
@@ -66,14 +75,14 @@ function TestimonialBlock({
             height={60}
             className="object-contain mb-4"
           />
-          <p className="text-gray-700 dark:text-neutral-300 leading-relaxed max-w-prose">
+          <p className="text-neutral-100 leading-relaxed max-w-prose">
             {cliente.descripcion}
           </p>
         </div>
 
         <figure className="relative">
           <svg
-            className="absolute top-0 start-0 transform -translate-x-6 -translate-y-8 size-16 text-gray-200 dark:text-neutral-800"
+            className="absolute top-0 start-0 transform -translate-x-6 -translate-y-8 size-16 text-secondary-color"
             width="16"
             height="16"
             viewBox="0 0 16 16"
@@ -84,7 +93,7 @@ function TestimonialBlock({
             <Path />
           </svg>
 
-          <blockquote className="relative z-10 text-lg italic text-gray-800 dark:text-white leading-relaxed">
+          <blockquote className="relative z-10 text-lg italic text-neutral-300 leading-relaxed">
             “{cliente.testimonio}”
           </blockquote>
 
@@ -97,12 +106,10 @@ function TestimonialBlock({
               alt={cliente.autor}
             />
             <div>
-              <span className="block font-semibold text-gray-800 dark:text-neutral-200">
+              <span className="block font-semibold text-secondary-color">
                 {cliente.autor}
               </span>
-              <span className="block text-xs text-gray-500 dark:text-neutral-500">
-                {cliente.cargo}
-              </span>
+              <span className="block text-xs text-white">{cliente.cargo}</span>
             </div>
           </figcaption>
         </figure>
@@ -148,17 +155,16 @@ export default function ClientesSection() {
   ];
 
   return (
-    <section
-      className="max-w-6xl px-6 py-24 sm:px-8 lg:px-10 mx-auto space-y-32"
-      aria-label="Casos de éxito de clientes"
-    >
-      {clientes.map((cliente, index) => (
-        <TestimonialBlock
-          key={cliente.nombre}
-          cliente={cliente}
-          reverse={index % 2 === 1}
-        />
-      ))}
+    <section className="bg-foreground" aria-label="Casos de éxito de clientes">
+      <div className="max-w-6xl px-6 py-24 sm:px-8 lg:px-10 mx-auto space-y-32 text-white">
+        {clientes.map((cliente, index) => (
+          <TestimonialBlock
+            key={cliente.nombre}
+            cliente={cliente}
+            reverse={index % 2 === 1}
+          />
+        ))}
+      </div>
     </section>
   );
 }

@@ -1,76 +1,55 @@
 "use client";
 
 import React from "react";
+import { motion } from "framer-motion";
 import { useTranslations } from "next-intl";
 
-/**
- * Componente de sección de marcas destacadas
- * Muestra una lista de nombres de marcas traducidos desde `brands.list`
- */
 const BrandLogos = () => {
   const t = useTranslations("brands");
 
-  // ✅ Tipado explícito y fallback seguro
+  // Puedes usar URLs de logos o solo nombres si no hay imágenes
   const brands = (t.raw("list") as string[]) ?? [];
 
   return (
     <section
       id="brand-logos"
       aria-labelledby="brand-logos-heading"
-      className="py-16 px-4 md:px-8 lg:px-12"
+      className="relative py-24 bg-gradient-to-b from-foreground via-foreground/95 to-foreground/80 overflow-hidden"
     >
-      <div className="max-w-5xl mx-auto border rounded-3xl p-8 md:p-12 shadow-2xl overflow-hidden bg-background">
-        {/* === HEADER === */}
-        <header className="flex flex-col md:flex-row gap-8 md:gap-16 mb-12">
-          <div className="w-full md:w-1/3">
-            <h2
-              id="brand-logos-heading"
-              className="text-3xl md:text-4xl font-bold leading-tight"
-            >
-              {t("title")}
-            </h2>
-          </div>
-          <div className="w-full md:w-2/3">
-            <p className="text-neutral-800 text-base">{t("description")}</p>
-          </div>
-        </header>
-
-        {/* === Texto para screen readers === */}
-        <p className="sr-only">{t("srHint")}</p>
-
-        {/* === LISTA DE MARCAS === */}
-        <ul
-          role="list"
-          aria-label={t("ariaLabel")}
-          className="flex flex-wrap items-center justify-center gap-4 pb-4"
+      <div className="max-w-6xl mx-auto text-center mb-12">
+        <h2
+          id="brand-logos-heading"
+          className="text-4xl md:text-5xl font-bold mb-4 text-white"
         >
-          {brands.map((name, index) => (
-            <li
-              key={name}
-              className="flex items-center flex-shrink-0 px-5 py-3 border border-primary-light-color rounded-xl transition-colors cursor-default font-semibold text-lg hover:border-secondary-color/80 bg-white"
+          {t("title")}
+        </h2>
+        <p className="text-neutral-200 max-w-2xl mx-auto">{t("description")}</p>
+      </div>
+
+      {/* === MARQUEE DE LOGOS === */}
+      <div className="relative overflow-hidden">
+        <motion.div
+          className="flex gap-2 whitespace-nowrap"
+          animate={{
+            x: ["0%", "-50%"],
+          }}
+          transition={{
+            repeat: Infinity,
+            duration: 25,
+            ease: "linear",
+          }}
+        >
+          {[...brands, ...brands].map((brand, index) => (
+            <div
+              key={`${brand}-${index}`}
+              className="flex items-center justify-center flex-shrink-0 w-fit h-20 rounded-xl bg-white/5 hover:bg-white/10 transition-all border border-white/10 backdrop-blur-sm px-2"
             >
-              {/* ícono decorativo */}
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                className={`h-6 w-6 mr-3 ${
-                  index === 0
-                    ? "text-primary-color"
-                    : "text-primary-light-color"
-                }`}
-                viewBox="0 0 24 24"
-                fill="none"
-                stroke="currentColor"
-                strokeWidth="2"
-                strokeLinecap="round"
-                strokeLinejoin="round"
-                aria-hidden="true"
-              >
-                <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5" />
-              </svg>
-              <span className="text-neutral-700">{name}</span>
-            </li>
+              <span className="text-lg font-semibold text-neutral-200 tracking-tight hover:text-secondary-color transition-colors">
+                {brand}
+              </span>
+            </div>
           ))}
-        </ul>
+        </motion.div>
       </div>
     </section>
   );

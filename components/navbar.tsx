@@ -56,7 +56,7 @@ export default function Navbar({
   ];
 
   return (
-    <header className="sticky top-0 z-50 backdrop-blur-md bg-background/80">
+    <header className="sticky top-0 z-50 backdrop-blur-md bg-foreground/80 text-white">
       <div className="max-w-container mx-auto flex items-center justify-between px-4 py-3 pb-1">
         {/* Logo */}
         <Link
@@ -64,8 +64,13 @@ export default function Navbar({
           aria-label={t("aria.goHome")}
           className="flex items-center gap-2 pl-4"
         >
-          <Image src={"/logo-b.svg"} alt="Cyberhub" height={200} width={150} />
-          <span className="sr-only">Cyberhub</span>
+          <Image
+            src={"/Logo_Final_Cyber_TowerLOWRES-03-recortada.png"}
+            alt="Cyber-Tower"
+            height={200}
+            width={150}
+          />
+          <span className="sr-only">Cyber-Tower</span>
         </Link>
 
         {/* Desktop nav */}

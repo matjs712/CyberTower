@@ -1,54 +1,54 @@
 export const defaultMetadata = {
-  metadataBase: new URL("https://www.Cyberhub.cl"),
+  metadataBase: new URL("https://www.cybertower.cl"),
   icons: {
     icon: "/icon.ico",
     shortcut: "/icon.ico",
     apple: "/icon.ico",
   },
   title: {
-    default: "Cyberhub — Soluciones Digitales y Ciberseguridad",
-    template: "%s | Cyberhub",
+    default: "Cyber-Tower — Digital Solutions & Cybersecurity",
+    template: "%s | Cyber-Tower",
   },
   description:
-    "Consultoría en ciberseguridad, cultura digital y transformación tecnológica. Impulsa la seguridad y eficiencia de tu organización con Cyberhub.",
+    "Consulting in cybersecurity, digital culture, and technological transformation. Strengthen your organization’s security and efficiency with Cyber-Tower.",
   keywords: [
-    "ciberseguridad",
+    "cybersecurity",
     "ISO 27001",
-    "consultoría digital",
-    "transformación digital",
-    "seguridad de la información",
-    "awareness",
-    "gestión del cambio",
+    "digital consulting",
+    "digital transformation",
+    "information security",
+    "awareness training",
+    "change management",
   ],
   openGraph: {
-    title: "Cyberhub — Cultura y Transformación en Ciberseguridad",
+    title: "Cyber-Tower — Culture and Transformation in Cybersecurity",
     description:
-      "Más de 1.700 organizaciones están adaptando su cultura digital. Descubre cómo Cyberhub impulsa la transformación segura.",
-    url: "https://www.Cyberhub.cl",
-    siteName: "Cyberhub",
+      "Over 1,700 organizations are enhancing their digital culture. Discover how Cyber-Tower drives secure transformation.",
+    url: "https://www.cybertower.cl",
+    siteName: "Cyber-Tower",
     images: [
       {
         url: "/og-image.jpg",
         width: 1200,
         height: 630,
-        alt: "Cyberhub — Transformación Digital Segura",
+        alt: "Cyber-Tower — Secure Digital Transformation",
       },
     ],
-    locale: "es_CL",
+    locale: "en_US",
     type: "website",
   },
   alternates: {
-    canonical: "https://www.Cyberhub.cl",
+    canonical: "https://www.cybertower.cl",
     languages: {
-      "es-CL": "https://www.Cyberhub.cl/es",
-      "en-US": "https://www.Cyberhub.cl/en",
+      "es-CL": "https://www.cybertower.cl/es",
+      "en-US": "https://www.cybertower.cl/en",
     },
   },
   twitter: {
     card: "summary_large_image",
-    title: "Cyberhub — Cultura y Transformación Digital Segura",
+    title: "Cyber-Tower — Secure Digital Culture & Transformation",
     description:
-      "Impulsamos la ciberseguridad organizacional con estrategias de cultura, gestión del cambio y transformación digital.",
+      "We empower organizational cybersecurity through culture, change management, and digital transformation strategies.",
     images: ["/og-image.jpg"],
   },
 };

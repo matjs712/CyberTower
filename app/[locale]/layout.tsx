@@ -11,10 +11,8 @@ import { NextIntlClientProvider, hasLocale } from "next-intl";
 import { setRequestLocale } from "next-intl/server";
 import { routing } from "@/i18n/routing";
 
-/* ✅ Metadata global */
 export const metadata = defaultMetadata;
 
-/* ✅ Fuente global */
 const poppins = Poppins({
   subsets: ["latin"],
   variable: "--font-poppins",
@@ -22,25 +20,21 @@ const poppins = Poppins({
   weight: ["400", "500", "600", "700"],
 });
 
-/* ✅ Generación de rutas estáticas por idioma */
 export function generateStaticParams() {
   return routing.locales.map((locale) => ({ locale }));
 }
 
-/* ✅ Layout principal multilenguaje */
 export default async function RootLayout({
   children,
   params,
 }: Readonly<{
   children: React.ReactNode;
-  params: { locale: string }; // ✅ Corregido
+  params: { locale: string };
 }>) {
-  const { locale } = params; // ✅ Corregido
+  const { locale } = params;
 
-  // Validar idioma
   if (!hasLocale(routing.locales, locale)) notFound();
 
-  // Cargar traducciones del idioma actual
   let messages;
   try {
     messages = (await import(`@/messages/${locale}.json`)).default;
@@ -48,7 +42,6 @@ export default async function RootLayout({
     notFound();
   }
 
-  // Establecer locale para SSR (necesario para next-intl)
   setRequestLocale(locale);
 
   return (
@@ -57,7 +50,7 @@ export default async function RootLayout({
         <NextIntlClientProvider locale={locale} messages={messages}>
           <ThemeProvider
             attribute="class"
-            defaultTheme="light"
+            defaultTheme="dark"
             enableSystem
             disableTransitionOnChange
           >
@@ -67,7 +60,6 @@ export default async function RootLayout({
           </ThemeProvider>
         </NextIntlClientProvider>
 
-        {/* ✅ LinkedIn Insight Tag */}
         <Script id="linkedin-insight-init" strategy="afterInteractive">
           {`
             _linkedin_partner_id = "8147066";

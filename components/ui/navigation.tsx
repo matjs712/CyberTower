@@ -43,7 +43,7 @@ export default function Navigation() {
             ) : (
               <>
                 <NavigationMenuTrigger>{item.title}</NavigationMenuTrigger>
-                <NavigationMenuContent>
+                <NavigationMenuContent className="bg-foreground text-white">
                   {item.content === "default" ? (
                     <div className="p-4 w-[400px] md:w-[500px] lg:w-[600px]">
                       <ul className="grid gap-3 p-4 lg:grid-cols-[.75fr_1fr]">
@@ -80,7 +80,7 @@ export default function Navigation() {
                       <div className="mt-4 text-center">
                         <Link
                           href={`/${locale}/soluciones`}
-                          className="text-sm font-medium text-primary-color hover:text-primary-light-color hover:underline"
+                          className="text-sm font-medium text-secondary-color hover:underline"
                         >
                           {t("solutions.viewAll")} →
                         </Link>
@@ -108,7 +108,7 @@ export default function Navigation() {
                       <div className="mt-4 text-center">
                         <Link
                           href={`/${locale}/certificaciones`}
-                          className="text-sm font-medium text-primary-color hover:text-primary-light-color hover:underline"
+                          className="text-sm font-medium text-secondary-color hover:underline"
                         >
                           {t("certifications.viewAll")} →
                         </Link>
@@ -143,12 +143,14 @@ function ListItem({
           href={href || "#"}
           data-slot="list-item"
           className={cn(
-            "hover:bg-accent hover:text-accent-foreground focus:bg-accent focus:text-accent-foreground block space-y-1 rounded-md p-3 leading-none no-underline outline-hidden transition-colors select-none",
+            "hover:bg-neutral-600 hover:text-accent-foreground focus:bg-accent focus:text-accent-foreground block space-y-1 rounded-md p-3 leading-none no-underline outline-hidden transition-colors select-none",
             className
           )}
         >
-          <div className="text-sm leading-none font-medium">{title}</div>
-          <p className="text-muted-foreground line-clamp-2 text-sm leading-snug">
+          <div className="text-sm leading-none font-medium text-secondary-color">
+            {title}
+          </div>
+          <p className="line-clamp-2 text-sm leading-snug text-white">
             {children}
           </p>
         </Link>

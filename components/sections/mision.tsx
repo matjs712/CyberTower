@@ -2,116 +2,123 @@
 
 import React from "react";
 import Image from "next/image";
+import { motion } from "framer-motion";
 import { useTranslations, useLocale } from "next-intl";
 import { Link } from "@/i18n/navigation";
 
-const Mision = () => {
+export default function Mision() {
   const t = useTranslations("mission");
-  const locale = useLocale(); // ✅ idioma actual
-  const cards = t.raw("cards");
+  const locale = useLocale();
+  const cards = t.raw("cards") as { title: string; description: string }[];
 
   return (
     <section
       id="mision"
       aria-labelledby="mision-heading"
-      className="py-16 px-4 md:px-8 lg:px-12"
+      className="relative py-28 px-6 md:px-10 bg-secondary-color text-white overflow-hidden"
     >
-      <div className="max-w-5xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-20">
-        {/* === LEFT COLUMN (CARDS) === */}
-        <ul className="flex flex-col gap-4">
-          {cards.map(
-            (card: { title: string; description: string }, i: number) => (
-              <li
-                key={card.title}
-                className="p-6 md:p-8 rounded-2xl shadow-lg flex items-start gap-5"
-              >
-                <div className="flex-shrink-0 mt-1" aria-hidden="true">
-                  <MissionIcon index={i} />
-                </div>
-
-                <article className="flex-grow">
-                  <h3 className="text-xl font-bold mb-2">{card.title}</h3>
-                  <p className="text-neutral-800 text-sm mb-3">
-                    {card.description}
-                  </p>
-                  <Link
-                    href={`/${locale}/nosotros`} // ✅ idioma actual
-                    aria-label={`${t("readMore")} ${card.title}`}
-                    className="flex items-center text-primary-light-color text-sm font-neutral hover:text-secondary-color transition-colors"
-                  >
-                    {t("readMore")}
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      className="h-4 w-4 ml-1"
-                      viewBox="0 0 20 20"
-                      fill="currentColor"
-                      aria-hidden="true"
-                    >
-                      <path
-                        fillRule="evenodd"
-                        d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z"
-                        clipRule="evenodd"
-                      />
-                    </svg>
-                  </Link>
-                </article>
-              </li>
-            )
-          )}
-        </ul>
-
-        {/* === RIGHT COLUMN (TEXT + IMAGE) === */}
-        <div className="flex flex-col gap-6">
+      <div className="max-w-6xl mx-auto grid lg:grid-cols-2 gap-20 items-center relative z-10">
+        {/* === LADO IZQUIERDO === */}
+        <motion.div
+          initial={{ opacity: 0, y: 40 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.6 }}
+          className="space-y-8"
+        >
           <header>
-            <div className="flex items-center text-primary-light-color text-sm font-semibold uppercase tracking-wider mb-2">
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                className="h-4 w-4 mr-2"
-                viewBox="0 0 20 20"
-                fill="currentColor"
-                aria-hidden="true"
-              >
-                <path
-                  fillRule="evenodd"
-                  d="M10 18a8 8 0 100-16 8 8 0 000 16zm1-11a1 1 0 10-2 0v2H7a1 1 0 100 2h2v2a1 1 0 102 0v-2h2a1 1 0 100-2h-2V7z"
-                  clipRule="evenodd"
-                />
-              </svg>
-              <span>{t("whyTitle")}</span>
-            </div>
+            <span className="text-secondary-light-color text-sm uppercase tracking-widest font-semibold mb-2 block">
+              {t("whyTitle")}
+            </span>
             <h2
               id="mision-heading"
-              className="text-4xl font-bold leading-tight bg-gradient-to-r from-neutral-800 to-white bg-clip-text text-transparent"
+              className="text-4xl md:text-5xl font-bold leading-tight text-white"
             >
               {t("heading")}
             </h2>
           </header>
 
-          <p className="text-neutral-800 text-lg">{t("description")}</p>
+          <p className="text-neutral-100 text-lg leading-relaxed max-w-lg">
+            {t("description")}
+          </p>
 
-          <figure className="relative w-full h-80 rounded-2xl overflow-hidden shadow-2xl">
+          <Link
+            href={`/${locale}/nosotros`}
+            aria-label={`${t("readMore")} misión`}
+            className="inline-flex items-center gap-2 text-white font-medium hover:text-secondary-light-color transition-colors"
+          >
+            {t("readMore")}
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              className="h-4 w-4"
+              viewBox="0 0 20 20"
+              fill="currentColor"
+            >
+              <path
+                fillRule="evenodd"
+                d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z"
+                clipRule="evenodd"
+              />
+            </svg>
+          </Link>
+        </motion.div>
+
+        {/* === LADO DERECHO (CARDS + IMAGEN) === */}
+        <motion.div
+          initial={{ opacity: 0, x: 60 }}
+          whileInView={{ opacity: 1, x: 0 }}
+          transition={{ duration: 0.6, delay: 0.2 }}
+          className="relative"
+        >
+          {/* Imagen de fondo */}
+          <div className="absolute inset-0">
             <Image
               src="/proteccion.png"
               alt={t("ariaImage")}
               fill
-              className="rounded-2xl object-cover"
+              className="object-cover object-center opacity-20 rounded-3xl"
             />
-            <figcaption className="sr-only">{t("ariaImage")}</figcaption>
-          </figure>
-        </div>
+          </div>
+
+          {/* Cards superpuestas */}
+          <ul className="relative grid gap-6 z-10">
+            {cards.map((card, i) => (
+              <motion.li
+                key={card.title}
+                initial={{ opacity: 0, y: 20 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                transition={{ duration: 0.5, delay: i * 0.1 }}
+                className="p-6 bg-white/10 backdrop-blur-sm border border-white/10 rounded-2xl shadow-lg hover:bg-white/20 transition-all"
+              >
+                <div className="flex items-start gap-4">
+                  <MissionIcon index={i} />
+                  <div>
+                    <h3 className="text-xl font-semibold mb-1">{card.title}</h3>
+                    <p className="text-neutral-200 text-sm leading-relaxed">
+                      {card.description}
+                    </p>
+                  </div>
+                </div>
+              </motion.li>
+            ))}
+          </ul>
+        </motion.div>
       </div>
+
+      {/* Degradado decorativo sutil */}
+      <div className="absolute inset-0 bg-gradient-to-t from-black/30 via-transparent to-transparent pointer-events-none" />
     </section>
   );
-};
+}
 
-/* === ICONOS DINÁMICOS SEGÚN ÍNDICE === */
+/* === ICONOS CON ESTILO UNIFICADO === */
 function MissionIcon({ index }: { index: number }) {
+  const base =
+    "h-8 w-8 text-secondary-light-color flex-shrink-0 drop-shadow-md";
   const icons = [
     <svg
       key={0}
       xmlns="http://www.w3.org/2000/svg"
-      className="h-8 w-8 text-primary-light-color"
-      viewBox="0 0 24 24"
+      className={base}
       fill="none"
       stroke="currentColor"
       strokeWidth="2"
@@ -122,8 +129,7 @@ function MissionIcon({ index }: { index: number }) {
     <svg
       key={1}
       xmlns="http://www.w3.org/2000/svg"
-      className="h-8 w-8 text-primary-light-color"
-      viewBox="0 0 24 24"
+      className={base}
       fill="none"
       stroke="currentColor"
       strokeWidth="2"
@@ -135,8 +141,7 @@ function MissionIcon({ index }: { index: number }) {
     <svg
       key={2}
       xmlns="http://www.w3.org/2000/svg"
-      className="h-8 w-8 text-primary-light-color"
-      viewBox="0 0 24 24"
+      className={base}
       fill="none"
       stroke="currentColor"
       strokeWidth="2"
@@ -148,5 +153,3 @@ function MissionIcon({ index }: { index: number }) {
   ];
   return icons[index] ?? icons[0];
 }
-
-export default Mision;

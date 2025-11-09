@@ -1,24 +1,26 @@
 "use client";
-import React from "react";
+
+import { motion } from "framer-motion";
 import { useTranslations, useLocale } from "next-intl";
 import { Link } from "@/i18n/navigation";
+import { ArrowRight } from "lucide-react";
 
-const CoreServices = () => {
+export default function CoreServices() {
   const t = useTranslations("coreServices");
   const a = useTranslations("AllSolutions");
-  const locale = useLocale(); // ✅ idioma actual
+  const locale = useLocale();
   const services = a.raw("list");
 
   return (
     <section
       id="core-services"
       aria-labelledby="core-services-heading"
-      className="py-16 px-4 md:px-8 lg:px-12"
+      className="relative w-full bg-foreground text-white overflow-hidden"
     >
-      <div className="max-w-5xl mx-auto">
+      <div className="max-w-6xl mx-auto py-24 px-4 sm:px-6">
         {/* === HEADER === */}
-        <header className="text-center mb-16">
-          <span className="text-primary-light-color text-sm font-semibold uppercase tracking-wider mb-2 block">
+        <header className="text-center mb-12">
+          <span className="text-secondary-color text-sm font-semibold uppercase tracking-widest mb-3 block">
             {t("sectionLabel")}
           </span>
           <h2
@@ -29,63 +31,61 @@ const CoreServices = () => {
           </h2>
         </header>
 
-        {/* === SERVICES GRID === */}
-        <ul className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+        {/* === GRID SIN GAPS === */}
+        <ul className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 border-t border-l border-white/10 rounded-xl overflow-hidden">
           {services.map(
-            (service: {
-              title: string;
-              description: string;
-              id: string;
-              slug: string;
-            }) => (
-              <li
+            (
+              service: {
+                title: string;
+                description: string;
+                slug: string;
+              },
+              i: number
+            ) => (
+              <motion.li
                 key={service.title}
-                className="p-6 md:p-8 rounded-2xl shadow-sm transition-all duration-300 bg-background hover:shadow-lg"
+                initial={{ opacity: 0, y: 30 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                transition={{ duration: 0.4, delay: i * 0.1 }}
+                viewport={{ once: true }}
+                className="border-b border-r border-white/10 bg-white/5 backdrop-blur-sm hover:bg-secondary-color/20 transition-colors duration-300"
               >
-                <article className="flex flex-col h-full">
-                  <h3 className="text-xl font-bold mb-2">{service.title}</h3>
-                  <p className="text-neutral-800 text-sm mb-6 flex-grow">
-                    {service.description}
-                  </p>
+                <Link
+                  href={`/${locale}/soluciones/${service.slug}`}
+                  aria-label={`${t("ariaLabel")} ${service.title}`}
+                  className="flex flex-col justify-between h-full p-8 group"
+                >
+                  <div>
+                    <h3 className="text-xl font-semibold mb-3 group-hover:text-secondary-color transition-colors">
+                      {service.title}
+                    </h3>
+                    <p className="text-neutral-300 text-sm leading-relaxed">
+                      {service.description}
+                    </p>
+                  </div>
 
-                  <Link
-                    href={`/${locale}/soluciones/${service.slug
-                      .toLowerCase()
-                      .replace(/\s+/g, "-")}`} // ✅ ruta localizada
-                    aria-label={`${t("ariaLabel")} ${service.title}`}
-                    className="flex items-center justify-between mt-auto w-full group"
-                  >
-                    <span className="text-secondary-color font-neutral text-sm group-hover:underline">
+                  <div className="flex items-center justify-between mt-6">
+                    <span className="text-sm font-medium text-secondary-color group-hover:underline">
                       {t("seeDetails")}
                     </span>
-                    <div className="p-2 rounded-full bg-secondary-color group-hover:bg-secondary-color transition-colors duration-300">
-                      <svg
-                        xmlns="http://www.w3.org/2000/svg"
-                        className="h-4 w-4 text-white"
-                        viewBox="0 0 20 20"
-                        fill="currentColor"
-                      >
-                        <path
-                          fillRule="evenodd"
-                          d="M12.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-2.293-2.293a1 1 0 010-1.414z"
-                          clipRule="evenodd"
-                        />
-                      </svg>
-                    </div>
-                  </Link>
-                </article>
-              </li>
+                    <ArrowRight
+                      size={18}
+                      className="text-secondary-color group-hover:translate-x-1 transition-transform"
+                    />
+                  </div>
+                </Link>
+              </motion.li>
             )
           )}
         </ul>
 
-        {/* === FOOTER === */}
-        <footer className="text-center mt-16 text-gray-400 text-sm">
+        {/* === FOOTER CTA === */}
+        <footer className="text-center mt-16 text-sm text-neutral-400">
           {t("footer")}{" "}
           <Link
             href="mailto:contacto@Cyberhub.cl"
             aria-label="Correo"
-            className="text-secondary-light-color font-semibold hover:text-secondary-color transition-colors"
+            className="text-secondary-color font-semibold hover:text-secondary-color transition-colors"
           >
             {t("cta")}
           </Link>
@@ -93,6 +93,4 @@ const CoreServices = () => {
       </div>
     </section>
   );
-};
-
-export default CoreServices;
+}

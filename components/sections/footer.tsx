@@ -8,7 +8,6 @@ import {
   FooterColumn,
   FooterContent,
 } from "@/components/ui/footer";
-import { ModeToggle } from "@/components/ui/mode-toggle";
 import { useLocale, useTranslations } from "next-intl";
 import { Link } from "@/i18n/navigation";
 import Image from "next/image";
@@ -50,7 +49,7 @@ export default function FooterSection({ className }: FooterProps) {
   return (
     <footer
       className={cn(
-        "w-full px-4 pt-12 pb-8 border-t border-gray-800",
+        "w-full px-4 pt-12 pb-8 border-t border-secondary-color bg-foreground text-white",
         className
       )}
       role="contentinfo"
@@ -67,13 +66,13 @@ export default function FooterSection({ className }: FooterProps) {
                 aria-label={t("aria.goHome")}
               >
                 <Image
-                  src={"/logo-b.svg"}
+                  src={"/Logo_Final_Cyber_TowerLOWRES-03-recortada.png"}
                   alt="Cyberhub"
                   height={200}
                   width={200}
                 />
               </Link>
-              <p className="text-sm text-gray-400 max-w-xs">
+              <p className="text-sm text-neutral-200 max-w-xs">
                 {t("description")}
               </p>
             </FooterColumn>
@@ -96,9 +95,9 @@ export default function FooterSection({ className }: FooterProps) {
                   {column.links.map((link, linkIndex) => (
                     <li key={linkIndex}>
                       <Link
-                        href={buildHref(link.href)} // ✅ ahora siempre absoluto
+                        href={buildHref(link.href)}
                         aria-label={link.ariaLabel || `Ir a ${link.text}`}
-                        className="text-muted-foreground text-sm hover:text-secondary-color transition-colors"
+                        className="text-sm hover:text-secondary-color transition-colors text-white"
                       >
                         {link.text}
                       </Link>
@@ -110,21 +109,20 @@ export default function FooterSection({ className }: FooterProps) {
           </FooterContent>
 
           {/* === LÍNEA INFERIOR === */}
-          <FooterBottom className="flex flex-col sm:flex-row justify-between items-center gap-4 mt-8 border-t border-gray-800 pt-6">
-            <small className="text-xs text-gray-500">{copyright}</small>
+          <FooterBottom className="flex flex-col sm:flex-row justify-between items-center gap-4 mt-8 border-t border-secondary-color pt-6">
+            <small className="text-xs text-neutral-200">{copyright}</small>
 
             <div className="flex items-center gap-4">
               {policies.map((policy, index) => (
                 <Link
                   key={index}
-                  href={buildHref(policy.href)} // ✅ idioma + ruta absoluta
+                  href={buildHref(policy.href)}
                   aria-label={policy.ariaLabel || `Leer ${policy.text}`}
-                  className="text-xs text-gray-400 hover:text-secondary-color transition-colors"
+                  className="text-xs text-gray-200 hover:text-secondary-color transition-colors"
                 >
                   {policy.text}
                 </Link>
               ))}
-              <ModeToggle />
             </div>
           </FooterBottom>
         </Footer>

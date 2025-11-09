@@ -1,5 +1,6 @@
 "use client";
 
+import { motion } from "framer-motion";
 import { Card, CardContent } from "@/components/ui/card";
 import Image from "next/image";
 import Link from "next/link";
@@ -13,56 +14,81 @@ export default function ServiciosPage() {
   const soluciones = s.raw("list");
 
   return (
-    <div className="mb-20">
-      {/* HERO */}
-      <div className="p-8 space-y-6 flex flex-col sm:flex-row justify-between relative items-center max-w-7xl mx-auto">
-        <h1 className="text-5xl font-bold sm:absolute max-w-3xl leading-tight">
+    <main className="bg-foreground text-white">
+      {/* === HERO === */}
+      <section className="relative flex flex-col items-center justify-center text-center py-28 px-6 overflow-hidden">
+        <motion.h1
+          initial={{ opacity: 0, y: 30 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.6 }}
+          className="text-4xl md:text-6xl font-bold leading-tight max-w-3xl mb-8"
+        >
           {t("hero.title")}
-        </h1>
-        <div></div>
-        <div>
+        </motion.h1>
+
+        <motion.div
+          initial={{ opacity: 0 }}
+          animate={{ opacity: 1 }}
+          transition={{ duration: 0.8, delay: 0.3 }}
+          className="relative w-72 h-72 md:w-96 md:h-96 opacity-80"
+        >
           <Image
             src="/soluciones.png"
             alt={t("hero.alt")}
-            width={400}
-            height={400}
-            className="rounded-md object-cover"
+            fill
+            className="object-contain"
           />
-        </div>
-      </div>
+        </motion.div>
 
-      {/* INTRO */}
-      <div className="max-w-6xl mx-auto px-8 mb-16">
-        <p className="text-lg text-gray-700 leading-relaxed">
+        <div className="absolute inset-0 bg-gradient-to-b from-black/30 via-black/60 to-foreground" />
+      </section>
+
+      {/* === INTRO === */}
+      <section className="max-w-4xl mx-auto text-center px-6 md:px-12 py-12">
+        <p className="text-lg text-neutral-300 leading-relaxed">
           {t.rich("intro", {
             strong: (chunks) => (
-              <strong className="font-semibold text-primary-color">
+              <strong className="font-semibold text-secondary-color">
                 {chunks}
               </strong>
             ),
             bold: (chunks) => <span className="font-semibold">{chunks}</span>,
           })}
         </p>
-      </div>
+      </section>
 
-      {/* CATEGORÍAS */}
-      <div className="max-w-6xl mx-auto space-y-12 px-8">
+      {/* === CATEGORÍAS === */}
+      <section className="max-w-6xl mx-auto space-y-20 px-6 md:px-10 pb-24">
         {categories.map(
-          (cat: { nombre: string; descripcion: string; items: string[] }) => {
+          (
+            cat: { nombre: string; descripcion: string; items: string[] },
+            i: number
+          ) => {
             const services = soluciones.filter((service: { id: string }) =>
               cat.items.includes(service.id)
             );
 
             return (
-              <section key={cat.nombre} className="space-y-6">
-                <div>
-                  <h2 className="text-2xl font-bold mb-2 border-l-4 border-primary-color pl-3">
+              <motion.div
+                key={cat.nombre}
+                initial={{ opacity: 0, y: 40 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                transition={{ duration: 0.6, delay: i * 0.1 }}
+                viewport={{ once: true }}
+                className="space-y-10"
+              >
+                {/* HEADER */}
+                <div className="space-y-2">
+                  <h2 className="text-3xl md:text-4xl font-bold text-white border-l-4 border-secondary-color pl-4">
                     {cat.nombre}
                   </h2>
-                  <p className="text-gray-600">{cat.descripcion}</p>
+                  <p className="text-neutral-400 max-w-3xl">
+                    {cat.descripcion}
+                  </p>
                 </div>
 
-                <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+                {/* GRID */}
+                <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
                   {services.map(
                     (service: {
                       id: string;
@@ -71,48 +97,49 @@ export default function ServiciosPage() {
                       slug: string;
                       description: string;
                     }) => (
-                      <Card
+                      <Link
                         key={service.id}
-                        className="overflow-hidden border rounded-xl shadow-sm hover:shadow-lg transition-all duration-300 group"
+                        href={`/soluciones/${service.slug}`}
+                        className="group"
                       >
-                        <Link
-                          href={`/soluciones/${service.slug}`}
-                          className="block h-full"
+                        <Card
+                          className="relative h-full bg-white/5 backdrop-blur-sm border border-white/10 
+                                     rounded-2xl overflow-hidden shadow-md hover:shadow-xl 
+                                     transition-all duration-300"
                         >
-                          {/* Imagen */}
-                          <div className="flex justify-center items-center p-0 mb-4">
-                            <div className="relative size-30 md:w-72 md:h-32 rounded-xs overflow-hidden">
-                              <Image
-                                src={"/auditoria.png"}
-                                alt={service.title}
-                                fill
-                                className="object-cover p-0 transition-transform duration-300 group-hover:scale-105"
-                              />
-                            </div>
+                          {/* Imagen superior */}
+                          <div className="relative w-full h-40 overflow-hidden">
+                            <Image
+                              src={service.image || "/auditoria.png"}
+                              alt={service.title}
+                              fill
+                              className="object-cover transition-transform duration-500 group-hover:scale-110"
+                            />
+                            <div className="absolute inset-0 bg-gradient-to-t from-foreground via-transparent to-transparent" />
                           </div>
 
                           {/* Contenido */}
-                          <CardContent className="px-6 pb-6 flex flex-col justify-between h-[200px]">
-                            <h3 className="text-lg font-semibold mb-2 max-w-60">
+                          <CardContent className="p-6 flex flex-col justify-between h-[230px]">
+                            <h3 className="text-xl font-semibold mb-3 text-secondary-color transition-colors">
                               {service.title}
                             </h3>
-                            <p className="text-sm text-gray-700 leading-relaxed mb-4 line-clamp-3">
+                            <p className="text-sm text-neutral-300 mb-4 leading-relaxed line-clamp-3">
                               {service.description}
                             </p>
-                            <span className="text-primary-color text-sm font-semibold group-hover:underline">
+                            <span className="text-secondary-color text-sm font-semibold group-hover:underline">
                               {t("viewDetails")} →
                             </span>
                           </CardContent>
-                        </Link>
-                      </Card>
+                        </Card>
+                      </Link>
                     )
                   )}
                 </div>
-              </section>
+              </motion.div>
             );
           }
         )}
-      </div>
-    </div>
+      </section>
+    </main>
   );
 }
