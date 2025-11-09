@@ -82,16 +82,6 @@ export default function Navbar({
         <div className="flex items-center gap-4">
           <LanguageSwitcher />
 
-          {/* <Link
-            href="tel:+56912345678"
-            aria-label={t("aria.call")}
-            className="flex items-center gap-2 rounded-full border border-neutral-200 px-3 py-2 hover:bg-neutral-50 transition"
-          >
-            <Phone className="size-4 text-secondary-color" aria-hidden="true" />
-            <span className="lg:flex hidden">{t("phoneNumber")}</span>
-          </Link> */}
-
-          {/* Mobile menu */}
           <Sheet>
             <SheetTrigger asChild>
               <Button variant="ghost" size="icon" className="md:hidden">
