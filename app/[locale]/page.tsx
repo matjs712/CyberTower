@@ -1,7 +1,8 @@
 import BrandLogos from "@/components/sections/brand";
 import ClientesSection from "@/components/sections/clientes/clientes";
+import CTAHorizontal from "@/components/sections/CTAHorizontal";
 import Hero from "@/components/sections/hero";
-import Highlights from "@/components/sections/highlights";
+// import Highlights from "@/components/sections/highlights";
 import Mision from "@/components/sections/mision";
 // import Opinion from "@/components/sections/opinion";
 import CoreServices from "@/components/sections/services";
@@ -21,9 +22,10 @@ export default async function Home({ params }: { params: { locale: string } }) {
     <>
       <Hero />
       <ClientesSection />
-      <CoreServices />
-      <Highlights />
       <BrandLogos />
+      <CTAHorizontal />
+      <CoreServices />
+      {/* <Highlights /> */}
       <Mision />
       {/* <Opinion /> */}
     </>

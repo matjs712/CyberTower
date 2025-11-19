@@ -2,6 +2,7 @@ import { getTranslations } from "next-intl/server";
 import { notFound } from "next/navigation";
 import SolucionDetail from "../components/detail";
 import { Metadata } from "next/types";
+import Image from "next/image";
 
 // ✅ Tipos
 type SolucionPageProps = {
@@ -78,16 +79,17 @@ export default async function SolucionDetailPage({
             <h1 className="text-4xl md:text-5xl font-bold leading-tight text-white">
               {solucion.title}
             </h1>
-            <p className="text-neutral-100 text-lg leading-relaxed">
+            <p className="text-white text-lg leading-relaxed">
               {solucion.description}
             </p>
           </div>
 
           {solucion.image && (
             <div className="flex-1 relative h-64 md:h-80 w-full overflow-hidden rounded-2xl shadow-2xl">
-              {/* Imagen destacada */}
-              <img
+              <Image
                 src={solucion.image}
+                width={200}
+                height={200}
                 alt={solucion.title}
                 className="object-cover w-full h-full"
               />

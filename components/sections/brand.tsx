@@ -14,7 +14,7 @@ const BrandLogos = () => {
     <section
       id="brand-logos"
       aria-labelledby="brand-logos-heading"
-      className="relative py-24 bg-gradient-to-b from-foreground via-foreground/95 to-foreground/80 overflow-hidden"
+      className="relative py-24 overflow-hidden bg-black"
     >
       <div className="max-w-6xl mx-auto text-center mb-12">
         <h2

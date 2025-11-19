@@ -23,7 +23,7 @@
         "sectionLabel": "Client success stories",
         "falabella": {
             "name": "Falabella",
-            "description": "Our Cybersecurity Awareness specialists implemented a successful global strategy for Falabella Group, covering their businesses in department stores, home improvement, financial services, travel & insurance, shopping centers, and supermarkets. The strategy had a direct impact on over 108,000 employees across Chile, Peru, Argentina, Colombia, Mexico, as well as their growing operations in India and China. As a result, a cybersecurity culture was established as a business pillar, improving risk management related to human behavior.",
+            "description": "Our Cybersecurity Awareness specialists implemented a global strategy for Falabella Group, covering retail, financial services, travel, shopping centers, and supermarkets. The program directly impacted more than 108,000 employees across Chile, Peru, Argentina, Colombia, Mexico, India, and China, strengthening the security culture and reducing risks associated with human behavior.",
             "testimonial": "Cyberhub helped us strengthen our digital security culture. Their team transformed the way we approach cybersecurity.",
             "author": "Michael Fox",
             "position": "CIO, Falabella Group",
@@ -48,7 +48,7 @@
         },
         "bancoChile": {
             "name": "SQM",
-            "description": "Our cybersecurity consulting team developed and implemented a strategy tailored to the demanding requirements of the automotive industry to achieve TISAX Label validation for SQM in its operations across China, Belgium, and Chile.",
+            "description": "Our cybersecurity consulting team designed and implemented a strategy aligned with the automotive industry's demanding requirements to achieve TISAX Label validation for SQM in its operations in China, Belgium, and Chile.",
             "testimonial": "Cyberhub’s consulting was key to optimizing our threat detection and response processes.",
             "author": "Katherine Arce & Luis Tobar",
             "position": "CISO & IT and Digitalization Manager, SQM",
@@ -93,7 +93,7 @@
                     "Audit",
                     "Cybersecurity"
                 ],
-                "content": "<article class='prose prose-invert lg:prose-lg max-w-none space-y-4'>\n  <h2>Transforming information security in an industrial group</h2>\n  <p>\n    Cyberhub led the implementation of an <strong>Information Security Management System (ISMS)</strong> \n    based on the <strong>ISO/IEC 27001:2022</strong> standard for a holding company operating in \n    <strong>Chile and Peru</strong>. The project aimed to strengthen data protection processes and foster an organizational security culture.\n  </p>\n\n  <h3>Initial challenge</h3>\n  <p>\n    The organization was undergoing rapid growth and needed to standardize its security controls \n    for audits and regulatory requirements. It had multiple business units with different levels of security maturity and fragmented document management.\n  </p>\n\n  <h3>Approach and methodology</h3>\n  <ul>\n    <li>Initial maturity diagnosis based on <em>ISO 27001 Gap Assessment</em>.</li>\n    <li>Risk identification and treatment according to <em>ISO 27005</em>.</li>\n    <li>Design and implementation of technical and organizational policies, procedures, and controls.</li>\n    <li>Training for over 200 employees on information security best practices.</li>\n    <li>Internal audit simulations to ensure compliance before certification.</li>\n  </ul>\n\n  <h3>Results achieved</h3>\n  <p>\n    In less than <strong>9 months</strong>, the holding company achieved <strong>ISO 27001 certification</strong> \n    at a corporate level, consolidating its position with international clients and improving operational efficiency. Security incidents were reduced by <strong>45%</strong>, and a permanent security committee was established.\n  </p>\n\n  <blockquote>\n    “Cyberhub’s support was key in aligning our security strategy with our business objectives. Today we have a mature, sustainable, and certified ISMS.”\n    <footer>— IT Manager, Industrial Group</footer>\n  </blockquote>\n\n  <h3>Lessons learned</h3>\n  <p>\n    The project demonstrated that implementing an effective ISMS requires both executive commitment and active participation from operational areas. Integration between technology, processes, and people was essential to success.\n  </p>\n\n  <p class='mt-8'>\n    <a href='/contacto' class='text-secondary-color hover:underline font-semibold'>\n      Want to certify your organization under ISO 27001? Contact us →\n    </a>\n  </p>\n</article>"
+                "content": "<article class='prose prose-invert lg:prose-lg max-w-none space-y-4'>\n  <h2>Transforming information security in an industrial group</h2>\n  <p>\n    Cyberhub led the implementation of an <strong>Information Security Management System (ISMS)</strong>\n    based on the <strong>ISO/IEC 27001:2022</strong> standard for a holding company operating in\n    <strong>Chile and Peru</strong>. The project aimed to strengthen data protection processes and foster an organizational security culture.\n  </p>\n\n  <h3>Initial challenge</h3>\n  <p>\n    The organization was undergoing rapid growth and needed to standardize its security controls for audits and regulatory requirements. It had multiple business units with different levels of security maturity and fragmented documentation.\n  </p>\n\n  <h3>Approach and methodology</h3>\n  <ul>\n    <li>Initial maturity diagnosis based on <em>ISO 27001 Gap Assessment</em>.</li>\n    <li>Risk identification and treatment according to <em>ISO 27005</em>.</li>\n    <li>Design and implementation of technical and organizational policies, procedures, and controls.</li>\n    <li>Training for over 200 employees on information security best practices.</li>\n    <li>Internal audit simulations to validate readiness before certification.</li>\n  </ul>\n\n  <h3>Results achieved</h3>\n  <p>\n    In less than <strong>9 months</strong>, the holding company achieved <strong>ISO 27001 certification</strong>\n    at a corporate level, strengthening its position with international clients and improving operational efficiency.\n    Security incidents were reduced by <strong>45%</strong>, and a permanent security committee was established.\n  </p>\n\n  <blockquote>\n    “Cyberhub’s support was key in aligning our security strategy with business objectives. Today we have a mature, sustainable, and certified ISMS.”\n    <footer>— IT Manager, Industrial Group</footer>\n  </blockquote>\n\n  <h3>Lessons learned</h3>\n  <p>\n    The project demonstrated that building an effective ISMS requires both executive commitment and active participation from operational areas. Integration between technology, processes, and people was essential for success.\n  </p>\n\n  <p class='mt-8'>\n    <a href='/contacto' class='text-primary hover:underline font-semibold'>\n      Want to certify your organization under ISO 27001? Contact us →\n    </a>\n  </p>\n</article>"
             },
             {
                 "id": 2,
@@ -109,7 +109,7 @@
                     "Governance",
                     "Risk Assessment"
                 ],
-                "content": "<article class='prose prose-invert lg:prose-lg max-w-none space-y-4'>\n  <h2>Compliance assessment with Law 21.633 in an energy company</h2>\n  <p>\n    A <strong>Chilean energy company</strong> requested Cyberhub to assess its \n    level of compliance with <strong>Law 21.633</strong>, which regulates <em>Organizations of Vital Importance (OIV)</em>. \n    The goal was to establish a clear diagnosis and action plan to achieve the maturity required by authorities.\n  </p>\n\n  <h3>Context and challenge</h3>\n  <p>\n    The company faced the obligation to adapt to new legal requirements regarding \n    <strong>cybersecurity and operational continuity</strong>. However, it lacked a structured reference framework to measure readiness against the <strong>Government CSIRT</strong> guidelines.\n  </p>\n\n  <h3>Applied methodology</h3>\n  <ul>\n    <li>Information gathering through interviews and document reviews.</li>\n    <li>Maturity evaluation based on the <em>NIST Cybersecurity Framework (CSF)</em>.</li>\n    <li>Gap identification against controls required by Law 21.633 and its technical guidelines.</li>\n    <li>Design of a prioritized action plan with defined milestones and responsibilities.</li>\n    <li>Delivery of executive and technical reports with a compliance roadmap.</li>\n  </ul>\n\n  <h3>Results achieved</h3>\n  <p>\n    The assessment allowed the organization to understand its real maturity level in \n    <strong>Risk Management, Critical Asset Protection, and Incident Response</strong>. \n    A structured three-phase improvement plan was designed, currently under execution with quarterly monitoring by the Corporate Security Committee.\n  </p>\n\n  <blockquote>\n    “Thanks to Cyberhub’s guidance, we translated legal requirements into concrete actions, improving visibility and management of our operational risks.”\n    <footer>— CISO, Energy Company</footer>\n  </blockquote>\n\n  <h3>Next steps</h3>\n  <p>\n    Based on the results, the company began implementing the \n    <strong>NIST CSF Framework</strong> as the foundation for its corporate cybersecurity management system and strengthened its internal audit process.\n  </p>\n\n  <p class='mt-8'>\n    <a href='/contacto' class='text-secondary-color hover:underline font-semibold'>\n      Request a compliance assessment for your organization →\n    </a>\n  </p>\n</article>"
+                "content": "<article class='prose prose-invert lg:prose-lg max-w-none space-y-4'>\n  <h2>Compliance assessment with Law 21.633 in an energy company</h2>\n  <p>\n    A <strong>Chilean energy company</strong> engaged Cyberhub to evaluate its\n    level of compliance with <strong>Law 21.633</strong>, which regulates <em>Organizations of Vital Importance (OIV)</em>.\n    The goal was to establish a clear diagnosis and an action plan to reach the level of maturity required by authorities.\n  </p>\n\n  <h3>Context and challenge</h3>\n  <p>\n    The company needed to align with new legal requirements on <strong>cybersecurity and operational continuity</strong>.\n    However, it lacked a structured reference framework to evaluate readiness against <strong>Government CSIRT</strong> guidelines.\n  </p>\n\n  <h3>Applied methodology</h3>\n  <ul>\n    <li>Information gathering through interviews and document review.</li>\n    <li>Maturity assessment using the <em>NIST Cybersecurity Framework (CSF)</em>.</li>\n    <li>Gap identification against the controls required by Law 21.633 and its technical guidelines.</li>\n    <li>Design of a prioritized action plan with defined milestones and responsibilities.</li>\n    <li>Delivery of executive and technical reports with a clear compliance roadmap.</li>\n  </ul>\n\n  <h3>Results achieved</h3>\n  <p>\n    The assessment enabled the organization to understand its real maturity level in\n    <strong>Risk Management, Critical Asset Protection, and Incident Response</strong>.\n    A structured improvement plan in three phases was created and is currently under execution with quarterly oversight by the Corporate Security Committee.\n  </p>\n\n  <blockquote>\n    “Thanks to Cyberhub’s guidance, we translated legal requirements into concrete actions, improving visibility and management of our operational risks.”\n    <footer>— CISO, Energy Company</footer>\n  </blockquote>\n\n  <h3>Next steps</h3>\n  <p>\n    Based on the results, the company began implementing the <strong>NIST CSF Framework</strong>\n    as the foundation for its corporate cybersecurity management system and strengthened its internal audit capabilities.\n  </p>\n\n  <p class='mt-8'>\n    <a href='/contacto' class='text-primary hover:underline font-semibold'>\n      Request a compliance assessment for your organization →\n    </a>\n  </p>\n</article>"
             },
             {
                 "id": 3,
@@ -125,7 +125,7 @@
                     "IT Infrastructure",
                     "Resilience"
                 ],
-                "content": "<article class='prose prose-invert lg:prose-lg max-w-none space-y-4'>\n  <h2>Technical audit and cybersecurity capability building</h2>\n  <p>\n    A <strong>national financial institution</strong> hired Cyberhub to perform a \n    <strong>comprehensive audit of its technological infrastructure</strong> and later train its technical and executive teams on security best practices.\n  </p>\n\n  <h3>Initial situation</h3>\n  <p>\n    The organization sought to identify critical vulnerabilities in its IT environment and improve its internal cybersecurity culture. It lacked a continuous review process and a formal training program for its staff.\n  </p>\n\n  <h3>Project stages</h3>\n  <ul>\n    <li>Review of architecture and security policies.</li>\n    <li>Penetration testing and vulnerability analysis.</li>\n    <li>Evaluation of controls in servers, networks, and endpoints.</li>\n    <li>Development of a prioritized mitigation plan based on risk level.</li>\n    <li>Design and delivery of technical workshops and executive awareness sessions.</li>\n  </ul>\n\n  <h3>Main findings and improvements</h3>\n  <p>\n    Gaps were detected in patch management, access control, and network segmentation. After executing the action plan, the organization achieved a <strong>60% reduction in critical vulnerabilities</strong> and established a quarterly review schedule.\n  </p>\n\n  <blockquote>\n    “The audit allowed us to understand our true level of exposure and prioritize cybersecurity investments. The training transformed how our teams think about security.”\n    <footer>— IT Operations Manager, Financial Institution</footer>\n  </blockquote>\n\n  <h3>Final impact</h3>\n  <p>\n    The project not only raised the organization’s technical maturity but also fostered a sustainable culture of \n    <strong>cyber resilience</strong>, supported by performance metrics and automated internal tracking.\n  </p>\n\n  <p class='mt-8'>\n    <a href='/contacto' class='text-secondary-color hover:underline font-semibold'>\n      Schedule an IT security audit with our specialists →\n    </a>\n  </p>\n</article>"
+                "content": "<article class='prose prose-invert lg:prose-lg max-w-none space-y-4'>\n  <h2>Technical audit and cybersecurity capability building</h2>\n  <p>\n    A <strong>national financial institution</strong> hired Cyberhub to perform a\n    <strong>comprehensive audit of its technological infrastructure</strong> and provide security training to its technical and executive teams.\n  </p>\n\n  <h3>Initial situation</h3>\n  <p>\n    The organization aimed to identify critical vulnerabilities in its IT environment and improve its internal cybersecurity culture. It had no continuous review process or formal training program.\n  </p>\n\n  <h3>Project stages</h3>\n  <ul>\n    <li>Review of security architecture and policies.</li>\n    <li>Penetration testing and vulnerability analysis.</li>\n    <li>Control evaluation for servers, networks, and endpoints.</li>\n    <li>Development of a prioritized mitigation plan based on risk level.</li>\n    <li>Delivery of technical workshops and executive awareness sessions.</li>\n  </ul>\n\n  <h3>Main findings and improvements</h3>\n  <p>\n    Significant gaps were identified in patch management, identity and access control, and network segmentation.\n    After implementing the action plan, the institution achieved a <strong>60% reduction in critical vulnerabilities</strong>\n    and established a quarterly review schedule.\n  </p>\n\n  <blockquote>\n    “The audit allowed us to understand our real exposure and prioritize cybersecurity investments. The training transformed how our teams approach security.”\n    <footer>— IT Operations Manager, Financial Institution</footer>\n  </blockquote>\n\n  <h3>Final impact</h3>\n  <p>\n    Beyond raising technical maturity, the project helped build a sustainable culture of\n    <strong>cyber resilience</strong>, supported by performance metrics and automated internal tracking.\n  </p>\n\n  <p class='mt-8'>\n    <a href='/contacto' class='text-primary hover:underline font-semibold'>\n      Schedule an IT security audit with our specialists →\n    </a>\n  </p>\n</article>"
             },
             {
                 "id": 4,
@@ -140,7 +140,7 @@
                     "Operational Security",
                     "Continuity"
                 ],
-                "content": "<article class='prose prose-invert lg:prose-lg max-w-none space-y-4'>\n  <h2>Strengthening cyberattack response capabilities in the healthcare sector</h2>\n  <p>\n    Cyberhub partnered with a <strong>healthcare organization</strong> to design and implement an \n    <strong>Information Security Incident Response Plan (ISIRP)</strong>. The goal was to establish a clear and operational strategy against cyberattacks threatening data availability and confidentiality.\n  </p>\n\n  <h3>Initial situation</h3>\n  <p>\n    The institution had faced security incidents that temporarily disrupted critical medical systems and records. There were no formal procedures or defined roles for responding to cyber threats, leading to delayed reactions and dependence on third parties.\n  </p>\n\n  <h3>Methodology and approach</h3>\n  <ul>\n    <li>Initial maturity diagnosis of the incident management process.</li>\n    <li>Design of the response workflow based on <em>NIST 800-61r2</em> (Computer Security Incident Handling Guide).</li>\n    <li>Definition of roles and responsibilities within the <strong>Internal Incident Response Team (CSIRT)</strong>.</li>\n    <li>Implementation of a centralized event logging and tracking system.</li>\n    <li>Incident simulations to validate reaction times and communication flow.</li>\n  </ul>\n\n  <h3>Results and benefits</h3>\n  <p>\n    The organization reduced its <strong>detection and containment times</strong> for critical incidents by over <strong>50%</strong>. Standardized procedures and automated escalation by severity level were established. The response plan was also integrated with <strong>business continuity</strong> and <strong>cyber resilience</strong> policies.\n  </p>\n\n  <blockquote>\n    “We now have a clear structure to respond to any cyberattack. Cyberhub’s preparation and support made a real difference in our response capability.”\n    <footer>— Technology Director, Healthcare Organization</footer>\n  </blockquote>\n\n  <h3>Key lessons</h3>\n  <p>\n    The experience showed that <strong>organizational preparedness</strong> and \n    <strong>effective internal communication</strong> are crucial for successful incident management. Beyond technology, the human factor was key to building a resilient response.\n  </p>\n\n  <h3>Next steps</h3>\n  <p>\n    The plan includes <strong>biannual simulations</strong> and the adoption of a SIEM platform to enhance early threat detection. Cyberhub continues to support the client in ongoing process improvement.\n  </p>\n\n  <p class='mt-8'>\n    <a href='/contacto' class='text-secondary-color hover:underline font-semibold'>\n      Strengthen your organization’s incident management →\n    </a>\n  </p>\n</article>"
+                "content": "<article class='prose prose-invert lg:prose-lg max-w-none space-y-4'>\n  <h2>Strengthening cyberattack response capabilities in the healthcare sector</h2>\n  <p>\n    Cyberhub partnered with a <strong>healthcare organization</strong> to design and implement an\n    <strong>Information Security Incident Response Plan (ISIRP)</strong>. The objective was to establish a clear, operational strategy against cyber threats that could compromise availability and confidentiality of clinical data.\n  </p>\n\n  <h3>Initial situation</h3>\n  <p>\n    The institution had experienced security incidents that disrupted critical medical systems and patient records.\n    There were no formal procedures or defined roles for incident response, resulting in delayed reaction times and reliance on third parties.\n  </p>\n\n  <h3>Methodology and approach</h3>\n  <ul>\n    <li>Initial diagnosis of incident management maturity.</li>\n    <li>Design of the response workflow based on <em>NIST 800-61r2</em> (Computer Security Incident Handling Guide).</li>\n    <li>Definition of roles and responsibilities within the <strong>Internal CSIRT</strong>.</li>\n    <li>Implementation of a centralized event logging and monitoring system.</li>\n    <li>Incident simulation exercises to validate reaction times and communication flow.</li>\n  </ul>\n\n  <h3>Results and benefits</h3>\n  <p>\n    The organization reduced its <strong>detection and containment times</strong> for critical incidents by over <strong>50%</strong>.\n    Standardized procedures and automated escalation rules were implemented.\n    The response plan was aligned with <strong>business continuity</strong> and <strong>cyber resilience</strong> strategies.\n  </p>\n\n  <blockquote>\n    “We now have a clear structure to respond to any cyberattack. Cyberhub’s preparation and support made a significant difference in our response capability.”\n    <footer>— Technology Director, Healthcare Organization</footer>\n  </blockquote>\n\n  <h3>Key lessons</h3>\n  <p>\n    The experience highlighted that <strong>organizational preparedness</strong> and\n    <strong>effective internal communication</strong> are essential for successful incident management.\n    Technology alone is not enough—people were a critical component of the response.\n  </p>\n\n  <h3>Next steps</h3>\n  <p>\n    The plan includes <strong>biannual simulations</strong> and the adoption of a SIEM platform to improve threat detection.\n    Cyberhub continues to support the organization in continuous process improvement.\n  </p>\n\n  <p class='mt-8'>\n    <a href='/contacto' class='text-primary hover:underline font-semibold'>\n      Strengthen your organization’s incident response capabilities →\n    </a>\n  </p>\n</article>"
             }
         ]
     },
@@ -182,19 +182,19 @@
                 "id": "2",
                 "title": "Gap Analysis",
                 "slug": "gap-analisis",
-                "description": "We assess your organization’s current state against the ISO/IEC 27001:2022 requirements, identifying gaps and defining an action plan."
+                "description": "We assess your organization’s current state against ISO/IEC 27001:2022 requirements, identifying gaps and defining an action plan."
             },
             {
                 "id": "3",
                 "title": "ISMS Implementation",
                 "slug": "implementacion-de-sgsi",
-                "description": "We design and implement an Information Security Management System (ISMS) adapted to your organization’s context and maturity level."
+                "description": "We design and implement an Information Security Management System (ISMS) tailored to your organization’s maturity and operational reality."
             },
             {
                 "id": "4",
                 "title": "Internal Audit",
                 "slug": "auditoria-interna",
-                "description": "We perform internal ISMS audits to evaluate compliance, effectiveness, and improvement opportunities before external certification."
+                "description": "We conduct internal ISMS audits to evaluate compliance, effectiveness, and improvement opportunities before external certification."
             },
             {
                 "id": "5",
@@ -206,32 +206,32 @@
                 "id": "6",
                 "title": "Certification Body Management",
                 "slug": "gestion-de-casa-certificadora",
-                "description": "We assist your organization in selecting, coordinating, and managing the certification process with the certifying body."
+                "description": "We support your organization in selecting, coordinating, and managing the certification process with the accredited certification body."
             },
             {
                 "id": "7",
                 "title": "Post External Audit Findings Management",
                 "slug": "gestion-de-hallazgos-post-auditoria-externa",
-                "description": "We support the management and resolution of findings from the external audit, ensuring continuous improvement of the ISMS."
+                "description": "We assist in managing and closing findings from external audits, ensuring continuous improvement of the ISMS."
             },
             {
                 "id": "8",
                 "title": "Annual System Maintenance",
                 "slug": "mantenimiento-anual-del-sistema",
-                "description": "We provide ongoing support to maintain ISMS effectiveness through reviews, updates, and control follow-ups."
+                "description": "We provide continuous support to maintain ISMS effectiveness through reviews, updates, and control monitoring."
             },
             {
                 "id": "9",
                 "title": "Integration with Other Management Systems",
                 "slug": "integracion-con-otros-sistemas-de-gestion",
-                "description": "We integrate the ISMS with other management systems such as ISO 9001, ISO 14001, or ISO 45001 to optimize processes and resources."
+                "description": "We integrate the ISMS with ISO 9001, ISO 14001, ISO 45001, and other systems to optimize processes and resources."
             }
         ]
     },
     "mission": {
         "whyTitle": "Why Choose Cyberhub",
         "heading": "Smart protection, strategic growth",
-        "description": "In an environment where threats evolve daily, technology alone is not enough — you need vision, prevention, and reaction. At Cyberhub, we combine technical expertise, risk analysis, and governance to build intelligent defenses that grow with you.",
+        "description": "In an environment where threats evolve daily, technology alone is not enough — you need vision, prevention, and response. At Cyberhub, we combine technical expertise, risk analysis, and governance to build intelligent defenses that grow with you.",
         "ariaImage": "Cybersecurity strategies and digital transformation",
         "readMore": "Read more",
         "cards": [
@@ -245,15 +245,15 @@
             },
             {
                 "title": "Transparency & Governance",
-                "description": "Clear reporting, measurable metrics, and ongoing advisory so you can make informed decisions with confidence."
+                "description": "Clear reporting, measurable metrics, and continuous advisory so you can make informed and confident decisions."
             }
         ]
     },
     "testimonialsAndStats": {
-        "sectionLabel": "Success Stories and Trust",
+        "sectionLabel": "Success Stories & Trust",
         "heading": "Real stories of effective cybersecurity",
         "description": "Leading companies in energy, mining, and services trust Cyberhub to strengthen their security posture, optimize risk management, and comply with the highest international standards.",
-        "statTitle": "Over 180 organizations protected",
+        "statTitle": "More than 180 organizations protected",
         "stat1Value": "72%",
         "stat1Label": "Fewer critical incidents",
         "stat2Value": "40%",
@@ -263,10 +263,10 @@
             "ISO/IEC 20000-1",
             "ISO/IEC 42001",
             "ISO/IEC 37301",
-            "Tisax",
-            "Nerc-Cip",
-            "Nis2",
-            "Nist",
+            "TISAX",
+            "NERC-CIP",
+            "NIS2",
+            "NIST",
             "Cybersecurity Law",
             "Data Protection Law",
             "ISO/IEC 20000-1"
@@ -275,35 +275,35 @@
             {
                 "name": "María Torres",
                 "title": "IT Manager, EnerChile",
-                "quote": "With Cyberhub’s support, we achieved ISO/IEC 27001:2022 certification for our ISMS and integrated NIST controls to strengthen our risk management. Their practical methodology helped us reduce critical vulnerabilities and improve client trust."
+                "quote": "With Cyberhub’s support, we were able to certify our ISMS under ISO/IEC 27001:2022 and integrate NIST controls to strengthen our risk management. Their practical methodology allowed us to reduce critical vulnerabilities and increase client trust."
             },
             {
                 "name": "Rodrigo Silva",
                 "title": "CISO, Infraseg",
-                "quote": "Cyberhub’s guidance in implementing ISO/IEC 20000-1 and complying with the Cybersecurity Law was key to standardizing processes and responding efficiently to incidents. Their technical and regulatory approach made the difference."
+                "quote": "Cyberhub’s guidance on implementing ISO/IEC 20000-1 and complying with the Cybersecurity Law was key to standardizing processes and responding efficiently to incidents. Their technical and regulatory expertise made a real difference."
             },
             {
                 "name": "Claudia Muñoz",
                 "title": "Operations Director, FinTech Andes",
-                "quote": "Thanks to Cyberhub, we adopted practices aligned with NIS2 and TISAX, consolidating a security and compliance culture across the organization. We now have a robust and auditable system that supports our international growth."
+                "quote": "Thanks to Cyberhub, we adopted practices aligned with NIS2 and TISAX, consolidating a security and compliance culture across the entire organization. We now have a robust and auditable system that supports our international growth."
             },
             {
                 "name": "Felipe Navarro",
                 "title": "Compliance Manager, TransEnergy",
-                "quote": "Cyberhub guided us in implementing ISO/IEC 37301, strengthening our compliance framework and decision traceability. Their holistic vision allowed us to align cybersecurity with corporate governance."
+                "quote": "Cyberhub guided us through the implementation of ISO/IEC 37301, strengthening our compliance framework and decision traceability. Their comprehensive approach aligned cybersecurity with corporate governance."
             },
             {
                 "name": "Andrea Rojas",
-                "title": "Information Security Chief, SaludDigital",
-                "quote": "Together with Cyberhub, we implemented an integrated system compliant with the Data Protection Law and NERC-CIP guidelines. Their technical and legal support helped us ensure operational continuity and regulatory trust."
+                "title": "Information Security Lead, SaludDigital",
+                "quote": "Together with Cyberhub, we implemented an integrated system that complies with the Data Protection Law and NERC-CIP guidelines. Their technical and legal support helped us ensure operational continuity and regulatory assurance."
             }
         ]
     },
     "navbar": {
         "links": {
             "home": "Home",
-            "solutions": "Solutions",
-            "certifications": "Certifications",
+            "solutions": "Services",
+            "certifications": "Consulting",
             "clients": "Clients",
             "aboutUs": "About Us",
             "blog": "Blog"
@@ -319,81 +319,76 @@
     },
     "navigation": {
         "menu": {
-            "solutions": "Solutions",
-            "certifications": "Certifications",
+            "solutions": "Services",
+            "certifications": "Consulting",
             "clients": "Clients",
             "aboutUs": "About Us",
             "blog": "Blog"
         },
         "solutions": {
-            "title": "Strengthen your Information Security Management System",
-            "description": "We support your organization through every stage of the ISO/IEC 27001:2022 cycle — from the initial diagnosis to continuous improvement and integration with other management systems.",
+            "title": "Strengthen your Information Security Culture",
+            "description": "We help organizations develop a strong cybersecurity culture through awareness programs, training, simulations, and digital experiences designed to elevate organizational security.",
             "viewAll": "View all services",
             "introItems": [
                 {
-                    "title": "Gap Analysis",
-                    "slug": "gap-analysis",
-                    "description": "We identify gaps between your current situation and the ISO/IEC 27001:2022 requirements, outlining a clear action plan to achieve certification."
+                    "title": "Basic Awareness Program",
+                    "slug": "basic-awareness-program",
+                    "description": "Annual communication plan designed to build a foundational cybersecurity culture."
                 },
                 {
-                    "title": "ISMS Implementation",
-                    "slug": "isms-implementation",
-                    "description": "We design and implement an Information Security Management System tailored to your organization’s reality and risk profile."
+                    "title": "Standard Awareness Program",
+                    "slug": "standard-awareness-program",
+                    "description": "Includes an annual communication plan and a complete tiered training program."
                 },
                 {
-                    "title": "Internal ISMS Audit",
-                    "slug": "internal-audit",
-                    "description": "We perform comprehensive internal audits to evaluate your ISMS compliance and effectiveness before external certification."
+                    "title": "Premium Awareness Program",
+                    "slug": "premium-awareness-program",
+                    "description": "Our most comprehensive solution: communications, training, and yearly cybersecurity attack simulations."
                 },
                 {
-                    "title": "Awareness and Training Management",
-                    "slug": "awareness-and-training-management",
-                    "description": "We strengthen security culture through training programs, simulations, and awareness campaigns for all staff."
+                    "title": "Cybersecurity Month",
+                    "slug": "cybersecurity-month",
+                    "description": "Corporate event with on-site and digital activities, talks, games, challenges, and more."
                 },
                 {
-                    "title": "Certification Body Management",
-                    "slug": "certification-body-management",
-                    "description": "We coordinate the certification process and accompany your team during external audits with accredited entities."
+                    "title": "Cybersecurity Onboarding",
+                    "slug": "cybersecurity-onboarding",
+                    "description": "Official induction for new employees on best practices, risks, and digital culture."
                 },
                 {
-                    "title": "Post External Audit Findings Management",
-                    "slug": "post-external-audit-findings-management",
-                    "description": "We help you manage and close nonconformities identified during external audits, ensuring ISMS continuous improvement."
-                },
-                {
-                    "title": "Annual System Maintenance",
-                    "slug": "annual-system-maintenance",
-                    "description": "We provide support, reviews, and periodic audits to maintain ISMS efficiency and continuous compliance."
-                },
-                {
-                    "title": "Integration with Other Management Systems",
-                    "slug": "integration-with-other-management-systems",
-                    "description": "We integrate your ISMS with ISO 9001, ISO 14001, ISO 45001, and other systems to optimize processes and eliminate redundancies."
+                    "title": "Cybersecurity Tabletop Exercise",
+                    "slug": "cybersecurity-tabletop",
+                    "description": "Practical simulation to evaluate your organization’s response to critical incidents."
                 }
             ]
         },
         "certifications": {
-            "viewAll": "View all certifications",
+            "viewAll": "View all",
             "list": [
-                {
-                    "title": "ISO/IEC 27001:2022",
-                    "slug": "iso-iec-27001-2022",
-                    "description": "International standard for Information Security Management."
-                },
-                {
-                    "title": "ISO/IEC 20000-1",
-                    "slug": "iso-iec-20000-1",
-                    "description": "International standard for IT Service Management (ITSM), focused on continuous improvement and efficient delivery of technology services."
-                },
-                {
-                    "title": "ISO/IEC 42001",
-                    "slug": "iso-iec-42001",
-                    "description": "The first global standard for Artificial Intelligence (AI) Management Systems within organizations."
-                },
                 {
                     "title": "ISO/IEC 37301",
                     "slug": "iso-iec-37301",
-                    "description": "Compliance management system standard that defines requirements for creating, developing, and implementing a culture of integrity and transparency."
+                    "description": "Compliance management system standard for preventing, detecting, and managing legal and regulatory risks."
+                },
+                {
+                    "title": "TISAX",
+                    "slug": "tisax",
+                    "description": "Information security assessment model for the automotive industry, focused on data and prototype protection."
+                },
+                {
+                    "title": "NERC-CIP",
+                    "slug": "nerc-cip",
+                    "description": "Cybersecurity standard for protecting critical infrastructure within the National Electric System."
+                },
+                {
+                    "title": "NIS2",
+                    "slug": "nis2",
+                    "description": "EU directive establishing mandatory cybersecurity requirements for critical sectors operating within the European Union."
+                },
+                {
+                    "title": "NIST Cybersecurity Framework",
+                    "slug": "nist",
+                    "description": "Globally recognized framework for managing cybersecurity risks across public and private organizations."
                 }
             ]
         }
@@ -544,14 +539,14 @@
     },
     "certificationsPage": {
         "hero": {
-            "title": "ISO Certifications: Strengthen your organization's security, management, and compliance"
+            "title": "Cybersecurity Frameworks Consulting: Strengthen your organization's security, management, and compliance"
         },
-        "intro": "At <strong>Cyberhub</strong>, we support organizations in the implementation and certification of international <iso>ISO</iso> standards, ensuring continuous improvement, regulatory compliance, and digital trust. Below are our most relevant certifications, organized by management area.",
+        "intro": "At <strong>Cyberhub</strong>, we guide organizations in the adoption, implementation, and continuous improvement of leading <strong>cybersecurity frameworks</strong>. Our consulting services help ensure regulatory compliance, operational resilience, and trustworthy digital practices. Below you will find the key frameworks we support, organized by management area.",
         "viewDetails": "View details",
         "categories": [
             {
                 "nombre": "Information Security and IT Services",
-                "descripcion": "Certifications focused on data protection, IT service management, and organizational cyber resilience.",
+                "descripcion": "Frameworks focused on data protection, IT service management, and strengthening organizational cyber resilience.",
                 "items": [
                     "1",
                     "2"
@@ -559,14 +554,14 @@
             },
             {
                 "nombre": "Artificial Intelligence and Responsible Technology",
-                "descripcion": "Standards that promote ethical, transparent, and secure development of artificial intelligence systems.",
+                "descripcion": "Models and standards that promote ethical, transparent, and secure development of artificial intelligence systems.",
                 "items": [
                     "3"
                 ]
             },
             {
                 "nombre": "Compliance and Corporate Governance",
-                "descripcion": "Certifications that strengthen ethics, integrity, and traceability in organizational decision-making processes.",
+                "descripcion": "Frameworks that reinforce ethics, integrity, and traceability in organizational decision-making processes.",
                 "items": [
                     "4"
                 ]
@@ -581,31 +576,31 @@
                 "slug": "iso-iec-27001-2022",
                 "description": "Information security management based on international standards.",
                 "image": "/ISO27001.png",
-                "content": "<section class='space-y-8 text-neutral-200 dark:text-gray-300 leading-relaxed sm:p-4'><p><strong>ISO/IEC 27001:2022</strong> is the most recognized international standard for implementing an <strong>Information Security Management System (ISMS)</strong>. Its goal is to protect the confidentiality, integrity, and availability of information through a risk-based approach.</p><h3 class='text-xl font-semibold'>Objective</h3><p>Establish a comprehensive framework for managing information security risks, protecting digital assets, and ensuring regulatory compliance.</p><h3 class='text-xl font-semibold'>Scope</h3><p>Applicable to any organization handling sensitive information, including financial, technology, healthcare, and critical service entities.</p><h3 class='text-xl font-semibold'>Implementation Time</h3><p>4 to 6 months, depending on the organization’s maturity level and size.</p><h3 class='text-xl font-semibold'>Cyberhub Proposal</h3><p>We handle the entire certification process in an integrated, methodological, and proactive way, considering people, processes, and technology. Includes:</p><ul class='list-disc pl-6 space-y-2'><li>Initial Gap Analysis.</li><li>ISMS Implementation.</li><li>Internal Audit.</li><li>Training and awareness plan.</li><li>Certification body management.</li><li>Post external audit findings management.</li><li>Integration with other ISO systems (9001, 20000-1, 45001, etc.).</li></ul></section>"
+                "content": "<section class='space-y-8 text-white dark:text-gray-300 leading-relaxed sm:p-4'><p><strong>ISO/IEC 27001:2022</strong> is the most recognized international standard for implementing an <strong>Information Security Management System (ISMS)</strong>. Its goal is to protect the confidentiality, integrity, and availability of information using a risk-based approach.</p><h3 class='text-xl font-semibold mt-6'>Objective</h3><p>Establish a formal and comprehensive framework for managing information security risks and protecting digital assets.</p><h3 class='text-xl font-semibold mt-6'>Scope</h3><p>Applicable to any organization handling sensitive information, including financial institutions, technology companies, healthcare, and critical service providers.</p><h3 class='text-xl font-semibold mt-6'>Implementation Time</h3><p>4 to 6 months depending on organizational maturity and structure.</p><h3 class='text-xl font-semibold mt-6'>Cyberhub Proposal</h3><ul class='list-disc pl-6 space-y-2'><li>Gap Analysis.</li><li>ISMS Implementation.</li><li>Internal auditing.</li><li>Training and awareness programs.</li><li>Management of certifying bodies.</li><li>Post external audit support.</li><li>Integration with other ISO systems.</li></ul></section>"
             },
             {
                 "id": "2",
                 "title": "ISO/IEC 20000-1",
                 "slug": "iso-iec-20000-1",
-                "description": "IT Service Management (ITSM) focused on quality, efficiency, and continuous improvement.",
+                "description": "IT Service Management focused on quality, efficiency, and continuous improvement.",
                 "image": "/ISO20000.png",
-                "content": "<section class='space-y-8 text-neutral-200 dark:text-gray-300 leading-relaxed sm:p-4'><p><strong>ISO/IEC 20000-1</strong> sets the requirements for a <strong>Service Management System (SMS)</strong> that ensures the efficient and high-quality delivery of IT services, aligned with business objectives and customer needs.</p><h3 class='text-xl font-semibold'>Objective</h3><ul class='list-disc pl-6 space-y-2'><li>Ensure reliable and high-quality IT service delivery.</li><li>Improve operational efficiency through standardized processes.</li><li>Strengthen customer satisfaction and risk management.</li></ul><h3 class='text-xl font-semibold'>Scope</h3><ul class='list-disc pl-6 space-y-2'><li>Applicable to any organization managing IT services internally (IT departments) or externally (providers, outsourcing, cloud).</li></ul><h3 class='text-xl font-semibold'>Implementation Time</h3><p>2 to 6 months, depending on complexity and number of processes involved.</p><h3 class='text-xl font-semibold'>Cyberhub Proposal</h3><p>We manage the certification process comprehensively, methodologically, and with a human approach. Includes:</p><ul class='list-disc pl-6 space-y-2'><li>Initial Gap Analysis.</li><li>SMS Implementation.</li><li>Internal Audit.</li><li>Training and improvement plan.</li><li>Certification body management.</li><li>Post external audit management.</li><li>Integration with ISO/IEC 27001:2022.</li></ul></section>"
+                "content": "<section class='space-y-8 text-white dark:text-gray-300 leading-relaxed sm:p-4'><p><strong>ISO/IEC 20000-1</strong> defines the requirements for an effective <strong>IT Service Management System (SMS)</strong>, aimed at ensuring high-quality, reliable, and business-aligned IT services.</p><h3 class='text-xl font-semibold mt-6'>Objective</h3><ul class='list-disc pl-6 space-y-2'><li>Deliver reliable IT services aligned with business needs.</li><li>Improve operational efficiency through standardization.</li><li>Enhance customer satisfaction and service quality.</li></ul><h3 class='text-xl font-semibold mt-6'>Scope</h3><p>Applicable to IT departments, service providers, outsourcing companies, and cloud-based service operators.</p><h3 class='text-xl font-semibold mt-6'>Implementation Time</h3><p>2 to 6 months depending on service complexity.</p><h3 class='text-xl font-semibold mt-6'>Cyberhub Proposal</h3><ul class='list-disc pl-6 space-y-2'><li>Gap Analysis.</li><li>SMS implementation.</li><li>Internal audit.</li><li>Training and continuous improvement plans.</li><li>Certification body coordination.</li><li>Integration with ISO/IEC 27001.</li></ul></section>"
             },
             {
                 "id": "3",
                 "title": "ISO/IEC 42001",
                 "slug": "iso-iec-42001",
-                "description": "Responsible and secure management of Artificial Intelligence (AI) systems.",
+                "description": "Responsible and secure management of Artificial Intelligence systems.",
                 "image": "/ISO42001.png",
-                "content": "<section class='space-y-8 text-neutral-200 dark:text-gray-300 leading-relaxed sm:p-4'><p><strong>ISO/IEC 42001</strong> is the first certifiable international standard defining requirements for an <strong>Artificial Intelligence Management System (AIMS)</strong>. Its purpose is to ensure ethical, transparent, and secure development, implementation, and use of AI.</p><h3 class='text-xl font-semibold'>Objective</h3><p>Ensure organizations design, develop, and use AI systems responsibly, minimizing ethical, legal, and operational risks.</p><h3 class='text-xl font-semibold'>Scope</h3><p>Applicable to tech companies, AI startups, research institutions, and organizations using AI in critical or decision-making processes.</p><h3 class='text-xl font-semibold'>Implementation Time</h3><p>6 months, including diagnosis, implementation, training, and certification preparation phases.</p><h3 class='text-xl font-semibold'>Cyberhub Proposal</h3><p>We provide comprehensive support, ensuring knowledge transfer to the organization. Includes:</p><ul class='list-disc pl-6 space-y-2'><li>Gap Analysis and AIMS planning.</li><li>Design of ethical policies and controls.</li><li>System implementation.</li><li>Internal audit and findings management.</li><li>Preparation for external certification.</li></ul></section>"
+                "content": "<section class='space-y-8 text-white dark:text-gray-300 leading-relaxed sm:p-4'><p><strong>ISO/IEC 42001</strong> is the first international standard for implementing an <strong>Artificial Intelligence Management System (AIMS)</strong>, ensuring safe, transparent, and ethical use of AI technologies.</p><h3 class='text-xl font-semibold mt-6'>Objective</h3><p>Ensure responsible, ethical, and secure AI development, deployment, and governance.</p><h3 class='text-xl font-semibold mt-6'>Scope</h3><p>Ideal for technology companies, AI-driven startups, research institutions, and organizations using AI in critical processes.</p><h3 class='text-xl font-semibold mt-6'>Implementation Time</h3><p>Approximately 6 months.</p><h3 class='text-xl font-semibold mt-6'>Cyberhub Proposal</h3><ul class='list-disc pl-6 space-y-2'><li>Gap Analysis and planning.</li><li>Design of ethical AI policies and controls.</li><li>AIMS implementation.</li><li>Internal audit and findings management.</li><li>Preparation for external certification.</li></ul></section>"
             },
             {
                 "id": "4",
                 "title": "ISO/IEC 37301",
                 "slug": "iso-iec-37301",
-                "description": "Compliance Management System (CMS) promoting corporate integrity and ethics.",
+                "description": "Compliance Management System promoting corporate integrity.",
                 "image": "/ISO37301.png",
-                "content": "<section class='space-y-8 text-neutral-200 dark:text-gray-300 leading-relaxed sm:p-4'><p><strong>ISO/IEC 37301</strong> establishes the requirements for implementing an effective <strong>Compliance Management System (CMS)</strong>, helping organizations prevent, detect, and respond to noncompliance, strengthening governance and integrity.</p><h3 class='text-xl font-semibold'>Objective</h3><p>Build a corporate culture of compliance and transparency that reduces legal, financial, and reputational risks.</p><h3 class='text-xl font-semibold'>Scope</h3><p>Recommended for public or private organizations operating in regulated environments or seeking to strengthen their ethical and control framework.</p><h3 class='text-xl font-semibold'>Cyberhub Proposal</h3><p>We implement the CMS comprehensively and in integration with other ISO systems, ensuring compliance efficiency and sustainability.</p></section>"
+                "content": "<section class='space-y-8 text-white dark:text-gray-300 leading-relaxed sm:p-4'><p><strong>ISO/IEC 37301</strong> defines the requirements for a <strong>Compliance Management System (CMS)</strong> that reinforces ethics, transparency, and organizational integrity.</p><h3 class='text-xl font-semibold mt-6'>Objective</h3><p>Prevent, detect, and manage legal and regulatory risks effectively.</p><h3 class='text-xl font-semibold mt-6'>Scope</h3><p>Applicable to organizations of all sizes and industries.</p><h3 class='text-xl font-semibold mt-6'>Cyberhub Proposal</h3><p>We implement the CMS comprehensively and prepare your organization for certification.</p></section>"
             },
             {
                 "id": "5",
@@ -613,47 +608,47 @@
                 "slug": "tisax",
                 "description": "Information security assessment for the automotive industry.",
                 "image": "/TISAX.png",
-                "content": "<section class='space-y-8 text-neutral-200 dark:text-gray-300 leading-relaxed sm:p-4'><p><strong>TISAX (Trusted Information Security Assessment Exchange)</strong> is a European standard based on ISO/IEC 27001, developed by the German Association of the Automotive Industry (VDA), ensuring information security across the automotive supply chain.</p><h3 class='text-xl font-semibold'>Objective</h3><p>Assess and certify information security among automotive suppliers and partners, ensuring the protection of confidential data and intellectual property.</p><h3 class='text-xl font-semibold'>Scope</h3><p>Applicable to manufacturers, suppliers (Tier 1 & Tier 2), technology, and design companies in the automotive sector.</p></section>"
+                "content": "<section class='space-y-8 text-white dark:text-gray-300 leading-relaxed sm:p-4'><p><strong>TISAX</strong> is a European information security assessment model for the automotive industry, aligned with ISO/IEC 27001 and focused on protecting confidential information and prototypes.</p><h3 class='text-xl font-semibold mt-6'>Objective</h3><p>Protect sensitive data, prototypes, and intellectual property throughout the automotive supply chain.</p><h3 class='text-xl font-semibold mt-6'>Scope</h3><p>Designed for manufacturers, Tier 1 and Tier 2 suppliers, engineering companies, and automotive design firms.</p><h3 class='text-xl font-semibold mt-6'>Implementation Time</h3><p>3 to 6 months.</p><h3 class='text-xl font-semibold mt-6'>Cyberhub Proposal</h3><p>We deliver full preparation and execution for TISAX assessment and certification.</p></section>"
             },
             {
                 "id": "6",
                 "title": "NERC-CIP",
                 "slug": "nerc-cip",
-                "description": "Cybersecurity requirements for protecting critical electric infrastructure.",
+                "description": "Cybersecurity requirements for critical electrical infrastructure.",
                 "image": "/NERC.png",
-                "content": "<section class='space-y-8 text-neutral-200 dark:text-gray-300 leading-relaxed sm:p-4'><p><strong>NERC-CIP (North American Electric Reliability Corporation – Critical Infrastructure Protection)</strong> defines a set of technical and organizational requirements to ensure the cybersecurity of critical electric infrastructures.</p><h3 class='text-xl font-semibold'>Objective</h3><p>Protect systems supporting electricity generation, transmission, and distribution against cyber threats.</p><h3 class='text-xl font-semibold'>Scope</h3><p>Directed at operators, generators, and transmitters of the National Electric System (SEN) and companies with critical energy dependence.</p></section>"
+                "content": "<section class='space-y-8 text-white dark:text-gray-300 leading-relaxed sm:p-4'><p><strong>NERC-CIP</strong> establishes compulsory cybersecurity controls for critical power infrastructure to ensure secure operations across the electric grid.</p><h3 class='text-xl font-semibold mt-6'>Objective</h3><p>Protect generation, transmission, and distribution assets from cyber threats.</p><h3 class='text-xl font-semibold mt-6'>Scope</h3><p>Applies to entities operating within the National Electric System (SEN), based on impact level.</p><h3 class='text-xl font-semibold mt-6'>Implementation Time</h3><p>1 month of evidence collection + 2 to 6 months of control implementation.</p><h3 class='text-xl font-semibold mt-6'>Cyberhub Proposal</h3><p>We support evaluation, implementation, and preparation of evidence required by regulatory authorities.</p></section>"
             },
             {
                 "id": "7",
                 "title": "NIS2",
                 "slug": "nis2",
-                "description": "European Union directive for network and information system security.",
+                "description": "European directive for strengthening cybersecurity across essential sectors.",
                 "image": "/NIS2.png",
-                "content": "<section class='space-y-8 text-neutral-200 dark:text-gray-300 leading-relaxed sm:p-4'><p><strong>NIS2 Directive</strong> strengthens cybersecurity obligations for companies operating in essential sectors across the European Union, promoting unified risk management and mandatory incident reporting.</p><h3 class='text-xl font-semibold'>Objective</h3><p>Increase the level of cyber resilience across European organizations and their international partners.</p><h3 class='text-xl font-semibold'>Scope</h3><p>Companies operating or providing services within the EU, particularly in energy, healthcare, transport, financial, and digital sectors.</p></section>"
+                "content": "<section class='space-y-8 text-white dark:text-gray-300 leading-relaxed sm:p-4'><p><strong>NIS2</strong> reinforces cybersecurity risk management and incident reporting obligations for essential and important entities within the European Union.</p><h3 class='text-xl font-semibold mt-6'>Objective</h3><p>Drive digital resilience and ensure unified cybersecurity standards across member states.</p><h3 class='text-xl font-semibold mt-6'>Scope</h3><p>Applicable to organizations operating in EU markets, including energy, healthcare, transport, water, banking, and digital services.</p><h3 class='text-xl font-semibold mt-6'>Implementation Time</h3><p>6 to 12 months.</p><h3 class='text-xl font-semibold mt-6'>Cyberhub Proposal</h3><p>We support end-to-end NIS2 projects for international organizations, including Gap Assessments and combined frameworks.</p></section>"
             },
             {
                 "id": "8",
                 "title": "NIST Cybersecurity Framework",
                 "slug": "nist-framework",
-                "description": "Framework for managing cybersecurity risks in organizations.",
+                "description": "Framework for managing and reducing cybersecurity risks.",
                 "image": "/NIST.png",
-                "content": "<section class='space-y-8 text-neutral-200 dark:text-gray-300 leading-relaxed sm:p-4'><p><strong>NIST Cybersecurity Framework (CSF)</strong> provides guidelines and controls to manage and reduce cyber risks in any organization, based on five functions: <em>Identify, Protect, Detect, Respond</em>, and <em>Recover</em>.</p><h3 class='text-xl font-semibold'>Objective</h3><p>Provide a flexible approach to strengthen digital security and organizational resilience against threats.</p></section>"
+                "content": "<section class='space-y-8 text-white dark:text-gray-300 leading-relaxed sm:p-4'><p><strong>NIST CSF</strong> provides a structured approach to cybersecurity risk management through five core functions: Identify, Protect, Detect, Respond, and Recover.</p><h3 class='text-xl font-semibold mt-6'>Objective</h3><p>Strengthen digital resilience and improve risk governance across industries.</p><h3 class='text-xl font-semibold mt-6'>Scope</h3><p>Suitable for public and private organizations of any size or sector.</p><h3 class='text-xl font-semibold mt-6'>Implementation Time</h3><p>6 to 12 months, depending on organizational complexity.</p><h3 class='text-xl font-semibold mt-6'>Cyberhub Proposal</h3><p>We offer flexible implementation, combining NIST CSF with ISO/IEC 27001 and COBIT where applicable.</p></section>"
             },
             {
                 "id": "9",
                 "title": "Cybersecurity Law",
                 "slug": "ley-ciberseguridad",
-                "description": "Gap assessment and alignment with ISO/IEC 27001:2022.",
+                "description": "Obligations and alignment for Vital Importance Organizations (OIV).",
                 "image": "/LeyCiberseguridad.png",
-                "content": "<section class='space-y-8 text-neutral-200 dark:text-gray-300 leading-relaxed sm:p-4'><p><strong>Law 21.663</strong> on Cybersecurity in Chile establishes specific obligations for Vital Importance Organizations (OIV) and public or private entities providing essential services. Compliance requires policies, controls, and risk management aligned with ISO/IEC 27001:2022.</p><h3 class='text-xl font-semibold'>Objective</h3><p>Ensure operational resilience and protection of the country’s critical infrastructures against cyber incidents.</p></section>"
+                "content": "<section class='space-y-8 text-white dark:text-gray-300 leading-relaxed sm:p-4'><p>Chile’s <strong>Law 21.663 on Cybersecurity</strong> establishes legal obligations for Vital Importance Organizations (OIV) and entities operating essential services.</p><h3 class='text-xl font-semibold mt-6'>Objective</h3><p>Ensure operational resilience, mandatory incident reporting, and protection of national critical infrastructure.</p></section>"
             },
             {
                 "id": "10",
                 "title": "Data Protection Law",
                 "slug": "ley-proteccion-datos",
-                "description": "Assessment and adaptation to the Personal Data Protection Law.",
+                "description": "Assessment and adaptation to Chilean personal data protection law.",
                 "image": "/LeyDatos.png",
-                "content": "<section class='space-y-8 text-neutral-200 dark:text-gray-300 leading-relaxed sm:p-4'><p>The new <strong>Personal Data Protection Law</strong> in Chile modernizes the regulatory framework, strengthening individual rights and organizational obligations regarding personal data processing.</p><h3 class='text-xl font-semibold'>Objective</h3><p>Support organizations in regulatory adaptation and implementation of privacy and security policies aligned with ISO/IEC 27001:2022.</p></section>"
+                "content": "<section class='space-y-8 text-white dark:text-gray-300 leading-relaxed sm:p-4'><p>Chile’s new <strong>Personal Data Protection Law</strong> modernizes national privacy requirements by enforcing stricter obligations for processing, storing, and securing personal data.</p><h3 class='text-xl font-semibold mt-6'>Objective</h3><p>Support organizations in aligning policies, processes, and controls with ISO/IEC 27001 and global privacy standards.</p></section>"
             }
         ]
     },
@@ -666,6 +661,34 @@
             "Google": "Google",
             "X": "X",
             "Apple": "Apple"
+        },
+        "testimonialsTitle": "Client Testimonials",
+        "testimonials": {
+            "falabella": {
+                "company": "Falabella",
+                "author": "Michael Fox – Former Corporate CIO - Falabella Group",
+                "quote": "The Cyberhub team supported us with the internal strategy for implementing our digital transformation plan for the group, creating a Corporate Awareness Program that was highly effective in building and maintaining stakeholder knowledge and engagement."
+            },
+            "sqm": {
+                "company": "SQM",
+                "author": "Katherine Arce – Manager Risk & IT Governance - SQM",
+                "quote": "Cyberhub has become a strategic cybersecurity partner for SQM, helping us create strategies that strengthen our technology area, improve our internal services, and position us as a benchmark of quality for our internal clients."
+            },
+            "agrosuper": {
+                "company": "Agrosuper",
+                "author": "Felipe Berrio – CIO - Agrosuper",
+                "quote": "The Cyberhub team enabled us to make a significant leap in quality and professionalism with the development and implementation of a Cybersecurity Change Management Project for both IT and OT, allowing us to effectively reach our internal audiences, measure results, and generate improvements to advance our group's digital transformation strategy."
+            },
+            "aquachile": {
+                "company": "AquaChile",
+                "author": "Francisca Ariztia – Marketing & Communications Manager - AquaChile",
+                "quote": "Cyberhub has helped us raise awareness of highly relevant topics for our AquaChile teams, always delivering timely, high-quality service with creative solutions tailored to our needs."
+            },
+            "bancochile": {
+                "company": "Banco de Chile",
+                "author": "Mauricio Díaz – Head of Cybersecurity Containment Department - Banco de Chile",
+                "quote": "Cyberhub supported us with a consultancy aimed at strengthening our internal positioning as a Cybersecurity area, helping us better highlight our team's findings for the benefit of the business, employees, and customers."
+            }
         }
     },
     "aboutPage": {
@@ -686,15 +709,15 @@
             },
             {
                 "title": "Transparency and Trust",
-                "description": "We believe in long-term relationships built on honesty, communication, and results."
+                "description": "We believe in long-term relationships built on honesty, communication, and measurable results."
             },
             {
                 "title": "Collaboration",
-                "description": "Every project is a joint construction with our clients and strategic partners."
+                "description": "Every project is a shared effort between our team, our clients, and our strategic partners."
             },
             {
                 "title": "Technical Excellence",
-                "description": "We strive to deliver solid, secure, and scalable solutions with world-class standards."
+                "description": "We strive to deliver solid, secure, and scalable solutions built on world-class standards."
             }
         ],
         "teamTitle": "Our Team",
@@ -729,11 +752,11 @@
             "title": "🌍 Our Global Identity",
             "paragraphs": [
                 "Cyberhub was founded in Chile in 2020 as a response to unmet cybersecurity needs. We found that large consultancies do not personalize their approach, their post-sale service is weak, and their prices are too high for many companies.",
-                "This approach allowed us to grow quickly, and we decided to expand operations across the continent with a headquarters in Florida, USA, enabling us to serve different markets more efficiently.",
-                "Originally we were Infraseg LLC, but now we are Cyber-Tower. We have consultants in both Chile and the United States. Our focus is on preventive, not reactive, cybersecurity — helping companies become more cyber-resilient by focusing on people, processes, and technology as key management pillars."
+                "This perspective allowed us to grow quickly, leading us to expand operations across the continent with a headquarters in Florida, USA, enabling us to serve multiple markets more efficiently.",
+                "We originally operated as Infraseg LLC, and today we are Cyber-Tower. We have consultants in both Chile and the United States. Our approach focuses on preventive—not reactive—cybersecurity, helping organizations strengthen their cyber-resilience by placing people, processes, and technology at the center of management."
             ],
-            "chile": "Cyberhub represents our brand in our country of origin, focused on driving the secure digital transformation of companies in Chile.",
-            "tower": "Cyber-Tower Global (USA, Latin America, Europe, Asia) serves as our headquarters in the United States, extending our cybersecurity solutions worldwide. We have executed projects across the United States, the European Union, and Asia."
+            "chile": "Cyberhub represents our brand in our country of origin, focused on driving secure digital transformation for organizations across Chile.",
+            "tower": "Cyber-Tower Global (USA, Latin America, Europe, Asia) is our international headquarters in the United States, from where we deliver cybersecurity solutions at scale. We have executed projects across the United States, the European Union, and Asia."
         }
     },
     "servicesPage": {
@@ -741,7 +764,7 @@
             "title": "Our Solutions: Empowering your organization's security, strategy, and digital resilience",
             "alt": "Cybersecurity Solutions"
         },
-        "intro": "At <strong>Cyberhub</strong>, we design and implement <bold>comprehensive cybersecurity solutions</bold> covering human awareness, strategic management, and secure digital transformation. Each solution is designed to <strong>strengthen resilience, compliance, and trust</strong> within your organization against modern digital challenges.",
+        "intro": "At <strong>Cyberhub</strong>, we design and implement <bold>comprehensive cybersecurity solutions</bold> covering human awareness, strategic management, and secure digital transformation. Each solution is built to <strong>strengthen resilience, compliance, and trust</strong> within your organization against modern digital challenges.",
         "viewDetails": "View details",
         "categories": [
             {
@@ -760,7 +783,7 @@
             },
             {
                 "nombre": "Audit and Regulatory Compliance",
-                "descripcion": "Activities that ensure ISMS conformity through internal audits, findings review, and support during external certification.",
+                "descripcion": "Activities that ensure ISMS conformity through internal audits, findings review, and support throughout the external certification process.",
                 "items": [
                     "3",
                     "6"
@@ -775,7 +798,7 @@
             },
             {
                 "nombre": "System Certification and Maintenance",
-                "descripcion": "Ongoing support services, certification body management, annual maintenance, and integration with other management systems such as ISO 9001, 14001, or 45001.",
+                "descripcion": "Ongoing support services, certification body management, annual maintenance, and integration with other management systems such as ISO 9001, ISO 14001, or ISO 45001.",
                 "items": [
                     "5",
                     "7",
@@ -788,75 +811,57 @@
         "list": [
             {
                 "id": "1",
-                "title": "Gap Analysis",
-                "slug": "gap-analysis",
-                "href": "/soluciones/gap-analysis",
-                "description": "We identify gaps between your current situation and the ISO/IEC 27001:2022 requirements, creating a clear action plan to achieve certification.",
-                "image": "/awarenes.png",
-                "content": "<section class='space-y-8 text-neutral-200 dark:text-gray-300 leading-relaxed sm:p-4'><figure class='w-full overflow-hidden rounded-3xl shadow-lg'><img src='/gap-analisis.png' alt='Gap Analysis ISO 27001' class='w-full h-72 md:h-[500px] object-cover object-top' /></figure><header class='border-b border-gray-200 dark:border-gray-700 pb-4 space-y-3'><h2 class='text-2xl md:text-3xl font-bold text-secondary-color dark:text-secondary-light-color'>Initial gap and maturity diagnosis</h2><p>The <strong>Gap Analysis</strong> evaluates your organization’s current situation against the requirements of <strong>ISO/IEC 27001:2022</strong>, detecting deviations and defining a prioritized roadmap to achieve full compliance.</p></header><article class='grid md:grid-cols-2 gap-8'><div><h3 class='text-xl font-semibold'>Main activities</h3><ul class='list-disc list-inside space-y-2'><li>Review of existing policies, processes, and controls.</li><li>Interviews with key area leaders.</li><li>Comparison with Annex A requirements.</li><li>Detailed report with findings and action plan.</li></ul></div><div><h3 class='text-xl font-semibold'>Benefits</h3><ul class='list-disc list-inside space-y-2'><li>Complete visibility of the current ISMS state.</li><li>Effective prioritization of improvement actions.</li><li>Solid foundation for certification planning.</li></ul></div></article><aside class='p-6 rounded-2xl bg-gradient-to-r from-primary-color/10 to-secondary-light-color/10 border border-gray-200 dark:border-gray-700'><h3 class='font-semibold text-lg text-secondary-color dark:text-secondary-light-color'>Added value</h3><p>Provides a strategic view to focus efforts and resources where they truly generate compliance impact.</p></aside></section>"
+                "title": "Basic Awareness Program",
+                "slug": "basic-awareness-program",
+                "href": "/soluciones/basic-awareness-program",
+                "description": "Increase general cybersecurity understanding through a one-year communication plan segmented by audience.",
+                "image": "/awareness-basic.png",
+                "content": "<section class='space-y-6 text-white dark:text-gray-300 leading-relaxed sm:p-4'><header class='border-b border-gray-200 dark:border-gray-700 pb-4 space-y-3'><h2 class='text-2xl md:text-3xl font-bold text-primary-color dark:text-secondary-light-color'>Basic Awareness Program</h2><p>A program designed for organizations beginning their cybersecurity awareness journey and needing to build digital culture with limited resources.</p></header><article class='grid md:grid-cols-2 gap-8'><div><h3 class='text-xl font-semibold'>Objective</h3><p>Strengthen cybersecurity understanding through an <strong>annual communication plan</strong>, segmented by audience.</p><ul class='list-disc list-inside space-y-2 mt-2'><li>Annual content strategy.</li><li>Definition of appropriate communication channels.</li><li>Graphic and written materials.</li><li>Deliverable reports.</li><li>KPIs and scheduling.</li></ul></div><div><h3 class='text-xl font-semibold'>Audience & Duration</h3><p>Companies starting their awareness journey without an internal specialized team.</p><p><strong>Duration:</strong> 12 months.</p></div></article></section>"
             },
             {
                 "id": "2",
-                "title": "ISMS Implementation",
-                "slug": "isms-implementation",
-                "href": "/soluciones/isms-implementation",
-                "description": "We design and implement your Information Security Management System (ISMS) tailored to your organization’s reality and in accordance with ISO/IEC 27001:2022.",
-                "image": "/awarenes.png",
-                "content": "<section class='space-y-8 text-neutral-200 dark:text-gray-300 leading-relaxed sm:p-4'><figure class='w-full overflow-hidden rounded-3xl shadow-lg'><img src='/implementacion-sgsi.png' alt='ISMS Implementation ISO 27001' class='w-full h-72 md:h-[500px] object-cover object-top' /></figure><header class='border-b border-gray-200 dark:border-gray-700 pb-4 space-y-3'><h2 class='text-2xl md:text-3xl font-bold text-secondary-color dark:text-secondary-light-color'>Structured ISMS Implementation</h2><p>We guide your organization through the design, documentation, and full implementation of the <strong>Information Security Management System</strong> under the <strong>ISO/IEC 27001:2022</strong> standard, ensuring alignment between processes, technology, and people.</p></header><article class='grid md:grid-cols-2 gap-8'><div><h3 class='text-xl font-semibold'>Key components</h3><ul class='list-disc list-inside space-y-2'><li>Defining ISMS scope and objectives.</li><li>Risk management per ISO/IEC 27005.</li><li>Development of policies, controls, and procedures.</li><li>Support for technological and documentation implementation.</li></ul></div><div><h3 class='text-xl font-semibold'>Expected outcomes</h3><ul class='list-disc list-inside space-y-2'><li>Operational and auditable ISMS across critical areas.</li><li>Integration of security into organizational strategy.</li><li>Effective preparation for certification audit.</li></ul></div></article><aside class='p-6 rounded-2xl bg-gradient-to-r from-secondary-light-color/10 to-primary-color/10 border border-gray-200 dark:border-gray-700'><h3 class='font-semibold text-lg text-secondary-light-color dark:text-secondary-color'>Strategic value</h3><p>A well-implemented ISMS not only meets standards—it strengthens digital resilience and builds market trust.</p></aside></section>"
+                "title": "Standard Awareness Program",
+                "slug": "standard-awareness-program",
+                "href": "/soluciones/standard-awareness-program",
+                "description": "Includes an annual communication plan and a robust training program by levels.",
+                "image": "/awareness-standard.png",
+                "content": "<section class='space-y-6 text-white dark:text-gray-300 leading-relaxed sm:p-4'><header class='border-b border-gray-200 dark:border-gray-700 pb-4 space-y-3'><h2 class='text-2xl md:text-3xl font-bold text-primary-color dark:text-secondary-light-color'>Standard Awareness Program</h2><p>A program that combines strategic communication and continuous training to increase organizational cybersecurity maturity.</p></header><article class='grid md:grid-cols-2 gap-8'><div><h3 class='text-xl font-semibold'>Objective</h3><p>Improve organizational understanding through an annual communication plan strengthened by a <strong>training program</strong> with basic, intermediate, and advanced levels.</p><ul class='list-disc list-inside space-y-2 mt-2'><li>Strategic annual content.</li><li>Training aligned with HR.</li><li>KPIs by audience.</li><li>Monthly reports.</li></ul></div><div><h3 class='text-xl font-semibold'>Audience & Duration</h3><p>Organizations that want to deepen training but lack a specialized internal team.</p><p><strong>Duration:</strong> 12 months.</p></div></article></section>"
             },
             {
                 "id": "3",
-                "title": "Internal ISMS Audit",
-                "slug": "internal-audit",
-                "href": "/soluciones/internal-audit",
-                "description": "We conduct internal audits to assess ISMS compliance, effectiveness, and improvement opportunities before external certification.",
-                "image": "/awarenes.png",
-                "content": "<section class='space-y-8 text-neutral-200 dark:text-gray-300 leading-relaxed sm:p-4'><figure class='w-full overflow-hidden rounded-3xl shadow-lg'><img src='/auditoria-interna.png' alt='Internal ISMS Audit' class='w-full h-72 md:h-[500px] object-cover object-top' /></figure><header class='border-b border-gray-200 dark:border-gray-700 pb-4 space-y-3'><h2 class='text-2xl md:text-3xl font-bold text-secondary-color dark:text-secondary-light-color'>Internal audits with added value</h2><p>We objectively evaluate your <strong>ISMS</strong> effectiveness to ensure compliance with <strong>ISO/IEC 27001:2022</strong>, identifying nonconformities, deviations, and improvement opportunities before external certification.</p></header><article class='grid md:grid-cols-2 gap-8'><div><h3 class='text-xl font-semibold'>Scope</h3><ul class='list-disc list-inside space-y-2'><li>Document and technical control review.</li><li>Interviews and evidence verification.</li><li>Deviation detection and corrective planning.</li><li>Audit report with recommendations.</li></ul></div><div><h3 class='text-xl font-semibold'>Benefits</h3><ul class='list-disc list-inside space-y-2'><li>Early gap detection before certification.</li><li>Continuous ISMS improvement.</li><li>Better preparation for external audits.</li></ul></div></article></section>"
+                "title": "Premium Awareness Program",
+                "slug": "premium-awareness-program",
+                "href": "/soluciones/premium-awareness-program",
+                "description": "Our flagship service: communications, training, and annual cybersecurity attack simulations.",
+                "image": "/awareness-premium.png",
+                "content": "<section class='space-y-6 text-white dark:text-gray-300 leading-relaxed sm:p-4'><header class='border-b border-gray-200 dark:border-gray-700 pb-4 space-y-3'><h2 class='text-2xl md:text-3xl font-bold text-primary-color dark:text-secondary-light-color'>Premium Awareness Program</h2><p>The most complete solution for organizations seeking a high level of cybersecurity culture maturity.</p></header><article class='grid md:grid-cols-2 gap-8'><div><h3 class='text-xl font-semibold'>Components</h3><ul class='list-disc list-inside space-y-2 mt-2'><li>Annual communication plan.</li><li>Annual training program.</li><li>Annual cybersecurity attack simulations.</li></ul></div><div><h3 class='text-xl font-semibold'>Audience & Duration</h3><p>Companies with high exposure to cyber risks or strict compliance needs.</p><p><strong>Duration:</strong> 12 months.</p></div></article></section>"
             },
             {
                 "id": "4",
-                "title": "Awareness and Training Management",
-                "slug": "awareness-and-training-management",
-                "href": "/soluciones/awareness-and-training-management",
-                "description": "We design training programs and campaigns to strengthen your organization’s security culture and regulatory compliance.",
-                "image": "/awarenes.png",
-                "content": "<section class='space-y-8 text-neutral-200 dark:text-gray-300 leading-relaxed sm:p-4'><figure class='w-full overflow-hidden rounded-3xl shadow-lg'><img src='/concientizacion.png' alt='Awareness and Training Management' class='w-full h-72 md:h-[500px] object-cover object-top' /></figure><header class='border-b border-gray-200 dark:border-gray-700 pb-4 space-y-3'><h2 class='text-2xl md:text-3xl font-bold text-secondary-color dark:text-secondary-light-color'>Security culture through people</h2><p>The success of any management system depends on human commitment. We create <strong>awareness and training programs</strong> tailored to each organizational level, promoting safe habits and regulatory compliance.</p></header><article class='grid md:grid-cols-2 gap-8'><div><h3 class='text-xl font-semibold'>Program elements</h3><ul class='list-disc list-inside space-y-2'><li>Role- and area-based training.</li><li>Phishing simulations and educational campaigns.</li><li>Effectiveness assessment and change metrics.</li></ul></div><div><h3 class='text-xl font-semibold'>Impact</h3><ul class='list-disc list-inside space-y-2'><li>Greater digital awareness and responsibility.</li><li>Reduced human errors.</li><li>Compliance with ISO/IEC 27001 control A.7.2.</li></ul></div></article></section>"
+                "title": "Cybersecurity Month",
+                "slug": "cybersecurity-month",
+                "href": "/soluciones/cybersecurity-month",
+                "description": "We create a full corporate event dedicated entirely to cybersecurity awareness.",
+                "image": "/awareness-month.png",
+                "content": "<section class='space-y-6 text-white dark:text-gray-300 leading-relaxed sm:p-4'><header class='border-b border-gray-200 dark:border-gray-700 pb-4 space-y-3'><h2 class='text-2xl md:text-3xl font-bold text-primary-color dark:text-secondary-light-color'>Cybersecurity Month</h2><p>A complete corporate event designed to strengthen digital culture through in-person, digital, and experiential activities.</p></header><ul class='list-disc list-inside space-y-2'><li>On-site activities in plants and offices.</li><li>Trivia, surveys, and digital games.</li><li>Webinars with national and international experts.</li><li>Specialized merchandising.</li><li>Events for overseas operations.</li></ul></section>"
             },
             {
                 "id": "5",
-                "title": "Certification Body Management",
-                "slug": "certification-body-management",
-                "href": "/soluciones/certification-body-management",
-                "description": "We accompany your organization throughout the certification process, coordinating audits and managing communication with the certification body.",
-                "image": "/awarenes.png",
-                "content": "<section class='space-y-8 text-neutral-200 dark:text-gray-300 leading-relaxed sm:p-4'><figure class='w-full overflow-hidden rounded-3xl shadow-lg'><img src='/certificadora.png' alt='Certification Body Management' class='w-full h-72 md:h-[500px] object-cover object-top' /></figure><header class='border-b border-gray-200 dark:border-gray-700 pb-4 space-y-3'><h2 class='text-2xl md:text-3xl font-bold text-secondary-color dark:text-secondary-light-color'>Certification support</h2><p>In the final project phase, <strong>Cyberhub</strong> coordinates with accredited certification bodies to ensure a smooth audit and successful ISO/IEC 27001:2022 certification.</p></header><article class='grid md:grid-cols-2 gap-8'><div><h3 class='text-xl font-semibold'>Activities</h3><ul class='list-disc list-inside space-y-2'><li>Document preparation and pre-audit support.</li><li>Communication management with external auditors.</li><li>Technical assistance during audit.</li></ul></div><div><h3 class='text-xl font-semibold'>Benefits</h3><ul class='list-disc list-inside space-y-2'><li>Efficient certification process without disruptions.</li><li>Minimized external audit findings.</li><li>Guaranteed full ISO compliance.</li></ul></div></article></section>"
+                "title": "Cybersecurity Onboarding",
+                "slug": "cybersecurity-onboarding",
+                "href": "/soluciones/cybersecurity-onboarding",
+                "description": "Official induction for new employees on risks, best practices, and digital culture.",
+                "image": "/awareness-onboarding.png",
+                "content": "<section class='space-y-6 text-white dark:text-gray-300 leading-relaxed sm:p-4'><header class='border-b border-gray-200 dark:border-gray-700 pb-4 space-y-3'><h2 class='text-2xl md:text-3xl font-bold text-primary-color dark:text-secondary-light-color'>Cybersecurity Onboarding</h2><p>A structured induction to prepare new employees in digital risks, trends, and secure work practices.</p></header><p>Includes instructional design, content capsules, evaluations, and downloadable resources for immediate adoption.</p></section>"
             },
             {
                 "id": "6",
-                "title": "Post External Audit Findings Management",
-                "slug": "post-external-audit-findings-management",
-                "href": "/soluciones/post-external-audit-findings-management",
-                "description": "We help you manage and close findings detected after external audits, ensuring continuous ISMS improvement.",
-                "image": "/awarenes.png",
-                "content": "<section class='space-y-8 text-neutral-200 dark:text-gray-300 leading-relaxed sm:p-4'><figure class='w-full overflow-hidden rounded-3xl shadow-lg'><img src='/hallazgos.png' alt='Post External Audit Findings Management' class='w-full h-72 md:h-[500px] object-cover object-top' /></figure><header class='border-b border-gray-200 dark:border-gray-700 pb-4 space-y-3'><h2 class='text-2xl md:text-3xl font-bold text-secondary-color dark:text-secondary-light-color'>Closing findings and driving improvement</h2><p>After the external audit, we provide specialized support to manage and resolve nonconformities, strengthening ISMS maturity and sustainability.</p></header><article class='grid md:grid-cols-2 gap-8'><div><h3 class='text-xl font-semibold'>Typical actions</h3><ul class='list-disc list-inside space-y-2'><li>Classification and prioritization of findings.</li><li>Design of corrective action plans.</li><li>Verification and documentation of effective closures.</li></ul></div><div><h3 class='text-xl font-semibold'>Benefits</h3><ul class='list-disc list-inside space-y-2'><li>Prevention of recurrences.</li><li>Continuous system maturity and improvement.</li><li>Increased trust for future audits.</li></ul></div></article></section>"
-            },
-            {
-                "id": "7",
-                "title": "Annual System Maintenance",
-                "slug": "annual-system-maintenance",
-                "href": "/soluciones/annual-system-maintenance",
-                "description": "We provide continuous support and periodic audits to keep your ISMS effective, updated, and compliant.",
-                "image": "/awarenes.png",
-                "content": "<section class='space-y-8 text-neutral-200 dark:text-gray-300 leading-relaxed sm:p-4'><figure class='w-full overflow-hidden rounded-3xl shadow-lg'><img src='/mantenimiento.png' alt='ISMS Maintenance' class='w-full h-72 md:h-[500px] object-cover object-top' /></figure><header class='border-b border-gray-200 dark:border-gray-700 pb-4 space-y-3'><h2 class='text-2xl md:text-3xl font-bold text-secondary-color dark:text-secondary-light-color'>ISMS maintenance and review</h2><p>We offer post-certification support to ensure your ISMS remains effective, adapting to technological, regulatory, and organizational changes.</p></header><article class='grid md:grid-cols-2 gap-8'><div><h3 class='text-xl font-semibold'>Included services</h3><ul class='list-disc list-inside space-y-2'><li>Annual internal audits.</li><li>Risk matrix updates.</li><li>Continuous staff training.</li><li>Documentation and technical support.</li></ul></div><div><h3 class='text-xl font-semibold'>Advantages</h3><ul class='list-disc list-inside space-y-2'><li>Ensures sustained ISMS compliance.</li><li>Prevents control degradation.</li><li>Facilitates certification renewals.</li></ul></div></article></section>"
-            },
-            {
-                "id": "8",
-                "title": "Integration with Other Management Systems",
-                "slug": "integration-with-other-management-systems",
-                "href": "/soluciones/integration-with-other-management-systems",
-                "description": "We integrate your ISMS with ISO 9001, ISO 14001, ISO 45001, and other systems to optimize processes and reduce redundancies.",
-                "image": "/awarenes.png",
-                "content": "<section class='space-y-8 text-neutral-200 dark:text-gray-300 leading-relaxed sm:p-4'><figure class='w-full overflow-hidden rounded-3xl shadow-lg'><img src='/integracion.png' alt='Integration with Other Management Systems' class='w-full h-72 md:h-[500px] object-cover object-top' /></figure><header class='border-b border-gray-200 dark:border-gray-700 pb-4 space-y-3'><h2 class='text-2xl md:text-3xl font-bold text-secondary-color dark:text-secondary-light-color'>Integrated management systems</h2><p>We facilitate the integration of your <strong>ISMS</strong> with other management systems such as <strong>ISO 9001</strong> (Quality), <strong>ISO 14001</strong> (Environmental), and <strong>ISO 45001</strong> (Occupational Health and Safety), enabling synergy among processes and controls.</p></header><article class='grid md:grid-cols-2 gap-8'><div><h3 class='text-xl font-semibold'>Benefits</h3><ul class='list-disc list-inside space-y-2'><li>Reduced audit efforts and costs.</li><li>Unified view of risks and performance.</li><li>Greater consistency in corporate policies.</li></ul></div><div><h3 class='text-xl font-semibold'>Results</h3><ul class='list-disc list-inside space-y-2'><li>More agile and aligned processes.</li><li>Improved traceability and control.</li><li>Higher internal and external client satisfaction.</li></ul></div></article></section>"
+                "title": "Cybersecurity Tabletop Exercise",
+                "slug": "cybersecurity-tabletop",
+                "href": "/soluciones/cybersecurity-tabletop",
+                "description": "Simulated scenario to evaluate organizational response to critical incidents.",
+                "image": "/awareness-tabletop.png",
+                "content": "<section class='space-y-6 text-white dark:text-gray-300 leading-relaxed sm:p-4'><header class='border-b border-gray-200 dark:border-gray-700 pb-4 space-y-3'><h2 class='text-2xl md:text-3xl font-bold text-primary-color dark:text-secondary-light-color'>Cybersecurity Tabletop Exercise</h2><p>Incident simulations in a roundtable format to assess decision-making, coordination, and effectiveness of existing plans.</p></header><h3 class='text-xl font-semibold'>Objectives</h3><ul class='list-disc list-inside space-y-2'><li>Test response and continuity plans.</li><li>Identify gaps and weaknesses.</li><li>Improve cross-area coordination.</li></ul><p><strong>Duration:</strong> 1 day.</p></section>"
             }
         ]
     },
@@ -864,75 +869,57 @@
         "list": [
             {
                 "id": "1",
-                "title": "Gap Analysis",
-                "slug": "gap-analysis",
-                "href": "/soluciones/gap-analysis",
-                "description": "We identify the gaps between your current situation and the ISO/IEC 27001:2022 requirements, developing a clear action plan to achieve certification.",
-                "image": "/auditoria.png",
-                "content": "<section class='space-y-8 text-neutral-200 dark:text-gray-300 leading-relaxed sm:p-4'><figure class='w-full overflow-hidden rounded-3xl shadow-lg'><img src='/auditoria.png' alt='Gap Analysis ISO 27001' class='w-full h-72 md:h-[500px] object-cover object-top' /></figure><header class='border-b border-gray-200 dark:border-gray-700 pb-4 space-y-3'><h2 class='text-2xl md:text-3xl font-bold text-secondary-color dark:text-secondary-light-color'>Initial gap and maturity assessment</h2><p>The <strong>Gap Analysis</strong> evaluates your organization’s current situation against the requirements of <strong>ISO/IEC 27001:2022</strong>, detecting deviations and defining a prioritized roadmap to achieve full compliance.</p></header><article class='grid md:grid-cols-2 gap-8'><div><h3 class='text-xl font-semibold'>Main activities</h3><ul class='list-disc list-inside space-y-2'><li>Review of existing policies, processes, and controls.</li><li>Interviews with key area representatives.</li><li>Comparison with Annex A requirements.</li><li>Detailed report with findings and action plan.</li></ul></div><div><h3 class='text-xl font-semibold'>Benefits</h3><ul class='list-disc list-inside space-y-2'><li>Complete visibility of the current ISMS state.</li><li>Effective prioritization of improvement actions.</li><li>Solid foundation for certification planning.</li></ul></div></article><aside class='p-6 rounded-2xl bg-gradient-to-r from-primary-color/10 to-secondary-light-color/10 border border-gray-200 dark:border-gray-700'><h3 class='font-semibold text-lg text-secondary-color dark:text-secondary-light-color'>Added value</h3><p>Provides a strategic perspective to focus efforts and resources where they truly generate compliance impact.</p></aside></section>"
+                "title": "Basic Awareness Program",
+                "slug": "basic-awareness-program",
+                "href": "/soluciones/basic-awareness-program",
+                "description": "Initial program to develop cybersecurity culture through segmented communications.",
+                "image": "/awareness-basic.png",
+                "content": "<section class='space-y-6 text-white dark:text-gray-300 leading-relaxed sm:p-4'><header class='border-b border-gray-200 dark:border-gray-700 pb-4 space-y-3'><h2 class='text-2xl md:text-3xl font-bold text-primary-color dark:text-secondary-light-color'>Basic Awareness Program</h2><p>Designed for organizations starting their cybersecurity awareness journey and needing to build digital culture foundations.</p></header><article class='grid md:grid-cols-2 gap-8'><div><h3 class='text-xl font-semibold'>Objective</h3><p>Increase general understanding through an <strong>annual communication plan</strong>.</p><ul class='list-disc list-inside space-y-2 mt-2'><li>Annual content strategy.</li><li>Selection of appropriate communication channels.</li><li>Graphic and written content.</li><li>Deliverable reports and KPIs.</li></ul></div><div><h3 class='text-xl font-semibold'>Audience & Duration</h3><p>Companies without an internal specialized team.</p><p><strong>Duration:</strong> 12 months.</p></div></article></section>"
             },
             {
                 "id": "2",
-                "title": "ISMS Implementation",
-                "slug": "isms-implementation",
-                "href": "/soluciones/isms-implementation",
-                "description": "We design and implement your Information Security Management System (ISMS) tailored to your organization’s reality and in accordance with ISO/IEC 27001:2022.",
-                "image": "/auditoria.png",
-                "content": "<section class='space-y-8 text-neutral-200 dark:text-gray-300 leading-relaxed sm:p-4'><figure class='w-full overflow-hidden rounded-3xl shadow-lg'><img src='/auditoria.png' alt='ISMS Implementation ISO 27001' class='w-full h-72 md:h-[500px] object-cover object-top' /></figure><header class='border-b border-gray-200 dark:border-gray-700 pb-4 space-y-3'><h2 class='text-2xl md:text-3xl font-bold text-secondary-color dark:text-secondary-light-color'>Structured ISMS Implementation</h2><p>We guide your organization through the design, documentation, and complete implementation of the <strong>Information Security Management System</strong> under the <strong>ISO/IEC 27001:2022</strong> standard, ensuring alignment between processes, technology, and people.</p></header><article class='grid md:grid-cols-2 gap-8'><div><h3 class='text-xl font-semibold'>Key components</h3><ul class='list-disc list-inside space-y-2'><li>Definition of ISMS scope and objectives.</li><li>Risk management per ISO/IEC 27005.</li><li>Development of policies, controls, and procedures.</li><li>Support for technical and documentation implementation.</li></ul></div><div><h3 class='text-xl font-semibold'>Expected results</h3><ul class='list-disc list-inside space-y-2'><li>Operational and auditable ISMS across all critical areas.</li><li>Integration of security into organizational strategy.</li><li>Effective preparation for certification audits.</li></ul></div></article><aside class='p-6 rounded-2xl bg-gradient-to-r from-secondary-light-color/10 to-primary-color/10 border border-gray-200 dark:border-gray-700'><h3 class='font-semibold text-lg text-secondary-light-color dark:text-secondary-color'>Strategic value</h3><p>A well-implemented ISMS not only complies with the standard but strengthens digital resilience and builds market trust.</p></aside></section>"
+                "title": "Standard Awareness Program",
+                "slug": "standard-awareness-program",
+                "href": "/soluciones/standard-awareness-program",
+                "description": "Includes strategic communications and structured basic, intermediate, and advanced training.",
+                "image": "/awareness-standard.png",
+                "content": "<section class='space-y-6 text-white dark:text-gray-300 leading-relaxed sm:p-4'><header class='border-b border-gray-200 dark:border-gray-700 pb-4 space-y-3'><h2 class='text-2xl md:text-3xl font-bold text-primary-color dark:text-secondary-light-color'>Standard Awareness Program</h2><p>Combines strategic communications and continuous training to increase organizational maturity.</p></header><article class='grid md:grid-cols-2 gap-8'><div><h3 class='text-xl font-semibold'>Objective</h3><p>Implement an annual communication plan enhanced with <strong>structured training</strong>.</p><ul class='list-disc list-inside space-y-2 mt-2'><li>Annual communication plan.</li><li>Level-based training.</li><li>KPIs and monthly reports.</li><li>Alignment with HR.</li></ul></div><div><h3 class='text-xl font-semibold'>Audience & Duration</h3><p>Organizations seeking deeper training without internal capability.</p><p><strong>Duration:</strong> 12 months.</p></div></article></section>"
             },
             {
                 "id": "3",
-                "title": "Internal ISMS Audit",
-                "slug": "internal-audit",
-                "href": "/soluciones/internal-audit",
-                "description": "We conduct internal audits to assess compliance, effectiveness, and improvement opportunities before the external audit process.",
-                "image": "/auditoria.png",
-                "content": "<section class='space-y-8 text-neutral-200 dark:text-gray-300 leading-relaxed sm:p-4'><figure class='w-full overflow-hidden rounded-3xl shadow-lg'><img src='/auditoria.png' alt='Internal ISMS Audit' class='w-full h-72 md:h-[500px] object-cover object-top' /></figure><header class='border-b border-gray-200 dark:border-gray-700 pb-4 space-y-3'><h2 class='text-2xl md:text-3xl font-bold text-secondary-color dark:text-secondary-light-color'>Internal audits with added value</h2><p>We objectively evaluate the effectiveness of your <strong>ISMS</strong> to ensure it complies with <strong>ISO/IEC 27001:2022</strong>, identifying nonconformities, deviations, and improvement opportunities before the external audit.</p></header><article class='grid md:grid-cols-2 gap-8'><div><h3 class='text-xl font-semibold'>Scope</h3><ul class='list-disc list-inside space-y-2'><li>Document and technical control review.</li><li>Interviews and evidence verification.</li><li>Detection of deviations and action planning.</li><li>Comprehensive audit report with recommendations.</li></ul></div><div><h3 class='text-xl font-semibold'>Benefits</h3><ul class='list-disc list-inside space-y-2'><li>Early identification of gaps before certification.</li><li>Continuous improvement of the ISMS.</li><li>Enhanced readiness for external audits.</li></ul></div></article></section>"
+                "title": "Premium Awareness Program",
+                "slug": "premium-awareness-program",
+                "href": "/soluciones/premium-awareness-program",
+                "description": "Annual plan combining communications, training, and real cyberattack simulations.",
+                "image": "/awareness-premium.png",
+                "content": "<section class='space-y-6 text-white dark:text-gray-300 leading-relaxed sm:p-4'><header class='border-b border-gray-200 dark:border-gray-700 pb-4 space-y-3'><h2 class='text-2xl md:text-3xl font-bold text-primary-color dark:text-secondary-light-color'>Premium Awareness Program</h2><p>The most complete solution for organizations requiring high cybersecurity maturity.</p></header><article class='grid md:grid-cols-2 gap-8'><div><h3 class='text-xl font-semibold'>Components</h3><ul class='list-disc list-inside space-y-2 mt-2'><li>Annual communication plan.</li><li>Annual training plan.</li><li>Annual cyberattack simulations.</li></ul></div><div><h3 class='text-xl font-semibold'>Audience & Duration</h3><p>Companies with high exposure or regulatory demands.</p><p><strong>Duration:</strong> 12 months.</p></div></article></section>"
             },
             {
                 "id": "4",
-                "title": "Awareness and Training Management",
-                "slug": "awareness-and-training-management",
-                "href": "/soluciones/awareness-and-training-management",
-                "description": "We design training programs and awareness campaigns to strengthen your organization’s security culture and regulatory compliance.",
-                "image": "/auditoria.png",
-                "content": "<section class='space-y-8 text-neutral-200 dark:text-gray-300 leading-relaxed sm:p-4'><figure class='w-full overflow-hidden rounded-3xl shadow-lg'><img src='/auditoria.png' alt='Awareness and Training Management' class='w-full h-72 md:h-[500px] object-cover object-top' /></figure><header class='border-b border-gray-200 dark:border-gray-700 pb-4 space-y-3'><h2 class='text-2xl md:text-3xl font-bold text-secondary-color dark:text-secondary-light-color'>Building a security culture through people</h2><p>The success of any management system depends on human commitment. We develop <strong>awareness and training programs</strong> adapted to each organizational level, promoting safe behavior and compliance with regulations.</p></header><article class='grid md:grid-cols-2 gap-8'><div><h3 class='text-xl font-semibold'>Program elements</h3><ul class='list-disc list-inside space-y-2'><li>Role- and area-based training.</li><li>Phishing simulations and awareness campaigns.</li><li>Effectiveness assessments and change metrics.</li></ul></div><div><h3 class='text-xl font-semibold'>Impact</h3><ul class='list-disc list-inside space-y-2'><li>Increased digital responsibility and awareness.</li><li>Reduction of human errors.</li><li>Compliance with ISO/IEC 27001, control A.7.2.</li></ul></div></article></section>"
+                "title": "Cybersecurity Month",
+                "slug": "cybersecurity-month",
+                "href": "/soluciones/cybersecurity-month",
+                "description": "A full corporate event to reinforce digital culture through in-person and digital activities.",
+                "image": "/awareness-month.png",
+                "content": "<section class='space-y-6 text-white dark:text-gray-300 leading-relaxed sm:p-4'><header class='border-b border-gray-200 dark:border-gray-700 pb-4 space-y-3'><h2 class='text-2xl md:text-3xl font-bold text-primary-color dark:text-secondary-light-color'>Cybersecurity Month</h2><p>A comprehensive organizational event designed to strengthen secure culture.</p></header><ul class='list-disc list-inside space-y-2'><li>On-site activities in plants and offices.</li><li>Digital activities: games, trivia, surveys.</li><li>Webinars with national and international experts.</li><li>Specialized merchandising.</li><li>Activities for international operations.</li></ul></section>"
             },
             {
                 "id": "5",
-                "title": "Certification Body Management",
-                "slug": "certification-body-management",
-                "href": "/soluciones/certification-body-management",
-                "description": "We support your organization during the certification process, coordinating audits and managing communication with the certification body.",
-                "image": "/auditoria.png",
-                "content": "<section class='space-y-8 text-neutral-200 dark:text-gray-300 leading-relaxed sm:p-4'><figure class='w-full overflow-hidden rounded-3xl shadow-lg'><img src='/auditoria.png' alt='Certification Body Management' class='w-full h-72 md:h-[500px] object-cover object-top' /></figure><header class='border-b border-gray-200 dark:border-gray-700 pb-4 space-y-3'><h2 class='text-2xl md:text-3xl font-bold text-secondary-color dark:text-secondary-light-color'>Certification support and coordination</h2><p>During the final phase of the project, <strong>Cyberhub</strong> coordinates with accredited certification bodies, ensuring a smooth audit process and successful ISO/IEC 27001:2022 certification.</p></header><article class='grid md:grid-cols-2 gap-8'><div><h3 class='text-xl font-semibold'>Activities</h3><ul class='list-disc list-inside space-y-2'><li>Pre-audit preparation and document support.</li><li>Communication management with external auditors.</li><li>Technical assistance during the audit.</li></ul></div><div><h3 class='text-xl font-semibold'>Benefits</h3><ul class='list-disc list-inside space-y-2'><li>Efficient and uninterrupted certification process.</li><li>Minimized findings during external audits.</li><li>Full compliance with ISO requirements.</li></ul></div></article></section>"
+                "title": "Cybersecurity Onboarding",
+                "slug": "cybersecurity-onboarding",
+                "href": "/soluciones/cybersecurity-onboarding",
+                "description": "Official induction for new employees on risks, best practices, and digital culture.",
+                "image": "/awareness-onboarding.png",
+                "content": "<section class='space-y-6 text-white dark:text-gray-300 leading-relaxed sm:p-4'><header class='border-b border-gray-200 dark:border-gray-700 pb-4 space-y-3'><h2 class='text-2xl md:text-3xl font-bold text-primary-color dark:text-secondary-light-color'>Cybersecurity Onboarding</h2><p>Preparation for new employees on risks, trends, and secure work practices.</p></header><p>Includes instructional design, educational capsules, assessments, and downloadable resources.</p></section>"
             },
             {
                 "id": "6",
-                "title": "Post External Audit Findings Management",
-                "slug": "post-external-audit-findings-management",
-                "href": "/soluciones/post-external-audit-findings-management",
-                "description": "We help manage and close findings detected after external audits, ensuring continuous ISMS improvement.",
-                "image": "/auditoria.png",
-                "content": "<section class='space-y-8 text-neutral-200 dark:text-gray-300 leading-relaxed sm:p-4'><figure class='w-full overflow-hidden rounded-3xl shadow-lg'><img src='/auditoria.png' alt='Post External Audit Findings Management' class='w-full h-72 md:h-[500px] object-cover object-top' /></figure><header class='border-b border-gray-200 dark:border-gray-700 pb-4 space-y-3'><h2 class='text-2xl md:text-3xl font-bold text-secondary-color dark:text-secondary-light-color'>Closing findings and continuous improvement</h2><p>After the external audit, we provide specialized support to manage and resolve nonconformities, reinforcing ISMS maturity and long-term sustainability.</p></header><article class='grid md:grid-cols-2 gap-8'><div><h3 class='text-xl font-semibold'>Typical actions</h3><ul class='list-disc list-inside space-y-2'><li>Classification and prioritization of findings.</li><li>Design of corrective action plans.</li><li>Verification and documentation of effective closures.</li></ul></div><div><h3 class='text-xl font-semibold'>Benefits</h3><ul class='list-disc list-inside space-y-2'><li>Recurrence prevention.</li><li>System maturity and continuous improvement.</li><li>Increased confidence for future audits.</li></ul></div></article></section>"
-            },
-            {
-                "id": "7",
-                "title": "Annual System Maintenance",
-                "slug": "annual-system-maintenance",
-                "href": "/soluciones/annual-system-maintenance",
-                "description": "We provide continuous support and periodic audits to keep your ISMS updated, effective, and compliant.",
-                "image": "/auditoria.png",
-                "content": "<section class='space-y-8 text-neutral-200 dark:text-gray-300 leading-relaxed sm:p-4'><figure class='w-full overflow-hidden rounded-3xl shadow-lg'><img src='/auditoria.png' alt='ISMS Maintenance' class='w-full h-72 md:h-[500px] object-cover object-top' /></figure><header class='border-b border-gray-200 dark:border-gray-700 pb-4 space-y-3'><h2 class='text-2xl md:text-3xl font-bold text-secondary-color dark:text-secondary-light-color'>ISMS maintenance and review</h2><p>We offer post-certification support to ensure the ISMS remains effective, adapting to technological, regulatory, and organizational changes.</p></header><article class='grid md:grid-cols-2 gap-8'><div><h3 class='text-xl font-semibold'>Included services</h3><ul class='list-disc list-inside space-y-2'><li>Annual internal audits.</li><li>Risk matrix updates.</li><li>Ongoing staff training.</li><li>Documentation and technical support.</li></ul></div><div><h3 class='text-xl font-semibold'>Advantages</h3><ul class='list-disc list-inside space-y-2'><li>Ensures sustained ISMS compliance.</li><li>Prevents control degradation.</li><li>Simplifies certification renewals.</li></ul></div></article></section>"
-            },
-            {
-                "id": "8",
-                "title": "Integration with Other Management Systems",
-                "slug": "integration-with-other-management-systems",
-                "href": "/soluciones/integration-with-other-management-systems",
-                "description": "We integrate your ISMS with ISO 9001, ISO 14001, ISO 45001, or other management systems, optimizing processes and reducing redundancies.",
-                "image": "/auditoria.png",
-                "content": "<section class='space-y-8 text-neutral-200 dark:text-gray-300 leading-relaxed sm:p-4'><figure class='w-full overflow-hidden rounded-3xl shadow-lg'><img src='/auditoria.png' alt='Integration of Management Systems' class='w-full h-72 md:h-[500px] object-cover object-top' /></figure><header class='border-b border-gray-200 dark:border-gray-700 pb-4 space-y-3'><h2 class='text-2xl md:text-3xl font-bold text-secondary-color dark:text-secondary-light-color'>Integrated management systems</h2><p>We facilitate the integration of your <strong>ISMS</strong> with other management systems such as <strong>ISO 9001</strong> (Quality), <strong>ISO 14001</strong> (Environmental), and <strong>ISO 45001</strong> (Occupational Health and Safety), allowing synergy across processes and controls.</p></header><article class='grid md:grid-cols-2 gap-8'><div><h3 class='text-xl font-semibold'>Benefits</h3><ul class='list-disc list-inside space-y-2'><li>Reduced audit efforts and costs.</li><li>Unified view of risks and performance.</li><li>Greater consistency in corporate policies.</li></ul></div><div><h3 class='text-xl font-semibold'>Results</h3><ul class='list-disc list-inside space-y-2'><li>More agile and aligned processes.</li><li>Improved traceability and control.</li><li>Higher satisfaction for internal and external clients.</li></ul></div></article></section>"
+                "title": "Cybersecurity Tabletop Exercise",
+                "slug": "cybersecurity-tabletop",
+                "href": "/soluciones/cybersecurity-tabletop",
+                "description": "Simulated exercise to evaluate organizational response to critical incidents.",
+                "image": "/awareness-tabletop.png",
+                "content": "<section class='space-y-6 text-white dark:text-gray-300 leading-relaxed sm:p-4'><header class='border-b border-gray-200 dark:border-gray-700 pb-4 space-y-3'><h2 class='text-2xl md:text-3xl font-bold text-primary-color dark:text-secondary-light-color'>Cybersecurity Tabletop Exercise</h2><p>Strategic simulation to evaluate decision-making during incidents.</p></header><h3 class='text-xl font-semibold'>Objectives</h3><ul class='list-disc list-inside space-y-2'><li>Test response and continuity plans.</li><li>Identify gaps and weaknesses.</li><li>Improve cross-area coordination.</li></ul><p><strong>Duration:</strong> 1 day.</p></section>"
             }
         ]
     },

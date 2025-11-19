@@ -8,7 +8,7 @@ export default function SolucionDetail({
   };
 }) {
   return (
-    <div className="space-y-4 max-w-5xl mx-auto mt-4">
+    <div className="space-y-4 max-w-5xl mx-auto mt-4 text-white">
       <h1 className="text-3xl font-bold">{cert.title}</h1>
       <p className="text-neutral-200">{cert.description}</p>
       <div
