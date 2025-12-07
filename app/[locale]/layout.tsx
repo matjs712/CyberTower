@@ -10,10 +10,12 @@ import { notFound } from "next/navigation";
 import { NextIntlClientProvider, hasLocale } from "next-intl";
 import { setRequestLocale } from "next-intl/server";
 import { routing } from "@/i18n/routing";
-import Link from "next/link";
+import FloatingContactButton from "@/components/floatingButton";
 
+/* ✅ Metadata global */
 export const metadata = defaultMetadata;
 
+/* ✅ Fuente global */
 const poppins = Poppins({
   subsets: ["latin"],
   variable: "--font-poppins",
@@ -21,10 +23,12 @@ const poppins = Poppins({
   weight: ["400", "500", "600", "700"],
 });
 
+/* ✅ Generación de rutas estáticas por idioma */
 export function generateStaticParams() {
   return routing.locales.map((locale) => ({ locale }));
 }
 
+/* ✅ Layout principal multilenguaje */
 export default async function RootLayout({
   children,
   params,
@@ -34,8 +38,10 @@ export default async function RootLayout({
 }>) {
   const { locale } = params;
 
+  // Validar idioma
   if (!hasLocale(routing.locales, locale)) notFound();
 
+  // Cargar traducciones del idioma actual
   let messages;
   try {
     messages = (await import(`@/messages/${locale}.json`)).default;
@@ -43,24 +49,27 @@ export default async function RootLayout({
     notFound();
   }
 
+  // Establecer locale para SSR (necesario para next-intl)
   setRequestLocale(locale);
 
   return (
-    <html lang={locale} className="dark" suppressHydrationWarning>
+    <html lang={locale} suppressHydrationWarning>
       <body className={`${poppins.variable} font-sans antialiased`}>
         <NextIntlClientProvider locale={locale} messages={messages}>
           <ThemeProvider
             attribute="class"
-            // defaultTheme="dark"
-            enableSystem={false}
+            defaultTheme="light"
+            enableSystem
             disableTransitionOnChange
           >
             <Navbar />
             {children}
             <FooterSection />
+            <FloatingContactButton />
           </ThemeProvider>
         </NextIntlClientProvider>
 
+        {/* ✅ LinkedIn Insight Tag */}
         <Script id="linkedin-insight-init" strategy="afterInteractive">
           {`
             _linkedin_partner_id = "8147066";
@@ -98,48 +107,6 @@ export default async function RootLayout({
             src="https://px.ads.linkedin.com/collect/?pid=8147066&fmt=gif"
           />
         </noscript>
-        {/* === BOTÓN FLOTANTE DE CONTACTO === */}
-        <Link
-          href="mailto:contacto@cyberhub.cl"
-          aria-label="Contáctanos"
-          className="
-    fixed 
-    bottom-6 
-    right-6 
-    z-50
-    flex 
-    items-center 
-    gap-2 
-    bg-secondary-color 
-    text-white 
-    font-semibold 
-    px-5 
-    py-3 
-    rounded-full 
-    shadow-xl 
-    shadow-secondary-color/40 
-    hover:shadow-secondary-color/60 
-    hover:scale-[1.05] 
-    transition-all 
-    duration-300
-  "
-        >
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            className="h-5 w-5"
-            fill="none"
-            viewBox="0 0 24 24"
-            stroke="currentColor"
-            strokeWidth="1.8"
-          >
-            <path
-              strokeLinecap="round"
-              strokeLinejoin="round"
-              d="M8 10h.01M12 10h.01M16 10h.01M21 12c0 4.418-4.03 8-9 8a9.77 9.77 0 01-4-.8L3 21l1.8-4.6A7.7 7.7 0 013 12c0-4.418 4.03-8 9-8s9 3.582 9 8z"
-            />
-          </svg>
-          Contáctanos
-        </Link>
       </body>
     </html>
   );

@@ -1,131 +1,156 @@
 "use client";
 
-import { ReactNode } from "react";
-import { cn } from "@/lib/utils";
-import {
-  Footer,
-  FooterBottom,
-  FooterColumn,
-  FooterContent,
-} from "@/components/ui/footer";
-import { useLocale, useTranslations } from "next-intl";
 import { Link } from "@/i18n/navigation";
 import Image from "next/image";
+import { Mail, MapPin, Phone, Shield, Globe, Laptop } from "lucide-react";
+import { useTranslations } from "next-intl";
+import AgendaDialog from "../AgendaDialog";
+import { ActionButton } from "./howWeWork";
 
-interface FooterLink {
-  text: string;
-  href: string;
-  ariaLabel?: string;
-}
-
-interface FooterColumnProps {
-  title: string;
-  links: FooterLink[];
-}
-
-interface FooterProps {
-  logo?: ReactNode;
-  name?: string;
-  className?: string;
-}
-
-export default function FooterSection({ className }: FooterProps) {
+export default function FooterSection() {
   const t = useTranslations("footer");
-  const locale = useLocale();
+  const tNav = useTranslations("navbar");
+  const tSolutions = useTranslations("solutions");
+  const s = useTranslations("howWeWork.puntual");
+  // Navigation: navbar.links
+  const navLinks = [
+    {
+      text: tNav("links.solutions"),
+      href: "/soluciones",
+      icon: <Globe size={14} />,
+    },
+    {
+      text: tNav("links.aboutUs"),
+      href: "/nosotros",
+      icon: <Shield size={14} />,
+    },
+    {
+      text: tNav("links.certifications"),
+      href: "/certificaciones",
+      icon: <Laptop size={14} />,
+    },
+    { text: tNav("links.blog"), href: "/blog", icon: <Globe size={14} /> },
+    {
+      text: tNav("links.clients"),
+      href: "/clientes",
+      icon: <Shield size={14} />,
+    },
+  ];
 
-  const columns: FooterColumnProps[] = t.raw("columns");
-  const policies: FooterLink[] = t.raw("policies");
+  // Services: solutions.list
+  const services = tSolutions
+    .raw("list")
+    .map((s: { title: string; href: string; icon: React.ReactNode }) => ({
+      text: s.title,
+      href: s.href,
+      icon: <Shield size={14} />,
+    }));
 
-  const copyright = t("copyright", {
-    year: new Date().getFullYear(),
-  });
-
-  const buildHref = (href: string) => {
-    if (href.startsWith(`/${locale}/`) || href === `/${locale}`) return href;
-    if (!href.startsWith("/")) href = `/${href}`;
-    return `/${locale}${href}`;
+  const contact = {
+    location: t("contact.location"),
+    email: t("contact.email"),
+    email2: t("contact.email2"),
+    schedule: t("contact.schedule"),
   };
 
   return (
-    <footer
-      className={cn(
-        "w-full px-4 pt-12 pb-8 border-t border-secondary-color bg-foreground text-white",
-        className
-      )}
-      role="contentinfo"
-      aria-label={t("aria.label")}
-    >
-      <div className="max-w-container mx-auto">
-        <Footer className="bg-transparent">
-          <FooterContent>
-            {/* === LOGO === */}
-            <FooterColumn className="col-span-2 sm:col-span-3 md:col-span-1">
-              <Link
-                href={`/${locale}`}
-                className="flex items-center gap-2 mb-4"
-                aria-label={t("aria.goHome")}
-              >
-                <Image
-                  src={"/Logo_Final_Cyber_TowerLOWRES-03-recortada.png"}
-                  alt="Cyberhub"
-                  height={200}
-                  width={200}
-                />
-              </Link>
-              <p className="text-sm text-neutral-200 max-w-xs">
-                {t("description")}
-              </p>
-            </FooterColumn>
+    <footer className="w-full pt-16 pb-10 px-4">
+      <div className="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-4 gap-12">
+        {/* ============================
+                LEFT COLUMN
+        ============================ */}
+        <div className="space-y-4 md:col-span-1">
+          <div className="flex items-center gap-2">
+            <Image src="/logo-b.svg" alt="Cyberhub" width={200} height={200} />
+            {/* <span className="text-xl font-semibold">Cyberhub</span> */}
+          </div>
 
-            {/* === COLUMNAS DE NAVEGACIÓN === */}
-            {columns.map((column, index) => (
-              <FooterColumn
-                key={index}
-                role="navigation"
-                aria-labelledby={`footer-col-${index}`}
-              >
-                <h2
-                  id={`footer-col-${index}`}
-                  className="text-md pt-1 font-semibold mb-2"
-                >
-                  {column.title}
-                </h2>
+          <p className="text-neutral-900/70 text-sm max-w-xs">
+            {t("description")}
+          </p>
 
-                <ul className="space-y-1">
-                  {column.links.map((link, linkIndex) => (
-                    <li key={linkIndex}>
-                      <Link
-                        href={buildHref(link.href)}
-                        aria-label={link.ariaLabel || `Ir a ${link.text}`}
-                        className="text-sm hover:text-secondary-color transition-colors text-white"
-                      >
-                        {link.text}
-                      </Link>
-                    </li>
-                  ))}
-                </ul>
-              </FooterColumn>
-            ))}
-          </FooterContent>
+          <AgendaDialog
+            trigger={
+              <ActionButton
+                className="bg-secondary-color text-white !rounded-full"
+                text={s("cta.primary")}
+              />
+            }
+          />
+        </div>
 
-          {/* === LÍNEA INFERIOR === */}
-          <FooterBottom className="flex flex-col sm:flex-row justify-between items-center gap-4 mt-8 border-t border-secondary-color pt-6">
-            <small className="text-xs text-neutral-200">{copyright}</small>
-
-            <div className="flex items-center gap-4">
-              {policies.map((policy, index) => (
+        {/* ============================
+                NAVIGATION (JSON)
+        ============================ */}
+        <div>
+          <h3 className="font-semibold mb-3 text-neutral-900">
+            {t("navigationTitle")}
+          </h3>
+          <ul className="space-y-2 text-sm">
+            {navLinks.map((link, i) => (
+              <li key={i}>
                 <Link
-                  key={index}
-                  href={buildHref(policy.href)}
-                  aria-label={policy.ariaLabel || `Leer ${policy.text}`}
-                  className="text-xs text-gray-200 hover:text-secondary-color transition-colors"
+                  href={link.href}
+                  className="flex items-center gap-2 text-neutral-900/70 hover:text-neutral-900 transition"
                 >
-                  {policy.text}
+                  {link.icon} {link.text}
                 </Link>
-              ))}
-            </div>
-          </FooterBottom>
-        </Footer>
+              </li>
+            ))}
+          </ul>
+        </div>
+
+        {/* ============================
+                SERVICES (solutions.list)
+        ============================ */}
+        <div>
+          <h3 className="font-semibold mb-3 text-neutral-900">
+            {t("servicesTitle")}
+          </h3>
+          <ul className="space-y-2 text-sm">
+            {services.map(
+              (item: { icon: React.ReactNode; text: string }, i: number) => (
+                <li
+                  key={i}
+                  className="flex items-center gap-2 text-neutral-900/70 hover:text-neutral-900 transition"
+                >
+                  {item.icon}
+                  {item.text}
+                </li>
+              )
+            )}
+          </ul>
+        </div>
+
+        {/* ============================
+                CONTACT (JSON)
+        ============================ */}
+        <div>
+          <h3 className="font-semibold mb-3 text-neutral-900">
+            {t("contactTitle")}
+          </h3>
+          <ul className="space-y-3 text-sm">
+            <li className="flex items-center gap-2 text-neutral-900/70">
+              <MapPin size={14} /> {contact.location}
+            </li>
+            <li className="flex items-center gap-2 text-neutral-900/70">
+              <Mail size={14} /> {contact.email}
+            </li>
+            <li className="flex items-center gap-2 text-neutral-900/70">
+              <Mail size={14} /> {contact.email2}
+            </li>
+            <li className="flex items-center gap-2 text-neutral-900/70">
+              <Phone size={14} /> {contact.schedule}
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      {/* ============================
+              COPYRIGHT
+      ============================ */}
+      <div className="border-t border-black/10 mt-12 pt-6 text-center text-xs text-neutral-900/50">
+        {t("copyright", { year: new Date().getFullYear() })}
       </div>
     </footer>
   );

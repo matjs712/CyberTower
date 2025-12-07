@@ -1,145 +1,214 @@
 "use client";
 
-import { motion } from "framer-motion";
-import { Card, CardContent } from "@/components/ui/card";
+import { Card } from "@/components/ui/card";
 import Image from "next/image";
-import Link from "next/link";
+// import Link from "next/link";
 import { useTranslations } from "next-intl";
+import { ActionButton } from "@/components/sections/howWeWork";
+import AgendaDialog from "@/components/AgendaDialog";
+import { Link } from "@/i18n/navigation";
+
+type Category = {
+  nombre: string;
+  descripcion: string;
+  items: string[];
+};
+
+type Service = {
+  id: string;
+  title: string;
+  slug: string;
+  href: string;
+  description: string;
+  content: string;
+  image: string;
+  duration: string;
+  includes: string[];
+};
 
 export default function ServiciosPage() {
   const t = useTranslations("servicesPage");
   const s = useTranslations("AllSolutions");
+  const h = useTranslations("howWeWork.puntual");
 
-  const categories = t.raw("categories");
-  const soluciones = s.raw("list");
+  const categories = t.raw("categories") as Category[];
+  const rawServices = s.raw("list") as Service[];
+
+  const soluciones: Service[] = rawServices.map((srv) => {
+    const parsed = { duration: "Según proyecto", includes: [] };
+    return { ...srv, duration: parsed.duration, includes: parsed.includes };
+  });
 
   return (
-    <main className="bg-foreground text-white">
-      {/* === HERO === */}
-      <section className="relative flex flex-col items-center justify-center text-center py-28 px-6 overflow-hidden">
-        <motion.h1
-          initial={{ opacity: 0, y: 30 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.6 }}
-          className="text-4xl md:text-6xl font-bold leading-tight max-w-3xl mb-8"
-        >
-          {t("hero.title")}
-        </motion.h1>
-
-        <motion.div
-          initial={{ opacity: 0 }}
-          animate={{ opacity: 1 }}
-          transition={{ duration: 0.8, delay: 0.3 }}
-          className="relative w-72 h-72 md:w-96 md:h-96 opacity-80"
-        >
+    <div className="mb-20">
+      {/* HERO */}
+      <div className="relative max-w-7xl mx-auto px-8 pt-24 pb-32">
+        <div className="absolute inset-0 -z-10">
           <Image
             src="/soluciones.png"
             alt={t("hero.alt")}
             fill
-            className="object-contain"
+            className="object-cover opacity-40"
           />
-        </motion.div>
+          <div className="absolute inset-0 bg-gradient-to-b from-white/40 via-white/80 to-white pointer-events-none" />
+        </div>
 
-        <div className="absolute inset-0 bg-gradient-to-b from-black/30 via-black/60 to-foreground" />
-      </section>
+        <div className="max-w-3xl space-y-6 mb-4">
+          <h1 className="text-4xl md:text-5xl font-extrabold text-gray-900 leading-tight drop-shadow-sm">
+            {t("hero.title")}
+          </h1>
+        </div>
 
-      {/* === INTRO === */}
-      <section className="max-w-4xl mx-auto text-center px-6 md:px-12 py-12">
-        <p className="text-lg text-neutral-300 leading-relaxed">
-          {t.rich("intro", {
-            strong: (chunks) => (
-              <strong className="font-semibold text-secondary-color">
-                {chunks}
-              </strong>
-            ),
-            bold: (chunks) => <span className="font-semibold">{chunks}</span>,
-          })}
-        </p>
-      </section>
+        <AgendaDialog
+          trigger={
+            <ActionButton
+              className="bg-secondary-color text-white !rounded-full"
+              text={h("cta.primary")}
+            />
+          }
+        />
+      </div>
 
-      {/* === CATEGORÍAS === */}
-      <section className="max-w-6xl mx-auto space-y-20 px-6 md:px-10 pb-24">
-        {categories.map(
-          (
-            cat: { nombre: string; descripcion: string; items: string[] },
-            i: number
-          ) => {
-            const services = soluciones.filter((service: { id: string }) =>
-              cat.items.includes(service.id)
-            );
+      {/* CATEGORÍAS */}
+      <div className="max-w-7xl mx-auto px-8 space-y-16">
+        {/* === PRIMERA CATEGORÍA === */}
+        {(() => {
+          const first = categories[0];
+          const services = soluciones.filter((s) => first.items.includes(s.id));
+
+          return (
+            <section key={first.nombre} className="space-y-6">
+              <CategoryBlock category={first} services={services} />
+            </section>
+          );
+        })()}
+
+        {/* === SEGUNDA CATEGORÍA === */}
+        {(() => {
+          const second = categories[1];
+          const services = soluciones.filter((s) =>
+            second.items.includes(s.id)
+          );
+
+          return (
+            <section key={second.nombre} className="space-y-6">
+              <CategoryBlock category={second} services={services} />
+            </section>
+          );
+        })()}
+
+        {/* RESTO EN GRID */}
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
+          {categories.slice(2).map((cat) => {
+            const services = soluciones.filter((s) => cat.items.includes(s.id));
 
             return (
-              <motion.div
-                key={cat.nombre}
-                initial={{ opacity: 0, y: 40 }}
-                whileInView={{ opacity: 1, y: 0 }}
-                transition={{ duration: 0.6, delay: i * 0.1 }}
-                viewport={{ once: true }}
-                className="space-y-10"
-              >
-                {/* HEADER */}
-                <div className="space-y-2">
-                  <h2 className="text-3xl md:text-4xl font-bold text-white border-l-4 border-secondary-color pl-4">
-                    {cat.nombre}
-                  </h2>
-                  <p className="text-neutral-400 max-w-3xl">
-                    {cat.descripcion}
-                  </p>
-                </div>
-
-                {/* GRID */}
-                <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
-                  {services.map(
-                    (service: {
-                      id: string;
-                      image: string;
-                      title: string;
-                      slug: string;
-                      description: string;
-                    }) => (
-                      <Link
-                        key={service.id}
-                        href={`/soluciones/${service.slug}`}
-                        className="group"
-                      >
-                        <Card
-                          className="relative h-full bg-white/5 backdrop-blur-sm border border-white/10 
-                                     rounded-2xl overflow-hidden shadow-md hover:shadow-xl 
-                                     transition-all duration-300"
-                        >
-                          {/* Imagen superior */}
-                          <div className="relative w-full h-40 overflow-hidden">
-                            <Image
-                              src={service.image || "/auditoria.png"}
-                              alt={service.title}
-                              fill
-                              className="object-cover transition-transform duration-500 group-hover:scale-110"
-                            />
-                            <div className="absolute inset-0 bg-gradient-to-t from-foreground via-transparent to-transparent" />
-                          </div>
-
-                          {/* Contenido */}
-                          <CardContent className="p-6 flex flex-col justify-between h-[230px]">
-                            <h3 className="text-xl font-semibold mb-3 text-secondary-color transition-colors">
-                              {service.title}
-                            </h3>
-                            <p className="text-sm text-neutral-300 mb-4 leading-relaxed line-clamp-3">
-                              {service.description}
-                            </p>
-                            <span className="text-secondary-color text-sm font-semibold group-hover:underline">
-                              {t("viewDetails")} →
-                            </span>
-                          </CardContent>
-                        </Card>
-                      </Link>
-                    )
-                  )}
-                </div>
-              </motion.div>
+              <section key={cat.nombre} className="space-y-6">
+                <CategoryBlock category={cat} services={services} />
+              </section>
             );
-          }
-        )}
-      </section>
-    </main>
+          })}
+        </div>
+      </div>
+    </div>
+  );
+}
+
+/* ========================= COMPONENTES ============================= */
+
+function CategoryBlock({
+  category,
+  services,
+}: {
+  category: Category;
+  services: Service[];
+}) {
+  return (
+    <>
+      <div>
+        <h2 className="text-2xl font-bold mb-2 border-l-4 border-primary-color pl-3">
+          {category.nombre}
+        </h2>
+        <p className="text-gray-600">{category.descripcion}</p>
+      </div>
+
+      <div
+        className={`grid gap-6 ${
+          services.length >= 3
+            ? "grid-cols-1 sm:grid-cols-2 lg:grid-cols-3"
+            : services.length === 2
+            ? "grid-cols-1 sm:grid-cols-2"
+            : "grid-cols-1"
+        }`}
+      >
+        {services.map((service) => (
+          <ServiceCard key={service.id} service={service} />
+        ))}
+      </div>
+    </>
+  );
+}
+
+function ServiceCard({ service }: { service: Service }) {
+  const t = useTranslations("servicesPage.card"); // 👈 NUEVO: traducciones del card
+
+  return (
+    <Card className="border border-gray-200 shadow-sm rounded-2xl hover:shadow-lg transition-all duration-300 p-6 flex flex-col">
+      {/* ICONO + TÍTULO */}
+      <div className="flex items-center gap-3">
+        <div className="w-10 h-10 rounded-xl bg-primary-color/10 flex items-center justify-center overflow-hidden relative">
+          <Image src={service.image} alt="" fill className="object-cover" />
+        </div>
+        <h3 className="text-xl font-semibold">{service.title}</h3>
+      </div>
+
+      {/* SUBTÍTULO */}
+      <p className="text-sm text-gray-600 mt-2">{service.description}</p>
+
+      {/* DURACIÓN */}
+      <div className="border rounded-xl p-4 mt-4 bg-gray-50">
+        <p className="text-xs text-gray-500">{t("durationLabel")}</p>
+        <p className="font-semibold text-gray-900">
+          {service.duration ?? t("defaultDuration")}
+        </p>
+      </div>
+
+      {/* INCLUYE */}
+      {service.includes && service.includes.length > 0 && (
+        <div className="mt-4 space-y-2">
+          <p className="text-sm font-medium">{t("includesLabel")}:</p>
+          <ul className="space-y-1 text-sm text-gray-600">
+            {service.includes.slice(0, 5).map((item, i) => (
+              <li key={i} className="flex items-center gap-2">
+                <span className="text-primary-color">•</span> {item}
+              </li>
+            ))}
+          </ul>
+        </div>
+      )}
+
+      {/* BOTONES */}
+      <div className="mt-auto flex flex-col gap-3 pt-6">
+        {/* CTA dinámico */}
+        <Link
+          href={`mailto:contacto@cyberhub.cl?subject=${encodeURIComponent(
+            t("cta")
+          )}%20-%20${encodeURIComponent(
+            service.title
+          )}&body=${encodeURIComponent(`${t("emailBody")} ${service.title}`)}.`}
+          className="w-full px-10 rounded-xl text-center bg-secondary-color hover:bg-primary-color text-white font-semibold py-3 transition-all"
+        >
+          {t("cta")}
+        </Link>
+
+        {/* Ver detalles */}
+        <Link
+          href={`/soluciones/${service.slug}`}
+          className="text-primary-color text-sm font-medium text-center hover:underline"
+        >
+          {t("seeDetails")} →
+        </Link>
+      </div>
+    </Card>
   );
 }

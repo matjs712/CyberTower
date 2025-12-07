@@ -53,7 +53,25 @@ export const logos = [
   {
     name: "BHP",
     icon: SiApple,
-    url: "/logo-AquaChile.png",
+    url: "/logo_BHP.svg.png",
+    bg: "dark",
+  },
+  {
+    name: "MBI",
+    icon: SiApple,
+    url: "/logo_mbi.png",
+    bg: "dark",
+  },
+  {
+    name: "Emelva",
+    icon: SiApple,
+    url: "/logo_emelva.png",
+    bg: "dark",
+  },
+  {
+    name: "Energy 7",
+    icon: SiApple,
+    url: "/logo_e7.png",
     bg: "dark",
   },
 ];

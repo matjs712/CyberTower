@@ -7,6 +7,8 @@
         "buttonContact": "Contact us",
         "reviewsKpi": "2.7k+",
         "reviews": "positive reviews",
+        "ctaHorizontal": "Do you have a cybersecurity project and need an operational partner?",
+        "ctaHorizontalButton": "Let's talk!!",
         "trustedHeading": "Companies that trust us",
         "trustedSubheading": "Across Asia, Europe, and the Americas, organizations trust Cyberhub to strengthen their digital culture and security.",
         "countries": {
@@ -319,6 +321,7 @@
     },
     "navigation": {
         "menu": {
+            "home": "Home",
             "solutions": "Services",
             "certifications": "Consulting",
             "clients": "Clients",
@@ -395,87 +398,36 @@
     },
     "footer": {
         "description": "Digital and cybersecurity solutions for companies looking to evolve with confidence.",
+        "cta": "Request reunion",
         "copyright": "© {year} Cyberhub. All rights reserved.",
         "aria": {
-            "label": "Cyberhub footer",
-            "goHome": "Go to Cyberhub home"
+            "label": "Cyberhub Footer",
+            "goHome": "Go to Cyberhub homepage"
+        },
+        "navigationTitle": "Navigation",
+        "servicesTitle": "Services",
+        "contactTitle": "Contact",
+        "contact": {
+            "location": "Chile",
+            "email": "info@cyber-tower.com",
+            "email2": "info@cyber-tower.com",
+            "schedule": "Mon - Fri: 9:00 AM - 6:00 PM"
         },
         "columns": [
-            {
-                "title": "Solutions",
-                "links": [
-                    {
-                        "text": "Gap Analysis",
-                        "href": "soluciones/gap-analysis"
-                    },
-                    {
-                        "text": "ISMS Implementation",
-                        "href": "soluciones/isms-implementation"
-                    },
-                    {
-                        "text": "Internal Audit",
-                        "href": "soluciones/internal-audit"
-                    },
-                    {
-                        "text": "Awareness and Training Management",
-                        "href": "soluciones/awareness-and-training-management"
-                    },
-                    {
-                        "text": "Certification Body Management",
-                        "href": "soluciones/certification-body-management"
-                    },
-                    {
-                        "text": "Post External Audit Findings Management",
-                        "href": "soluciones/post-external-audit-findings-management"
-                    },
-                    {
-                        "text": "Annual System Maintenance",
-                        "href": "soluciones/annual-system-maintenance"
-                    },
-                    {
-                        "text": "Integration with Other Management Systems",
-                        "href": "soluciones/integration-with-other-management-systems"
-                    }
-                ]
-            },
-            {
-                "title": "Company",
-                "links": [
-                    {
-                        "text": "About Us",
-                        "href": "nosotros"
-                    },
-                    {
-                        "text": "Clients",
-                        "href": "clientes"
-                    },
-                    {
-                        "text": "Blog",
-                        "href": "blog"
-                    }
-                ]
-            },
             {
                 "title": "Contact",
                 "links": [
                     {
                         "text": "LinkedIn",
-                        "href": "https://www.linkedin.com/company/cyberhub-consulting",
+                        "href": "https://www.linkedin.com/company/cyberhub-consulting/",
                         "ariaLabel": "Visit Cyberhub LinkedIn"
                     },
                     {
                         "text": "Email",
                         "href": "mailto:contacto@cyberhub.cl",
-                        "ariaLabel": "Send an email to Cyberhub"
+                        "ariaLabel": "Send email to Cyberhub"
                     }
                 ]
-            }
-        ],
-        "policies": [
-            {
-                "text": "Privacy Policy",
-                "href": "privacidad",
-                "ariaLabel": "Read Privacy Policy"
             }
         ]
     },
@@ -539,7 +491,8 @@
     },
     "certificationsPage": {
         "hero": {
-            "title": "Cybersecurity Frameworks Consulting: Strengthen your organization's security, management, and compliance"
+            "title": "Cybersecurity Frameworks Consulting",
+            "subtitle": "We help organizations strengthen security, compliance, and resilience through proactive implementation of leading frameworks."
         },
         "intro": "At <strong>Cyberhub</strong>, we guide organizations in the adoption, implementation, and continuous improvement of leading <strong>cybersecurity frameworks</strong>. Our consulting services help ensure regulatory compliance, operational resilience, and trustworthy digital practices. Below you will find the key frameworks we support, organized by management area.",
         "viewDetails": "View details",
@@ -575,86 +528,86 @@
                 "title": "ISO/IEC 27001:2022",
                 "slug": "iso-iec-27001-2022",
                 "description": "Information security management based on international standards.",
-                "image": "/ISO27001.png",
-                "content": "<section class='space-y-8 text-white dark:text-gray-300 leading-relaxed sm:p-4'><p><strong>ISO/IEC 27001:2022</strong> is the most recognized international standard for implementing an <strong>Information Security Management System (ISMS)</strong>. Its goal is to protect the confidentiality, integrity, and availability of information using a risk-based approach.</p><h3 class='text-xl font-semibold mt-6'>Objective</h3><p>Establish a formal and comprehensive framework for managing information security risks and protecting digital assets.</p><h3 class='text-xl font-semibold mt-6'>Scope</h3><p>Applicable to any organization handling sensitive information, including financial institutions, technology companies, healthcare, and critical service providers.</p><h3 class='text-xl font-semibold mt-6'>Implementation Time</h3><p>4 to 6 months depending on organizational maturity and structure.</p><h3 class='text-xl font-semibold mt-6'>Cyberhub Proposal</h3><ul class='list-disc pl-6 space-y-2'><li>Gap Analysis.</li><li>ISMS Implementation.</li><li>Internal auditing.</li><li>Training and awareness programs.</li><li>Management of certifying bodies.</li><li>Post external audit support.</li><li>Integration with other ISO systems.</li></ul></section>"
+                "image": "/certifications/ISO-27001.jpg",
+                "content": "<section class='space-y-8 text-gray-700 dark:text-gray-300 leading-relaxed sm:p-4'><p><strong>ISO/IEC 27001:2022</strong> is the most recognized international standard for implementing an <strong>Information Security Management System (ISMS)</strong>. Its goal is to protect the confidentiality, integrity, and availability of information using a risk-based approach.</p><h3 class='text-xl font-semibold mt-6'>Objective</h3><p>Establish a formal and comprehensive framework for managing information security risks and protecting digital assets.</p><h3 class='text-xl font-semibold mt-6'>Scope</h3><p>Applicable to any organization handling sensitive information, including financial institutions, technology companies, healthcare, and critical service providers.</p><h3 class='text-xl font-semibold mt-6'>Implementation Time</h3><p>4 to 6 months depending on organizational maturity and structure.</p><h3 class='text-xl font-semibold mt-6'>Cyberhub Proposal</h3><ul class='list-disc pl-6 space-y-2'><li>Gap Analysis.</li><li>ISMS Implementation.</li><li>Internal auditing.</li><li>Training and awareness programs.</li><li>Management of certifying bodies.</li><li>Post external audit support.</li><li>Integration with other ISO systems.</li></ul></section>"
             },
             {
                 "id": "2",
                 "title": "ISO/IEC 20000-1",
                 "slug": "iso-iec-20000-1",
                 "description": "IT Service Management focused on quality, efficiency, and continuous improvement.",
-                "image": "/ISO20000.png",
-                "content": "<section class='space-y-8 text-white dark:text-gray-300 leading-relaxed sm:p-4'><p><strong>ISO/IEC 20000-1</strong> defines the requirements for an effective <strong>IT Service Management System (SMS)</strong>, aimed at ensuring high-quality, reliable, and business-aligned IT services.</p><h3 class='text-xl font-semibold mt-6'>Objective</h3><ul class='list-disc pl-6 space-y-2'><li>Deliver reliable IT services aligned with business needs.</li><li>Improve operational efficiency through standardization.</li><li>Enhance customer satisfaction and service quality.</li></ul><h3 class='text-xl font-semibold mt-6'>Scope</h3><p>Applicable to IT departments, service providers, outsourcing companies, and cloud-based service operators.</p><h3 class='text-xl font-semibold mt-6'>Implementation Time</h3><p>2 to 6 months depending on service complexity.</p><h3 class='text-xl font-semibold mt-6'>Cyberhub Proposal</h3><ul class='list-disc pl-6 space-y-2'><li>Gap Analysis.</li><li>SMS implementation.</li><li>Internal audit.</li><li>Training and continuous improvement plans.</li><li>Certification body coordination.</li><li>Integration with ISO/IEC 27001.</li></ul></section>"
+                "image": "/certifications/ISO-20000-1.jpg",
+                "content": "<section class='space-y-8 text-gray-700 dark:text-gray-300 leading-relaxed sm:p-4'><p><strong>ISO/IEC 20000-1</strong> defines the requirements for an effective <strong>IT Service Management System (SMS)</strong>, aimed at ensuring high-quality, reliable, and business-aligned IT services.</p><h3 class='text-xl font-semibold mt-6'>Objective</h3><ul class='list-disc pl-6 space-y-2'><li>Deliver reliable IT services aligned with business needs.</li><li>Improve operational efficiency through standardization.</li><li>Enhance customer satisfaction and service quality.</li></ul><h3 class='text-xl font-semibold mt-6'>Scope</h3><p>Applicable to IT departments, service providers, outsourcing companies, and cloud-based service operators.</p><h3 class='text-xl font-semibold mt-6'>Implementation Time</h3><p>2 to 6 months depending on service complexity.</p><h3 class='text-xl font-semibold mt-6'>Cyberhub Proposal</h3><ul class='list-disc pl-6 space-y-2'><li>Gap Analysis.</li><li>SMS implementation.</li><li>Internal audit.</li><li>Training and continuous improvement plans.</li><li>Certification body coordination.</li><li>Integration with ISO/IEC 27001.</li></ul></section>"
             },
             {
                 "id": "3",
                 "title": "ISO/IEC 42001",
                 "slug": "iso-iec-42001",
                 "description": "Responsible and secure management of Artificial Intelligence systems.",
-                "image": "/ISO42001.png",
-                "content": "<section class='space-y-8 text-white dark:text-gray-300 leading-relaxed sm:p-4'><p><strong>ISO/IEC 42001</strong> is the first international standard for implementing an <strong>Artificial Intelligence Management System (AIMS)</strong>, ensuring safe, transparent, and ethical use of AI technologies.</p><h3 class='text-xl font-semibold mt-6'>Objective</h3><p>Ensure responsible, ethical, and secure AI development, deployment, and governance.</p><h3 class='text-xl font-semibold mt-6'>Scope</h3><p>Ideal for technology companies, AI-driven startups, research institutions, and organizations using AI in critical processes.</p><h3 class='text-xl font-semibold mt-6'>Implementation Time</h3><p>Approximately 6 months.</p><h3 class='text-xl font-semibold mt-6'>Cyberhub Proposal</h3><ul class='list-disc pl-6 space-y-2'><li>Gap Analysis and planning.</li><li>Design of ethical AI policies and controls.</li><li>AIMS implementation.</li><li>Internal audit and findings management.</li><li>Preparation for external certification.</li></ul></section>"
+                "image": "/certifications/ISO+42001.webp",
+                "content": "<section class='space-y-8 text-gray-700 dark:text-gray-300 leading-relaxed sm:p-4'><p><strong>ISO/IEC 42001</strong> is the first international standard for implementing an <strong>Artificial Intelligence Management System (AIMS)</strong>, ensuring safe, transparent, and ethical use of AI technologies.</p><h3 class='text-xl font-semibold mt-6'>Objective</h3><p>Ensure responsible, ethical, and secure AI development, deployment, and governance.</p><h3 class='text-xl font-semibold mt-6'>Scope</h3><p>Ideal for technology companies, AI-driven startups, research institutions, and organizations using AI in critical processes.</p><h3 class='text-xl font-semibold mt-6'>Implementation Time</h3><p>Approximately 6 months.</p><h3 class='text-xl font-semibold mt-6'>Cyberhub Proposal</h3><ul class='list-disc pl-6 space-y-2'><li>Gap Analysis and planning.</li><li>Design of ethical AI policies and controls.</li><li>AIMS implementation.</li><li>Internal audit and findings management.</li><li>Preparation for external certification.</li></ul></section>"
             },
             {
                 "id": "4",
                 "title": "ISO/IEC 37301",
                 "slug": "iso-iec-37301",
                 "description": "Compliance Management System promoting corporate integrity.",
-                "image": "/ISO37301.png",
-                "content": "<section class='space-y-8 text-white dark:text-gray-300 leading-relaxed sm:p-4'><p><strong>ISO/IEC 37301</strong> defines the requirements for a <strong>Compliance Management System (CMS)</strong> that reinforces ethics, transparency, and organizational integrity.</p><h3 class='text-xl font-semibold mt-6'>Objective</h3><p>Prevent, detect, and manage legal and regulatory risks effectively.</p><h3 class='text-xl font-semibold mt-6'>Scope</h3><p>Applicable to organizations of all sizes and industries.</p><h3 class='text-xl font-semibold mt-6'>Cyberhub Proposal</h3><p>We implement the CMS comprehensively and prepare your organization for certification.</p></section>"
+                "image": "/certifications/iso-372.jpg",
+                "content": "<section class='space-y-8 text-gray-700 dark:text-gray-300 leading-relaxed sm:p-4'><p><strong>ISO/IEC 37301</strong> defines the requirements for a <strong>Compliance Management System (CMS)</strong> that reinforces ethics, transparency, and organizational integrity.</p><h3 class='text-xl font-semibold mt-6'>Objective</h3><p>Prevent, detect, and manage legal and regulatory risks effectively.</p><h3 class='text-xl font-semibold mt-6'>Scope</h3><p>Applicable to organizations of all sizes and industries.</p><h3 class='text-xl font-semibold mt-6'>Cyberhub Proposal</h3><p>We implement the CMS comprehensively and prepare your organization for certification.</p></section>"
             },
             {
                 "id": "5",
                 "title": "TISAX",
                 "slug": "tisax",
                 "description": "Information security assessment for the automotive industry.",
-                "image": "/TISAX.png",
-                "content": "<section class='space-y-8 text-white dark:text-gray-300 leading-relaxed sm:p-4'><p><strong>TISAX</strong> is a European information security assessment model for the automotive industry, aligned with ISO/IEC 27001 and focused on protecting confidential information and prototypes.</p><h3 class='text-xl font-semibold mt-6'>Objective</h3><p>Protect sensitive data, prototypes, and intellectual property throughout the automotive supply chain.</p><h3 class='text-xl font-semibold mt-6'>Scope</h3><p>Designed for manufacturers, Tier 1 and Tier 2 suppliers, engineering companies, and automotive design firms.</p><h3 class='text-xl font-semibold mt-6'>Implementation Time</h3><p>3 to 6 months.</p><h3 class='text-xl font-semibold mt-6'>Cyberhub Proposal</h3><p>We deliver full preparation and execution for TISAX assessment and certification.</p></section>"
+                "image": "/certifications/tisax.jpg",
+                "content": "<section class='space-y-8 text-gray-700 dark:text-gray-300 leading-relaxed sm:p-4'><p><strong>TISAX</strong> is a European information security assessment model for the automotive industry, aligned with ISO/IEC 27001 and focused on protecting confidential information and prototypes.</p><h3 class='text-xl font-semibold mt-6'>Objective</h3><p>Protect sensitive data, prototypes, and intellectual property throughout the automotive supply chain.</p><h3 class='text-xl font-semibold mt-6'>Scope</h3><p>Designed for manufacturers, Tier 1 and Tier 2 suppliers, engineering companies, and automotive design firms.</p><h3 class='text-xl font-semibold mt-6'>Implementation Time</h3><p>3 to 6 months.</p><h3 class='text-xl font-semibold mt-6'>Cyberhub Proposal</h3><p>We deliver full preparation and execution for TISAX assessment and certification.</p></section>"
             },
             {
                 "id": "6",
                 "title": "NERC-CIP",
                 "slug": "nerc-cip",
                 "description": "Cybersecurity requirements for critical electrical infrastructure.",
-                "image": "/NERC.png",
-                "content": "<section class='space-y-8 text-white dark:text-gray-300 leading-relaxed sm:p-4'><p><strong>NERC-CIP</strong> establishes compulsory cybersecurity controls for critical power infrastructure to ensure secure operations across the electric grid.</p><h3 class='text-xl font-semibold mt-6'>Objective</h3><p>Protect generation, transmission, and distribution assets from cyber threats.</p><h3 class='text-xl font-semibold mt-6'>Scope</h3><p>Applies to entities operating within the National Electric System (SEN), based on impact level.</p><h3 class='text-xl font-semibold mt-6'>Implementation Time</h3><p>1 month of evidence collection + 2 to 6 months of control implementation.</p><h3 class='text-xl font-semibold mt-6'>Cyberhub Proposal</h3><p>We support evaluation, implementation, and preparation of evidence required by regulatory authorities.</p></section>"
+                "image": "/certifications/nerc-cip.png",
+                "content": "<section class='space-y-8 text-gray-700 dark:text-gray-300 leading-relaxed sm:p-4'><p><strong>NERC-CIP</strong> establishes compulsory cybersecurity controls for critical power infrastructure to ensure secure operations across the electric grid.</p><h3 class='text-xl font-semibold mt-6'>Objective</h3><p>Protect generation, transmission, and distribution assets from cyber threats.</p><h3 class='text-xl font-semibold mt-6'>Scope</h3><p>Applies to entities operating within the National Electric System (SEN), based on impact level.</p><h3 class='text-xl font-semibold mt-6'>Implementation Time</h3><p>1 month of evidence collection + 2 to 6 months of control implementation.</p><h3 class='text-xl font-semibold mt-6'>Cyberhub Proposal</h3><p>We support evaluation, implementation, and preparation of evidence required by regulatory authorities.</p></section>"
             },
             {
                 "id": "7",
                 "title": "NIS2",
                 "slug": "nis2",
                 "description": "European directive for strengthening cybersecurity across essential sectors.",
-                "image": "/NIS2.png",
-                "content": "<section class='space-y-8 text-white dark:text-gray-300 leading-relaxed sm:p-4'><p><strong>NIS2</strong> reinforces cybersecurity risk management and incident reporting obligations for essential and important entities within the European Union.</p><h3 class='text-xl font-semibold mt-6'>Objective</h3><p>Drive digital resilience and ensure unified cybersecurity standards across member states.</p><h3 class='text-xl font-semibold mt-6'>Scope</h3><p>Applicable to organizations operating in EU markets, including energy, healthcare, transport, water, banking, and digital services.</p><h3 class='text-xl font-semibold mt-6'>Implementation Time</h3><p>6 to 12 months.</p><h3 class='text-xl font-semibold mt-6'>Cyberhub Proposal</h3><p>We support end-to-end NIS2 projects for international organizations, including Gap Assessments and combined frameworks.</p></section>"
+                "image": "/certifications/nis-2.png",
+                "content": "<section class='space-y-8 text-gray-700 dark:text-gray-300 leading-relaxed sm:p-4'><p><strong>NIS2</strong> reinforces cybersecurity risk management and incident reporting obligations for essential and important entities within the European Union.</p><h3 class='text-xl font-semibold mt-6'>Objective</h3><p>Drive digital resilience and ensure unified cybersecurity standards across member states.</p><h3 class='text-xl font-semibold mt-6'>Scope</h3><p>Applicable to organizations operating in EU markets, including energy, healthcare, transport, water, banking, and digital services.</p><h3 class='text-xl font-semibold mt-6'>Implementation Time</h3><p>6 to 12 months.</p><h3 class='text-xl font-semibold mt-6'>Cyberhub Proposal</h3><p>We support end-to-end NIS2 projects for international organizations, including Gap Assessments and combined frameworks.</p></section>"
             },
             {
                 "id": "8",
                 "title": "NIST Cybersecurity Framework",
                 "slug": "nist-framework",
                 "description": "Framework for managing and reducing cybersecurity risks.",
-                "image": "/NIST.png",
-                "content": "<section class='space-y-8 text-white dark:text-gray-300 leading-relaxed sm:p-4'><p><strong>NIST CSF</strong> provides a structured approach to cybersecurity risk management through five core functions: Identify, Protect, Detect, Respond, and Recover.</p><h3 class='text-xl font-semibold mt-6'>Objective</h3><p>Strengthen digital resilience and improve risk governance across industries.</p><h3 class='text-xl font-semibold mt-6'>Scope</h3><p>Suitable for public and private organizations of any size or sector.</p><h3 class='text-xl font-semibold mt-6'>Implementation Time</h3><p>6 to 12 months, depending on organizational complexity.</p><h3 class='text-xl font-semibold mt-6'>Cyberhub Proposal</h3><p>We offer flexible implementation, combining NIST CSF with ISO/IEC 27001 and COBIT where applicable.</p></section>"
+                "image": "/certifications/nist.png",
+                "content": "<section class='space-y-8 text-gray-700 dark:text-gray-300 leading-relaxed sm:p-4'><p><strong>NIST CSF</strong> provides a structured approach to cybersecurity risk management through five core functions: Identify, Protect, Detect, Respond, and Recover.</p><h3 class='text-xl font-semibold mt-6'>Objective</h3><p>Strengthen digital resilience and improve risk governance across industries.</p><h3 class='text-xl font-semibold mt-6'>Scope</h3><p>Suitable for public and private organizations of any size or sector.</p><h3 class='text-xl font-semibold mt-6'>Implementation Time</h3><p>6 to 12 months, depending on organizational complexity.</p><h3 class='text-xl font-semibold mt-6'>Cyberhub Proposal</h3><p>We offer flexible implementation, combining NIST CSF with ISO/IEC 27001 and COBIT where applicable.</p></section>"
             },
             {
                 "id": "9",
                 "title": "Cybersecurity Law",
                 "slug": "ley-ciberseguridad",
                 "description": "Obligations and alignment for Vital Importance Organizations (OIV).",
-                "image": "/LeyCiberseguridad.png",
-                "content": "<section class='space-y-8 text-white dark:text-gray-300 leading-relaxed sm:p-4'><p>Chile’s <strong>Law 21.663 on Cybersecurity</strong> establishes legal obligations for Vital Importance Organizations (OIV) and entities operating essential services.</p><h3 class='text-xl font-semibold mt-6'>Objective</h3><p>Ensure operational resilience, mandatory incident reporting, and protection of national critical infrastructure.</p></section>"
+                "image": "/certifications/DatosPersonales.webp",
+                "content": "<section class='space-y-8 text-gray-700 dark:text-gray-300 leading-relaxed sm:p-4'><p>Chile’s <strong>Law 21.663 on Cybersecurity</strong> establishes legal obligations for Vital Importance Organizations (OIV) and entities operating essential services.</p><h3 class='text-xl font-semibold mt-6'>Objective</h3><p>Ensure operational resilience, mandatory incident reporting, and protection of national critical infrastructure.</p></section>"
             },
             {
                 "id": "10",
                 "title": "Data Protection Law",
-                "slug": "ley-proteccion-datos",
-                "description": "Assessment and adaptation to Chilean personal data protection law.",
-                "image": "/LeyDatos.png",
-                "content": "<section class='space-y-8 text-white dark:text-gray-300 leading-relaxed sm:p-4'><p>Chile’s new <strong>Personal Data Protection Law</strong> modernizes national privacy requirements by enforcing stricter obligations for processing, storing, and securing personal data.</p><h3 class='text-xl font-semibold mt-6'>Objective</h3><p>Support organizations in aligning policies, processes, and controls with ISO/IEC 27001 and global privacy standards.</p></section>"
+                "slug": "data-protection-law",
+                "description": "Compliance and adaptation to the Chilean Data Protection Law.",
+                "image": "/certifications/Ley Marco(1).jpg",
+                "content": "<section class=\"space-y-4 text-gray-800 dark:text-gray-300 leading-relaxed sm:p-4\"><p>The <strong>Chilean Data Protection Law</strong> modernizes the national framework for privacy and data security, aligning with international standards such as the European GDPR.</p><p><strong>Diagnosis and Compliance Adaptation:</strong> We help organizations regulate and manage the processing of personal data across all sectors, ensuring alignment with ISO 27001 policies and controls.</p><p><strong>Objective:</strong> To regulate the processing of personal data in Chile and align organizations with international best practices.</p><p><strong>Scope:</strong> Applies to any company that handles personal data within Chile.</p><p><strong>Implementation Time:</strong> 3–6 months depending on organizational maturity.</p><p><strong>Proposal:</strong> We conduct a comprehensive assessment to identify gaps, risks, and impacts of the new legislation on your company, delivering an actionable roadmap for full compliance.</p></section>"
             }
         ]
     },
     "clientsPage": {
         "heading": "Companies that trust us",
-        "description": "We work with leading companies in technology, innovation, and communications to create digital solutions that generate real and lasting impact.",
+        "description": "We work with leading organizations in technology, innovation, and communications to create digital solutions that generate real and lasting impact.",
         "logos": {
             "GitHub": "GitHub",
             "Facebook": "Facebook",
@@ -662,32 +615,32 @@
             "X": "X",
             "Apple": "Apple"
         },
-        "testimonialsTitle": "Client Testimonials",
+        "testimonialsTitle": "What our clients say",
         "testimonials": {
             "falabella": {
-                "company": "Falabella",
+                "name": "Falabella",
                 "author": "Michael Fox – Former Corporate CIO - Falabella Group",
-                "quote": "The Cyberhub team supported us with the internal strategy for implementing our digital transformation plan for the group, creating a Corporate Awareness Program that was highly effective in building and maintaining stakeholder knowledge and engagement."
+                "quote": "Cyberhub supported us with the internal strategy for implementing our group's digital transformation plan, creating a Corporate Awareness Program that effectively engaged key stakeholders."
             },
             "sqm": {
-                "company": "SQM",
-                "author": "Katherine Arce – Manager Risk & IT Governance - SQM",
-                "quote": "Cyberhub has become a strategic cybersecurity partner for SQM, helping us create strategies that strengthen our technology area, improve our internal services, and position us as a benchmark of quality for our internal clients."
+                "name": "SQM",
+                "author": "Katherine Arce – CISO - SQM Litio",
+                "quote": "Cyberhub has become a strategic cybersecurity partner for SQM, helping us design strategies that elevate our technology area and improve internal services."
             },
             "agrosuper": {
-                "company": "Agrosuper",
+                "name": "Agrosuper",
                 "author": "Felipe Berrio – CIO - Agrosuper",
-                "quote": "The Cyberhub team enabled us to make a significant leap in quality and professionalism with the development and implementation of a Cybersecurity Change Management Project for both IT and OT, allowing us to effectively reach our internal audiences, measure results, and generate improvements to advance our group's digital transformation strategy."
+                "quote": "Cyberhub enabled us to enhance our quality and professionalism through a Cybersecurity Change Management Project, achieving measurable results that pushed forward our digital transformation strategy."
             },
             "aquachile": {
-                "company": "AquaChile",
+                "name": "AquaChile",
                 "author": "Francisca Ariztia – Marketing & Communications Manager - AquaChile",
-                "quote": "Cyberhub has helped us raise awareness of highly relevant topics for our AquaChile teams, always delivering timely, high-quality service with creative solutions tailored to our needs."
+                "quote": "Cyberhub has helped us highlight key cybersecurity topics for our collaborators, always delivering timely, high-quality, and creative solutions."
             },
-            "bancochile": {
-                "company": "Banco de Chile",
-                "author": "Mauricio Díaz – Head of Cybersecurity Containment Department - Banco de Chile",
-                "quote": "Cyberhub supported us with a consultancy aimed at strengthening our internal positioning as a Cybersecurity area, helping us better highlight our team's findings for the benefit of the business, employees, and customers."
+            "bancoChile": {
+                "name": "Banco de Chile",
+                "author": "Mauricio Diaz – Head of Cybersecurity Containment Department - Banco de Chile",
+                "quote": "Cyberhub supported us in improving our internal positioning as a cybersecurity team, helping us better communicate our findings for the benefit of the business and its clients."
             }
         }
     },
@@ -766,43 +719,66 @@
         },
         "intro": "At <strong>Cyberhub</strong>, we design and implement <bold>comprehensive cybersecurity solutions</bold> covering human awareness, strategic management, and secure digital transformation. Each solution is built to <strong>strengthen resilience, compliance, and trust</strong> within your organization against modern digital challenges.",
         "viewDetails": "View details",
+        "card": {
+            "cta": "Request solution",
+            "seeDetails": "View details",
+            "durationLabel": "Duration",
+            "defaultDuration": "Depending on project",
+            "includesLabel": "Includes",
+            "emailBody": "Hello, I would like to request information about the service:"
+        },
         "categories": [
             {
-                "nombre": "Diagnosis and Initial Assessment",
-                "descripcion": "Services focused on identifying gaps, risks, and improvement opportunities before formally implementing the Information Security Management System (ISMS).",
+                "nombre": "Cybersecurity Awareness Programs",
+                "descripcion": "Services designed to build a strong security culture through customized communication and educational programs.",
                 "items": [
-                    "1"
+                    "1",
+                    "2",
+                    "3"
                 ]
             },
             {
-                "nombre": "ISMS Implementation and Development",
-                "descripcion": "Design and implementation phase of the management system according to ISO/IEC 27001:2022, including policies, controls, processes, and technical documentation.",
+                "nombre": "Organizational Awareness and Training",
+                "descripcion": "Training and awareness initiatives that strengthen security culture, regulatory compliance, and digital responsibility.",
                 "items": [
-                    "2"
+                    "4",
+                    "5",
+                    "7"
                 ]
             },
             {
-                "nombre": "Audit and Regulatory Compliance",
-                "descripcion": "Activities that ensure ISMS conformity through internal audits, findings review, and support throughout the external certification process.",
+                "nombre": "Incident Preparedness",
+                "descripcion": "Services designed to anticipate and respond to incidents through exercises, technical reviews, and specialized analyses.",
                 "items": [
-                    "3",
                     "6"
                 ]
             },
             {
-                "nombre": "Awareness and Organizational Training",
-                "descripcion": "Training and awareness programs designed to strengthen security culture, regulatory compliance, and digital responsibility among staff.",
+                "nombre": "Offensive Security and Pentesting",
+                "descripcion": "Advanced security assessments that identify critical vulnerabilities through controlled ethical hacking techniques.",
                 "items": [
-                    "4"
+                    "8"
                 ]
             },
             {
-                "nombre": "System Certification and Maintenance",
-                "descripcion": "Ongoing support services, certification body management, annual maintenance, and integration with other management systems such as ISO 9001, ISO 14001, or ISO 45001.",
+                "nombre": "Governance and Compliance",
+                "descripcion": "Audits and assessments that ensure regulatory compliance, evaluate maturity, and improve the effectiveness of management systems.",
                 "items": [
-                    "5",
-                    "7",
-                    "8"
+                    "9"
+                ]
+            },
+            {
+                "nombre": "Human Risk Management",
+                "descripcion": "Simulations and analyses that measure human risk associated with phishing and strengthen organizational security culture.",
+                "items": [
+                    "10"
+                ]
+            },
+            {
+                "nombre": "Email Security and Domain Protection",
+                "descripcion": "Implementation and monitoring of standards that protect corporate email from spoofing, fraud, and impersonation.",
+                "items": [
+                    "11"
                 ]
             }
         ]
@@ -815,35 +791,60 @@
                 "slug": "basic-awareness-program",
                 "href": "/soluciones/basic-awareness-program",
                 "description": "Increase general cybersecurity understanding through a one-year communication plan segmented by audience.",
-                "image": "/awareness-basic.png",
-                "content": "<section class='space-y-6 text-white dark:text-gray-300 leading-relaxed sm:p-4'><header class='border-b border-gray-200 dark:border-gray-700 pb-4 space-y-3'><h2 class='text-2xl md:text-3xl font-bold text-primary-color dark:text-secondary-light-color'>Basic Awareness Program</h2><p>A program designed for organizations beginning their cybersecurity awareness journey and needing to build digital culture with limited resources.</p></header><article class='grid md:grid-cols-2 gap-8'><div><h3 class='text-xl font-semibold'>Objective</h3><p>Strengthen cybersecurity understanding through an <strong>annual communication plan</strong>, segmented by audience.</p><ul class='list-disc list-inside space-y-2 mt-2'><li>Annual content strategy.</li><li>Definition of appropriate communication channels.</li><li>Graphic and written materials.</li><li>Deliverable reports.</li><li>KPIs and scheduling.</li></ul></div><div><h3 class='text-xl font-semibold'>Audience & Duration</h3><p>Companies starting their awareness journey without an internal specialized team.</p><p><strong>Duration:</strong> 12 months.</p></div></article></section>"
+                "image": "/servicios/1.jpg",
+                "includes": [
+                    "Annual content strategy.",
+                    "Definition of appropriate communication channels.",
+                    "Graphic and written materials.",
+                    "Deliverable reports.",
+                    "KPIs and scheduling."
+                ],
+                "content": "<section class='space-y-6 text-gray-700 dark:text-gray-300 leading-relaxed sm:p-4'><header class='border-b border-gray-200 dark:border-gray-700 pb-4 space-y-3'><h2 class='text-2xl md:text-3xl font-bold text-primary-color dark:text-secondary-light-color'>Basic Awareness Program</h2><p>A program designed for organizations beginning their cybersecurity awareness journey and needing to build digital culture with limited internal resources.</p></header><article class='grid md:grid-cols-2 gap-8'><div><h3 class='text-xl font-semibold'>Objective</h3><p>Strengthen cybersecurity understanding through an <strong>annual communication plan</strong> segmented by audience.</p><ul class='list-disc list-inside space-y-2 mt-2'><li>Annual content strategy.</li><li>Selection of appropriate communication channels.</li><li>Graphic and written content.</li><li>Deliverable reports.</li><li>KPIs and scheduling.</li></ul></div><div><h3 class='text-xl font-semibold'>Audience & Duration</h3><p>Companies that are just beginning their awareness journey and do not yet have a specialized internal team.</p><p><strong>Duration:</strong> 12 months.</p></div></article></section>"
             },
             {
                 "id": "2",
                 "title": "Standard Awareness Program",
                 "slug": "standard-awareness-program",
                 "href": "/soluciones/standard-awareness-program",
-                "description": "Includes an annual communication plan and a robust training program by levels.",
-                "image": "/awareness-standard.png",
-                "content": "<section class='space-y-6 text-white dark:text-gray-300 leading-relaxed sm:p-4'><header class='border-b border-gray-200 dark:border-gray-700 pb-4 space-y-3'><h2 class='text-2xl md:text-3xl font-bold text-primary-color dark:text-secondary-light-color'>Standard Awareness Program</h2><p>A program that combines strategic communication and continuous training to increase organizational cybersecurity maturity.</p></header><article class='grid md:grid-cols-2 gap-8'><div><h3 class='text-xl font-semibold'>Objective</h3><p>Improve organizational understanding through an annual communication plan strengthened by a <strong>training program</strong> with basic, intermediate, and advanced levels.</p><ul class='list-disc list-inside space-y-2 mt-2'><li>Strategic annual content.</li><li>Training aligned with HR.</li><li>KPIs by audience.</li><li>Monthly reports.</li></ul></div><div><h3 class='text-xl font-semibold'>Audience & Duration</h3><p>Organizations that want to deepen training but lack a specialized internal team.</p><p><strong>Duration:</strong> 12 months.</p></div></article></section>"
+                "description": "Includes an annual communication plan and a robust multi-level training program.",
+                "image": "/servicios/2.jpg",
+                "includes": [
+                    "Strategic annual content.",
+                    "Training aligned with HR.",
+                    "KPIs by audience.",
+                    "Monthly reports."
+                ],
+                "content": "<section class='space-y-6 text-gray-700 dark:text-gray-300 leading-relaxed sm:p-4'><header class='border-b border-gray-200 dark:border-gray-700 pb-4 space-y-3'><h2 class='text-2xl md:text-3xl font-bold text-primary-color dark:text-secondary-light-color'>Standard Awareness Program</h2><p>A program combining strategic communications and continuous training to elevate organizational cybersecurity maturity.</p></header><article class='grid md:grid-cols-2 gap-8'><div><h3 class='text-xl font-semibold'>Objective</h3><p>Improve organizational understanding through an annual communication plan strengthened with a <strong>structured training program</strong> (basic, intermediate, and advanced levels).</p><ul class='list-disc list-inside space-y-2 mt-2'><li>Strategic annual content.</li><li>Training aligned with HR.</li><li>KPIs by audience.</li><li>Monthly reports.</li></ul></div><div><h3 class='text-xl font-semibold'>Audience & Duration</h3><p>Organizations seeking stronger training programs without having an internal instructional team.</p><p><strong>Duration:</strong> 12 months.</p></div></article></section>"
             },
             {
                 "id": "3",
                 "title": "Premium Awareness Program",
                 "slug": "premium-awareness-program",
                 "href": "/soluciones/premium-awareness-program",
-                "description": "Our flagship service: communications, training, and annual cybersecurity attack simulations.",
-                "image": "/awareness-premium.png",
-                "content": "<section class='space-y-6 text-white dark:text-gray-300 leading-relaxed sm:p-4'><header class='border-b border-gray-200 dark:border-gray-700 pb-4 space-y-3'><h2 class='text-2xl md:text-3xl font-bold text-primary-color dark:text-secondary-light-color'>Premium Awareness Program</h2><p>The most complete solution for organizations seeking a high level of cybersecurity culture maturity.</p></header><article class='grid md:grid-cols-2 gap-8'><div><h3 class='text-xl font-semibold'>Components</h3><ul class='list-disc list-inside space-y-2 mt-2'><li>Annual communication plan.</li><li>Annual training program.</li><li>Annual cybersecurity attack simulations.</li></ul></div><div><h3 class='text-xl font-semibold'>Audience & Duration</h3><p>Companies with high exposure to cyber risks or strict compliance needs.</p><p><strong>Duration:</strong> 12 months.</p></div></article></section>"
+                "description": "Our flagship service: annual communications, training, and cybersecurity attack simulations.",
+                "image": "/servicios/3.jpg",
+                "includes": [
+                    "Annual communication plan.",
+                    "Annual training program.",
+                    "Annual cybersecurity attack simulations."
+                ],
+                "content": "<section class='space-y-6 text-gray-700 dark:text-gray-300 leading-relaxed sm:p-4'><header class='border-b border-gray-200 dark:border-gray-700 pb-4 space-y-3'><h2 class='text-2xl md:text-3xl font-bold text-primary-color dark:text-secondary-light-color'>Premium Awareness Program</h2><p>The most comprehensive solution for organizations seeking a high level of cybersecurity culture maturity.</p></header><article class='grid md:grid-cols-2 gap-8'><div><h3 class='text-xl font-semibold'>Components</h3><ul class='list-disc list-inside space-y-2 mt-2'><li>Annual communication plan.</li><li>Annual training plan.</li><li>Annual cybersecurity attack simulations.</li></ul></div><div><h3 class='text-xl font-semibold'>Audience & Duration</h3><p>Companies with high exposure to cyber risks or strict compliance requirements.</p><p><strong>Duration:</strong> 12 months.</p></div></article></section>"
             },
             {
                 "id": "4",
                 "title": "Cybersecurity Month",
                 "slug": "cybersecurity-month",
                 "href": "/soluciones/cybersecurity-month",
-                "description": "We create a full corporate event dedicated entirely to cybersecurity awareness.",
-                "image": "/awareness-month.png",
-                "content": "<section class='space-y-6 text-white dark:text-gray-300 leading-relaxed sm:p-4'><header class='border-b border-gray-200 dark:border-gray-700 pb-4 space-y-3'><h2 class='text-2xl md:text-3xl font-bold text-primary-color dark:text-secondary-light-color'>Cybersecurity Month</h2><p>A complete corporate event designed to strengthen digital culture through in-person, digital, and experiential activities.</p></header><ul class='list-disc list-inside space-y-2'><li>On-site activities in plants and offices.</li><li>Trivia, surveys, and digital games.</li><li>Webinars with national and international experts.</li><li>Specialized merchandising.</li><li>Events for overseas operations.</li></ul></section>"
+                "description": "We create a special corporate event entirely dedicated to cybersecurity awareness.",
+                "image": "/servicios/4.jpg",
+                "includes": [
+                    "On-site activities in plants and offices.",
+                    "Trivia, surveys, and digital games.",
+                    "Webinars with national and international experts.",
+                    "Specialized thematic merchandising.",
+                    "Events for international operations."
+                ],
+                "content": "<section class='space-y-6 text-gray-700 dark:text-gray-300 leading-relaxed sm:p-4'><p>A full corporate event designed to strengthen digital culture through on-site and digital activities aligned with your organization's strategic objectives.</p><h3 class='text-xl font-semibold pt-4'>Main Activities</h3><ul class='list-disc list-inside space-y-2'><li>On-site activities in plants and offices.</li><li>Trivia, surveys, and digital games.</li><li>Webinars with national and international experts.</li><li>Specialized thematic merchandising.</li><li>Events for overseas operations.</li></ul><h3 class='text-xl font-semibold pt-4'>Detailed Description</h3><p>We develop a complete Cybersecurity Month strategy based on your internal goals. We plan on-site, digital, and hybrid activities; produce corporate materials; manage speakers; and coordinate simultaneous activities for multiple locations.</p><h3 class='text-xl font-semibold pt-4'>Suggested Duration</h3><p>Between 1 and 4 weeks depending on objectives.</p></section>"
             },
             {
                 "id": "5",
@@ -851,17 +852,109 @@
                 "slug": "cybersecurity-onboarding",
                 "href": "/soluciones/cybersecurity-onboarding",
                 "description": "Official induction for new employees on risks, best practices, and digital culture.",
-                "image": "/awareness-onboarding.png",
-                "content": "<section class='space-y-6 text-white dark:text-gray-300 leading-relaxed sm:p-4'><header class='border-b border-gray-200 dark:border-gray-700 pb-4 space-y-3'><h2 class='text-2xl md:text-3xl font-bold text-primary-color dark:text-secondary-light-color'>Cybersecurity Onboarding</h2><p>A structured induction to prepare new employees in digital risks, trends, and secure work practices.</p></header><p>Includes instructional design, content capsules, evaluations, and downloadable resources for immediate adoption.</p></section>"
+                "image": "/servicios/5.jpg",
+                "includes": [
+                    "Full instructional design aligned to your standards.",
+                    "Educational videos with professional voiceover, music, and subtitles.",
+                    "Multilingual translations as needed.",
+                    "Module evaluations, trivia, and final exam.",
+                    "Downloadable material for immediate adoption."
+                ],
+                "content": "<section class='space-y-6 text-gray-700 dark:text-gray-300 leading-relaxed sm:p-4'><p>An official induction designed to help new employees understand cybersecurity risks, trends, and best practices from day one.</p><h3 class='text-xl font-semibold pt-4'>What’s included?</h3><ul class='list-disc list-inside space-y-2'><li>Full instructional design aligned to your standards.</li><li>Educational videos with professional narration, music, and subtitles.</li><li>Translations into multiple languages as needed.</li><li>Module evaluations, trivia, and final exam.</li><li>Downloadable materials for immediate adoption.</li></ul><p>Our onboardings are dynamic, engaging, and highly educational, contributing to your training program and compliance with new regulations such as the Cybersecurity Law and the Data Protection Law.</p><h3 class='text-xl font-semibold pt-4'>Suggested Duration</h3><p>30 minutes or more, depending on required depth.</p></section>"
             },
             {
                 "id": "6",
                 "title": "Cybersecurity Tabletop Exercise",
                 "slug": "cybersecurity-tabletop",
                 "href": "/soluciones/cybersecurity-tabletop",
-                "description": "Simulated scenario to evaluate organizational response to critical incidents.",
-                "image": "/awareness-tabletop.png",
-                "content": "<section class='space-y-6 text-white dark:text-gray-300 leading-relaxed sm:p-4'><header class='border-b border-gray-200 dark:border-gray-700 pb-4 space-y-3'><h2 class='text-2xl md:text-3xl font-bold text-primary-color dark:text-secondary-light-color'>Cybersecurity Tabletop Exercise</h2><p>Incident simulations in a roundtable format to assess decision-making, coordination, and effectiveness of existing plans.</p></header><h3 class='text-xl font-semibold'>Objectives</h3><ul class='list-disc list-inside space-y-2'><li>Test response and continuity plans.</li><li>Identify gaps and weaknesses.</li><li>Improve cross-area coordination.</li></ul><p><strong>Duration:</strong> 1 day.</p></section>"
+                "description": "Simulated exercise to evaluate organizational response to critical incidents.",
+                "image": "/servicios/1.jpg",
+                "includes": [
+                    "Test effectiveness of response and continuity plans.",
+                    "Identify process, role, and coordination gaps.",
+                    "Improve decision-making under crisis scenarios.",
+                    "Strengthen organizational cyber-resilience."
+                ],
+                "content": "<section class='space-y-6 text-gray-700 dark:text-gray-300 leading-relaxed sm:p-4'><p>A practical round-table simulation to assess incident response capabilities without affecting production systems.</p><h3 class='text-xl font-semibold'>Exercise Objectives</h3><ul class='list-disc list-inside space-y-2'><li>Test effectiveness of response and continuity plans.</li><li>Identify process and coordination gaps.</li><li>Enhance decision-making during crises.</li><li>Strengthen organizational cyber-resilience.</li></ul><h3 class='text-xl font-semibold pt-4'>Methodology</h3><p>We simulate realistic scenarios based on current cyberattack trends and industry-specific risks. Executive teams, IT, communications, operations, and legal departments participate.</p><p>No production infrastructure is used.</p><h3 class='text-xl font-semibold pt-4'>Duration</h3><p><strong>1 day.</strong></p></section>"
+            },
+            {
+                "id": "7",
+                "title": "Cybersecurity Video Production",
+                "slug": "cybersecurity-video",
+                "href": "/soluciones/video-ciberseguridad",
+                "description": "Educational audiovisual pieces and specialized communications to reinforce cybersecurity initiatives.",
+                "image": "/servicios/7.jpg",
+                "includes": [
+                    "Educational audiovisual pieces.",
+                    "Explainer videos for cybersecurity projects.",
+                    "Videos announcing new protection measures.",
+                    "Corporate videos and informational capsules."
+                ],
+                "content": "<section class='space-y-6 text-gray-700 dark:text-gray-300 leading-relaxed sm:p-4'><p>Do you need to reach collaborators or other stakeholders with specialized cybersecurity messages? We help communicate technical projects, new protection measures, and educational content in a clear, engaging, and effective way.</p><h3 class='text-xl font-semibold'>What we produce</h3><ul class='list-disc list-inside space-y-2'><li>Educational audiovisual pieces.</li><li>Explainer videos for cybersecurity projects.</li><li>Videos to announce new protection measures.</li><li>Corporate videos and informational capsules.</li></ul><h3 class='text-xl font-semibold pt-4'>Who is it for?</h3><p>Employees, internal teams, suppliers, clients, or any key stakeholder involved in your cybersecurity initiatives.</p><h3 class='text-xl font-semibold pt-4'>Objective</h3><p>Enhance adoption, understanding, and engagement with cybersecurity culture through effective audiovisual communication.</p></section>"
+            },
+            {
+                "id": "8",
+                "title": "Ethical Hacking",
+                "slug": "ethical-hacking",
+                "href": "/soluciones/ethical-hacking",
+                "description": "Controlled penetration tests that reveal real vulnerabilities before they can be exploited.",
+                "image": "/servicios/8.jpg",
+                "includes": [
+                    "Web and mobile penetration testing.",
+                    "Infrastructure and network evaluation.",
+                    "Access and privilege testing.",
+                    "Validation of technical controls.",
+                    "Vulnerability report and remediation plan."
+                ],
+                "content": "<section class='space-y-6 text-gray-700 dark:text-gray-300 leading-relaxed sm:p-4'><header class='border-b border-gray-200 dark:border-gray-700 pb-4 space-y-3'><h2 class='text-2xl md:text-3xl font-bold text-primary-color dark:text-secondary-light-color'>Ethical Hacking</h2><p>We evaluate your organization's security through ethical penetration testing based on recognized methodologies to identify critical vulnerabilities.</p></header><article class='grid md:grid-cols-2 gap-8'><div><h3 class='text-xl font-semibold'>What we do</h3><ul class='list-disc list-inside space-y-2 mt-2'><li>Web and mobile pentesting.</li><li>Infrastructure evaluation.</li><li>Internal and external attack simulations.</li><li>Access and privilege assessments.</li><li>Technical control validation.</li></ul></div><div><h3 class='text-xl font-semibold'>Audience & Duration</h3><p>Organizations that need to validate their security posture or meet regulatory requirements.</p><p><strong>Duration:</strong> Based on scope.</p></div></article></section>"
+            },
+            {
+                "id": "9",
+                "title": "Internal Audits",
+                "slug": "internal-audits",
+                "href": "/soluciones/internal-audits",
+                "description": "Audits aligned with international standards to evaluate maturity, compliance, and control effectiveness.",
+                "image": "/servicios/9.webp",
+                "includes": [
+                    "Review of technical and administrative controls.",
+                    "Evaluation of processes and procedures.",
+                    "Analysis of documentary evidence.",
+                    "Gap identification and non-conformities.",
+                    "Continuous improvement plan."
+                ],
+                "content": "<section class='space-y-6 text-gray-700 dark:text-gray-300 leading-relaxed sm:p-4'><header class='border-b border-gray-200 dark:border-gray-700 pb-4 space-y-3'><h2 class='text-2xl md:text-3xl font-bold text-primary-color dark:text-secondary-light-color'>Internal Audits</h2><p>We conduct internal audits based on frameworks such as ISO/IEC 27001, ISO/IEC 20000-1, ISO/IEC 37301, and cybersecurity best practices.</p></header><article class='grid md:grid-cols-2 gap-8'><div><h3 class='text-xl font-semibold'>What we assess</h3><ul class='list-disc list-inside space-y-2 mt-2'><li>Technical and administrative controls.</li><li>Operational and documented processes.</li><li>KPIs, indicators, and metrics.</li><li>Evidence and record analysis.</li><li>Gaps, findings, and improvement opportunities.</li></ul></div><div><h3 class='text-xl font-semibold'>Audience & Duration</h3><p>Organizations aiming to improve maturity or prepare for external audits.</p><p><strong>Duration:</strong> Based on scope.</p></div></article></section>"
+            },
+            {
+                "id": "10",
+                "title": "Ethical Phishing",
+                "slug": "ethical-phishing",
+                "href": "/soluciones/ethical-phishing",
+                "description": "Controlled phishing simulations to assess human risk and strengthen security culture.",
+                "image": "/servicios/10.jpg",
+                "includes": [
+                    "Personalized campaigns.",
+                    "Realistic templates tailored to your industry.",
+                    "Detailed reports with KPIs.",
+                    "Post-click educational actions.",
+                    "Maturity measurement by audience."
+                ],
+                "content": "<section class='space-y-6 text-gray-700 dark:text-gray-300 leading-relaxed sm:p-4'><header class='border-b border-gray-200 dark:border-gray-700 pb-4 space-y-3'><h2 class='text-2xl md:text-3xl font-bold text-primary-color dark:text-secondary-light-color'>Ethical Phishing</h2><p>We conduct ethical phishing campaigns to measure real user behavior and strengthen security culture.</p></header><article class='grid md:grid-cols-2 gap-8'><div><h3 class='text-xl font-semibold'>What's included</h3><ul class='list-disc list-inside space-y-2 mt-2'><li>Custom campaigns.</li><li>Realistic templates.</li><li>Detailed reports.</li><li>Educational actions for positive cases.</li><li>KPIs and segmented analysis.</li></ul></div><div><h3 class='text-xl font-semibold'>Audience & Duration</h3><p>Organizations needing to measure human risk or comply with frameworks such as NIST, NIS2, and ISO 27001.</p><p><strong>Duration:</strong> Based on scope.</p></div></article></section>"
+            },
+            {
+                "id": "11",
+                "title": "DMARC, SPF & DKIM",
+                "slug": "dmarc-spf-dkim",
+                "href": "/soluciones/dmarc-spf-dkim",
+                "description": "Implementation and monitoring of email authentication policies to prevent spoofing and impersonation.",
+                "image": "/servicios/11.jpg",
+                "includes": [
+                    "SPF, DKIM, and DMARC configuration.",
+                    "Continuous monitoring of DMARC reports.",
+                    "Progressive adjustments up to 'reject' mode.",
+                    "Validation of legitimate sending sources.",
+                    "Deliverability optimization."
+                ],
+                "content": "<section class='space-y-6 text-gray-700 dark:text-gray-300 leading-relaxed sm:p-4'><header class='border-b border-gray-200 dark:border-gray-700 pb-4 space-y-3'><h2 class='text-2xl md:text-3xl font-bold text-primary-color dark:text-secondary-light-color'>DMARC, SPF & DKIM</h2><p>We protect your domain by correctly configuring DMARC, SPF, and DKIM to prevent spoofing, phishing, and email-based fraud.</p></header><article class='grid md:grid-cols-2 gap-8'><div><h3 class='text-xl font-semibold'>What we do</h3><ul class='list-disc list-inside space-y-2 mt-2'><li>SPF, DKIM, and DMARC configuration.</li><li>Monitoring of authentication reports.</li><li>Validation of authorized sources.</li><li>Policy adjustments.</li><li>Deliverability and reputation optimization.</li></ul></div><div><h3 class='text-xl font-semibold'>Audience & Duration</h3><p>Companies seeking to protect their domain from impersonation attacks or improve email reputation.</p><p><strong>Duration:</strong> 4 to 12 weeks depending on complexity.</p></div></article></section>"
             }
         ]
     },
@@ -873,8 +966,8 @@
                 "slug": "basic-awareness-program",
                 "href": "/soluciones/basic-awareness-program",
                 "description": "Initial program to develop cybersecurity culture through segmented communications.",
-                "image": "/awareness-basic.png",
-                "content": "<section class='space-y-6 text-white dark:text-gray-300 leading-relaxed sm:p-4'><header class='border-b border-gray-200 dark:border-gray-700 pb-4 space-y-3'><h2 class='text-2xl md:text-3xl font-bold text-primary-color dark:text-secondary-light-color'>Basic Awareness Program</h2><p>Designed for organizations starting their cybersecurity awareness journey and needing to build digital culture foundations.</p></header><article class='grid md:grid-cols-2 gap-8'><div><h3 class='text-xl font-semibold'>Objective</h3><p>Increase general understanding through an <strong>annual communication plan</strong>.</p><ul class='list-disc list-inside space-y-2 mt-2'><li>Annual content strategy.</li><li>Selection of appropriate communication channels.</li><li>Graphic and written content.</li><li>Deliverable reports and KPIs.</li></ul></div><div><h3 class='text-xl font-semibold'>Audience & Duration</h3><p>Companies without an internal specialized team.</p><p><strong>Duration:</strong> 12 months.</p></div></article></section>"
+                "image": "/servicios/1.jpg",
+                "content": "<section class='space-y-6 text-gray-700 dark:text-gray-300 leading-relaxed sm:p-4'><header class='border-b border-gray-200 dark:border-gray-700 pb-4 space-y-3'><h2 class='text-2xl md:text-3xl font-bold text-primary-color dark:text-secondary-light-color'>Basic Awareness Program</h2><p>Designed for organizations starting their cybersecurity awareness journey and needing to build digital culture foundations.</p></header><article class='grid md:grid-cols-2 gap-8'><div><h3 class='text-xl font-semibold'>Objective</h3><p>Increase general understanding through an <strong>annual communication plan</strong>.</p><ul class='list-disc list-inside space-y-2 mt-2'><li>Annual content strategy.</li><li>Selection of appropriate communication channels.</li><li>Graphic and written content.</li><li>Deliverable reports and KPIs.</li></ul></div><div><h3 class='text-xl font-semibold'>Audience & Duration</h3><p>Companies without an internal specialized team.</p><p><strong>Duration:</strong> 12 months.</p></div></article></section>"
             },
             {
                 "id": "2",
@@ -882,8 +975,8 @@
                 "slug": "standard-awareness-program",
                 "href": "/soluciones/standard-awareness-program",
                 "description": "Includes strategic communications and structured basic, intermediate, and advanced training.",
-                "image": "/awareness-standard.png",
-                "content": "<section class='space-y-6 text-white dark:text-gray-300 leading-relaxed sm:p-4'><header class='border-b border-gray-200 dark:border-gray-700 pb-4 space-y-3'><h2 class='text-2xl md:text-3xl font-bold text-primary-color dark:text-secondary-light-color'>Standard Awareness Program</h2><p>Combines strategic communications and continuous training to increase organizational maturity.</p></header><article class='grid md:grid-cols-2 gap-8'><div><h3 class='text-xl font-semibold'>Objective</h3><p>Implement an annual communication plan enhanced with <strong>structured training</strong>.</p><ul class='list-disc list-inside space-y-2 mt-2'><li>Annual communication plan.</li><li>Level-based training.</li><li>KPIs and monthly reports.</li><li>Alignment with HR.</li></ul></div><div><h3 class='text-xl font-semibold'>Audience & Duration</h3><p>Organizations seeking deeper training without internal capability.</p><p><strong>Duration:</strong> 12 months.</p></div></article></section>"
+                "image": "/servicios/2.jpg",
+                "content": "<section class='space-y-6 text-gray-700 dark:text-gray-300 leading-relaxed sm:p-4'><header class='border-b border-gray-200 dark:border-gray-700 pb-4 space-y-3'><h2 class='text-2xl md:text-3xl font-bold text-primary-color dark:text-secondary-light-color'>Standard Awareness Program</h2><p>Combines strategic communications and continuous training to increase organizational maturity.</p></header><article class='grid md:grid-cols-2 gap-8'><div><h3 class='text-xl font-semibold'>Objective</h3><p>Implement an annual communication plan enhanced with <strong>structured training</strong>.</p><ul class='list-disc list-inside space-y-2 mt-2'><li>Annual communication plan.</li><li>Level-based training.</li><li>KPIs and monthly reports.</li><li>Alignment with HR.</li></ul></div><div><h3 class='text-xl font-semibold'>Audience & Duration</h3><p>Organizations seeking deeper training without internal capability.</p><p><strong>Duration:</strong> 12 months.</p></div></article></section>"
             },
             {
                 "id": "3",
@@ -891,8 +984,8 @@
                 "slug": "premium-awareness-program",
                 "href": "/soluciones/premium-awareness-program",
                 "description": "Annual plan combining communications, training, and real cyberattack simulations.",
-                "image": "/awareness-premium.png",
-                "content": "<section class='space-y-6 text-white dark:text-gray-300 leading-relaxed sm:p-4'><header class='border-b border-gray-200 dark:border-gray-700 pb-4 space-y-3'><h2 class='text-2xl md:text-3xl font-bold text-primary-color dark:text-secondary-light-color'>Premium Awareness Program</h2><p>The most complete solution for organizations requiring high cybersecurity maturity.</p></header><article class='grid md:grid-cols-2 gap-8'><div><h3 class='text-xl font-semibold'>Components</h3><ul class='list-disc list-inside space-y-2 mt-2'><li>Annual communication plan.</li><li>Annual training plan.</li><li>Annual cyberattack simulations.</li></ul></div><div><h3 class='text-xl font-semibold'>Audience & Duration</h3><p>Companies with high exposure or regulatory demands.</p><p><strong>Duration:</strong> 12 months.</p></div></article></section>"
+                "image": "/servicios/3.jpg",
+                "content": "<section class='space-y-6 text-gray-700 dark:text-gray-300 leading-relaxed sm:p-4'><header class='border-b border-gray-200 dark:border-gray-700 pb-4 space-y-3'><h2 class='text-2xl md:text-3xl font-bold text-primary-color dark:text-secondary-light-color'>Premium Awareness Program</h2><p>The most complete solution for organizations requiring high cybersecurity maturity.</p></header><article class='grid md:grid-cols-2 gap-8'><div><h3 class='text-xl font-semibold'>Components</h3><ul class='list-disc list-inside space-y-2 mt-2'><li>Annual communication plan.</li><li>Annual training plan.</li><li>Annual cyberattack simulations.</li></ul></div><div><h3 class='text-xl font-semibold'>Audience & Duration</h3><p>Companies with high exposure or regulatory demands.</p><p><strong>Duration:</strong> 12 months.</p></div></article></section>"
             },
             {
                 "id": "4",
@@ -900,8 +993,8 @@
                 "slug": "cybersecurity-month",
                 "href": "/soluciones/cybersecurity-month",
                 "description": "A full corporate event to reinforce digital culture through in-person and digital activities.",
-                "image": "/awareness-month.png",
-                "content": "<section class='space-y-6 text-white dark:text-gray-300 leading-relaxed sm:p-4'><header class='border-b border-gray-200 dark:border-gray-700 pb-4 space-y-3'><h2 class='text-2xl md:text-3xl font-bold text-primary-color dark:text-secondary-light-color'>Cybersecurity Month</h2><p>A comprehensive organizational event designed to strengthen secure culture.</p></header><ul class='list-disc list-inside space-y-2'><li>On-site activities in plants and offices.</li><li>Digital activities: games, trivia, surveys.</li><li>Webinars with national and international experts.</li><li>Specialized merchandising.</li><li>Activities for international operations.</li></ul></section>"
+                "image": "/servicios/4.jpg",
+                "content": "<section class='space-y-6 text-gray-700 dark:text-gray-300 leading-relaxed sm:p-4'><header class='border-b border-gray-200 dark:border-gray-700 pb-4 space-y-3'><h2 class='text-2xl md:text-3xl font-bold text-primary-color dark:text-secondary-light-color'>Cybersecurity Month</h2><p>A comprehensive organizational event designed to strengthen secure culture.</p></header><ul class='list-disc list-inside space-y-2'><li>On-site activities in plants and offices.</li><li>Digital activities: games, trivia, surveys.</li><li>Webinars with national and international experts.</li><li>Specialized merchandising.</li><li>Activities for international operations.</li></ul></section>"
             },
             {
                 "id": "5",
@@ -909,8 +1002,8 @@
                 "slug": "cybersecurity-onboarding",
                 "href": "/soluciones/cybersecurity-onboarding",
                 "description": "Official induction for new employees on risks, best practices, and digital culture.",
-                "image": "/awareness-onboarding.png",
-                "content": "<section class='space-y-6 text-white dark:text-gray-300 leading-relaxed sm:p-4'><header class='border-b border-gray-200 dark:border-gray-700 pb-4 space-y-3'><h2 class='text-2xl md:text-3xl font-bold text-primary-color dark:text-secondary-light-color'>Cybersecurity Onboarding</h2><p>Preparation for new employees on risks, trends, and secure work practices.</p></header><p>Includes instructional design, educational capsules, assessments, and downloadable resources.</p></section>"
+                "image": "/servicios/5.jpg",
+                "content": "<section class='space-y-6 text-gray-700 dark:text-gray-300 leading-relaxed sm:p-4'><header class='border-b border-gray-200 dark:border-gray-700 pb-4 space-y-3'><h2 class='text-2xl md:text-3xl font-bold text-primary-color dark:text-secondary-light-color'>Cybersecurity Onboarding</h2><p>Preparation for new employees on risks, trends, and secure work practices.</p></header><p>Includes instructional design, educational capsules, assessments, and downloadable resources.</p></section>"
             },
             {
                 "id": "6",
@@ -918,8 +1011,53 @@
                 "slug": "cybersecurity-tabletop",
                 "href": "/soluciones/cybersecurity-tabletop",
                 "description": "Simulated exercise to evaluate organizational response to critical incidents.",
-                "image": "/awareness-tabletop.png",
-                "content": "<section class='space-y-6 text-white dark:text-gray-300 leading-relaxed sm:p-4'><header class='border-b border-gray-200 dark:border-gray-700 pb-4 space-y-3'><h2 class='text-2xl md:text-3xl font-bold text-primary-color dark:text-secondary-light-color'>Cybersecurity Tabletop Exercise</h2><p>Strategic simulation to evaluate decision-making during incidents.</p></header><h3 class='text-xl font-semibold'>Objectives</h3><ul class='list-disc list-inside space-y-2'><li>Test response and continuity plans.</li><li>Identify gaps and weaknesses.</li><li>Improve cross-area coordination.</li></ul><p><strong>Duration:</strong> 1 day.</p></section>"
+                "image": "/servicios/6.jpg",
+                "content": "<section class='space-y-6 text-gray-700 dark:text-gray-300 leading-relaxed sm:p-4'><header class='border-b border-gray-200 dark:border-gray-700 pb-4 space-y-3'><h2 class='text-2xl md:text-3xl font-bold text-primary-color dark:text-secondary-light-color'>Cybersecurity Tabletop Exercise</h2><p>Strategic simulation to evaluate decision-making during incidents.</p></header><h3 class='text-xl font-semibold'>Objectives</h3><ul class='list-disc list-inside space-y-2'><li>Test response and continuity plans.</li><li>Identify gaps and weaknesses.</li><li>Improve cross-area coordination.</li></ul><p><strong>Duration:</strong> 1 day.</p></section>"
+            },
+            {
+                "id": "7",
+                "title": "Videos",
+                "slug": "video-cybersecurity",
+                "href": "/soluciones/video-ciberseguridad",
+                "description": "Educational audiovisual pieces and specialized communications to reinforce cybersecurity initiatives.",
+                "image": "/servicios/4.jpg",
+                "content": "<section class='space-y-6 text-gray-700 dark:text-gray-300 leading-relaxed sm:p-4'><p>Do you need to reach your employees and other key stakeholders with specialized audiovisual messages on cybersecurity? We help you communicate technical projects, new protection measures, and educational content in a clear, engaging, and effective way.</p><h3 class='text-xl font-semibold'>What do we produce?</h3><ul class='list-disc list-inside space-y-2'><li>Educational audiovisual pieces.</li><li>Explainer videos for cybersecurity projects.</li><li>Videos to announce new protection measures.</li><li>Corporate videos and informational capsules.</li></ul><h3 class='text-xl font-semibold pt-4'>Who is it for?</h3><p>Employees, internal areas, providers, clients, or any key stakeholder in your cybersecurity initiatives.</p><h3 class='text-xl font-semibold pt-4'>Objective</h3><p>Improve adoption, understanding, and commitment to cybersecurity culture through effective audiovisual communication.</p></section>"
+            },
+            {
+                "id": "8",
+                "title": "Ethical Hacking",
+                "slug": "ethical-hacking",
+                "href": "/solutions/ethical-hacking",
+                "description": "Deep security assessment using controlled hacking techniques to identify real vulnerabilities.",
+                "image": "/servicios/8.jpg",
+                "content": "<section class='space-y-6 text-gray-700 dark:text-gray-300 leading-relaxed sm:p-4'><p>We perform penetration testing based on recognized methodologies to identify and validate weaknesses before they can be exploited by a real attacker.</p><h3 class='text-xl font-semibold'>What we assess</h3><ul class='list-disc list-inside space-y-2'><li>Web and mobile applications.</li><li>Corporate infrastructure and networks.</li><li>Internet-exposed services.</li><li>Access, privileges, and internal controls.</li></ul><h3 class='text-xl font-semibold pt-4'>Who is it for?</h3><p>Organizations that need to validate their security posture or meet regulatory, auditing, or certification requirements.</p><h3 class='text-xl font-semibold pt-4'>Objective</h3><p>Identify critical vulnerabilities and deliver a prioritized remediation plan.</p></section>"
+            },
+            {
+                "id": "9",
+                "title": "Internal Audits",
+                "slug": "internal-audits",
+                "href": "/solutions/internal-audits",
+                "description": "Internal audits based on international standards to evaluate maturity, compliance, and control effectiveness.",
+                "image": "/servicios/9.webp",
+                "content": "<section class='space-y-6 text-gray-700 dark:text-gray-300 leading-relaxed sm:p-4'><p>We carry out internal audits aligned with standards such as ISO/IEC 27001, ISO/IEC 20000-1, ISO/IEC 37301, and cybersecurity frameworks.</p><h3 class='text-xl font-semibold'>What we review</h3><ul class='list-disc list-inside space-y-2'><li>Technical and administrative controls.</li><li>Operational processes and procedures.</li><li>Document management and evidence.</li><li>Indicators, metrics, and risks.</li></ul><h3 class='text-xl font-semibold pt-4'>Who is it for?</h3><p>Organizations that need to ensure continuous improvement, prepare for certification, or meet regulatory obligations.</p><h3 class='text-xl font-semibold pt-4'>Objective</h3><p>Determine compliance level, identify gaps, and generate structured improvement plans.</p></section>"
+            },
+            {
+                "id": "10",
+                "title": "Ethical Phishing",
+                "slug": "ethical-phishing",
+                "href": "/solutions/ethical-phishing",
+                "description": "Controlled phishing simulations to measure human risk and strengthen cybersecurity culture.",
+                "image": "/servicios/10.jpg",
+                "content": "<section class='space-y-6 text-gray-700 dark:text-gray-300 leading-relaxed sm:p-4'><p>We execute ethical phishing campaigns designed to measure, educate, and improve employees' response capacity against real threats.</p><h3 class='text-xl font-semibold'>What’s included</h3><ul class='list-disc list-inside space-y-2'><li>Customized campaigns based on your industry.</li><li>Realistic phishing templates.</li><li>Reports with metrics, KPIs, and segmentation.</li><li>Educational follow-up for positive cases.</li></ul><h3 class='text-xl font-semibold pt-4'>Who is it for?</h3><p>Companies seeking to reduce human risk and comply with frameworks like NIST, NIS2, ISO/IEC 27001, and Cybersecurity Law.</p><h3 class='text-xl font-semibold pt-4'>Objective</h3><p>Evaluate real-world behavior, identify gaps, and strengthen defensive culture.</p></section>"
+            },
+            {
+                "id": "11",
+                "title": "DMARC, SPF & DKIM",
+                "slug": "dmarc-spf-dkim",
+                "href": "/solutions/dmarc-spf-dkim",
+                "description": "Implementation and monitoring of email protection policies to prevent spoofing, fraud, and impersonation.",
+                "image": "/servicios/11.jpg",
+                "content": "<section class='space-y-6 text-gray-700 dark:text-gray-300 leading-relaxed sm:p-4'><p>We protect your domain against impersonation by properly implementing DMARC, SPF, and DKIM to ensure authentication, reputation, and reliable corporate email delivery.</p><h3 class='text-xl font-semibold'>What we do</h3><ul class='list-disc list-inside space-y-2'><li>Complete configuration of DMARC, SPF, and DKIM.</li><li>Monitoring of reports and progressive adjustments.</li><li>Validation of legitimate sending sources.</li><li>Reputation and deliverability optimization.</li></ul><h3 class='text-xl font-semibold pt-4'>Who is it for?</h3><p>Companies that need to prevent spoofing, phishing, and email fraud.</p><h3 class='text-xl font-semibold pt-4'>Objective</h3><p>Ensure that only authorized senders can send emails from your domain and protect your brand against impersonation attacks.</p></section>"
             }
         ]
     },
@@ -972,5 +1110,285 @@
                 "content": "If you have any questions about this Privacy Policy or about the use of your personal data, please contact us at contacto@cybertower.cl."
             }
         ]
+    },
+    "howWeWork": {
+        "title": "How do we work?",
+        "subtitle": "Two options depending on your needs",
+        "options": {
+            "paas": "Pentesting as a Service",
+            "puntual": "On-Demand Consulting"
+        },
+        "paas": {
+            "badge": "MOST POPULAR",
+            "title": "Pentesting as a Service",
+            "description": "It’s like having a dedicated cybersecurity team fully focused on your organization — continuously reviewing your applications, infrastructure, and systems for vulnerabilities. We don’t disappear after a single audit: we stay with you month after month, reviewing every change and every new deployment.",
+            "includesTitle": "What’s included",
+            "includes": [
+                "Full periodic reviews",
+                "Analysis of each new implementation",
+                "Monthly executive reports",
+                "Continuous technical support"
+            ],
+            "benefitsTitle": "Benefits",
+            "benefits": [
+                "Identify issues early — No waiting months",
+                "More efficient — Continuous protection vs one-off audits",
+                "Launch safely — Every development reviewed",
+                "Peace of mind — Someone monitoring at all times"
+            ],
+            "ideal": "Ideal for: Continuous development · Sensitive data · Ongoing security needs",
+            "cta": {
+                "primary": "Book a FREE meeting",
+                "secondary": "Or send an email"
+            }
+        },
+        "puntual": {
+            "title": "Compliance Consulting",
+            "description": "We support your organization in compliance, regulatory, and international standards projects.",
+            "types": {
+                "iso27001": "ISO/IEC 27001:2022",
+                "iso20000": "ISO/IEC 20000-1",
+                "iso42001": "ISO/IEC 42001 (AI)",
+                "iso37301": "ISO/IEC 37301 (Compliance)",
+                "tisax": "TISAX",
+                "nerc": "NERC-CIP",
+                "nis2": "NIS2",
+                "nist": "NIST CSF",
+                "leyCyber": "Cybersecurity Law 21.663",
+                "datos": "Personal Data Protection Law"
+            },
+            "items": {
+                "iso27001": {
+                    "title": "ISO/IEC 27001:2022",
+                    "description": "Complete ISMS implementation: risk management, controls, documentation, internal audit, and certification support.",
+                    "time": "4–6 months",
+                    "benefits": [
+                        "Gap analysis and roadmap",
+                        "Full implementation",
+                        "Internal audit",
+                        "Remediation plan",
+                        "Certification support"
+                    ]
+                },
+                "iso20000": {
+                    "title": "ISO/IEC 20000-1",
+                    "description": "IT Service Management System implementation.",
+                    "time": "2–6 months",
+                    "benefits": [
+                        "Continuous improvement",
+                        "Standardized processes",
+                        "Internal audit",
+                        "IT service plan"
+                    ]
+                },
+                "iso42001": {
+                    "title": "ISO/IEC 42001",
+                    "description": "Management system for responsible and secure AI.",
+                    "time": "6 months",
+                    "benefits": [
+                        "Ethical controls",
+                        "AI risk management",
+                        "Certification readiness"
+                    ]
+                },
+                "iso37301": {
+                    "title": "ISO/IEC 37301",
+                    "description": "Corporate Compliance Management System (CMS).",
+                    "time": "3–6 months",
+                    "benefits": [
+                        "Corporate integrity",
+                        "Compliance controls",
+                        "Ethical culture"
+                    ]
+                },
+                "tisax": {
+                    "title": "TISAX",
+                    "description": "Automotive security based on ISO 27001.",
+                    "time": "3–6 months",
+                    "benefits": [
+                        "Gap assessment",
+                        "Implementation",
+                        "TISAX evidence preparation"
+                    ]
+                },
+                "nerc": {
+                    "title": "NERC-CIP",
+                    "description": "Cybersecurity for critical electrical infrastructure.",
+                    "time": "1–6 months",
+                    "benefits": [
+                        "Evidence preparation",
+                        "Mandatory controls",
+                        "Audit readiness"
+                    ]
+                },
+                "nis2": {
+                    "title": "NIS2",
+                    "description": "European directive for critical cybersecurity.",
+                    "time": "6–12 months",
+                    "benefits": [
+                        "Gap analysis",
+                        "Compliance plan",
+                        "Governance and reporting"
+                    ]
+                },
+                "nist": {
+                    "title": "NIST Cybersecurity Framework",
+                    "description": "Risk management framework based on the 5 functions.",
+                    "time": "6–12 months",
+                    "benefits": [
+                        "Master plan",
+                        "Flexible controls",
+                        "Integration with ISO"
+                    ]
+                },
+                "leyCyber": {
+                    "title": "Cybersecurity Law 21.663",
+                    "description": "Compliance for OIV and essential services.",
+                    "time": "4–8 months",
+                    "benefits": [
+                        "OIV classification",
+                        "Gap analysis",
+                        "Regulatory plans"
+                    ]
+                },
+                "datos": {
+                    "title": "Personal Data Protection Law",
+                    "description": "Adaptation to the new Chilean Data Protection Law.",
+                    "time": "3–6 months",
+                    "benefits": [
+                        "Policies",
+                        "Processes",
+                        "Controls aligned with ISO 27001"
+                    ]
+                }
+            },
+            "ideal": "Ideal if: You need certification · Must comply with a regulation · Want to increase digital maturity",
+            "cta": {
+                "primary": "Book a FREE meeting",
+                "secondary": "Or send an email"
+            }
+        }
+    },
+    "serviceWizard": {
+        "badge": "🔍 Find your ideal service",
+        "title": "Not sure which service you need?",
+        "subtitle": "Answer 3 quick questions and we'll tell you exactly what you need",
+        "steps": {
+            "1": {
+                "title": "What do you primarily need?",
+                "options": [
+                    "Cybersecurity Awareness & Culture",
+                    "Training and Capacity Building",
+                    "Cyberattack Simulations (Tabletop Exercise)",
+                    "Cybersecurity Onboarding",
+                    "Cybersecurity Audiovisual Production",
+                    "Compliance and Certifications (ISO/NIS/Laws)",
+                    "Technical Protection (Pentesting, Code, Infrastructure)"
+                ]
+            },
+            "2": {
+                "title": "What is the size of your company?",
+                "options": [
+                    "Small (1–20 people)",
+                    "Medium (21–200 people)",
+                    "Large (200+ people)"
+                ]
+            },
+            "3": {
+                "title": "What is your level of urgency?",
+                "options": [
+                    "As soon as possible",
+                    "This month",
+                    "Just exploring"
+                ]
+            }
+        },
+        "results": {
+            "mainTitle": "Perfect! We recommend:",
+            "accordingTo": "• Based on your needs",
+            "restart": "Start again",
+            "bookFree": "Book a free consultation",
+            "recommendations": {
+                "concientizacion": {
+                    "title": "Cybersecurity Awareness Programs",
+                    "description": "Ideal if you want to strengthen internal culture through communications, training, and annual awareness plans.",
+                    "cta": "View Awareness Programs",
+                    "href": "/soluciones/programa-basico-concientizacion"
+                },
+                "capacitaciones": {
+                    "title": "Training & Capacity Building",
+                    "description": "Structured training plans to increase your organization's cybersecurity maturity.",
+                    "cta": "Explore Training Options",
+                    "href": "/soluciones/programa-estandar-concientizacion"
+                },
+                "tabletop": {
+                    "title": "Cyberattack Simulation (Tabletop Exercise)",
+                    "description": "A strategic simulation to evaluate incident response and improve cross-team coordination.",
+                    "cta": "Book a Tabletop Exercise",
+                    "href": "/soluciones/tabletop-ciberseguridad"
+                },
+                "onboarding": {
+                    "title": "Cybersecurity Onboarding",
+                    "description": "Official induction covering risks, best practices, and digital hygiene for new employees.",
+                    "cta": "Request Cybersecurity Onboarding",
+                    "href": "/soluciones/onboarding-ciberseguridad"
+                },
+                "audiovisual": {
+                    "title": "Cybersecurity Video Production",
+                    "description": "Educational and corporate audiovisual content to communicate cybersecurity effectively.",
+                    "cta": "Order a Corporate Video",
+                    "href": "/soluciones/video-ciberseguridad"
+                },
+                "compliance": {
+                    "title": "Compliance & Certifications",
+                    "description": "Full guidance for ISO standards, NIS2, Cybersecurity Law, Data Protection Law, and other regulatory requirements.",
+                    "cta": "Consult a Compliance Project",
+                    "href": "/certificaciones"
+                },
+                "tecnico": {
+                    "title": "Technical Protection (Pentesting)",
+                    "description": "Web, mobile, infrastructure pentesting or continuous Pentesting (PaaS), plus secure code review.",
+                    "cta": "Request Pentesting",
+                    "href": "/soluciones/pentesting"
+                },
+                "custom": {
+                    "title": "Custom Solution",
+                    "description": "We analyze your case and define the best combination of Cyberhub services.",
+                    "cta": "Speak with an Expert",
+                    "href": "/contacto"
+                }
+            }
+        }
+    },
+    "solucionDetail": {
+        "cta": "Request quote"
+    },
+    "differentiators": {
+        "title": "What sets us apart from the competition?",
+        "subtitle": "Our international experience, specialized team, and work with the largest companies in the country position us as a strategic cybersecurity partner.",
+        "cards": {
+            "experience": {
+                "title": "High-level experience",
+                "desc": "We work with the most important companies in the country across multiple industries.\n\nOrganizations that cannot risk cybersecurity rely only on providers with proven experience."
+            },
+            "team": {
+                "title": "Strategic and operational team",
+                "desc": "Our team combines strategy, technical expertise, and operational capability.\n\nWe execute end-to-end projects with commitment and focus on real results."
+            },
+            "international": {
+                "title": "International reach",
+                "desc": "We lead cybersecurity strategies in Chile, the United States, Europe, and Asia thanks to our global operation through Cyber-Tower."
+            }
+        }
+    },
+    "contactCTA": {
+        "title": "Let's talk\n about your digital security",
+        "description": "If you want to strengthen your cybersecurity, comply with standards such as ISO 27001 or NIST, or need expert guidance, we are here to help.",
+        "emailLabel": "Email",
+        "linkedinLabel": "LinkedIn",
+        "linkedinName": "Cyberhub"
+    },
+    "floatingContact": {
+        "label": "Contact us"
     }
 }
