@@ -582,7 +582,7 @@
             {
                 "id": "8",
                 "title": "NIST Cybersecurity Framework",
-                "slug": "nist-framework",
+                "slug": "nist",
                 "description": "Framework for managing and reducing cybersecurity risks.",
                 "image": "/certifications/nist.png",
                 "content": "<section class='space-y-8 text-gray-700 dark:text-gray-300 leading-relaxed sm:p-4'><p><strong>NIST CSF</strong> provides a structured approach to cybersecurity risk management through five core functions: Identify, Protect, Detect, Respond, and Recover.</p><h3 class='text-xl font-semibold mt-6'>Objective</h3><p>Strengthen digital resilience and improve risk governance across industries.</p><h3 class='text-xl font-semibold mt-6'>Scope</h3><p>Suitable for public and private organizations of any size or sector.</p><h3 class='text-xl font-semibold mt-6'>Implementation Time</h3><p>6 to 12 months, depending on organizational complexity.</p><h3 class='text-xl font-semibold mt-6'>Cyberhub Proposal</h3><p>We offer flexible implementation, combining NIST CSF with ISO/IEC 27001 and COBIT where applicable.</p></section>"
@@ -967,7 +967,7 @@
                 "href": "/soluciones/basic-awareness-program",
                 "description": "Initial program to develop cybersecurity culture through segmented communications.",
                 "image": "/servicios/1.jpg",
-                "content": "<section class='space-y-6 text-gray-700 dark:text-gray-300 leading-relaxed sm:p-4'><header class='border-b border-gray-200 dark:border-gray-700 pb-4 space-y-3'><h2 class='text-2xl md:text-3xl font-bold text-primary-color dark:text-secondary-light-color'>Basic Awareness Program</h2><p>Designed for organizations starting their cybersecurity awareness journey and needing to build digital culture foundations.</p></header><article class='grid md:grid-cols-2 gap-8'><div><h3 class='text-xl font-semibold'>Objective</h3><p>Increase general understanding through an <strong>annual communication plan</strong>.</p><ul class='list-disc list-inside space-y-2 mt-2'><li>Annual content strategy.</li><li>Selection of appropriate communication channels.</li><li>Graphic and written content.</li><li>Deliverable reports and KPIs.</li></ul></div><div><h3 class='text-xl font-semibold'>Audience & Duration</h3><p>Companies without an internal specialized team.</p><p><strong>Duration:</strong> 12 months.</p></div></article></section>"
+                "content": "<section class='space-y-6 text-gray-700 dark:text-gray-300 leading-relaxed sm:p-4'><article class='grid md:grid-cols-2 gap-8'><div><h3 class='text-xl font-semibold'>Objective</h3><p>Increase general understanding through an <strong>annual communication plan</strong>.</p><ul class='list-disc list-inside space-y-2 mt-2'><li>Annual content strategy.</li><li>Selection of appropriate communication channels.</li><li>Graphic and written content.</li><li>Deliverable reports and KPIs.</li></ul></div><div><h3 class='text-xl font-semibold'>Audience & Duration</h3><p>Companies without an internal specialized team.</p><p><strong>Duration:</strong> 12 months.</p></div></article></section>"
             },
             {
                 "id": "2",
@@ -976,7 +976,7 @@
                 "href": "/soluciones/standard-awareness-program",
                 "description": "Includes strategic communications and structured basic, intermediate, and advanced training.",
                 "image": "/servicios/2.jpg",
-                "content": "<section class='space-y-6 text-gray-700 dark:text-gray-300 leading-relaxed sm:p-4'><header class='border-b border-gray-200 dark:border-gray-700 pb-4 space-y-3'><h2 class='text-2xl md:text-3xl font-bold text-primary-color dark:text-secondary-light-color'>Standard Awareness Program</h2><p>Combines strategic communications and continuous training to increase organizational maturity.</p></header><article class='grid md:grid-cols-2 gap-8'><div><h3 class='text-xl font-semibold'>Objective</h3><p>Implement an annual communication plan enhanced with <strong>structured training</strong>.</p><ul class='list-disc list-inside space-y-2 mt-2'><li>Annual communication plan.</li><li>Level-based training.</li><li>KPIs and monthly reports.</li><li>Alignment with HR.</li></ul></div><div><h3 class='text-xl font-semibold'>Audience & Duration</h3><p>Organizations seeking deeper training without internal capability.</p><p><strong>Duration:</strong> 12 months.</p></div></article></section>"
+                "content": "<section class='space-y-6 text-gray-700 dark:text-gray-300 leading-relaxed sm:p-4'><article class='grid md:grid-cols-2 gap-8'><div><h3 class='text-xl font-semibold'>Objective</h3><p>Implement an annual communication plan enhanced with <strong>structured training</strong>.</p><ul class='list-disc list-inside space-y-2 mt-2'><li>Annual communication plan.</li><li>Level-based training.</li><li>KPIs and monthly reports.</li><li>Alignment with HR.</li></ul></div><div><h3 class='text-xl font-semibold'>Audience & Duration</h3><p>Organizations seeking deeper training without internal capability.</p><p><strong>Duration:</strong> 12 months.</p></div></article></section>"
             },
             {
                 "id": "3",
@@ -985,7 +985,7 @@
                 "href": "/soluciones/premium-awareness-program",
                 "description": "Annual plan combining communications, training, and real cyberattack simulations.",
                 "image": "/servicios/3.jpg",
-                "content": "<section class='space-y-6 text-gray-700 dark:text-gray-300 leading-relaxed sm:p-4'><header class='border-b border-gray-200 dark:border-gray-700 pb-4 space-y-3'><h2 class='text-2xl md:text-3xl font-bold text-primary-color dark:text-secondary-light-color'>Premium Awareness Program</h2><p>The most complete solution for organizations requiring high cybersecurity maturity.</p></header><article class='grid md:grid-cols-2 gap-8'><div><h3 class='text-xl font-semibold'>Components</h3><ul class='list-disc list-inside space-y-2 mt-2'><li>Annual communication plan.</li><li>Annual training plan.</li><li>Annual cyberattack simulations.</li></ul></div><div><h3 class='text-xl font-semibold'>Audience & Duration</h3><p>Companies with high exposure or regulatory demands.</p><p><strong>Duration:</strong> 12 months.</p></div></article></section>"
+                "content": "<section class='space-y-6 text-gray-700 dark:text-gray-300 leading-relaxed sm:p-4'><article class='grid md:grid-cols-2 gap-8'><div><h3 class='text-xl font-semibold'>Components</h3><ul class='list-disc list-inside space-y-2 mt-2'><li>Annual communication plan.</li><li>Annual training plan.</li><li>Annual cyberattack simulations.</li></ul></div><div><h3 class='text-xl font-semibold'>Audience & Duration</h3><p>Companies with high exposure or regulatory demands.</p><p><strong>Duration:</strong> 12 months.</p></div></article></section>"
             },
             {
                 "id": "4",
@@ -994,7 +994,7 @@
                 "href": "/soluciones/cybersecurity-month",
                 "description": "A full corporate event to reinforce digital culture through in-person and digital activities.",
                 "image": "/servicios/4.jpg",
-                "content": "<section class='space-y-6 text-gray-700 dark:text-gray-300 leading-relaxed sm:p-4'><header class='border-b border-gray-200 dark:border-gray-700 pb-4 space-y-3'><h2 class='text-2xl md:text-3xl font-bold text-primary-color dark:text-secondary-light-color'>Cybersecurity Month</h2><p>A comprehensive organizational event designed to strengthen secure culture.</p></header><ul class='list-disc list-inside space-y-2'><li>On-site activities in plants and offices.</li><li>Digital activities: games, trivia, surveys.</li><li>Webinars with national and international experts.</li><li>Specialized merchandising.</li><li>Activities for international operations.</li></ul></section>"
+                "content": "<section class='space-y-6 text-gray-700 dark:text-gray-300 leading-relaxed sm:p-4'><ul class='list-disc list-inside space-y-2'><li>On-site activities in plants and offices.</li><li>Digital activities: games, trivia, surveys.</li><li>Webinars with national and international experts.</li><li>Specialized merchandising.</li><li>Activities for international operations.</li></ul></section>"
             },
             {
                 "id": "5",
@@ -1003,7 +1003,7 @@
                 "href": "/soluciones/cybersecurity-onboarding",
                 "description": "Official induction for new employees on risks, best practices, and digital culture.",
                 "image": "/servicios/5.jpg",
-                "content": "<section class='space-y-6 text-gray-700 dark:text-gray-300 leading-relaxed sm:p-4'><header class='border-b border-gray-200 dark:border-gray-700 pb-4 space-y-3'><h2 class='text-2xl md:text-3xl font-bold text-primary-color dark:text-secondary-light-color'>Cybersecurity Onboarding</h2><p>Preparation for new employees on risks, trends, and secure work practices.</p></header><p>Includes instructional design, educational capsules, assessments, and downloadable resources.</p></section>"
+                "content": "<section class='space-y-6 text-gray-700 dark:text-gray-300 leading-relaxed sm:p-4'><p>Preparation for new employees on risks, trends, and secure work practices.</p><p>Includes instructional design, educational capsules, assessments, and downloadable resources.</p></section>"
             },
             {
                 "id": "6",
@@ -1012,7 +1012,7 @@
                 "href": "/soluciones/cybersecurity-tabletop",
                 "description": "Simulated exercise to evaluate organizational response to critical incidents.",
                 "image": "/servicios/6.jpg",
-                "content": "<section class='space-y-6 text-gray-700 dark:text-gray-300 leading-relaxed sm:p-4'><header class='border-b border-gray-200 dark:border-gray-700 pb-4 space-y-3'><h2 class='text-2xl md:text-3xl font-bold text-primary-color dark:text-secondary-light-color'>Cybersecurity Tabletop Exercise</h2><p>Strategic simulation to evaluate decision-making during incidents.</p></header><h3 class='text-xl font-semibold'>Objectives</h3><ul class='list-disc list-inside space-y-2'><li>Test response and continuity plans.</li><li>Identify gaps and weaknesses.</li><li>Improve cross-area coordination.</li></ul><p><strong>Duration:</strong> 1 day.</p></section>"
+                "content": "<section class='space-y-6 text-gray-700 dark:text-gray-300 leading-relaxed sm:p-4'><h3 class='text-xl font-semibold'>Objectives</h3><ul class='list-disc list-inside space-y-2'><li>Test response and continuity plans.</li><li>Identify gaps and weaknesses.</li><li>Improve cross-area coordination.</li></ul><p><strong>Duration:</strong> 1 day.</p></section>"
             },
             {
                 "id": "7",

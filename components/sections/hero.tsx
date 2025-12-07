@@ -6,11 +6,12 @@ import { Button } from "@/components/ui/button";
 import { Mail } from "lucide-react";
 import { LinkedInLogoIcon } from "@radix-ui/react-icons";
 import { useTranslations } from "next-intl";
-// import { logosHero } from "../logos/logos";
-// import { Marquee, MarqueeContent, MarqueeFade, MarqueeItem } from "./marquee";
+import AgendaDialog from "../AgendaDialog";
+import { ActionButton } from "./howWeWork";
 
 export default function Hero() {
   const t = useTranslations("home");
+  const s = useTranslations("howWeWork.puntual");
 
   return (
     <section className="relative w-full h-screen flex flex-col text-white overflow-hidden">
@@ -67,6 +68,14 @@ export default function Hero() {
               </Link>
             </Button>
           </div>
+          <AgendaDialog
+            trigger={
+              <ActionButton
+                className="bg-secondary-color text-white !rounded-full"
+                text={s("cta.primary")}
+              />
+            }
+          />
         </motion.div>
       </div>
 

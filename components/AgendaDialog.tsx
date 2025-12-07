@@ -4,7 +4,6 @@ import {
   Dialog,
   DialogTrigger,
   DialogContent,
-  DialogHeader,
   DialogTitle,
 } from "@/components/ui/dialog";
 
@@ -19,16 +18,29 @@ export default function AgendaDialog({ trigger }: Props) {
         {trigger}
       </DialogTrigger>
 
-      <DialogContent className="max-w-4xl p-0">
-        <DialogHeader className="px-6 pt-6">
-          <DialogTitle>Agenda una reunión</DialogTitle>
-        </DialogHeader>
-
-        {/* IFRAME */}
-        <div className="p-6">
+      <DialogContent
+        className="
+          p-0 
+          w-full 
+          max-w-[95vw] 
+          md:max-w-3xl 
+          lg:max-w-4xl 
+          max-h-[92vh] 
+          overflow-hidden
+        "
+      >
+        <DialogTitle hidden className="sr-only">
+          Agendar Reunión
+        </DialogTitle>
+        <div className="w-full h-full overflow-auto p-4">
           <iframe
             src="https://outlook.office.com/book/agendacyberhub@cyberhub.cl/"
-            className="w-full h-[800px] rounded-lg border border-gray-200"
+            className="
+              w-full 
+              h-[75vh] 
+              rounded-lg 
+              border border-gray-200
+            "
           />
         </div>
       </DialogContent>
