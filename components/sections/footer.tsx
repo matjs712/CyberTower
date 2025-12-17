@@ -49,7 +49,6 @@ export default function FooterSection() {
   const contact = {
     location: t("contact.location"),
     email: t("contact.email"),
-    email2: t("contact.email2"),
     schedule: t("contact.schedule"),
   };
 
@@ -135,9 +134,6 @@ export default function FooterSection() {
             </li>
             <li className="flex items-center gap-2 text-neutral-900/70">
               <Mail size={14} /> {contact.email}
-            </li>
-            <li className="flex items-center gap-2 text-neutral-900/70">
-              <Mail size={14} /> {contact.email2}
             </li>
             <li className="flex items-center gap-2 text-neutral-900/70">
               <Phone size={14} /> {contact.schedule}

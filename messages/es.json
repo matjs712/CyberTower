@@ -409,8 +409,7 @@
         "contactTitle": "Contacto",
         "contact": {
             "location": "Chile",
-            "email": "info@cyberhub.cl",
-            "email2": "info@cyber-tower.com",
+            "email": "info@cyber-tower.com",
             "schedule": "Lun - Vie: 9:00 - 18:00"
         },
         "columns": [
