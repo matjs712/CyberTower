@@ -50,6 +50,10 @@ export default function FooterSection() {
     location: t("contact.location"),
     email: t("contact.email"),
     schedule: t("contact.schedule"),
+
+    usContact: t("contact.usContact"),
+    email2: t("contact.email2"),
+    web2: t("contact.web2"),
   };
 
   return (
@@ -60,7 +64,12 @@ export default function FooterSection() {
         ============================ */}
         <div className="space-y-4 md:col-span-1">
           <div className="flex items-center gap-2">
-            <Image src="/logo-b.svg" alt="Cyberhub" width={200} height={200} />
+            <Image
+              src="/Logo_Final_Cyber_TowerHIRES-03.jpg"
+              alt="Cybertower"
+              width={200}
+              height={200}
+            />
             {/* <span className="text-xl font-semibold">Cyberhub</span> */}
           </div>
 
@@ -128,15 +137,55 @@ export default function FooterSection() {
           <h3 className="font-semibold mb-3 text-neutral-900">
             {t("contactTitle")}
           </h3>
+
           <ul className="space-y-3 text-sm">
+            {/* Chile */}
             <li className="flex items-center gap-2 text-neutral-900/70">
               <MapPin size={14} /> {contact.location}
             </li>
+
             <li className="flex items-center gap-2 text-neutral-900/70">
-              <Mail size={14} /> {contact.email}
+              <Mail size={14} />
+              <a
+                href={`mailto:${contact.email}`}
+                className="hover:text-neutral-900 transition"
+              >
+                {contact.email}
+              </a>
             </li>
+
             <li className="flex items-center gap-2 text-neutral-900/70">
               <Phone size={14} /> {contact.schedule}
+            </li>
+
+            {/* Divider */}
+            <li className="pt-2 border-t border-black/10" />
+
+            {/* US / Global */}
+            <li className="text-xs font-semibold text-neutral-900 uppercase tracking-wide">
+              {contact.usContact}
+            </li>
+
+            <li className="flex items-center gap-2 text-neutral-900/70">
+              <Mail size={14} />
+              <a
+                href={`mailto:${contact.email2}`}
+                className="hover:text-neutral-900 transition"
+              >
+                {contact.email2}
+              </a>
+            </li>
+
+            <li className="flex items-center gap-2 text-neutral-900/70">
+              <Globe size={14} />
+              <a
+                href={`https://${contact.web2}`}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="hover:text-neutral-900 transition"
+              >
+                {contact.web2}
+              </a>
             </li>
           </ul>
         </div>

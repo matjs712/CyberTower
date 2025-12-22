@@ -25,27 +25,40 @@ const ClientePage = () => {
   const testimonials = t.raw("testimonials") as Record<string, Testimonial>;
 
   return (
-    <section className="relative overflow-hidden py-24">
+    <section className="relative overflow-hidden py-24 pt-0">
       {/* HERO */}
-      <div className="absolute inset-x-0 top-0 h-64 bg-[url('https://images.unsplash.com/photo-1535223289827-42f1e9919769?auto=format&fit=crop&w=1600&q=80')] bg-cover bg-center opacity-80"></div>
+      {/* HERO HEADER */}
+      <div className="relative w-screen left-1/2 right-1/2 -ml-[50vw] -mr-[50vw] h-[420px]">
+        <Image
+          src="https://images.unsplash.com/photo-1535223289827-42f1e9919769?auto=format&fit=crop&w=1600&q=80"
+          alt="Clients"
+          fill
+          priority
+          className="object-cover"
+        />
 
-      <div className="relative max-w-6xl mx-auto text-center px-6 z-10">
-        <h2 className="text-4xl md:text-5xl font-extrabold mb-6">
-          {t("heading")}
-        </h2>
+        <div className="absolute inset-0 bg-gradient-to-b from-black/60 via-black/40 to-black/10" />
 
-        <p className="text-lg mb-16 max-w-2xl mx-auto leading-relaxed">
-          {t("description")}
-        </p>
+        <div className="relative max-w-6xl mx-auto px-6 h-full flex flex-col justify-center text-center">
+          <h2 className="text-4xl md:text-5xl font-extrabold text-white mb-6">
+            {t("heading")}
+          </h2>
 
-        {/* LOGOS */}
-        <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-5 gap-4 items-center justify-center">
+          <p className="text-lg md:text-xl text-white/90 max-w-2xl mx-auto leading-relaxed">
+            {t("description")}
+          </p>
+        </div>
+      </div>
+
+      {/* LOGOS */}
+      <div className="relative max-w-6xl mx-auto px-6 mt-24 text-center">
+        <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-5 gap-6 items-center justify-center">
           {logos.map((logo) => (
             <div
               key={logo.name}
-              className="flex flex-col items-center gap-3 group hover:scale-110 transition-transform"
+              className="flex flex-col items-center gap-3 group hover:scale-105 transition-transform"
             >
-              <div className="rounded-xl p-6 flex items-center justify-center w-36 h-36 border shadow-md bg-white dark:bg-gray-800">
+              <div className="rounded-2xl p-6 flex items-center justify-center w-36 h-36 border shadow-md bg-white dark:bg-gray-800">
                 <Image
                   src={logo.url}
                   alt={logo.name}
@@ -54,7 +67,7 @@ const ClientePage = () => {
                   className="object-contain max-h-20"
                 />
               </div>
-              <span className="text-sm text-gray-400 group-hover:text-cyan-400">
+              <span className="text-sm text-gray-500 group-hover:text-cyan-400">
                 {logo.name}
               </span>
             </div>
