@@ -83,7 +83,7 @@ export default function CoreServices() {
         <footer className="text-center mt-16 text-sm text-neutral-400">
           {t("footer")}{" "}
           <Link
-            href="mailto:contacto@Cyberhub.cl"
+            href="mailto:contact@cybertower.com"
             aria-label="Correo"
             className="text-secondary-color font-semibold hover:text-secondary-color transition-colors"
           >

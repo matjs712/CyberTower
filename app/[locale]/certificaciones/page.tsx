@@ -130,7 +130,7 @@ export default function CertificacionesPage() {
                           </Link>
 
                           <Link
-                            href={`mailto:contacto@tucorreo.com?subject=Solicitud%20de%20presupuesto%20-%20${encodeURIComponent(
+                            href={`mailto:contact@cybertower.com?subject=Solicitud%20de%20presupuesto%20-%20${encodeURIComponent(
                               cert.title
                             )}&body=Hola,%20quiero%20solicitar%20un%20presupuesto%20para%20el%20servicio:%20${encodeURIComponent(
                               cert.title
@@ -205,7 +205,7 @@ export default function CertificacionesPage() {
                           </Link>
 
                           <Link
-                            href={`mailto:contacto@tucorreo.com?subject=Solicitud%20de%20presupuesto%20-%20${encodeURIComponent(
+                            href={`mailto:contact@cybertower.com?subject=Solicitud%20de%20presupuesto%20-%20${encodeURIComponent(
                               cert.title
                             )}&body=Hola,%20quiero%20solicitar%20un%20presupuesto%20para%20el%20servicio:%20${encodeURIComponent(
                               cert.title

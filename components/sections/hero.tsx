@@ -50,7 +50,7 @@ export default function Hero() {
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start pt-4">
             <Button asChild className="rounded-full bg-neutral-800">
-              <Link href="mailto:contacto@Cyberhub.cl">
+              <Link href="mailto:contact@cybertower.com">
                 <Mail className="mr-2 size-5" /> {t("buttonContact")}
               </Link>
             </Button>

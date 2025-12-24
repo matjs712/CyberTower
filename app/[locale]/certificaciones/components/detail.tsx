@@ -86,7 +86,7 @@ export default function CertificacionDetail({
           {/* CTA */}
           <div className="mt-16 flex justify-center">
             <Link
-              href={`mailto:contacto@tucorreo.com?subject=${encodeURIComponent(
+              href={`mailto:contact@cybertower.com?subject=${encodeURIComponent(
                 t("cta")
               )}%20-%20${encodeURIComponent(cert.title)}`}
               className="inline-flex items-center justify-center gap-2 px-12 py-4 rounded-full bg-secondary-color hover:bg-primary-color text-white font-semibold text-lg transition-all shadow-lg hover:shadow-xl"

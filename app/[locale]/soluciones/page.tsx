@@ -191,7 +191,7 @@ function ServiceCard({ service }: { service: Service }) {
       <div className="mt-auto flex flex-col gap-3 pt-6">
         {/* CTA dinámico */}
         <Link
-          href={`mailto:contacto@cyberhub.cl?subject=${encodeURIComponent(
+          href={`mailto:contact@cybertower.com?subject=${encodeURIComponent(
             t("cta")
           )}%20-%20${encodeURIComponent(
             service.title

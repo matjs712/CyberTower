@@ -47,10 +47,10 @@ const ContactCTA = () => {
               <div>
                 <p className="font-semibold text-lg">{t("emailLabel")}</p>
                 <Link
-                  href="mailto:contacto@cyberhub.cl"
+                  href="mailto:contact@cybertower.com"
                   className="text-gray-300 hover:text-white transition-colors"
                 >
-                  contacto@cyberhub.cl
+                  contact@cybertower.com
                 </Link>
               </div>
             </div>

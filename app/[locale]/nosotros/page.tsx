@@ -40,7 +40,7 @@ export default function NosotrosPage() {
             {t("hero.description")}
           </p>
           <Link
-            href="mailto:contacto@Cyberhub.cl"
+            href="mailto:contact@cybertower.com"
             target="_blank"
             className="inline-block px-10 py-4 rounded-full bg-secondary-color text-white font-semibold text-lg shadow-md hover:shadow-xl hover:bg-secondary-light-color transition-all duration-300"
           >
@@ -167,7 +167,7 @@ export default function NosotrosPage() {
             {t("cta.description")}
           </p>
           <Link
-            href="mailto:contacto@Cyberhub.cl"
+            href="mailto:contact@cybertower.com"
             target="_blank"
             className="inline-block px-10 py-4 rounded-full bg-white text-secondary-color font-semibold text-lg shadow-md hover:shadow-xl hover:bg-gray-100 transition-all duration-300"
           >

@@ -1,7 +1,10 @@
 import Link from "next/link";
 import { ArrowRight } from "lucide-react";
+import { useTranslations } from "next-intl";
 
 const CTAHorizontal = () => {
+  const t = useTranslations("home");
+
   return (
     <section
       className="
@@ -17,13 +20,12 @@ const CTAHorizontal = () => {
       <div className="max-w-6xl mx-auto flex flex-col md:flex-row items-center justify-between gap-6">
         {/* TEXTO */}
         <p className="text-xl md:text-2xl font-semibold text-center md:text-left leading-snug">
-          Acelera la seguridad de tu negocio con soluciones estratégicas que
-          generan impacto.
+          {t("aceleraText")}
         </p>
 
         {/* BOTÓN */}
         <Link
-          href="mailto:contacto@cyberhub.cl"
+          href="mailto:contact@cybertower.com"
           className="
             flex 
             items-center 
@@ -44,7 +46,7 @@ const CTAHorizontal = () => {
           <span className="text-[#26b9e3]">
             <ArrowRight className="w-5 h-5" />
           </span>
-          <span className="tracking-wide">Contáctanos</span>
+          <span className="tracking-wide">{t("buttonContact")}</span>
         </Link>
       </div>
     </section>

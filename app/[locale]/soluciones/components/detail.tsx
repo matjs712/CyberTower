@@ -89,7 +89,7 @@ export default function SolucionDetail({
           {/* CTA */}
           <div className="mt-16 flex justify-center">
             <Link
-              href={`mailto:contacto@tucorreo.com?subject=${encodeURIComponent(
+              href={`mailto:contact@cybertower.com?subject=${encodeURIComponent(
                 t("cta")
               )}%20-%20${encodeURIComponent(
                 cert.title

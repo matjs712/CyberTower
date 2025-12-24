@@ -16,7 +16,7 @@ export default function FloatingContactButton() {
       "
     >
       <Link
-        href="mailto:contacto@cyberhub.cl"
+        href="mailto:contact@cybertower.com"
         aria-label={t("label")}
         className="
           pointer-events-auto

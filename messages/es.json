@@ -5,6 +5,7 @@
     "paragraph2": "En Cyber-Tower ayudamos a empresas a fortalecer su infraestructura digital, prevenir incidentes y cumplir con los nuevos estándares nacionales e internacionales en ciberseguridad.",
     "paragraph3": "Desde la evaluación de riesgos hasta la implementación de un Sistema de Gestión de Seguridad de la Información (SGSI), acompañamos a tu organización en cada etapa del proceso.",
     "buttonContact": "Contáctanos",
+    "aceleraText": "Acelera la seguridad de tu negocio con soluciones estratégicas que generan impacto.",
     "reviewsKpi": "2.7k+",
     "reviews": "reseñas positivas",
     "trustedHeading": "Empresas que confían en nosotros",
@@ -330,32 +331,32 @@
       "introItems": [
         {
           "title": "Programa Básico de Concientización",
-          "slug": "programa-basico-concientizacion",
+          "slug": "basic-awareness-program",
           "description": "Plan anual de comunicaciones segmentadas para desarrollar los cimientos de la cultura de ciberseguridad."
         },
         {
           "title": "Programa Estándar de Concientización",
-          "slug": "programa-estandar-concientizacion",
+          "slug": "standard-awareness-program",
           "description": "Incluye comunicaciones anuales y un completo plan de capacitaciones por niveles."
         },
         {
           "title": "Programa Premium de Concientización",
-          "slug": "programa-premium-concientizacion",
+          "slug": "premium-awareness-program",
           "description": "Nuestra solución más completa: comunicaciones, capacitaciones y simulaciones anuales de ciberataques."
         },
         {
           "title": "Mes de la Ciberseguridad",
-          "slug": "mes-ciberseguridad",
+          "slug": "cybersecurity-month",
           "description": "Evento corporativo con actividades presenciales, digitales, charlas, juegos, trivias y más."
         },
         {
           "title": "Onboarding de Ciberseguridad",
-          "slug": "onboarding-ciberseguridad",
+          "slug": "cybersecurity-onboarding",
           "description": "Inducción oficial para nuevos colaboradores sobre buenas prácticas, riesgos y cultura digital."
         },
         {
           "title": "Tabletop de Ciberseguridad",
-          "slug": "tabletop-ciberseguridad",
+          "slug": "cybersecurity-tabletop",
           "description": "Simulación práctica para evaluar respuesta organizacional ante incidentes críticos."
         }
       ]

@@ -1,21 +1,25 @@
-// next.config.mjs
-
 import createNextIntlPlugin from "next-intl/plugin";
 
 /** @type {import('next').NextConfig} */
 const nextConfig = {
+  // output: "export",
   reactStrictMode: true,
   poweredByHeader: false,
-  // output: "export", // ✅ exportación estática
-  trailingSlash: true, // ✅ rutas amigables para IIS/FTP
+  trailingSlash: true,
+
   images: {
     unoptimized: true,
-    domains: ["cyberhub.cl", "flagcdn.com", "px.ads.linkedin.com"],
+    domains: ["cybertower.com", "flagcdn.com", "px.ads.linkedin.com"],
   },
-  typescript: { ignoreBuildErrors: true }, // ✅ omite errores de tipos generados
-  eslint: { ignoreDuringBuilds: true }, // ✅ omite eslint durante build
+
+  typescript: { ignoreBuildErrors: true },
+  eslint: { ignoreDuringBuilds: true },
+
+  experimental: {
+    turbo: false,
+    serverSourceMaps: false,
+  },
 };
 
-// ✅ plugin de next-intl
 const withNextIntl = createNextIntlPlugin();
 export default withNextIntl(nextConfig);
