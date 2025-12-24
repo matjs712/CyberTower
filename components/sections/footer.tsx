@@ -37,7 +37,6 @@ export default function FooterSection() {
     },
   ];
 
-  // Services: solutions.list
   const services = tSolutions
     .raw("list")
     .map((s: { title: string; href: string; icon: React.ReactNode }) => ({
