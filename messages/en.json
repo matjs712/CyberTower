@@ -538,7 +538,7 @@
         "title": "ISO/IEC 20000-1",
         "slug": "iso-iec-20000-1",
         "description": "IT Service Management focused on quality, efficiency, and continuous improvement.",
-        "image": "/certifications/ISO-20000-1.jpg",
+        "image": "/certifications/IO-20000-1.png",
         "content": "<section class='space-y-8 text-gray-700 dark:text-gray-300 leading-relaxed sm:p-4'><p><strong>ISO/IEC 20000-1</strong> defines the requirements for an effective <strong>IT Service Management System (SMS)</strong>, aimed at ensuring high-quality, reliable, and business-aligned IT services.</p><h3 class='text-xl font-semibold mt-6'>Objective</h3><ul class='list-disc pl-6 space-y-2'><li>Deliver reliable IT services aligned with business needs.</li><li>Improve operational efficiency through standardization.</li><li>Enhance customer satisfaction and service quality.</li></ul><h3 class='text-xl font-semibold mt-6'>Scope</h3><p>Applicable to IT departments, service providers, outsourcing companies, and cloud-based service operators.</p><h3 class='text-xl font-semibold mt-6'>Implementation Time</h3><p>2 to 6 months depending on service complexity.</p><h3 class='text-xl font-semibold mt-6'>Cyber-Tower Proposal</h3><ul class='list-disc pl-6 space-y-2'><li>Gap Analysis.</li><li>SMS implementation.</li><li>Internal audit.</li><li>Training and continuous improvement plans.</li><li>Certification body coordination.</li><li>Integration with ISO/IEC 27001.</li></ul></section>"
       },
       {
