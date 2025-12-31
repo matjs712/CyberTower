@@ -50,7 +50,7 @@ export default function Navbar({
   const mobileLinks = [
     { text: t("links.solutions"), href: "/soluciones" },
     { text: t("links.certifications"), href: "/certificaciones" },
-    { text: t("links.clients"), href: "/clientes" },
+    // { text: t("links.clients"), href: "/clientes" },
     { text: t("links.aboutUs"), href: "/nosotros" },
     { text: t("links.blog"), href: "/blog" },
   ];

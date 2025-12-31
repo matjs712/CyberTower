@@ -30,11 +30,11 @@ export default function FooterSection() {
       icon: <Laptop size={14} />,
     },
     { text: tNav("links.blog"), href: "/blog", icon: <Globe size={14} /> },
-    {
-      text: tNav("links.clients"),
-      href: "/clientes",
-      icon: <Shield size={14} />,
-    },
+    // {
+    //   text: tNav("links.clients"),
+    //   href: "/clientes",
+    //   icon: <Shield size={14} />,
+    // },
   ];
 
   const services = tSolutions

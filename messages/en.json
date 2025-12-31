@@ -484,7 +484,7 @@
       {
         "nombre": "Information Security and IT Services",
         "descripcion": "Frameworks focused on data protection, IT service management, and the comprehensive strengthening of organizational cybersecurity.",
-        "items": ["1", "2", "8"]
+        "items": ["1", "2", "8", "11"]
       },
       {
         "nombre": "Responsible Artificial Intelligence",
@@ -604,6 +604,14 @@
         "description": "Compliance and adaptation to the Chilean Data Protection Law.",
         "image": "/certifications/Ley Marco(1).jpg",
         "content": "<section class=\"space-y-4 text-gray-800 dark:text-gray-300 leading-relaxed sm:p-4\"><p>The <strong>Chilean Data Protection Law</strong> modernizes the national framework for privacy and data security, aligning with international standards such as the European GDPR.</p><p><strong>Diagnosis and Compliance Adaptation:</strong> We help organizations regulate and manage the processing of personal data across all sectors, ensuring alignment with ISO 27001 policies and controls.</p><p><strong>Objective:</strong> To regulate the processing of personal data in Chile and align organizations with international best practices.</p><p><strong>Scope:</strong> Applies to any company that handles personal data within Chile.</p><p><strong>Implementation Time:</strong> 3–6 months depending on organizational maturity.</p><p><strong>Proposal:</strong> We conduct a comprehensive assessment to identify gaps, risks, and impacts of the new legislation on your company, delivering an actionable roadmap for full compliance.</p></section>"
+      },
+      {
+        "id": "11",
+        "title": "Cybersecurity Maturity Model Certification (CMMC)",
+        "slug": "cmmc-certification",
+        "description": "Cybersecurity certification required by the U.S. Department of Defense to protect Controlled Unclassified Information (CUI) across the defense supply chain.",
+        "image": "/certifications/CMMC.webp",
+        "content": "<section class=\"space-y-4 text-gray-800 dark:text-gray-300 leading-relaxed sm:p-4\"><p>The <strong>Cybersecurity Maturity Model Certification (CMMC)</strong> is a U.S. Department of Defense framework designed to ensure that contractors and suppliers adequately protect <strong>Controlled Unclassified Information (CUI)</strong> and Federal Contract Information (FCI).</p><p><strong>Diagnosis and Gap Assessment:</strong> We evaluate your current cybersecurity posture against CMMC requirements, identifying gaps in policies, processes, and technical controls.</p><p><strong>Objective:</strong> To achieve compliance with the required CMMC level and ensure eligibility for U.S. Department of Defense contracts.</p><p><strong>Scope:</strong> Applies to defense contractors, subcontractors, and suppliers that handle CUI or FCI within the U.S. defense supply chain.</p><p><strong>Implementation Time:</strong> 4–9 months depending on organizational size, complexity, and maturity.</p><p><strong>Proposal:</strong> We provide an end-to-end compliance roadmap, including risk analysis, control implementation, documentation, staff training, and preparation for official CMMC assessments.</p></section>"
       }
     ]
   },

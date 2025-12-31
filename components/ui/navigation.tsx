@@ -19,7 +19,7 @@ export default function Navigation() {
     { title: t("menu.solutions"), content: "default" },
     { title: t("menu.certifications"), content: "components" },
     { title: t("menu.blog"), isLink: true, href: `/blog` },
-    { title: t("menu.clients"), isLink: true, href: `/clientes` },
+    // { title: t("menu.clients"), isLink: true, href: `/clientes` },
     { title: t("menu.aboutUs"), isLink: true, href: `/nosotros` },
   ];
 

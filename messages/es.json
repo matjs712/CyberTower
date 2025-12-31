@@ -498,7 +498,7 @@
       {
         "nombre": "Seguridad de la Información y Servicios TI",
         "descripcion": "Frameworks orientados a la protección de datos, gestión de servicios tecnológicos y fortalecimiento integral de la ciberseguridad organizacional.",
-        "items": ["1", "2", "8"]
+        "items": ["1", "2", "8", "11"]
       },
       {
         "nombre": "Inteligencia Artificial Responsable",
@@ -618,6 +618,14 @@
         "description": "Adecuación a la Ley chilena de Protección de Datos Personales.",
         "image": "/certifications/Ley Marco(1).jpg",
         "content": "<section class=\"space-y-4 text-gray-800 dark:text-gray-300 leading-relaxed sm:p-4\"><p>La <strong>Ley de Protección de Datos Personales</strong> moderniza el marco chileno de privacidad y seguridad de datos, alineándose con estándares internacionales como el GDPR europeo.</p><p><strong>Diagnóstico y Adecuación a Ley:</strong> Buscamos regular el tratamiento de datos personales en todos los sectores, asegurando la correcta implementación de políticas y controles alineados con ISO 27001.</p><p><strong>Objetivo:</strong> Regular el tratamiento de datos personales en Chile y alinear a las organizaciones con buenas prácticas internacionales.</p><p><strong>Alcance:</strong> Aplicable a cualquier empresa que maneje datos personales dentro del territorio chileno.</p><p><strong>Tiempo de Implementación:</strong> 3–6 meses, según madurez organizacional.</p><p><strong>Propuesta:</strong> Realizamos un assessment completo para identificar brechas, riesgos e impactos de la nueva legislación en tu empresa, definiendo un plan de acción integral para su cumplimiento.</p></section>"
+      },
+      {
+        "id": "11",
+        "title": "Certificación del Modelo de Madurez de Ciberseguridad (CMMC)",
+        "slug": "certificacion-cmmc",
+        "description": "Certificación de ciberseguridad exigida por el Departamento de Defensa de EE. UU. para proteger Información Controlada No Clasificada (CUI) en la cadena de suministro de defensa.",
+        "image": "/certifications/CMMC.webp",
+        "content": "<section class=\"space-y-4 text-gray-800 dark:text-gray-300 leading-relaxed sm:p-4\"><p>El <strong>Cybersecurity Maturity Model Certification (CMMC)</strong> es un marco del Departamento de Defensa de los Estados Unidos diseñado para garantizar que contratistas y proveedores protejan adecuadamente la <strong>Información Controlada No Clasificada (CUI)</strong> y la Información Federal de Contratos (FCI).</p><p><strong>Diagnóstico y Evaluación de Brechas:</strong> Analizamos el estado actual de tu ciberseguridad frente a los requisitos de CMMC, identificando brechas en políticas, procesos y controles técnicos.</p><p><strong>Objetivo:</strong> Alcanzar el nivel de cumplimiento CMMC requerido y garantizar la elegibilidad para contratos con el Departamento de Defensa de EE. UU.</p><p><strong>Alcance:</strong> Aplica a contratistas, subcontratistas y proveedores de la industria de defensa que gestionan CUI o FCI.</p><p><strong>Tiempo de Implementación:</strong> 4–9 meses según el tamaño, complejidad y madurez de la organización.</p><p><strong>Propuesta:</strong> Entregamos una hoja de ruta integral para el cumplimiento, incluyendo análisis de riesgos, implementación de controles, documentación, capacitación del personal y preparación para auditorías oficiales de CMMC.</p></section>"
       }
     ]
   },
