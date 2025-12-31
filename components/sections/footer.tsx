@@ -12,7 +12,7 @@ export default function FooterSection() {
   const tNav = useTranslations("navbar");
   const tSolutions = useTranslations("solutions");
   const s = useTranslations("howWeWork.puntual");
-  // Navigation: navbar.links
+
   const navLinks = [
     {
       text: tNav("links.solutions"),
