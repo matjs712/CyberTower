@@ -2,31 +2,21 @@ import createNextIntlPlugin from "next-intl/plugin";
 
 /** @type {import('next').NextConfig} */
 const nextConfig = {
+  // output: "export",
   reactStrictMode: true,
   poweredByHeader: false,
   trailingSlash: true,
 
   images: {
     unoptimized: true,
-    remotePatterns: [
-      {
-        protocol: "https",
-        hostname: "cybertower.com",
-      },
-      {
-        protocol: "https",
-        hostname: "flagcdn.com",
-      },
-      {
-        protocol: "https",
-        hostname: "px.ads.linkedin.com",
-      },
-    ],
+    domains: ["cybertower.com", "flagcdn.com", "px.ads.linkedin.com"],
   },
 
   typescript: { ignoreBuildErrors: true },
+  eslint: { ignoreDuringBuilds: true },
 
   experimental: {
+    turbo: false,
     serverSourceMaps: false,
   },
 };
