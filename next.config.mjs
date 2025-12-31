@@ -1,7 +1,6 @@
 import createNextIntlPlugin from "next-intl/plugin";
 
 /** @type {import('next').NextConfig} */
-
 const nextConfig = {
   reactStrictMode: true,
   poweredByHeader: false,
@@ -9,13 +8,25 @@ const nextConfig = {
 
   images: {
     unoptimized: true,
-    remotePatterns: ["cybertower.com", "flagcdn.com", "px.ads.linkedin.com"],
+    remotePatterns: [
+      {
+        protocol: "https",
+        hostname: "cybertower.com",
+      },
+      {
+        protocol: "https",
+        hostname: "flagcdn.com",
+      },
+      {
+        protocol: "https",
+        hostname: "px.ads.linkedin.com",
+      },
+    ],
   },
 
   typescript: { ignoreBuildErrors: true },
 
   experimental: {
-    // turbo: false,
     serverSourceMaps: false,
   },
 };
