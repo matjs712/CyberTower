@@ -42,33 +42,31 @@ export default function ServiciosPage() {
   return (
     <div className="mb-20">
       {/* HERO */}
-      <div className="relative max-w-7xl mx-auto px-8 pt-24 pb-32">
+      <div className="relative w-full px-8 pt-24 pb-32">
         <div className="absolute inset-0 -z-10">
           <Image
-            src="/soluciones.png"
+            src="/servicios/6.jpg"
             alt={t("hero.alt")}
             fill
             className="object-cover opacity-40"
           />
-          <div className="absolute inset-0 bg-gradient-to-b from-white/40 via-white/80 to-white pointer-events-none" />
+          <div className="absolute inset-0 bg-linear-to-b from-white/40 via-white/80 to-white pointer-events-none" />
         </div>
 
-        <div className="max-w-3xl space-y-6 mb-4">
-          <h1 className="text-4xl md:text-5xl font-extrabold text-gray-900 leading-tight drop-shadow-sm">
+        <div className="max-w-5xl space-y-6 mb-4 mx-auto">
+          <h1 className="text-4xl md:text-5xl font-extrabold text-gray-900">
             {t("hero.title")}
           </h1>
+          <AgendaDialog
+            trigger={
+              <ActionButton
+                className="bg-secondary-color text-white rounded-full!"
+                text={h("cta.primary")}
+              />
+            }
+          />
         </div>
-
-        <AgendaDialog
-          trigger={
-            <ActionButton
-              className="bg-secondary-color text-white !rounded-full"
-              text={h("cta.primary")}
-            />
-          }
-        />
       </div>
-
       {/* CATEGORÍAS */}
       <div className="max-w-7xl mx-auto px-8 space-y-16">
         {/* === PRIMERA CATEGORÍA === */}

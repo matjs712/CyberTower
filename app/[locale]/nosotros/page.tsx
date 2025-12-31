@@ -91,7 +91,7 @@ export default function NosotrosPage() {
                 Cyberhub
               </h3>
               <p className="text-xs uppercase tracking-wide text-secondary-color font-medium text-center mb-3">
-                Latinoamérica
+                Chile
               </p>
               <p className="text-sm text-neutral-300 leading-relaxed text-center">
                 {globalIdentity.chile}

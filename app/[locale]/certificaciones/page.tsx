@@ -11,47 +11,41 @@ export default function CertificacionesPage() {
   const t = useTranslations("certificationsPage");
   const s = useTranslations("certifications");
   const h = useTranslations("howWeWork.puntual");
+  const l = useTranslations("solucionDetail");
 
   const categories = t.raw("categories");
   const certificaciones = s.raw("list");
 
   return (
-    <div className="pb-20">
+    <div className="mb-20">
       {/* HERO */}
-      <div className="relative max-w-7xl mx-auto px-8 pt-24 pb-32">
-        {/* === BACKGROUND IMAGE === */}
+      <div className="relative w-full px-8 pt-24 pb-32">
         <div className="absolute inset-0 -z-10">
           <Image
-            src="/cert.jpg"
-            alt="Certificaciones ISO"
+            src="/certifications/NIST.jpg"
+            alt={"alt"}
             fill
             className="object-cover opacity-40"
           />
-
-          {/* Gradient overlay para mejorar legibilidad */}
-          <div className="absolute inset-0 bg-gradient-to-b from-white/40 via-white/80 to-white pointer-events-none" />
+          <div className="absolute inset-0 bg-linear-to-b from-white/40 via-white/80 to-white pointer-events-none" />
         </div>
 
-        {/* === CONTENIDO === */}
-        <div className="max-w-3xl space-y-6 mb-6">
-          {/* TÍTULO */}
-          <h1 className="text-4xl md:text-5xl font-extrabold text-gray-900 leading-tight drop-shadow-sm">
+        <div className="max-w-5xl space-y-6 mb-4 mx-auto">
+          <h1 className="text-4xl md:text-5xl font-extrabold text-gray-900">
             {t("hero.title")}
           </h1>
-
-          {/* SUBTÍTULO */}
-          <p className="text-lg md:text-xl font-medium text-gray-700 leading-relaxed">
+          <p className="text-lg md:text-xl font-medium text-gray-700">
             {t("hero.subtitle")}
           </p>
+          <AgendaDialog
+            trigger={
+              <ActionButton
+                className="bg-secondary-color text-white rounded-full!"
+                text={h("cta.primary")}
+              />
+            }
+          />
         </div>
-        <AgendaDialog
-          trigger={
-            <ActionButton
-              className="bg-secondary-color text-white !rounded-full"
-              text={h("cta.primary")}
-            />
-          }
-        />
       </div>
 
       {/* INTRO */}
@@ -137,7 +131,7 @@ export default function CertificacionesPage() {
                             )}.%0A%0AGracias.`}
                             className="rounded-lg bg-secondary-color hover:bg-primary-color text-white font-semibold py-2 px-3 text-sm transition-all"
                           >
-                            Solicitar presupuesto
+                            {l("cta")}
                           </Link>
                         </div>
                       </CardContent>
@@ -186,7 +180,7 @@ export default function CertificacionesPage() {
                       </div>
 
                       {/* Contenido */}
-                      <CardContent className="flex flex-col flex-grow px-5 py-4">
+                      <CardContent className="flex flex-col grow px-5 py-4">
                         <h3 className="text-base font-semibold mb-1">
                           {cert.title}
                         </h3>
@@ -194,7 +188,6 @@ export default function CertificacionesPage() {
                         <p className="text-xs text-gray-600 mb-3 line-clamp-3 text-justify">
                           {cert.description}
                         </p>
-
                         {/* Empuja los botones al fondo */}
                         <div className="mt-auto flex flex-col items-start gap-2">
                           <Link
@@ -212,7 +205,7 @@ export default function CertificacionesPage() {
                             )}.%0A%0AGracias.`}
                             className="rounded-lg bg-secondary-color hover:bg-primary-color text-white font-semibold py-2 px-3 text-sm transition-all"
                           >
-                            Solicitar presupuesto
+                            {l("cta")}
                           </Link>
                         </div>
                       </CardContent>
