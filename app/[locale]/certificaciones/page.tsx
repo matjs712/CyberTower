@@ -124,11 +124,11 @@ export default function CertificacionesPage() {
                           </Link>
 
                           <Link
-                            href={`mailto:contact@cybertower.com?subject=Solicitud%20de%20presupuesto%20-%20${encodeURIComponent(
+                            href={`mailto:contact@cybertower.com?subject=Request%20for%20Quote%20-%20${encodeURIComponent(
                               cert.title
-                            )}&body=Hola,%20quiero%20solicitar%20un%20presupuesto%20para%20el%20servicio:%20${encodeURIComponent(
+                            )}&body=Hello,%20I%20would%20like%20to%20request%20a%20quote%20for%20the%20service:%20${encodeURIComponent(
                               cert.title
-                            )}.%0A%0AGracias.`}
+                            )}.%0A%0AThank%20you.`}
                             className="rounded-lg bg-secondary-color hover:bg-primary-color text-white font-semibold py-2 px-3 text-sm transition-all"
                           >
                             {l("cta")}
@@ -198,11 +198,11 @@ export default function CertificacionesPage() {
                           </Link>
 
                           <Link
-                            href={`mailto:contact@cybertower.com?subject=Solicitud%20de%20presupuesto%20-%20${encodeURIComponent(
+                            href={`mailto:contact@cybertower.com?subject=Request%20for%20Quote%20-%20${encodeURIComponent(
                               cert.title
-                            )}&body=Hola,%20quiero%20solicitar%20un%20presupuesto%20para%20el%20servicio:%20${encodeURIComponent(
+                            )}&body=Hello,%20I%20would%20like%20to%20request%20a%20quote%20for%20the%20service:%20${encodeURIComponent(
                               cert.title
-                            )}.%0A%0AGracias.`}
+                            )}.%0A%0AThank%20you.`}
                             className="rounded-lg bg-secondary-color hover:bg-primary-color text-white font-semibold py-2 px-3 text-sm transition-all"
                           >
                             {l("cta")}
