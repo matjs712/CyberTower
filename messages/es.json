@@ -404,12 +404,12 @@
     "servicesTitle": "Servicios",
     "contactTitle": "Contacto",
     "contact": {
-      "location": "USA",
+      "location": "Saint Augustine, Florida, USA",
       "usContact": "Contacto en Chile",
       "email": "contact@cybertower.com",
       "email2": "contacto@cyberhub.cl",
       "web2": "www.cyberhub.cl",
-      "schedule": "Lun - Vie: 9:00 - 18:00"
+      "schedule": "Lun - Vie: 9:00 - 17:00"
     },
     "columns": [
       {

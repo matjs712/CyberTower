@@ -390,12 +390,12 @@
     "servicesTitle": "Services",
     "contactTitle": "Contact",
     "contact": {
-      "location": "USA",
+      "location": "Saint Augustine, Florida, USA",
       "usContact": "Contact in Chile",
       "email": "contact@cybertower.com",
       "email2": "contacto@cyberhub.cl",
       "web2": "www.cyberhub.cl",
-      "schedule": "Mon - Fri: 9:00 AM - 6:00 PM"
+      "schedule": "Mon - Fri: 9:00 AM - 5:00 PM"
     },
     "columns": [
       {
@@ -483,18 +483,43 @@
     "categories": [
       {
         "nombre": "Information Security and IT Services",
-        "descripcion": "Frameworks focused on data protection, IT service management, and strengthening organizational cyber resilience.",
-        "items": ["1", "2"]
+        "descripcion": "Frameworks focused on data protection, IT service management, and the comprehensive strengthening of organizational cybersecurity.",
+        "items": ["1", "2", "8"]
       },
       {
-        "nombre": "Artificial Intelligence and Responsible Technology",
-        "descripcion": "Models and standards that promote ethical, transparent, and secure development of artificial intelligence systems.",
+        "nombre": "Responsible Artificial Intelligence",
+        "descripcion": "Standards that promote the safe, ethical, and transparent use of artificial intelligence–based systems.",
         "items": ["3"]
       },
       {
-        "nombre": "Compliance and Corporate Governance",
-        "descripcion": "Frameworks that reinforce ethics, integrity, and traceability in organizational decision-making processes.",
+        "nombre": "Corporate Compliance and Governance",
+        "descripcion": "Regulations that reinforce ethical culture, transparency, corporate integrity, and decision-making traceability.",
         "items": ["4"]
+      },
+      {
+        "nombre": "Automotive Industry",
+        "descripcion": "Specialized frameworks that ensure the protection of critical information and intellectual property within automotive supply chains.",
+        "items": ["5"]
+      },
+      {
+        "nombre": "Critical Infrastructure and Energy Sector",
+        "descripcion": "Mandatory standards for the protection and secure operation of essential systems such as energy, transmission, and critical services.",
+        "items": ["6"]
+      },
+      {
+        "nombre": "European Regulation and Global Standards",
+        "descripcion": "Directives and regulatory frameworks that strengthen cyber resilience in essential sectors and organizations with international operations.",
+        "items": ["7"]
+      },
+      {
+        "nombre": "Data Protection and National Legislation",
+        "descripcion": "Laws that regulate the processing of personal data and require strict measures for security, privacy, and risk management.",
+        "items": ["10"]
+      },
+      {
+        "nombre": "Obligations for Operators of Essential Services (OES)",
+        "descripcion": "Regulatory requirements to ensure operational resilience and the protection of national critical infrastructure.",
+        "items": ["9"]
       }
     ]
   },
